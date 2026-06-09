@@ -2,7 +2,11 @@
 
 # 🌐 AI 技术栈全景图
 
-### AI Tech Stack Landscape
+### 结构化收录 AI 全生态工具、模型、框架与平台
+
+从基础大模型到终端应用，一站式掌握 AI 领域技术选型与全景格局。
+
+*Works with Claude Code, Cursor, Copilot, Gemini CLI, Hermes Agent, and more.*
 
 <p>
   <a href="https://github.com/LuckyOneTwoThree/ai-landscape/stargazers"><img src="https://img.shields.io/github/stars/LuckyOneTwoThree/ai-landscape?style=social" alt="Stars"></a>
@@ -20,11 +24,18 @@
   <b>🇺🇸 <a href="./README_EN.md">English</a></b>　|　<b>🇨🇳 中文</b>
 </p>
 
----
-
-一份全面、结构化的 AI 技术栈目录，涵盖从基础大模型到终端应用的完整生态。
-
-帮助开发者、产品经理和决策者快速了解 AI 领域的技术选型与全景格局。
+<p>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/📊-基础大模型-6366f1?style=flat-square" alt="基础大模型"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🏗️-基础设施-3b82f6?style=flat-square" alt="基础设施"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/📚-数据与知识-0ea5e9?style=flat-square" alt="数据与知识"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/⚙️-开发框架-06b6d4?style=flat-square" alt="开发框架"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🧩-低代码平台-10b981?style=flat-square" alt="低代码平台"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🔌-工具与协议-22c55e?style=flat-square" alt="工具与协议"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🎨-技能与插件-84cc16?style=flat-square" alt="技能与插件"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/📈-可观测性-a3e635?style=flat-square" alt="可观测性"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🛡️-安全合规-f59e0b?style=flat-square" alt="安全合规"></a>
+  <a href="#-模块导航"><img src="https://img.shields.io/badge/🚀-应用场景-f97316?style=flat-square" alt="应用场景"></a>
+</p>
 
 </div>
 
