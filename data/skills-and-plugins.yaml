@@ -1,0 +1,1625 @@
+- name: Agent Skills
+  category: skills-and-plugins/open-skills
+  sub_category: agent-skills
+  description: 生产级 AI 编码 Agent 技能库，49K Stars
+  tags:
+  - agent
+  - coding
+  - enterprise
+  status: active
+  stars: 49100
+  license: MIT
+  url: https://github.com/addyosmani/agent-skills
+  highlights:
+  - 49.1K Stars
+  - 生产级技能
+  - AI 编码 Agent
+  type: open
+- name: LibreChat
+  category: skills-and-plugins/open-skills
+  sub_category: agent-skills
+  description: 增强版 ChatGPT 克隆，支持 Agent、MCP、Skills、DeepSeek
+  tags:
+  - openai-compatible
+  - agent
+  - mcp
+  status: active
+  stars: 38600
+  license: MIT
+  url: https://github.com/danny-avila/LibreChat
+  highlights:
+  - 38.6K Stars
+  - ChatGPT 克隆
+  - Agent+MCP+Skills
+  type: open
+- name: Coze Studio
+  category: skills-and-plugins/open-skills
+  sub_category: agent-skills
+  description: 字节跳动开源的 AI Agent 开发平台，可视化工具
+  tags:
+  - agent
+  - openai-compatible
+  - china-based
+  status: active
+  stars: 20900
+  license: Apache-2.0
+  url: https://github.com/coze-dev/coze-studio
+  highlights:
+  - 20.9K Stars
+  - 字节跳动开源
+  - 可视化 Agent 开发
+  type: open
+- name: Hermes Agent Skills
+  category: skills-and-plugins/open-skills
+  sub_category: agent-skills
+  description: Hermes Agent 的开源技能库，支持 MCP 工具调用
+  tags:
+  - mcp
+  - agent
+  status: active
+  stars: 500
+  license: MIT
+  url: https://github.com/nousresearch/hermes-agent
+  highlights:
+  - Hermes Agent 技能库
+  - MCP 工具调用
+  - 开源
+  type: open
+- name: Nanobot
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 轻量级开源 AI Agent，支持工具/聊天/自动化
+  tags:
+  - agent
+  - easy-to-use
+  - automation
+  status: active
+  stars: 43900
+  license: MIT
+  url: https://github.com/HKUDS/nanobot
+  highlights:
+  - 43.9K Stars
+  - 轻量级
+  - 工具/聊天/自动化
+  type: open
+- name: Cline
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: VS Code 自主 AI 编程 Agent，支持 MCP/浏览器/终端
+  tags:
+  - mcp
+  - open-source
+  - coding-assistant
+  status: active
+  stars: 42000
+  license: Apache-2.0
+  url: https://github.com/cline/cline
+  highlights:
+  - 42K Stars
+  - VS Code Agent
+  - MCP/浏览器/终端
+  type: open
+- name: ToolJet
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源低代码平台，支持 AI Agent
+  tags:
+  - low-code
+  - openai-compatible
+  - agent
+  status: active
+  stars: 38000
+  license: AGPL-3.0
+  url: https://github.com/ToolJet/ToolJet
+  highlights:
+  - 38K Stars
+  - 低代码平台
+  - AI Agent 支持
+  type: open
+- name: Aider
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 终端 AI 编程助手，支持 Git 集成/多模型/多文件编辑
+  tags:
+  - mcp
+  - open-source
+  - coding-assistant
+  status: active
+  stars: 32000
+  license: Apache-2.0
+  url: https://github.com/Aider-AI/aider
+  highlights:
+  - 32K Stars
+  - Git 集成
+  - 多模型支持
+  type: open
+- name: Onyx
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 平台，AI Chat + 高级功能
+  tags:
+  - openai-compatible
+  - chat
+  - open-source
+  status: active
+  stars: 30100
+  license: Apache-2.0
+  url: https://github.com/onyx-dot-app/onyx
+  highlights:
+  - 30.1K Stars
+  - 开源 AI 平台
+  - AI Chat + 高级功能
+  type: open
+- name: MLflow
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 工程平台，Agent/LLM/MLOps
+  tags:
+  - openai-compatible
+  - observability
+  - automation
+  status: active
+  stars: 26400
+  license: Apache-2.0
+  url: https://github.com/mlflow/mlflow
+  highlights:
+  - 26.4K Stars
+  - AI 工程平台
+  - Agent/LLM/MLOps
+  type: open
+- name: Continue
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 代码助手，支持 VS Code/JetBrains，MCP 集成
+  tags:
+  - mcp
+  - open-source
+  - coding-assistant
+  status: active
+  stars: 25000
+  license: Apache-2.0
+  url: https://github.com/continuedev/continue
+  highlights:
+  - 25K Stars
+  - VS Code/JetBrains
+  - MCP 集成
+  type: open
+- name: NocoBase
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI + 无代码平台，构建企业应用
+  tags:
+  - openai-compatible
+  - low-code
+  - agent
+  status: active
+  stars: 22700
+  license: AGPL-3.0
+  url: https://github.com/nocobase/nocobase
+  highlights:
+  - 22.7K Stars
+  - AI + 无代码
+  - 企业应用
+  type: open
+- name: MaxKB
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源企业级知识库平台，基于 LLM
+  tags:
+  - openai-compatible
+  - rag
+  - enterprise
+  status: active
+  stars: 21200
+  license: Apache-2.0
+  url: https://github.com/1Panel-dev/MaxKB
+  highlights:
+  - 21.2K Stars
+  - 企业级知识库
+  - 基于 LLM
+  type: open
+- name: KiloCode
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 全能 Agent 工程平台，构建/测试/部署
+  tags:
+  - openai-compatible
+  - agent
+  - automation
+  status: active
+  stars: 19900
+  license: MIT
+  url: https://github.com/Kilo-Org/kilocode
+  highlights:
+  - 19.9K Stars
+  - Agent 工程平台
+  - 构建/测试/部署
+  type: open
+- name: Open Generative AI
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 视频/图像平台替代
+  tags:
+  - openai-compatible
+  - video-generation
+  - image-generation
+  status: active
+  stars: 18500
+  license: MIT
+  url: https://github.com/Anil-matcha/Open-Generative-AI
+  highlights:
+  - 18.5K Stars
+  - AI 视频/图像
+  - 开源替代
+  type: open
+- name: WeKnora
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 腾讯开源 LLM 知识平台，文档转知识库
+  tags:
+  - openai-compatible
+  - rag
+  - china-based
+  status: active
+  stars: 16100
+  license: Apache-2.0
+  url: https://github.com/Tencent/WeKnora
+  highlights:
+  - 16.1K Stars
+  - 腾讯开源
+  - 文档转知识库
+  type: open
+- name: CVAT
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 计算机视觉标注工具，领先平台
+  tags:
+  - video-generation
+  - data-analysis
+  - multimodal
+  status: active
+  stars: 16000
+  license: MIT
+  url: https://github.com/cvat-ai/cvat
+  highlights:
+  - 16K Stars
+  - 计算机视觉
+  - 标注工具
+  type: open
+- name: Duix-Avatar
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 数字人工具包
+  tags:
+  - content-creation
+  - on-device
+  status: active
+  stars: 13600
+  license: MIT
+  url: https://github.com/duixcom/Duix-Avatar
+  highlights:
+  - 13.6K Stars
+  - AI 数字人
+  - 离线运行
+  type: open
+- name: WaoWao
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 工业级全流程 AI 影视生产平台
+  tags:
+  - video-generation
+  - content-creation
+  - enterprise
+  status: active
+  stars: 12600
+  license: MIT
+  url: https://github.com/waooAI/waoowaoo
+  highlights:
+  - 12.6K Stars
+  - AI 影视
+  - 全流程生产
+  type: open
+- name: Avid
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: AI Agent IDE，可视化工作流编排 + MCP 集成
+  tags:
+  - mcp
+  - open-source
+  - agent
+  status: active
+  stars: 12000
+  license: MIT
+  url: https://github.com/Avid-Tools/avid
+  highlights:
+  - 12K Stars
+  - 可视化编排
+  - MCP 集成
+  type: open
+- name: KrillinAI
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: AI 视频翻译配音工具
+  tags:
+  - video-generation
+  - content-creation
+  - voice-synthesis
+  status: active
+  stars: 10200
+  license: MIT
+  url: https://github.com/krillinai/KrillinAI
+  highlights:
+  - 10.2K Stars
+  - 视频翻译
+  - 配音工具
+  type: open
+- name: Toonflow
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 短剧创作工具
+  tags:
+  - video-generation
+  - content-creation
+  status: active
+  stars: 9800
+  license: MIT
+  url: https://github.com/HBAI-Ltd/Toonflow-app
+  highlights:
+  - 9.8K Stars
+  - AI 短剧
+  - 动画创作
+  type: open
+- name: Duix-Mobile
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 移动端实时交互 AI 数字人
+  tags:
+  - content-creation
+  - mobile
+  - real-time
+  status: active
+  stars: 8100
+  license: MIT
+  url: https://github.com/duixcom/Duix-Mobile
+  highlights:
+  - 8.1K Stars
+  - 移动端
+  - 实时交互
+  type: open
+- name: FlowGram
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 字节跳动出品的可扩展工作流开发框架
+  tags:
+  - workflow
+  - langchain
+  - china-based
+  status: active
+  stars: 8100
+  license: MIT
+  url: https://github.com/bytedance/flowgram.ai
+  highlights:
+  - 8.1K Stars
+  - 字节跳动
+  - 工作流框架
+  type: open
+- name: OpenCode
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 编程助手终端，支持多 Provider/Skills/MCP
+  tags:
+  - mcp
+  - open-source
+  - coding-assistant
+  status: active
+  stars: 4500
+  license: MIT
+  url: https://github.com/opencode-ai/opencode
+  highlights:
+  - 开源终端
+  - 多 Provider
+  - Skills/MCP 支持
+  type: open
+- name: Dograh
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源语音 AI 平台，Vapi 自托管替代
+  tags:
+  - openai-compatible
+  - voice-synthesis
+  - self-hosted
+  status: active
+  stars: 4300
+  license: MIT
+  url: https://github.com/dograh-hq/dograh
+  highlights:
+  - 4.3K Stars
+  - 语音 AI 平台
+  - Vapi 替代
+  type: open
+- name: Linly-Talker
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 数字人对话系统
+  tags:
+  - content-creation
+  - chat
+  status: active
+  stars: 3400
+  license: MIT
+  url: https://github.com/Kedreamix/Linly-Talker
+  highlights:
+  - 3.4K Stars
+  - 数字人对话
+  - AI 助手
+  type: open
+- name: AChat
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源/自托管/本地优先 AI 平台
+  tags:
+  - openai-compatible
+  - self-hosted
+  status: active
+  stars: 3300
+  license: MIT
+  url: https://github.com/AprilNEA/AChat
+  highlights:
+  - 3.3K Stars
+  - 自托管
+  - 本地优先
+  type: open
+- name: py-xiaozhi
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 助手生态，MCP 集成
+  tags:
+  - openai-compatible
+  - chat
+  - mcp
+  status: active
+  stars: 3300
+  license: MIT
+  url: https://github.com/huangjunsen0406/py-xiaozhi
+  highlights:
+  - 3.3K Stars
+  - AI 助手
+  - MCP 集成
+  type: open
+- name: DeepCamera
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 开源 AI 摄像头技能平台，AI NVR
+  tags:
+  - image-generation
+  - automation
+  - security
+  status: active
+  stars: 2800
+  license: MIT
+  url: https://github.com/SharpAI/DeepCamera
+  highlights:
+  - 2.8K Stars
+  - AI 摄像头
+  - NVR 监控
+  type: open
+- name: AI Video Transcriber
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: AI 视频/播客转录和摘要工具
+  tags:
+  - video-generation
+  - voice-recognition
+  - content-creation
+  status: active
+  stars: 2700
+  license: MIT
+  url: https://github.com/wendy7756/AI-Video-Transcriber
+  highlights:
+  - 2.7K Stars
+  - 视频转录
+  - 播客摘要
+  type: open
+- name: OpenAI GPTs
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: OpenAI 的自定义 GPT 应用商店
+  tags:
+  - mcp
+  - openai-compatible
+  status: active
+  license: Proprietary
+  url: https://openai.com/gpts
+  highlights:
+  - 自定义 GPT 商店
+  - 无代码创建
+  - 生态最大
+  type: closed
+- name: Claude Artifacts
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: Claude 的可交互代码/文档生成工具
+  tags:
+  - content-creation
+  - coding-assistant
+  - anthropic
+  status: active
+  license: Proprietary
+  url: https://claude.ai
+  highlights:
+  - 可交互代码生成
+  - 文档生成
+  - 实时预览
+  type: closed
+- name: Cursor Plugins
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: Cursor 官方插件市场，Skills/Subagents/Rules/Hooks/MCP 服务器
+  tags:
+  - mcp
+  - open-source
+  status: active
+  license: Proprietary
+  url: https://cursor.com/marketplace
+  highlights:
+  - Cursor 官方市场
+  - Skills/Subagents
+  - MCP 服务器集成
+  type: closed
+- name: Windsurf
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: Codeium 出品 AI 编程 IDE，支持 MCP/Agent/多文件协同
+  tags:
+  - mcp
+  - agent
+  - coding-assistant
+  status: active
+  license: Proprietary
+  url: https://codeium.com/windsurf
+  highlights:
+  - AI 编程 IDE
+  - MCP 支持
+  - 多文件协同
+  type: closed
+- name: Dify Plugins
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: Dify 插件市场，工具/模型/扩展，支持 MCP 协议
+  tags:
+  - mcp
+  - china-based
+  - open-source
+  status: active
+  license: Proprietary
+  url: https://dify.ai/plugins
+  highlights:
+  - Dify 插件市场
+  - MCP 协议
+  - 工具/模型/扩展
+  type: closed
+- name: Coze Plugins
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: 扣子插件市场，200+ 集成，支持工作流/触发器/卡片
+  tags:
+  - mcp
+  - china-based
+  - openai-compatible
+  status: active
+  license: Proprietary
+  url: https://www.coze.cn/store/plugin
+  highlights:
+  - 200+ 插件
+  - 工作流/触发器
+  - 卡片消息
+  type: closed
+- name: FastGPT Plugins
+  category: skills-and-plugins/platform-plugins
+  sub_category: platform-plugins
+  description: FastGPT 插件市场，自定义工具/HTTP 请求/代码执行
+  tags:
+  - mcp
+  - china-based
+  - open-source
+  status: active
+  license: Proprietary
+  url: https://fastgpt.in
+  highlights:
+  - 自定义工具
+  - HTTP 请求
+  - 代码执行
+  type: closed
+- name: LangChain Tools
+  category: skills-and-plugins/open-skills
+  sub_category: framework-tools
+  description: LangChain 生态的工具集成库
+  tags:
+  - mcp
+  - langchain
+  status: active
+  stars: 100000
+  license: MIT
+  url: https://github.com/langchain-ai/langchain
+  highlights:
+  - LangChain 工具库
+  - 生态丰富
+  - 100K Stars
+  type: open
+- name: ui-ux-pro-max-skill
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: AI SKILL，为多平台专业 UI/UX 构建提供设计智能
+  tags:
+  - open-source
+  - cross-platform
+  - content-creation
+  status: active
+  stars: 89000
+  license: MIT
+  url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  highlights:
+  - 89K Stars
+  - 多平台 UI/UX
+  - 设计智能
+  type: open
+- name: Open Design
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 本地优先的开源 Claude Design 替代方案
+  tags:
+  - content-creation
+  - self-hosted
+  - open-source
+  status: active
+  stars: 61500
+  license: MIT
+  url: https://github.com/nexu-io/open-design
+  highlights:
+  - 61.5K Stars
+  - 本地优先
+  - Claude Design 替代
+  type: open
+- name: taste-skill
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 给 AI 好品味，停止生成丑陋 UI
+  tags:
+  - content-creation
+  status: active
+  stars: 38500
+  license: MIT
+  url: https://github.com/Leonxlnx/taste-skill
+  highlights:
+  - 38.5K Stars
+  - 好品味
+  - 停止丑陋 UI
+  type: open
+- name: impeccable
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 设计语言，让你的 AI Agent 更擅长设计
+  tags:
+  - open-source
+  - content-creation
+  - coding
+  status: active
+  stars: 36300
+  license: Apache-2.0
+  url: https://github.com/pbakaus/impeccable
+  highlights:
+  - 36.3K Stars
+  - 设计语言
+  - AI 设计优化
+  type: open
+- name: Huashu Design
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: HTML 原生设计技能，Claude Code 专用
+  tags:
+  - content-creation
+  - data-analysis
+  - coding-assistant
+  status: active
+  stars: 17500
+  license: MIT
+  url: https://github.com/alchaincyf/huashu-design
+  highlights:
+  - 17.5K Stars
+  - HTML 原生设计
+  - Claude Code 专用
+  type: open
+- name: frontend-design
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 让 Claude 具备设计规范意识，内置设计系统知识，支持 Tailwind/shadcn
+  tags:
+  - content-creation
+  - coding
+  status: active
+  stars: 8500
+  license: MIT
+  url: https://github.com/nicekid1/frontend-design
+  highlights:
+  - 设计规范意识
+  - Tailwind/shadcn
+  - 响应式布局
+  type: open
+- name: Hallmark
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 反 AI 设计技能，让 AI 生成更有品味的 UI
+  tags:
+  - content-creation
+  - security
+  status: active
+  stars: 3000
+  license: MIT
+  url: https://github.com/Nutlope/hallmark
+  highlights:
+  - 3K Stars
+  - 反 AI 设计
+  - 更有品味的 UI
+  type: open
+- name: design-md-chrome
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: Chrome 扩展，从任何网站提取样式并生成设计规范
+  tags:
+  - content-creation
+  - vscode-extension
+  - data-analysis
+  status: active
+  stars: 2200
+  license: MIT
+  url: https://github.com/bergside/design-md-chrome
+  highlights:
+  - 2.2K Stars
+  - Chrome 扩展
+  - 样式提取
+  type: open
+- name: awesome-design-skills
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 67 个设计技能文件精选列表
+  tags:
+  - content-creation
+  - open-source
+  - mcp
+  status: active
+  stars: 1200
+  license: MIT
+  url: https://github.com/bergside/awesome-design-skills
+  highlights:
+  - 1.2K Stars
+  - 67 个设计技能
+  - 精选列表
+  type: open
+- name: UI Design Brain
+  category: skills-and-plugins/open-skills
+  sub_category: design
+  description: 给 AI Agent UI 组件知识
+  tags:
+  - content-creation
+  status: active
+  stars: 816
+  license: MIT
+  url: https://github.com/carmahhawwari/ui-design-brain
+  highlights:
+  - 816 Stars
+  - UI 组件
+  - AI Agent
+  type: open
+- name: Frontend Slides
+  category: skills-and-plugins/open-skills
+  sub_category: frontend
+  description: 用编码 Agent 创建精美网页幻灯片
+  tags:
+  - content-creation
+  - presentation
+  status: active
+  stars: 20800
+  license: MIT
+  url: https://github.com/zarazhangrui/frontend-slides
+  highlights:
+  - 20.8K Stars
+  - 网页幻灯片
+  - 编码 Agent
+  type: open
+- name: gsap-skills
+  category: skills-and-plugins/open-skills
+  sub_category: frontend
+  description: GSAP 官方 AI 技能，教 AI Agent 正确使用 GSAP 动画
+  tags:
+  - open-source
+  - content-creation
+  - coding
+  status: active
+  stars: 8600
+  license: MIT
+  url: https://github.com/greensock/gsap-skills
+  highlights:
+  - 8.6K Stars
+  - GSAP 官方
+  - 动画技能
+  type: open
+- name: Pinme
+  category: skills-and-plugins/open-skills
+  sub_category: frontend
+  description: 一行命令部署前端，Claude Code 技能
+  tags:
+  - content-creation
+  - automation
+  - coding-assistant
+  status: active
+  stars: 3600
+  license: MIT
+  url: https://github.com/glitternetwork/pinme
+  highlights:
+  - 3.6K Stars
+  - 一行命令部署
+  - Claude Code 技能
+  type: open
+- name: andrej-karpathy-skills
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: Andrej Karpathy 观察总结的 CLAUDE.md，改善 Claude Code 行为
+  tags:
+  - coding
+  - coding-assistant
+  - open-source
+  status: active
+  stars: 171000
+  license: N/A
+  url: https://github.com/multica-ai/andrej-karpathy-skills
+  highlights:
+  - 171K Stars
+  - Karpathy 总结
+  - 编码最佳实践
+  type: open
+- name: deer-flow
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: 字节跳动开源 SuperAgent 框架
+  tags:
+  - coding
+  - agent
+  - china-based
+  status: active
+  stars: 70800
+  license: MIT
+  url: https://github.com/bytedance/deer-flow
+  highlights:
+  - 70.8K Stars
+  - 字节跳动
+  - SuperAgent 框架
+  type: open
+- name: Caveman
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: Claude Code 技能，用更少 Token 完成更多工作
+  tags:
+  - coding
+  - cost-effective
+  status: active
+  stars: 70000
+  license: MIT
+  url: https://github.com/JuliusBrussee/caveman
+  highlights:
+  - 70K Stars
+  - Token 优化
+  - 效率提升
+  type: open
+- name: Graphify
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: AI 编码助手技能，支持 Claude Code/Codex/OpenCode/Cursor
+  tags:
+  - coding
+  - chat
+  - agent
+  status: active
+  stars: 63000
+  license: MIT
+  url: https://github.com/safishamsi/graphify
+  highlights:
+  - 63K Stars
+  - 多 Agent 支持
+  - 编码助手
+  type: open
+- name: OpenSpec
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: Spec 驱动开发，AI 编码助手规范
+  tags:
+  - coding
+  - document
+  - automation
+  status: active
+  stars: 53500
+  license: MIT
+  url: https://github.com/Fission-AI/OpenSpec
+  highlights:
+  - 53.5K Stars
+  - Spec 驱动开发
+  - AI 编码规范
+  type: open
+- name: SocratiCode
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: 企业级代码库智能，零配置，40M+ LOC 支持
+  tags:
+  - coding
+  - enterprise
+  - agent
+  status: active
+  stars: 2800
+  license: MIT
+  url: https://github.com/giancarloerra/SocratiCode
+  highlights:
+  - 2.8K Stars
+  - 企业级
+  - 40M+ LOC
+  type: open
+- name: ralph-wiggum
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: 循环迭代技能，根据任务说明书自动反复改进直到满意
+  tags:
+  - coding
+  - agent
+  - automation
+  status: active
+  stars: 2100
+  license: MIT
+  url: https://github.com/nicekid1/ralph-wiggum
+  highlights:
+  - 循环迭代
+  - 自动改进
+  - UI/文案打磨
+  type: open
+- name: infiAgent
+  category: skills-and-plugins/open-skills
+  sub_category: coding
+  description: 构建 Cowork/AI Scientist 等 Agent
+  tags:
+  - coding
+  - agent
+  - mcp
+  status: active
+  stars: 1175
+  license: MIT
+  url: https://github.com/polyuiislab/infiAgent
+  highlights:
+  - 1.2K Stars
+  - 构建 Agent
+  - Cowork/AI Scientist
+  type: open
+- name: last30days-skill
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: 研究 Reddit/X/YouTube 最近 30 天热门话题
+  tags:
+  - deep-research
+  - content-creation
+  - latest
+  status: active
+  stars: 34600
+  license: MIT
+  url: https://github.com/mvanhorn/last30days-skill
+  highlights:
+  - 34.6K Stars
+  - 最近 30 天
+  - 热门话题
+  type: open
+- name: Academic Research Skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: 学术研究技能，研究→写作→引用全流程
+  tags:
+  - deep-research
+  - academic
+  - content-creation
+  status: active
+  stars: 28900
+  license: MIT
+  url: https://github.com/Imbad0202/academic-research-skills
+  highlights:
+  - 28.9K Stars
+  - 学术研究
+  - 全流程支持
+  type: open
+- name: Scientific Agent Skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: 让任何 AI Agent 成为 AI 科学家，#1 Agent 技能库
+  tags:
+  - deep-research
+  - academic
+  - agent
+  status: active
+  stars: 27600
+  license: MIT
+  url: https://github.com/K-Dense-AI/scientific-agent-skills
+  highlights:
+  - 27.6K Stars
+  - AI 科学家
+  - '#1 Agent 技能库'
+  type: open
+- name: AI Research Skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: AI 研究与工程技能库，综合全面
+  tags:
+  - deep-research
+  - agent
+  - automation
+  status: active
+  stars: 9400
+  license: MIT
+  url: https://github.com/Orchestra-Research/AI-Research-SKILLs
+  highlights:
+  - 9.4K Stars
+  - AI 研究
+  - 工程技能
+  type: open
+- name: Trail of Bits Skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: Trail of Bits 安全研究技能，漏洞检测
+  tags:
+  - security
+  - deep-research
+  status: active
+  stars: 5600
+  license: MIT
+  url: https://github.com/trailofbits/skills
+  highlights:
+  - 5.6K Stars
+  - 安全研究
+  - 漏洞检测
+  type: open
+- name: Auto Empirical Research Skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: 23000+ Agent 技能，用于实证研究
+  tags:
+  - deep-research
+  - academic
+  - mcp
+  status: active
+  stars: 1800
+  license: MIT
+  url: https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills
+  highlights:
+  - 1.8K Stars
+  - 23000+ 技能
+  - 实证研究
+  type: open
+- name: medical-research-skills
+  category: skills-and-plugins/open-skills
+  sub_category: research
+  description: 医学研究技能，临床/药物/文献
+  tags:
+  - deep-research
+  - academic
+  status: active
+  stars: 1060
+  license: MIT
+  url: https://github.com/aipoch/medical-research-skills
+  highlights:
+  - 1K Stars
+  - 医学研究
+  - 临床/药物
+  type: open
+- name: Humanizer
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: 去除 AI 写作痕迹，让内容更自然
+  tags:
+  - content-creation
+  - security
+  status: active
+  stars: 23000
+  license: MIT
+  url: https://github.com/blader/humanizer
+  highlights:
+  - 23K Stars
+  - 去除 AI 痕迹
+  - 内容更自然
+  type: open
+- name: Research Paper Writing
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: ML/CV/NLP 论文写作技能包
+  tags:
+  - content-creation
+  - academic
+  status: active
+  stars: 3500
+  license: MIT
+  url: https://github.com/Master-cai/Research-Paper-Writing-Skills
+  highlights:
+  - 3.5K Stars
+  - 论文写作
+  - ML/CV/NLP
+  type: open
+- name: SEO Skills
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: 20 个 SEO & GEO 技能，支持 35+ Agent
+  tags:
+  - content-creation
+  status: active
+  stars: 2100
+  license: MIT
+  url: https://github.com/aaron-he-zhu/seo-geo-claude-skills
+  highlights:
+  - 2.1K Stars
+  - SEO 技能
+  - 35+ Agent
+  type: open
+- name: claude-blog
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: Claude Code 博客技能套件，30 个子技能
+  tags:
+  - content-creation
+  - coding-assistant
+  status: active
+  stars: 1000
+  license: MIT
+  url: https://github.com/AgriciDaniel/claude-blog
+  highlights:
+  - 1K Stars
+  - 博客技能
+  - 30 个子技能
+  type: open
+- name: ResumeSkills
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: 简历优化技能
+  tags:
+  - content-creation
+  - automation
+  status: active
+  stars: 717
+  license: MIT
+  url: https://github.com/Paramchoudhary/ResumeSkills
+  highlights:
+  - 717 Stars
+  - 简历优化
+  - 求职技能
+  type: open
+- name: sciwrite
+  category: skills-and-plugins/open-skills
+  sub_category: writing
+  description: AI 辅助手稿写作审查
+  tags:
+  - content-creation
+  - academic
+  - coding-assistant
+  status: active
+  stars: 693
+  license: MIT
+  url: https://github.com/labarba/sciwrite
+  highlights:
+  - 693 Stars
+  - 手稿审查
+  - 科学写作
+  type: open
+- name: Marketing Skills
+  category: skills-and-plugins/open-skills
+  sub_category: marketing
+  description: 营销技能，CRO/文案/社交媒体/邮件营销
+  tags:
+  - content-creation
+  status: active
+  stars: 32500
+  license: MIT
+  url: https://github.com/coreyhaines31/marketingskills
+  highlights:
+  - 32.5K Stars
+  - 营销技能
+  - CRO/文案/社交媒体
+  type: open
+- name: ASO Skills
+  category: skills-and-plugins/open-skills
+  sub_category: marketing
+  description: App Store 优化技能
+  tags:
+  - content-creation
+  - mcp
+  status: active
+  stars: 1500
+  license: MIT
+  url: https://github.com/Eronred/aso-skills
+  highlights:
+  - 1.5K Stars
+  - App Store 优化
+  - 营销技能
+  type: open
+- name: openclaw-marketing-skills
+  category: skills-and-plugins/open-skills
+  sub_category: marketing
+  description: 33 个实战营销技能
+  tags:
+  - content-creation
+  - mcp
+  - enterprise
+  status: active
+  stars: 1200
+  license: MIT
+  url: https://github.com/LeoYeAI/openclaw-marketing-skills
+  highlights:
+  - 1.2K Stars
+  - 33 个技能
+  - 实战验证
+  type: open
+- name: Product Manager Skills
+  category: skills-and-plugins/open-skills
+  sub_category: product
+  description: 产品管理技能框架，实战验证
+  tags:
+  - automation
+  - langchain
+  status: active
+  stars: 5000
+  license: MIT
+  url: https://github.com/deanpeters/Product-Manager-Skills
+  highlights:
+  - 5K Stars
+  - 产品管理
+  - 实战验证
+  type: open
+- name: Anthropic Cybersecurity Skills
+  category: skills-and-plugins/open-skills
+  sub_category: security
+  description: 754 个结构化网络安全技能，映射到 MITRE ATT&CK
+  tags:
+  - security
+  - compliance
+  status: active
+  stars: 14900
+  license: MIT
+  url: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+  highlights:
+  - 14.9K Stars
+  - 754 个安全技能
+  - MITRE ATT&CK
+  type: open
+- name: Raptor
+  category: skills-and-plugins/open-skills
+  sub_category: security
+  description: Claude Code 渗透测试工具
+  tags:
+  - security
+  - automation
+  - coding-assistant
+  status: active
+  stars: 2900
+  license: MIT
+  url: https://github.com/gadievron/raptor
+  highlights:
+  - 2.9K Stars
+  - 渗透测试
+  - Claude Code
+  type: open
+- name: ClawSec
+  category: skills-and-plugins/open-skills
+  sub_category: security
+  description: 完整安全技能套件，支持 OpenClaw/Hermes/PicoCl
+  tags:
+  - security
+  - compliance
+  status: active
+  stars: 1000
+  license: MIT
+  url: https://github.com/prompt-security/clawsec
+  highlights:
+  - 1K Stars
+  - 安全审计
+  - 合规检查
+  type: open
+- name: Agent Skills Spec
+  category: skills-and-plugins/open-skills
+  sub_category: documentation
+  description: Agent 技能规范与文档
+  tags:
+  - document
+  - mcp
+  status: active
+  stars: 20100
+  license: MIT
+  url: https://github.com/agentskills/agentskills
+  highlights:
+  - 20.1K Stars
+  - 技能规范
+  - 标准文档
+  type: open
+- name: Markdown Viewer Skills
+  category: skills-and-plugins/open-skills
+  sub_category: documentation
+  description: AI 编码 Agent 创建精美 Markdown 文档的技能
+  tags:
+  - document
+  - content-creation
+  status: active
+  stars: 2900
+  license: MIT
+  url: https://github.com/markdown-viewer/skills
+  highlights:
+  - 2.9K Stars
+  - Markdown 文档
+  - 可视化
+  type: open
+- name: awesome-claude-code
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Claude Code 精选列表，技能/钩子/斜杠命令/Agent
+  tags:
+  - open-source
+  - coding-assistant
+  - mcp
+  status: active
+  stars: 46000
+  license: MIT
+  url: https://github.com/hesreallyhim/awesome-claude-code
+  highlights:
+  - 46K Stars
+  - Claude Code 精选
+  - 技能/钩子/命令
+  type: open
+- name: Superpowers
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Claude Code 全家桶技能，14 个子技能覆盖完整开发流程
+  tags:
+  - mcp
+  - agent
+  - coding
+  status: active
+  stars: 34000
+  license: MIT
+  url: https://github.com/NexTechFusion/superpowers
+  highlights:
+  - 34K Stars
+  - 14 个子技能
+  - 完整开发流程
+  type: open
+- name: awesome-agent-skills
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: VoltAgent 出品的 1000+ Agent 技能精选集合
+  tags:
+  - open-source
+  - mcp
+  - openai-compatible
+  status: active
+  stars: 24700
+  license: MIT
+  url: https://github.com/VoltAgent/awesome-agent-skills
+  highlights:
+  - 24.7K Stars
+  - 1000+ 技能
+  - VoltAgent 出品
+  type: open
+- name: Claude Skills (alirezarezvani)
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 337 个 Claude Code 技能，30+ Agent
+  tags:
+  - all-in-one
+  - mcp
+  - agent
+  status: active
+  stars: 17500
+  license: MIT
+  url: https://github.com/alirezarezvani/claude-skills
+  highlights:
+  - 17.5K Stars
+  - 337 个技能
+  - 30+ Agent
+  type: open
+- name: awesome-claude-code-skills (helloianneo)
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Claude Code 最实用 Skills/Agents/Plugins 精选合集，50+ 精选按场景分类
+  tags:
+  - open-source
+  - mcp
+  - coding-assistant
+  status: active
+  stars: 5800
+  license: MIT
+  url: https://github.com/helloianneo/awesome-claude-code-skills
+  highlights:
+  - 50+ 精选
+  - 按场景分类
+  - 推荐等级
+  type: open
+- name: antfu/skills
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Anthony Fu 精选的 Agent 技能集合
+  tags:
+  - open-source
+  - mcp
+  - china-based
+  status: active
+  stars: 5200
+  license: MIT
+  url: https://github.com/antfu/skills
+  highlights:
+  - 5.2K Stars
+  - Anthony Fu 精选
+  - 技能集合
+  type: open
+- name: awesome-persona-distill-skills
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 人物/关系/角色技能精选列表
+  tags:
+  - open-source
+  - content-creation
+  - mcp
+  status: active
+  stars: 4400
+  license: MIT
+  url: https://github.com/xixu-me/awesome-persona-distill-skills
+  highlights:
+  - 4.4K Stars
+  - 人物/关系
+  - 角色技能
+  type: open
+- name: awesome-hermes-agent
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Hermes Agent 精选列表，工具/集成/资源
+  tags:
+  - open-source
+  - openai-compatible
+  - mcp
+  status: active
+  stars: 3800
+  license: MIT
+  url: https://github.com/0xNyk/awesome-hermes-agent
+  highlights:
+  - 3.8K Stars
+  - Hermes Agent
+  - 精选列表
+  type: open
+- name: AI Agent Skills Library
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 版本化/代码审查的 Agent 技能库，支持 Claude Code/Cursor/Codex/Windsurf
+  tags:
+  - mcp
+  - agent
+  - open-source
+  status: active
+  stars: 3200
+  license: MIT
+  url: https://github.com/newmindsgroup/ai-agent-skills-library
+  highlights:
+  - 多 Agent 支持
+  - 版本化审查
+  - 6 大平台兼容
+  type: open
+- name: Vibe Skills
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 全能 AI 技能包，无缝集成多种 Agent
+  tags:
+  - mcp
+  - all-in-one
+  status: active
+  stars: 2300
+  license: MIT
+  url: https://github.com/foryourhealth111-pixel/Vibe-Skills
+  highlights:
+  - 2.3K Stars
+  - 全能技能包
+  - 多 Agent 集成
+  type: open
+- name: Claude Code Plugins Plus Skills
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 425 插件，2810 技能，200 Agent，开放源码
+  tags:
+  - mcp
+  - agent
+  status: active
+  stars: 2300
+  license: MIT
+  url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
+  highlights:
+  - 2.3K Stars
+  - 425 插件
+  - 2810 技能
+  type: open
+- name: Agent Toolkit
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: AI 编码 Agent 技能精选集合
+  tags:
+  - mcp
+  - open-source
+  - coding
+  status: active
+  stars: 2000
+  license: MIT
+  url: https://github.com/softaworks/agent-toolkit
+  highlights:
+  - 2K Stars
+  - 技能精选
+  - 编码 Agent
+  type: open
+- name: awesome-claude-code-toolkit
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Claude Code 工具包，135 个 Agent
+  tags:
+  - open-source
+  - coding-assistant
+  - mcp
+  status: active
+  stars: 2000
+  license: MIT
+  url: https://github.com/rohitg00/awesome-claude-code-toolkit
+  highlights:
+  - 2K Stars
+  - 135 个 Agent
+  - 工具包
+  type: open
+- name: Agents Best Practices
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: Provider 中立的 Agent 技能，支持 Codex/Claude Code
+  tags:
+  - open-source
+  - openai-compatible
+  - agent
+  status: active
+  stars: 1900
+  license: MIT
+  url: https://github.com/DenisSergeevitch/agents-best-practices
+  highlights:
+  - 1.9K Stars
+  - 最佳实践
+  - Provider 中立
+  type: open
+- name: dotclaude
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 15 个专业 Agent 和 Skills 合集，含 Git 规范/CLAUDE.md 生成/飞书文档等
+  tags:
+  - mcp
+  - agent
+  - china-based
+  status: active
+  stars: 1800
+  license: MIT
+  url: https://github.com/sras/dotclaude
+  highlights:
+  - 15 个专业 Agent
+  - Git 规范提交
+  - 飞书文档创建
+  type: open
+- name: everything-claude-code
+  category: skills-and-plugins/open-skills
+  sub_category: comprehensive
+  description: 全栈 Claude Code 技能大合集，编码/测试/安全/DevOps 全覆盖
+  tags:
+  - mcp
+  - agent
+  - coding
+  status: active
+  stars: 1500
+  license: MIT
+  url: https://github.com/eyaltoledano/everything-claude-code
+  highlights:
+  - 全栈技能
+  - 编码/测试/安全
+  - DevOps 全覆盖
+  type: open

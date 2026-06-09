@@ -1,0 +1,108 @@
+name: 🔧 提交新工具
+description: 提交一个新的 AI 工具/产品到目录
+title: "[新工具] "
+labels: ["new-tool", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你提交新的 AI 工具！请填写以下信息，我们会尽快审核。
+  
+  - type: input
+    id: name
+    attributes:
+      label: 工具名称
+      description: 工具/产品的名称
+      placeholder: "例如: Cursor"
+    validations:
+      required: true
+  
+  - type: input
+    id: url
+    attributes:
+      label: 官网/仓库链接
+      description: 工具的官方网站或 GitHub 仓库链接
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: 简介
+      description: 用一句话描述这个工具的核心功能
+      placeholder: "例如: AI 原生代码编辑器，支持 Agent 模式"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      description: 这个工具属于哪个分类？
+      options:
+        - foundation-models (基础大模型)
+        - infrastructure (基础设施)
+        - data-and-knowledge (数据与知识)
+        - dev-frameworks (开发框架)
+        - lowcode-platforms (低代码平台)
+        - tools-and-protocols (工具与协议)
+        - skills-and-plugins (技能与插件)
+        - observability (可观测性)
+        - safety-and-compliance (安全合规)
+        - applications (终端应用)
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      description: 这个工具是开源还是商业产品？
+      options:
+        - open (开源)
+        - closed (商业)
+        - protocol (协议/标准)
+    validations:
+      required: true
+  
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: 如果是开源项目，请填写 License
+      placeholder: "例如: MIT, Apache-2.0"
+  
+  - type: input
+    id: stars
+    attributes:
+      label: GitHub Stars
+      description: 如果是开源项目，请填写 Stars 数量
+      placeholder: "例如: 10000"
+  
+  - type: textarea
+    id: highlights
+    attributes:
+      label: 亮点
+      description: 列出这个工具的 3-5 个核心亮点
+      placeholder: |
+        - 亮点 1
+        - 亮点 2
+        - 亮点 3
+    validations:
+      required: true
+  
+  - type: textarea
+    id: tags
+    attributes:
+      label: 标签
+      description: 为这个工具添加标签（用逗号分隔）
+      placeholder: "例如: coding, ai-native, agent"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 任何其他需要补充的信息

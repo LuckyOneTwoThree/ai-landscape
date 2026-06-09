@@ -1,0 +1,1310 @@
+- name: GPT-5.5 Pro / Thinking
+  description: OpenAI 2026旗舰，原生支持 Thinking 与极强复杂推理
+  url: https://openai.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - fast-inference
+  - 1m-context
+  - autonomous
+  highlights:
+  - 1M 上下文 + 128K 输出
+  - Computer Use 原生支持
+  - 多级推理 (low/medium/high/xhigh)
+  - 知识截止 2026-04
+  sub_category: overseas
+  context_window: 1M
+  output_limit: 128K
+  price: $5/$30
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: true
+    multimodal: true
+  api_model_name: gpt-5.5-pro-20260423
+  license: Proprietary
+- name: GPT-5.4
+  description: OpenAI 高性价比模型，编码与通用能力均衡
+  url: https://openai.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - coding
+  - fast-inference
+  - cost-effective
+  highlights:
+  - 高性价比编码模型
+  - $2/MTok 输入
+  sub_category: overseas
+  context_window: 128K
+  output_limit: 32K
+  price: $2/$8
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+  license: Proprietary
+- name: GPT-5.5 Instant
+  description: OpenAI 极速高效模型，低延迟最佳选择
+  url: https://openai.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - small-model
+  - fast-inference
+  - cost-effective
+  sub_category: overseas
+  highlights:
+  - 日常任务高频使用
+  - 极低延迟与推理成本
+  context_window: 128K
+  output_limit: 32K
+  price: $0.4/$1.6
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+  api_model_name: gpt-5.5-instant-20260505
+  license: Proprietary
+- name: GPT-5.4-nano
+  description: OpenAI 超低延迟低成本模型
+  url: https://openai.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - small-model
+  - fast-inference
+  - cost-effective
+  highlights:
+  - 超低延迟
+  - 极低成本
+  sub_category: overseas
+  context_window: 128K
+  output_limit: 32K
+  price: $0.1/$0.4
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+  license: Proprietary
+- name: Claude Opus 4.8
+  description: Anthropic 2026 最新旗舰，1M 上下文，扩展推理，编码标杆
+  url: https://anthropic.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - coding
+  - fast-inference
+  - 1m-context
+  highlights:
+  - 1M 上下文 + 128K 输出
+  - 扩展+自适应推理
+  - 编码能力标杆
+  - Computer Use
+  - 知识截止 2026-05
+  sub_category: overseas
+  context_window: 1M
+  output_limit: 128K
+  price: $5/$25
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: true
+    multimodal: true
+  api_model_name: claude-4-8-opus-20260528
+  license: Proprietary
+- name: Claude Sonnet 4.6
+  description: Anthropic 次旗舰，1M 上下文，速度与性能最佳平衡
+  url: https://anthropic.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - coding
+  - fast-inference
+  - cost-effective
+  highlights:
+  - 1M 上下文 + 64K 输出
+  - 性价比最高
+  - 开发者首选
+  sub_category: overseas
+  context_window: 1M
+  output_limit: 64K
+  price: $3/$15
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: true
+    multimodal: true
+  api_model_name: claude-4-6-sonnet-20260215
+- name: Claude Haiku 4.5
+  description: Anthropic 最快模型，200K 上下文，极速响应
+  url: https://anthropic.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - fast-inference
+  - cost-effective
+  - small-model
+  highlights:
+  - 200K 上下文
+  - 极低延迟
+  - $1/$5 per MTok
+  sub_category: overseas
+  context_window: 200K
+  output_limit: 8K
+  price: $1/$5
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+  api_model_name: claude-4-5-haiku-20251022
+- name: Gemini 3.5 Pro
+  description: Google 2026旗舰，2M 上下文，包含 Deep Think 模式
+  url: https://gemini.google.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - fast-inference
+  - multimodal
+  - latest
+  highlights:
+  - 2M 超长上下文
+  - 原生多模态与Deep Think
+  sub_category: overseas
+  context_window: 2M
+  output_limit: 128K
+  price: 未公布
+  properties:
+    reasoning: true
+    moe: true
+    computer_use: false
+    multimodal: true
+  api_model_name: gemini-3.5-pro
+  license: Proprietary
+- name: Gemini 3.5 Flash
+  description: Google 极速闪电模型，优化了长程Agent流
+  url: https://gemini.google.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - fast-inference
+  - multimodal
+  - thinking
+  highlights:
+  - 高频次Agent调用
+  - 高性价比多模态
+  sub_category: overseas
+  context_window: 1M
+  output_limit: 64K
+  price: 未公布
+  properties:
+    reasoning: true
+    moe: true
+    computer_use: false
+    multimodal: true
+  api_model_name: gemini-3.5-flash
+  license: Proprietary
+- name: Grok 4
+  description: xAI 旗舰，集成实时全网搜索与图像生成
+  url: https://x.ai
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - real-time
+  - image-generation
+  - uncensored
+  highlights:
+  - 实时全网搜索
+  - Imagine API 图像生成
+  - Voice API
+  sub_category: overseas
+  context_window: 128K
+  output_limit: 32K
+  price: 未公布
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: true
+- name: GLM-5.1
+  description: 智谱 AI 最新旗舰，全模态矩阵，端到端语音与视频
+  url: https://open.bigmodel.cn
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - multimodal
+  - chinese
+  - latest
+  highlights:
+  - 智谱最新旗舰
+  - 全模态 (文本/视觉/图像/视频/语音)
+  - GLM-5 系列最新
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 16K
+  price: 未公布
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: true
+  license: Proprietary
+- name: Kimi K2-6
+  description: 月之暗面最新旗舰，长程代码，Agent 自主执行
+  url: https://platform.moonshot.cn
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - coding
+  - agent
+  - chinese
+  - latest
+  highlights:
+  - 超强长上下文
+  - 强化的代码推理
+  - Agent 自主执行
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 16K
+  price: 未公布
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: false
+    multimodal: false
+  license: Proprietary
+- name: DeepSeek-V4-Pro
+  description: DeepSeek 商业旗舰，1M 上下文，thinking 推理，极致性价比
+  url: https://deepseek.com
+  type: open
+  category: foundation-models/llm
+  status: active
+  tags:
+  - moe
+  - thinking
+  - 1m-context
+  - chinese
+  - cost-effective
+  highlights:
+  - 1.6T MoE (49B 激活)
+  - 1M 上下文, thinking 模式
+  - 384K 输出
+  - $0.435/$0.87 per MTok
+  sub_category: domestic
+  context_window: 1M
+  output_limit: 384K
+  price: $0.435/$0.87
+  properties:
+    reasoning: true
+    moe: true
+    computer_use: false
+    multimodal: false
+  api_model_name: deepseek-v4-pro
+  license: Proprietary
+- name: DeepSeek-V4-Flash
+  description: DeepSeek 轻量快速版，1M 上下文，极低成本
+  url: https://deepseek.com
+  type: open
+  category: foundation-models/llm
+  status: active
+  tags:
+  - fast-inference
+  - cost-effective
+  - chinese
+  - 1m-context
+  highlights:
+  - 284B MoE (13B 激活)
+  - 1M 上下文
+  - 极低成本 $0.004 cache hit
+  sub_category: domestic
+  context_window: 1M
+  output_limit: 64K
+  price: $0.07/$0.28
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: false
+  api_model_name: deepseek-v4-flash
+  license: Proprietary
+- name: MiniMax M3
+  description: MiniMax 最新旗舰，MSA 架构，1M 上下文，Coding/Agentic 前沿
+  url: https://minimaxi.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - multimodal
+  - chinese
+  - agent
+  highlights:
+  - MSA 架构
+  - 1M 上下文
+  - Coding/Agentic 前沿
+  - 原生多模态
+  sub_category: domestic
+  context_window: 1M
+  output_limit: 64K
+  price: 未公布
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: true
+  license: Proprietary
+- name: 腾讯混元 HY3
+  description: 腾讯最新旗舰，基于 MoE，全模态能力
+  url: https://cloud.tencent.com/product/hunyuan
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - multimodal
+  - chinese
+  - enterprise
+  highlights:
+  - 文本/图像/视频/3D 全模态
+  - MoE 架构
+  sub_category: domestic
+  context_window: 256K
+  output_limit: 16K
+  price: 免费/低价
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: true
+- name: Qwen3.7-Plus
+  api_model_name: qwen3.7-plus
+  description: 阿里 2026.06 最新多模态 Agent 模型，专攻 GUI 与代码
+  url: https://bailian.aliyun.com/
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - latest
+  - multimodal
+  - agent
+  - cloud-only
+  highlights:
+  - 专精 GUI 导航与屏幕感知
+  - AndroidWorld 霸榜
+  - 纯 API 商业调用
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 8K
+  price: 商业调用定价
+- name: Qwen3.7-Max
+  api_model_name: qwen3.7-max
+  description: 阿里 2026 文本旗舰模型，通义千问最强推理底座
+  url: https://bailian.aliyun.com/
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - flagship
+  - fast-inference
+  - chinese
+  highlights:
+  - 极致的中文与逻辑推理
+  - 长程上下文强关联
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 8K
+  price: 商业调用定价
+- name: Qwen3-Coder-480B
+  description: 阿里通义千问旗舰代码模型，480B MoE，开源标杆
+  url: https://qwen.ai
+  repo: https://github.com/QwenLM/Qwen3
+  type: open
+  category: foundation-models/llm
+  license: Apache-2.0
+  status: active
+  tags:
+  - chinese
+  - moe
+  - coding
+  - open-source
+  highlights:
+  - 480B MoE 代码专精
+  - 开源代码模型标杆
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 16K
+  price: 开源自部署
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: false
+- name: ERNIE (文心一言)
+  description: 百度旗舰大模型，千帆 Agent 平台，MCP 支持
+  url: https://yiyan.baidu.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - chinese
+  - enterprise
+  - agent
+  highlights:
+  - 千帆 Agent 平台
+  - MCP 支持
+  - 百度搜索增强
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 8K
+  price: 免费/低价
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: true
+- name: 百川 M3 Plus
+  description: 百川智能最新旗舰，免费使用
+  url: https://www.baichuan-ai.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - chinese
+  - cost-effective
+  highlights:
+  - 免费使用
+  - 中文优化
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 8K
+  price: 免费
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+- name: 讯飞星火 4.0
+  description: 科大讯飞旗舰，教育场景深度优化
+  url: https://xinghuo.xfyun.cn
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - chinese
+  - education
+  highlights:
+  - 教育场景优化
+  - 语音能力突出
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 8K
+  price: 免费/低价
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: true
+- name: Step 3
+  description: 阶跃星辰最新旗舰，Step Router 智能路由
+  url: https://platform.stepfun.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - chinese
+  - latest
+  highlights:
+  - Step Router 智能路由
+  - Pro+Flash 双引擎
+  sub_category: domestic
+  context_window: 128K
+  output_limit: 16K
+  price: 未公布
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+- name: Llama 4 Maverick
+  description: Meta 开源旗舰，400B MoE，1M 上下文，匹敌闭源顶尖
+  url: https://ai.meta.com/llama/
+  repo: https://github.com/meta-llama/llama-models
+  type: open
+  category: foundation-models/llm
+  license: Llama 4
+  status: active
+  tags:
+  - moe
+  - open-source
+  - multimodal
+  - flagship
+  - 1m-context
+  highlights:
+  - 400B MoE
+  - 1M 上下文
+  - 多模态
+  - 匹敌闭源顶尖
+  sub_category: opensource
+  context_window: 1M
+  output_limit: 32K
+  price: 开源自部署
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: true
+    params: 400B
+- name: Llama 4 Scout
+  description: Meta 开源长上下文模型，109B MoE，10M 上下文
+  url: https://ai.meta.com/llama/
+  repo: https://github.com/meta-llama/llama-models
+  type: open
+  category: foundation-models/llm
+  license: Llama 4
+  status: active
+  tags:
+  - moe
+  - open-source
+  - long-context
+  highlights:
+  - 109B MoE
+  - 10M 超长上下文
+  - vLLM 部署
+  sub_category: opensource
+  context_window: 10M
+  output_limit: 32K
+  price: 开源自部署
+  properties:
+    reasoning: false
+    moe: true
+    computer_use: false
+    multimodal: true
+    params: 109B
+- name: DeepSeek-R1
+  description: DeepSeek 开源推理标杆，671B MoE，MIT 许可
+  url: https://deepseek.com
+  repo: https://github.com/deepseek-ai/DeepSeek-R1
+  type: open
+  category: foundation-models/llm
+  license: MIT
+  status: active
+  tags:
+  - fast-inference
+  - moe
+  - open-source
+  - thinking
+  highlights:
+  - 671B MoE
+  - 开源推理标杆
+  - MIT 许可
+  - 蒸馏版 1.5B-70B
+  sub_category: opensource
+  context_window: 128K
+  output_limit: 64K
+  price: 开源自部署
+  properties:
+    reasoning: true
+    moe: true
+    computer_use: false
+    multimodal: false
+    params: 671B
+- name: Gemma 3
+  description: Google 新一代端侧开源模型，1B-27B，128K 上下文
+  url: https://blog.google/technology/ai/
+  repo: https://github.com/google/gemma_pytorch
+  type: open
+  category: foundation-models/llm
+  license: Gemma
+  status: active
+  tags:
+  - small-model
+  - on-device
+  - multimodal
+  - open-weights
+  highlights:
+  - 1B-27B 多规格
+  - 128K 上下文
+  - 多模态
+  - 端侧友好
+  sub_category: opensource
+  context_window: 128K
+  output_limit: 8K
+  price: 开源自部署
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: true
+    params: 1B-27B
+- name: Phi-4
+  description: Microsoft 端侧推理模型，14B，数学推理极强
+  url: https://azure.microsoft.com/en-us/products/phi
+  repo: null
+  type: open
+  category: foundation-models/llm
+  license: MIT
+  status: active
+  tags:
+  - small-model
+  - fast-inference
+  - on-device
+  - open-source
+  highlights:
+  - 14B 参数
+  - 数学推理极强
+  - 端侧部署
+  - MIT 许可
+  sub_category: opensource
+  context_window: 16K
+  output_limit: 16K
+  price: 开源自部署
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: false
+    multimodal: false
+    params: 14B
+- name: MiMo-V2.5-Pro
+  api_model_name: mimo-v2.5-pro
+  description: 小米 MiMo V2.5 旗舰，1T MoE，Agent 与 Coding 霸榜开源
+  url: https://mimo.xiaomi.com
+  repo: https://github.com/XiaomiMiMo/MiMo
+  type: open
+  category: foundation-models/llm
+  license: MIT
+  status: active
+  tags:
+  - flagship
+  - agent
+  - coding
+  - 1m-context
+  - open-source
+  - chinese
+  highlights:
+  - 1.02T 参数 MoE 架构
+  - 1M 超长上下文支持
+  - Agent/Coding 开源综合第一
+  - MIT 许可全面开源商用
+  sub_category: opensource
+  context_window: 1M
+  output_limit: 64K
+  price: 开源自部署 / API调用
+- name: MiMo-V2.5 (基础版)
+  description: 小米 MiMo V2 旗舰，Agent 能力前沿，Apache 2.0 开源
+  url: https://mimo.xiaomi.com
+  repo: https://github.com/XiaomiMiMo/MiMo
+  type: open
+  category: foundation-models/llm
+  license: Apache-2.0
+  status: active
+  tags:
+  - agent
+  - fast-inference
+  - open-source
+  - chinese
+  highlights:
+  - Agent 能力前沿
+  - Pro/Omni/Flash 多版本
+  - 开源
+  sub_category: opensource
+  context_window: 128K
+  output_limit: 16K
+  price: 开源自部署
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: false
+    multimodal: false
+    params: 7B-72B
+- name: MiMo-7B-RL
+  description: 小米 7B 推理模型，AIME 2024 超 DeepSeek R1，小模型推理标杆
+  url: https://mimo.xiaomi.com
+  repo: https://github.com/XiaomiMiMo/MiMo
+  type: open
+  category: foundation-models/llm
+  license: Apache-2.0
+  status: active
+  tags:
+  - small-model
+  - fast-inference
+  - open-source
+  - on-device
+  highlights:
+  - 7B 参数
+  - 'AIME 2024: 80.1 超 DeepSeek R1'
+  - 小模型推理标杆
+  sub_category: opensource
+  context_window: 128K
+  output_limit: 16K
+  price: 开源自部署
+  properties:
+    reasoning: true
+    moe: false
+    computer_use: false
+    multimodal: false
+    params: 7B
+- name: MiniCPM4-8B
+  description: 面壁智能端侧模型，8B，Apache 2.0 开源
+  url: https://github.com/OpenBMB/MiniCPM
+  repo: https://github.com/OpenBMB/MiniCPM
+  type: open
+  category: foundation-models/llm
+  license: Apache-2.0
+  status: active
+  tags:
+  - small-model
+  - on-device
+  - open-source
+  - chinese
+  highlights:
+  - 8B 端侧部署
+  - Apache 2.0
+  - Ollama 支持
+  sub_category: opensource
+  context_window: 128K
+  output_limit: 8K
+  price: 开源自部署
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+    params: 8B
+  stars: 9411
+- name: Cohere Command R3
+  description: 专为企业级 RAG 与工具调用设计的指令模型
+  url: https://cohere.com
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - rag
+  - tool-calling
+  - enterprise
+  highlights:
+  - 最高效的 RAG 召回
+  - Citation 原生支持
+  - 企业级
+  sub_category: overseas
+  context_window: 128K
+  output_limit: 8K
+  price: $2.5/$10
+  properties:
+    reasoning: false
+    moe: false
+    computer_use: false
+    multimodal: false
+- name: Sora 2.0
+  description: OpenAI 物理世界模拟器，已与 GPT-5.5 深度联动
+  url: https://openai.com/sora
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - openai-compatible
+  highlights:
+  - 超长一致性视频
+  - 物理规律模拟
+  - 4K 输出
+  sub_category: video
+  properties:
+    max_duration: 60s
+    max_resolution: 1080p
+    fps: 24
+- name: Midjourney V8.1
+  description: 2026年4月发布的最新旗舰，极速生成与原生 2K HD 支持
+  url: https://midjourney.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - image-generation
+  - content-creation
+  highlights:
+  - 原生支持 2K HD 生成
+  - 生成速度提升 4-5 倍
+  - 指令集与细节遵循大幅增强
+  sub_category: image
+  properties:
+    max_resolution: 2048x2048 (HD Mode)
+    api_available: true
+    styles:
+    - 写实
+    - 艺术
+    - 动漫
+- name: DALL-E 4
+  description: OpenAI 图像生成模型，与 GPT-5.5 深度集成
+  url: https://openai.com/dall-e
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - image-generation
+  - openai-compatible
+  highlights:
+  - GPT-5.5 原生集成
+  - 文本渲染准确
+  - API 可用
+  sub_category: image
+  properties:
+    max_resolution: 1024x1024
+    api_available: true
+    styles:
+    - 写实
+    - 艺术
+- name: 可灵 (Kling) 3.5
+  description: 快手 2026 最新视频大模型，支持无提示词物理轨迹与 4K 60fps
+  url: https://kling.kuaishou.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - chinese
+  highlights:
+  - 无提示词物理轨迹推演
+  - 原生多语言音频融合
+  - 4K 60fps 电影级呈现
+  sub_category: video
+  properties:
+    max_duration: 30s
+    max_resolution: 1080p
+    fps: 24
+- name: Hailuo 2 (海螺视频)
+  description: MiniMax 视频生成模型，高质量 AI 视频
+  url: https://hailuoai.video
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - chinese
+  highlights:
+  - MiniMax 出品
+  - 高质量视频生成
+  - 与 M3 生态集成
+  sub_category: video
+  properties:
+    max_duration: 30s
+    max_resolution: 1080p
+    fps: 24
+- name: CogVideoX-3
+  description: 智谱 AI 开源视频生成模型
+  url: https://github.com/THUDM/CogVideo
+  repo: https://github.com/THUDM/CogVideo
+  type: open
+  category: foundation-models/multimodal
+  license: Apache-2.0
+  status: active
+  tags:
+  - video-generation
+  - open-source
+  - chinese
+  highlights:
+  - 开源视频生成
+  - 智谱 AI 出品
+  - Apache 2.0
+  sub_category: video
+  properties:
+    max_duration: 15s
+    max_resolution: 720p
+    fps: 24
+  stars: 12771
+- name: 即梦 (Jimeng)
+  description: 字节跳动 AI 图像/视频创作平台
+  url: https://jimeng.jianying.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - image-generation
+  - video-generation
+  - chinese
+  - content-creation
+  highlights:
+  - 字节跳动出品
+  - 图像+视频创作
+  - 抖音生态集成
+  sub_category: image
+  properties:
+    max_resolution: 1024x1024
+    api_available: true
+    styles:
+    - 写实
+    - 动漫
+    - 国风
+- name: Suno v5.5
+  description: 2026年行业霸主，支持 Voices 自定义音色训练
+  url: https://suno.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - voice-synthesis
+  - music-generation
+  highlights:
+  - 自定义 Voices 音色克隆
+  - 音质大幅跃升
+  - 原生无损全曲生成
+  sub_category: audio
+  properties:
+    languages:
+    - 英语
+    - 中文
+    - 日语
+    sample_rate: 44.1kHz
+    realtime: false
+- name: Udio 2.0
+  description: 高质量 AI 音乐生成，与 Suno v5.5 并驾齐驱
+  url: https://udio.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - voice-synthesis
+  - music-generation
+  highlights:
+  - 高质量音乐生成
+  - 2.0 音质飞跃
+  - 多风格支持
+  sub_category: audio
+  properties:
+    languages:
+    - 英语
+    - 中文
+    - 日语
+    sample_rate: 44.1kHz
+    realtime: false
+- name: MiniMax Music 2
+  description: MiniMax AI 音乐生成模型
+  url: https://minimaxi.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - voice-synthesis
+  - music-generation
+  - chinese
+  highlights:
+  - MiniMax 出品
+  - 中文音乐优化
+  sub_category: audio
+  properties:
+    languages:
+    - 中文
+    - 英语
+    sample_rate: 44.1kHz
+    realtime: false
+- name: GLM-TTS / CosyVoice 2
+  description: 前沿语音合成模型，自然度极高
+  url: https://open.bigmodel.cn
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - voice-synthesis
+  - chinese
+  highlights:
+  - GLM-TTS 智谱出品
+  - CosyVoice 2 阿里出品
+  - 自然度极高
+  sub_category: audio
+  properties:
+    languages:
+    - 中文
+    - 英语
+    - 日语
+    sample_rate: 24kHz
+    realtime: true
+- name: Whisper V3
+  description: OpenAI 开源语音识别模型，多语言支持
+  url: https://github.com/openai/whisper
+  repo: https://github.com/openai/whisper
+  type: open
+  category: foundation-models/multimodal
+  license: MIT
+  status: active
+  tags:
+  - voice-synthesis
+  - voice-recognition
+  - open-source
+  - multilingual
+  highlights:
+  - 多语言语音识别
+  - MIT 开源
+  - 准确率极高
+  sub_category: audio
+  properties:
+    languages:
+    - 多语言
+    sample_rate: 16kHz
+    realtime: false
+  stars: 102234
+- name: BGE-M3
+  description: 智源人工智能研究院开源的多语言混合检索基座
+  url: https://github.com/FlagOpen/FlagEmbedding
+  repo: https://github.com/FlagOpen/FlagEmbedding
+  type: open
+  category: foundation-models/embedding-reranker
+  license: MIT
+  status: active
+  tags:
+  - embedding-model
+  - rag
+  - multilingual
+  - open-source
+  highlights:
+  - 支持 100+ 语言
+  - 稀疏与密集双检索
+  - MIT 开源
+  sub_category: embedding
+  full_name: BGE-M3
+  properties:
+    dimensions: 1024
+    max_tokens: 8192
+    mteb_score: 66.1
+  stars: 11795
+- name: text-embedding-3-large/small
+  description: OpenAI 最新嵌入模型，性能与成本分层
+  url: https://openai.com
+  type: closed
+  category: foundation-models/embedding-reranker
+  status: active
+  tags:
+  - embedding-model
+  - cloud-only
+  highlights:
+  - large/small 分层
+  - 维度可调
+  - 性能领先
+  sub_category: embedding
+  properties:
+    dimensions: 3072
+    max_tokens: 8191
+    mteb_score: 64.6
+- name: voyage-4-large
+  description: Voyage 2026 旗舰，MoE 架构顶尖召回率
+  url: https://voyageai.com
+  type: closed
+  category: foundation-models/embedding-reranker
+  status: active
+  tags:
+  - embedding-model
+  - rag
+  - cloud-only
+  highlights:
+  - 同尺寸最高检索精度
+  - 原生支持 32K 上下文
+  - 更低的商业调用成本
+  sub_category: embedding
+  properties:
+    dimensions: '1024'
+    max_tokens: '32000'
+    mteb_score: 领先
+- name: GTE-Qwen2
+  description: 阿里开源中文优化嵌入模型
+  url: https://huggingface.co/Alibaba-NLP/gte-Qwen2
+  type: open
+  category: foundation-models/embedding-reranker
+  license: Apache-2.0
+  status: active
+  tags:
+  - embedding-model
+  - chinese
+  - open-source
+  highlights:
+  - 中文优化
+  - Apache 2.0 开源
+  - Qwen2 架构
+  sub_category: embedding
+  properties:
+    dimensions: 1536
+    max_tokens: 8192
+    mteb_score: 63.5
+- name: jina-embeddings-v5-omni
+  description: Jina AI 最新 v5 全模态向量模型，支持文本与几何
+  url: https://jina.ai
+  type: open
+  category: foundation-models/embedding-reranker
+  license: Apache-2.0
+  status: active
+  tags:
+  - embedding-model
+  - open-source
+  - multilingual
+  sub_category: embedding
+  highlights:
+  - 全模态统一潜空间
+  - 开源可私有化部署
+  - 32K 超长上下文
+  properties:
+    dimensions: 1024
+    max_tokens: 8192
+    mteb_score: 65.5
+- name: BGE-Reranker-V2
+  full_name: BGE-Reranker-V2-M3
+  url: https://github.com/FlagOpen/FlagEmbedding
+  description: 智源开源重排序模型，配合 BGE-M3 使用效果极佳
+  is_open_source: true
+  license: MIT
+  sub_category: reranker
+  category: foundation-models/embedding-reranker
+  tags:
+  - rag
+  - multilingual
+  - open-source
+  highlights:
+  - 开源 Reranker 标杆
+  - 配合 BGE-M3 最佳
+  - MIT 开源
+  properties:
+    max_tokens: 512
+    mteb_score: 67.3
+  type: open
+  status: active
+  stars: 11795
+- name: Mistral Large 3
+  api_model_name: mistral-large-3
+  description: Mistral 欧洲最强开源旗舰，675B 参数，多语种霸榜
+  url: https://mistral.ai
+  type: open
+  category: foundation-models/llm
+  license: Apache-2.0
+  status: active
+  tags:
+  - flagship
+  - moe
+  - open-source
+  - multilingual
+  highlights:
+  - 675B MoE (41B 激活)
+  - 256K 超长上下文
+  - 原生多模态支持
+  sub_category: opensource
+  context_window: 256K
+  output_limit: 8K
+  price: 开源自部署
+- name: Mistral Vibe
+  api_model_name: mistral-vibe
+  description: Mistral 工作流与远程编码全能 Agent
+  url: https://mistral.ai
+  type: closed
+  category: foundation-models/llm
+  status: active
+  tags:
+  - agent
+  - coding
+  highlights:
+  - 原生支持 Work Mode
+  - 专研远程编码集成
+  - 替代 Le Chat 成为主力
+  sub_category: overseas
+  context_window: 256K
+  output_limit: 8K
+  price: 商业调用定价
+- name: FLUX.2 (Max/Pro)
+  description: BFL 2026 最强开源图像底座，彻底颠覆照片级生成
+  url: https://bfl.ai
+  type: open
+  category: foundation-models/multimodal
+  license: Apache-2.0
+  status: active
+  tags:
+  - image-generation
+  - flagship
+  highlights:
+  - 最高 4 MP 原生输出
+  - 极强排版与多视角一致性
+  - Max/Flex/Pro 多版本矩阵
+  sub_category: image
+  properties:
+    max_resolution: 2048x2048
+    api_available: true
+- name: Runway Gen-4
+  description: 好莱坞级别视频生成与工业管线标配
+  url: https://runwayml.com
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - enterprise
+  highlights:
+  - Motion Brush 3.0
+  - Aleph 高级视频编排
+  - Director Mode 导演视角
+  sub_category: video
+  properties:
+    max_duration: 10s
+    max_resolution: 4K
+- name: Luma Ray3
+  description: 物理真实感与 3D 空间理解最强视频模型
+  url: https://lumalabs.ai
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - content-creation
+  highlights:
+  - 物理引擎级连贯性
+  - 替代旧版 Dream Machine
+  - 极致光影折射与动态模糊
+  sub_category: video
+  properties:
+    max_duration: 5s
+    max_resolution: 1080p
+- name: Pika 2.0
+  description: 极速迭代与炫酷风格化的短视频利器
+  url: https://pika.art
+  type: closed
+  category: foundation-models/multimodal
+  status: active
+  tags:
+  - video-generation
+  - content-creation
+  highlights:
+  - 首创 Pikaffects 特效
+  - 支持背景与人物局部重绘
+  - 速度与社交媒体首选
+  sub_category: video
+  properties:
+    max_duration: 3s
+- name: cohere-embed-v4
+  api_model_name: cohere-embed-v4
+  description: Cohere 2026 原生多模态向量检索模型
+  url: https://cohere.com
+  type: closed
+  category: foundation-models/embedding-reranker
+  status: active
+  tags:
+  - multimodal
+  - open-source
+  highlights:
+  - 真正交织文本、图像与图表
+  - Matryoshka 弹性维度配置
+  - 支持 100+ 语种
+  sub_category: embedding
+  properties:
+    dimensions: 256/1024/3072
+    max_tokens: '128000'

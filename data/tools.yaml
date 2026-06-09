@@ -1,0 +1,1033 @@
+- name: ACP
+  category: tools-and-protocols/function-calling
+  sub_category: protocol
+  description: AI Agent 通信开放协议
+  tags:
+  - mcp
+  - agent
+  - chat
+  status: active
+  stars: 1000
+  license: Apache-2.0
+  url: https://github.com/i-am-bee/acp
+  highlights:
+  - 1K Stars
+  - Agent 通信
+  - 开放协议
+  type: open
+- name: python-a2a
+  category: tools-and-protocols/function-calling
+  sub_category: protocol
+  description: Python A2A 协议实现
+  tags:
+  - mcp
+  - a2a
+  - coding-assistant
+  status: active
+  stars: 1000
+  license: MIT
+  url: https://github.com/themanojdesai/python-a2a
+  highlights:
+  - 1K Stars
+  - A2A 协议
+  - Python 实现
+  type: open
+- name: MCP (Model Context Protocol)
+  description: Anthropic 提出的模型上下文协议，已成为 AI 工具集成的行业绝对标准
+  url: https://modelcontextprotocol.io
+  repo: https://github.com/modelcontextprotocol
+  category: tools-and-protocols/mcp
+  type: protocol
+  status: active
+  tags:
+  - mcp
+  - tool-calling
+  - open-source
+  highlights:
+  - 统一的跨平台工具集成标准
+  - 几千个活跃的开源 MCP Servers
+  - 主流 IDE (Cursor/Cline) 和框架均已支持
+  - 2025 年 OpenAI Agents SDK 新增 MCP 支持
+  sub_category: protocol
+  license: MIT
+- name: A2A (Agent-to-Agent Protocol)
+  description: Google 提出的 Agent 间通信协议，实现不同框架 Agent 的互操作
+  url: https://github.com/google/A2A
+  repo: https://github.com/google/A2A
+  category: tools-and-protocols/mcp
+  type: protocol
+  status: active
+  tags:
+  - mcp
+  - agent
+  - google
+  highlights:
+  - Google 提出的 Agent 互操作协议
+  - 不同框架 Agent 间通信
+  - 与 MCP 互补 (MCP 连接工具，A2A 连接 Agent)
+  sub_category: protocol
+  license: Apache-2.0
+- name: Composio
+  description: AI Agent 专用的工具集成平台，提供海量经过测试的连接器
+  url: https://composio.dev
+  repo: https://github.com/ComposioHQ/composio
+  category: tools-and-protocols/function-calling
+  language: Python, TypeScript
+  license: Apache-2.0
+  status: active
+  tags:
+  - mcp
+  - function-calling
+  highlights:
+  - 数百个高频应用认证与集成
+  - 开箱即用，高度兼容不同 Agent 框架
+  - 统一认证管理
+  sub_category: integration
+  stars: 15000
+  type: open
+- name: Klavis AI
+  category: tools-and-protocols/function-calling
+  sub_category: integration
+  description: MCP 集成平台，让 AI Agent 使用各种工具
+  tags:
+  - mcp
+  - openai-compatible
+  status: active
+  stars: 5700
+  license: Apache-2.0
+  url: https://github.com/Klavis-AI/klavis
+  highlights:
+  - 5.7K Stars
+  - MCP 集成
+  - AI Agent 工具
+  type: open
+- name: ACI.dev
+  category: tools-and-protocols/function-calling
+  sub_category: integration
+  description: 开源工具调用平台，连接 600+ 应用
+  tags:
+  - tool-calling
+  - mcp
+  - openai-compatible
+  status: active
+  stars: 4800
+  license: Apache-2.0
+  url: https://github.com/aipotheosis-labs/aci
+  highlights:
+  - 4.8K Stars
+  - 600+ 应用
+  - 工具调用平台
+  type: open
+- name: Toolhouse
+  description: AI Agent 工具云服务，一键安装工具集
+  url: https://toolhouse.ai
+  repo: null
+  category: tools-and-protocols/function-calling
+  language: Python, TypeScript
+  license: proprietary
+  status: active
+  tags:
+  - mcp
+  - function-calling
+  - cloud-only
+  highlights:
+  - 一键安装工具
+  - SDK 集成
+  - 100+ 工具
+  sub_category: integration
+  type: protocol
+- name: OpenAI Built-in Tools
+  description: OpenAI 官方内置工具集 (Web Search, File Search, Computer Use)
+  url: https://openai.com
+  repo: null
+  category: tools-and-protocols/function-calling
+  type: closed
+  status: active
+  tags:
+  - openai-compatible
+  - tool-calling
+  - search
+  - agent
+  highlights:
+  - Web Search 联网搜索
+  - File Search 文件检索
+  - Computer Use 计算机操作
+  - 原生集成无需额外配置
+  sub_category: built-in
+  license: Proprietary
+- name: Anthropic Tool Use
+  description: Claude 原生工具调用能力，支持 MCP
+  url: https://anthropic.com
+  repo: null
+  category: tools-and-protocols/function-calling
+  type: closed
+  status: active
+  tags:
+  - anthropic
+  - tool-calling
+  - mcp
+  highlights:
+  - Claude 原生工具调用
+  - MCP 深度集成
+  - Computer Use 能力
+  sub_category: built-in
+  license: Proprietary
+- name: Browser Use
+  description: 让大模型具备完整的浏览器自主操作能力，结合 Playwright 等底层
+  url: https://github.com/browser-use/browser-use
+  repo: https://github.com/browser-use/browser-use
+  category: tools-and-protocols/browser-control
+  language: Python
+  license: MIT
+  status: active
+  tags:
+  - vscode-extension
+  - automation
+  - mcp
+  highlights:
+  - DOM 解析与视觉识别结合
+  - 大幅增强 Agent 的互联网交互能力
+  - MCP Server 集成
+  sub_category: browser
+  stars: 97000
+  type: open
+- name: Playwright
+  description: Microsoft 出品跨浏览器自动化框架，MCP Server 支持
+  url: https://playwright.dev
+  repo: https://github.com/microsoft/playwright
+  category: tools-and-protocols/browser-control
+  language: TypeScript, Python, Java
+  license: Apache-2.0
+  status: active
+  tags:
+  - vscode-extension
+  - automation
+  - mcp
+  highlights:
+  - Microsoft 出品
+  - 跨浏览器 (Chromium/Firefox/WebKit)
+  - MCP Server 支持
+  - 70K+ Stars
+  sub_category: browser
+  stars: 70000
+  type: open
+- name: Agent Browser
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: Vercel 出品的 AI Agent 浏览器自动化 CLI
+  tags:
+  - vscode-extension
+  - agent
+  - automation
+  - cloud-only
+  status: active
+  stars: 35500
+  license: MIT
+  url: https://github.com/vercel-labs/agent-browser
+  highlights:
+  - 35.5K Stars
+  - Vercel 出品
+  - 浏览器自动化 CLI
+  type: open
+- name: Playwright MCP
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: 微软出品的 Playwright MCP 服务器，AI 浏览器控制
+  tags:
+  - vscode-extension
+  - mcp
+  status: active
+  stars: 33000
+  license: Apache-2.0
+  url: https://github.com/microsoft/playwright-mcp
+  highlights:
+  - 微软出品
+  - Playwright MCP 服务器
+  - 33K Stars
+  type: open
+- name: Nanobrowser
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: 开源 Chrome 扩展，AI 多 Agent 网页自动化
+  tags:
+  - vscode-extension
+  - agent
+  status: active
+  stars: 13000
+  license: Apache-2.0
+  url: https://github.com/nanobrowser/nanobrowser
+  highlights:
+  - Chrome 扩展
+  - AI 多 Agent 网页自动化
+  - 13K Stars
+  type: open
+- name: Stagehand
+  description: AI 网页交互工具，让 Agent 自然语言操控网页
+  url: https://github.com/browserbase/stagehand
+  repo: https://github.com/browserbase/stagehand
+  category: tools-and-protocols/browser-control
+  language: TypeScript
+  license: MIT
+  status: active
+  tags:
+  - vscode-extension
+  - chat
+  - automation
+  highlights:
+  - AI 网页交互
+  - 自然语言操控
+  - TypeScript 原生
+  sub_category: browser
+  stars: 10000
+  type: open
+- name: OpenBrowser
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: 让 AI Agent 浏览网页的自主工具包
+  tags:
+  - vscode-extension
+  - agent
+  - autonomous
+  status: active
+  stars: 9500
+  license: MIT
+  url: https://github.com/ntegrals/openbrowser
+  highlights:
+  - 9.5K Stars
+  - 自主浏览
+  - AI Agent 工具包
+  type: open
+- name: Camofox Browser
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: 隐身无头浏览器，绕过 Cloudflare 等反爬
+  tags:
+  - vscode-extension
+  - security
+  status: active
+  stars: 6500
+  license: MIT
+  url: https://github.com/jo-inc/camofox-browser
+  highlights:
+  - 6.5K Stars
+  - 隐身浏览器
+  - 绕过反爬
+  type: open
+- name: Browser Agent
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  description: 视觉优先的开源浏览器 Agent
+  tags:
+  - vscode-extension
+  - multimodal
+  - agent
+  status: active
+  stars: 4100
+  license: MIT
+  url: https://github.com/magnitudedev/browser-agent
+  highlights:
+  - 4.1K Stars
+  - 视觉优先
+  - 浏览器 Agent
+  type: open
+- name: UI-TARS-desktop
+  category: tools-and-protocols/browser-control
+  sub_category: computer-use
+  description: 字节跳动开源的多模态 AI Agent 桌面应用
+  tags:
+  - agent
+  - multimodal
+  - desktop
+  status: active
+  stars: 36000
+  license: Apache-2.0
+  url: https://github.com/bytedance/UI-TARS-desktop
+  highlights:
+  - 字节跳动开源
+  - 多模态 AI Agent
+  - 36K Stars
+  type: open
+- name: Anthropic Computer Use
+  description: Claude 屏幕操作能力，系统级自主控制
+  url: https://anthropic.com
+  repo: null
+  category: tools-and-protocols/browser-control
+  type: closed
+  status: active
+  tags:
+  - agent
+  - anthropic
+  highlights:
+  - 屏幕理解与操作
+  - 系统级自主控制
+  - Claude 原生能力
+  sub_category: computer-use
+  license: Proprietary
+- name: OpenAI Computer Use
+  description: GPT-5.5 内置计算机使用能力
+  url: https://openai.com
+  repo: null
+  category: tools-and-protocols/browser-control
+  type: closed
+  status: active
+  tags:
+  - agent
+  - openai-compatible
+  highlights:
+  - GPT-5.5 原生支持
+  - 屏幕理解与操作
+  - 多模态驱动
+  sub_category: computer-use
+  license: Proprietary
+- name: n8n MCP Server
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: n8n 工作流自动化 MCP 服务器，191K Stars，面向技术团队
+  tags:
+  - automation
+  - mcp
+  - open-source
+  status: active
+  stars: 191000
+  license: Sustainable Use
+  url: https://github.com/n8n-io/n8n
+  highlights:
+  - 191K Stars
+  - 工作流自动化
+  - 面向技术团队
+  type: open
+- name: MarkItDown MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 微软出品的文件转 Markdown MCP 服务器，支持 PDF/Office/HTML
+  tags:
+  - mcp
+  - microsoft
+  - open-source
+  status: active
+  stars: 147000
+  license: MIT
+  url: https://github.com/microsoft/markitdown
+  highlights:
+  - 147K Stars
+  - 微软出品
+  - PDF/Office→Markdown
+  type: open
+- name: awesome-mcp-servers (punkpeye)
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: MCP 服务器精选集合，最全面
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 88700
+  license: MIT
+  url: https://github.com/punkpeye/awesome-mcp-servers
+  highlights:
+  - 88.7K Stars
+  - 最全面
+  - MCP 精选
+  type: open
+- name: MCP Filesystem Server
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: MCP 官方文件操作服务器，提供安全的沙盒化文件读写、搜索和目录导航
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - 85K Stars（官方服务器合集）
+  - 文件读写/搜索
+  - 沙盒权限控制
+  type: open
+- name: MCP Memory Server
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: MCP 官方知识图谱服务器，为 AI 提供跨会话持久记忆
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - 知识图谱持久记忆
+  - 实体/关系存储
+  - 官方参考实现
+  type: open
+- name: MCP Sequential Thinking
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 结构化多步推理 MCP 服务器，支持分支/修正/验证，让推理过程可见可审计
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - 结构化推理
+  - 分支/修正/验证
+  - 推理可审计
+  type: open
+- name: Brave Search MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Brave Search MCP 服务器，隐私优先的实时网页/新闻搜索
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - 实时网页搜索
+  - 新闻/本地搜索
+  - 隐私优先
+  type: open
+- name: Docker MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Docker 管理 MCP 服务器，容器/镜像/卷/网络操作
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - 容器管理
+  - 镜像构建
+  - Docker Compose
+  type: open
+- name: Postgres MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: PostgreSQL 直连 MCP 服务器，Schema 探索/SQL 查询/性能分析
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 85000
+  license: MIT
+  url: https://github.com/modelcontextprotocol/servers
+  highlights:
+  - PostgreSQL 直连
+  - Schema 探索
+  - 只读安全模式
+  type: open
+- name: Scrapling MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 智能网页抓取 MCP 服务器，自适应反检测/智能选择器
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 62000
+  license: MIT
+  url: https://github.com/D4Vinci/Scrapling
+  highlights:
+  - 62K Stars
+  - 智能抓取
+  - 反检测
+  type: open
+- name: Context7 MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 实时拉取最新官方库文档注入 LLM 上下文，消除 API 幻觉
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 57000
+  license: MIT
+  url: https://github.com/upstash/context7-mcp
+  highlights:
+  - 57K Stars
+  - 实时文档拉取
+  - 消除 API 幻觉
+  type: open
+- name: Chrome DevTools MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Chrome 开发者工具 MCP 服务器，实时调试/性能分析/DOM 操作
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 43000
+  license: MIT
+  url: https://github.com/anthropics/chrome-devtools-mcp
+  highlights:
+  - 43K Stars
+  - 实时调试
+  - DOM 操作
+  type: open
+- name: Firecrawl MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 网页抓取/搜索/结构化提取 MCP 服务器，支持持久化浏览器会话
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 35000
+  license: MIT
+  url: https://github.com/mendableai/firecrawl-mcp-server
+  highlights:
+  - 35K Stars
+  - 网页抓取
+  - 结构化提取
+  type: open
+- name: PostHog MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: PostHog 产品分析 MCP 服务器，事件追踪/功能标志/用户洞察
+  tags:
+  - data-analysis
+  - mcp
+  - open-source
+  status: active
+  stars: 34900
+  license: MIT
+  url: https://github.com/PostHog/posthog-mcp
+  highlights:
+  - 34.9K Stars
+  - 产品分析
+  - 事件追踪
+  type: open
+- name: GitHub MCP Server
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: GitHub 官方 MCP 服务器
+  tags:
+  - mcp
+  - coding-assistant
+  - open-source
+  status: active
+  stars: 30500
+  license: MIT
+  url: https://github.com/github/github-mcp-server
+  highlights:
+  - 30.5K Stars
+  - GitHub 官方
+  - MCP 服务器
+  type: open
+- name: FastMCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 构建 MCP 服务器的快速 Pythonic 方式
+  tags:
+  - mcp
+  - coding-assistant
+  - langchain
+  status: active
+  stars: 25500
+  license: Apache-2.0
+  url: https://github.com/PrefectHQ/fastmcp
+  highlights:
+  - 25.5K Stars
+  - Pythonic 方式
+  - 快速构建 MCP
+  type: open
+- name: Headroom
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: 压缩工具输出/日志/RAG 块，节省 Token
+  tags:
+  - mcp
+  - cost-effective
+  status: active
+  stars: 18900
+  license: MIT
+  url: https://github.com/chopratejas/headroom
+  highlights:
+  - 18.9K Stars
+  - 压缩工具输出
+  - 节省 Token
+  type: open
+- name: Chroma MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: ChromaDB 向量数据库 MCP 服务器，语义搜索/嵌入存储
+  tags:
+  - mcp
+  - open-source
+  - rag
+  status: active
+  stars: 18000
+  license: MIT
+  url: https://github.com/chroma-core/chroma-mcp
+  highlights:
+  - 向量数据库
+  - 语义搜索
+  - 嵌入存储
+  type: open
+- name: Figma-Context-MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Figma MCP 服务器，为 AI 编码代理提供设计上下文
+  tags:
+  - mcp
+  - content-creation
+  status: active
+  stars: 15000
+  license: MIT
+  url: https://github.com/GLips/Figma-Context-MCP
+  highlights:
+  - Figma MCP 服务器
+  - 设计上下文
+  - 15K Stars
+  type: open
+- name: MCP GitHub Server
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: GitHub 官方 MCP 服务器，支持 Issue/PR/代码搜索/Actions 工作流
+  tags:
+  - mcp
+  - microsoft
+  status: active
+  stars: 15000
+  license: MIT
+  url: https://github.com/github/github-mcp-server
+  highlights:
+  - GitHub 官方维护
+  - Issue/PR/Actions
+  - 代码搜索
+  type: open
+- name: mcp-chrome
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Chrome MCP 服务器，浏览器扩展形式
+  tags:
+  - mcp
+  - vscode-extension
+  status: active
+  stars: 12000
+  license: MIT
+  url: https://github.com/hangwin/mcp-chrome
+  highlights:
+  - Chrome MCP 服务器
+  - 浏览器扩展
+  - 12K Stars
+  type: open
+- name: Supabase MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Supabase 官方 MCP 服务器，数据库读写/Schema 管理/存储操作
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 8500
+  license: MIT
+  url: https://github.com/supabase-community/supabase-mcp
+  highlights:
+  - Supabase 官方
+  - 数据库读写
+  - 存储操作
+  type: open
+- name: Vercel MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Vercel 官方 MCP 服务器，部署管理/项目配置/日志查看
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 6200
+  license: MIT
+  url: https://github.com/vercel/vercel-mcp-server
+  highlights:
+  - Vercel 官方
+  - 部署管理
+  - 日志查看
+  type: open
+- name: awesome-mcp-servers (appcypher)
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: MCP 服务器精选列表，最全面
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 5600
+  license: MIT
+  url: https://github.com/appcypher/awesome-mcp-servers
+  highlights:
+  - 5.6K Stars
+  - 最全面
+  - MCP 精选
+  type: open
+- name: Notion MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Notion 官方 MCP 服务器，支持读写页面/数据库/搜索工作区
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 5500
+  license: MIT
+  url: https://github.com/makenotion/notion-mcp-server
+  highlights:
+  - Notion 官方
+  - 页面/数据库读写
+  - 工作区搜索
+  type: open
+- name: Sentry MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Sentry 官方 MCP 服务器，搜索错误/堆栈追踪/趋势分析，辅助生产调试
+  tags:
+  - enterprise
+  - mcp
+  - open-source
+  status: active
+  stars: 4200
+  license: MIT
+  url: https://github.com/getsentry/sentry-mcp
+  highlights:
+  - Sentry 官方
+  - 错误追踪
+  - 生产调试
+  type: open
+- name: awesome-mcp-servers (wong2)
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: MCP 服务器精选列表，社区维护
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 4100
+  license: MIT
+  url: https://github.com/wong2/awesome-mcp-servers
+  highlights:
+  - 4.1K Stars
+  - 社区维护
+  - MCP 精选
+  type: open
+- name: Stripe MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Stripe 官方 MCP 服务器，支付/客户/订阅管理
+  tags:
+  - enterprise
+  - mcp
+  - open-source
+  status: active
+  stars: 4100
+  license: MIT
+  url: https://github.com/stripe/stripe-mcp
+  highlights:
+  - Stripe 官方
+  - 支付管理
+  - 订阅操作
+  type: open
+- name: Cloudflare MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Cloudflare 官方 MCP 服务器，Workers/KV/R2/DNS 管理
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 3800
+  license: MIT
+  url: https://github.com/cloudflare/mcp-server-cloudflare
+  highlights:
+  - Cloudflare 官方
+  - Workers/KV/R2
+  - 边缘计算
+  type: open
+- name: Home Assistant MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Home Assistant 智能家居 MCP 服务器，设备控制/自动化/场景触发
+  tags:
+  - automation
+  - mcp
+  - open-source
+  status: active
+  stars: 3260
+  license: MIT
+  url: https://github.com/home-assistant/core
+  highlights:
+  - 智能家居
+  - 设备控制
+  - 自动化场景
+  type: open
+- name: Slack MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Slack 工作区 MCP 服务器，支持消息读写/频道管理/文件上传
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 3100
+  license: MIT
+  url: https://github.com/zencoderio/mcp-server-slack
+  highlights:
+  - 消息读写
+  - 频道管理
+  - 文件上传
+  type: open
+- name: AWS Documentation MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: AWS 官方文档 MCP 服务器，搜索/阅读 AWS 服务文档和最佳实践
+  tags:
+  - enterprise
+  - mcp
+  - open-source
+  status: active
+  stars: 2900
+  license: MIT
+  url: https://github.com/awslabs/mcp
+  highlights:
+  - AWS 官方
+  - 文档搜索
+  - 最佳实践
+  type: open
+- name: Linear MCP
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Linear 官方 MCP 服务器，Issue/项目/路线图全操作
+  tags:
+  - mcp
+  - open-source
+  status: active
+  stars: 2800
+  license: MIT
+  url: https://github.com/linear-app/linear-mcp
+  highlights:
+  - Linear 官方
+  - Issue 管理
+  - 路线图操作
+  type: open
+- name: awesome-claude-plugins
+  category: tools-and-protocols/mcp
+  sub_category: mcp-server
+  description: Claude Code 插件精选列表，Composio 出品
+  tags:
+  - mcp
+  - open-source
+  - openai-compatible
+  status: active
+  stars: 1700
+  license: MIT
+  url: https://github.com/ComposioHQ/awesome-claude-plugins
+  highlights:
+  - 1.7K Stars
+  - Composio 出品
+  - Claude 插件
+  type: open
+- name: CodePilot
+  category: tools-and-protocols/mcp
+  sub_category: mcp-client
+  description: 多模型 AI Agent 桌面客户端
+  tags:
+  - mcp
+  - desktop
+  - agentic
+  status: active
+  stars: 6000
+  license: MIT
+  url: https://github.com/op7418/CodePilot
+  highlights:
+  - 6K Stars
+  - 桌面客户端
+  - 多模型支持
+  type: open
+- name: 5ire
+  category: tools-and-protocols/mcp
+  sub_category: mcp-client
+  description: 跨平台桌面 AI 助手，MCP 客户端
+  tags:
+  - mcp
+  - desktop
+  - chat
+  status: active
+  stars: 5200
+  license: MIT
+  url: https://github.com/nanbingxyz/5ire
+  highlights:
+  - 5.2K Stars
+  - 跨平台桌面
+  - MCP 客户端
+  type: open
+- name: Witsy
+  category: tools-and-protocols/mcp
+  sub_category: mcp-client
+  description: 桌面 AI 助手/通用 MCP 客户端
+  tags:
+  - mcp
+  - desktop
+  - openai-compatible
+  status: active
+  stars: 2000
+  license: MIT
+  url: https://github.com/Kochava-Studios/witsy
+  highlights:
+  - 2K Stars
+  - 桌面 AI 助手
+  - 通用 MCP
+  type: open
+- name: Microsoft MCP Catalog
+  category: tools-and-protocols/mcp
+  sub_category: mcp-marketplace
+  description: 微软官方 MCP 服务器目录
+  tags:
+  - mcp
+  - microsoft
+  status: active
+  stars: 3300
+  license: MIT
+  url: https://github.com/microsoft/mcp
+  highlights:
+  - 3.3K Stars
+  - 微软官方
+  - MCP 服务器目录
+  type: open
+- name: Smithery
+  category: tools-and-protocols/mcp
+  sub_category: mcp-marketplace
+  description: MCP 服务器市场，一键安装/发现/连接社区 MCP 服务器
+  tags:
+  - mcp
+  - open-source
+  status: active
+  license: Proprietary
+  url: https://smithery.ai
+  highlights:
+  - MCP 服务器市场
+  - 一键安装
+  - 社区发现
+  type: closed
+- name: Glama MCP Registry
+  category: tools-and-protocols/mcp
+  sub_category: mcp-marketplace
+  description: 可搜索的 MCP 服务器目录与注册中心
+  tags:
+  - mcp
+  - open-source
+  status: active
+  license: Proprietary
+  url: https://glama.ai/mcp/servers
+  highlights:
+  - 服务器目录
+  - 搜索注册
+  - 社区驱动
+  type: closed

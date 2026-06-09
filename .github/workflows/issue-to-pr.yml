@@ -1,0 +1,30 @@
+name: Issue to PR
+on:
+  issues:
+    types: [labeled]
+jobs:
+  create-pr:
+    if: github.event.label.name == 'new-tool'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - name: Parse issue and add to YAML
+        run: python scripts/issue_to_pr.py "${{ github.event.issue.number }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Add new tool from issue #${{ github.event.issue.number }}'
+          title: 'Add new tool from issue #${{ github.event.issue.number }}'
+          body: 'Auto-generated from issue #${{ github.event.issue.number }}'
+          branch: auto/add-tool-${{ github.event.issue.number }}

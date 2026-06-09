@@ -1,0 +1,208 @@
+- name: NeMo Guardrails
+  category: safety-and-compliance/guardrails
+  sub_category: guardrails
+  description: NVIDIA 出品的 LLM 护栏工具包，可编程规则
+  tags:
+  - security
+  - gpu-acceleration
+  - automation
+  status: active
+  stars: 6400
+  license: Apache-2.0
+  url: https://github.com/NVIDIA/NeMo-Guardrails
+  repo: https://github.com/NVIDIA/NeMo-Guardrails
+  highlights:
+  - NVIDIA 出品
+  - 可编程规则
+  - 6.4K Stars
+  type: open
+- name: Guardrails AI
+  category: safety-and-compliance/guardrails
+  sub_category: guardrails
+  description: 开源 LLM 输出验证与纠正框架
+  tags:
+  - security
+  - compliance
+  - open-source
+  status: active
+  stars: 5000
+  license: Apache-2.0
+  url: https://github.com/guardrails-ai/guardrails
+  repo: https://github.com/guardrails-ai/guardrails
+  highlights:
+  - 开源输出验证
+  - 自动纠正
+  - 100+ 社区验证器
+  type: open
+- name: Rebuff AI
+  category: safety-and-compliance/guardrails
+  sub_category: guardrails
+  description: Prompt 注入检测的自愈式防护框架
+  tags:
+  - security
+  - automation
+  status: active
+  stars: 1500
+  license: MIT
+  url: https://github.com/protectai/rebuff
+  repo: https://github.com/protectai/rebuff
+  highlights:
+  - 自愈式防护
+  - Prompt 注入检测
+  - 1.5K Stars
+  type: open
+- name: Prompt Armor
+  category: safety-and-compliance/guardrails
+  sub_category: guardrails
+  description: Prompt 注入检测与防护工具
+  tags:
+  - security
+  status: active
+  license: Proprietary
+  url: https://promptarmor.com
+  highlights:
+  - Prompt 注入检测
+  - 防护工具
+  - 企业级
+  type: closed
+- name: Lakera Guard
+  category: safety-and-compliance/guardrails
+  sub_category: guardrails
+  description: 实时 Prompt 注入防护 API，50ms 以下延迟
+  tags:
+  - security
+  - real-time
+  - enterprise
+  status: active
+  license: Proprietary
+  url: https://www.lakera.ai/lakera-guard
+  highlights:
+  - 实时防护 (50ms 延迟)
+  - 100+ 语言 98% 准确率
+  - Check Point 收购
+  type: closed
+- name: Llama Guard
+  category: safety-and-compliance/content-moderation
+  sub_category: moderation
+  description: Meta 出品的内容安全分类模型
+  tags:
+  - security
+  - open-source
+  - data-analysis
+  status: active
+  stars: 3000
+  license: Meta License
+  url: https://github.com/meta-llama/PurpleLlama
+  repo: https://github.com/meta-llama/PurpleLlama
+  highlights:
+  - Meta 出品
+  - 内容安全分类
+  - 3K Stars
+  type: open
+- name: OpenAI Moderation
+  category: safety-and-compliance/content-moderation
+  sub_category: moderation
+  description: OpenAI 内置的内容审核 API
+  tags:
+  - security
+  - openai-compatible
+  - api-gateway
+  status: active
+  license: Proprietary
+  url: https://platform.openai.com/docs/guides/moderation
+  highlights:
+  - OpenAI 内置
+  - 内容审核 API
+  - 免费
+  type: closed
+- name: Promptfoo
+  category: safety-and-compliance/red-teaming
+  sub_category: red-teaming
+  description: 最流行的 LLM 红队测试框架，支持 50+ 漏洞类型扫描
+  tags:
+  - security
+  - open-source
+  - cli-tool
+  status: active
+  stars: 8000
+  license: MIT
+  url: https://promptfoo.dev
+  repo: https://github.com/promptfoo/promptfoo
+  highlights:
+  - 50+ 漏洞类型扫描
+  - YAML 定义测试用例
+  - CI/CD 集成
+  - OpenAI 收购
+  type: open
+- name: Garak
+  category: safety-and-compliance/red-teaming
+  sub_category: red-teaming
+  description: NVIDIA 出品的 LLM 漏洞扫描器，内置 37+ 探测模块
+  tags:
+  - security
+  - gpu-acceleration
+  - data-analysis
+  status: active
+  stars: 4500
+  license: Apache-2.0
+  url: https://garak.ai
+  repo: https://github.com/NVIDIA/garak
+  highlights:
+  - NVIDIA 出品
+  - 37+ 探测模块 (注入/越狱/幻觉/毒性)
+  - 结构化报告输出
+  type: open
+- name: PyRIT
+  category: safety-and-compliance/red-teaming
+  sub_category: red-teaming
+  description: 微软推出的生成式 AI 风险识别框架，多轮次攻击编排
+  tags:
+  - security
+  - microsoft
+  - agent
+  status: active
+  stars: 2800
+  license: MIT
+  url: https://github.com/Azure/PyRIT
+  repo: https://github.com/Azure/PyRIT
+  highlights:
+  - Microsoft 出品
+  - 多轮次攻击编排
+  - 多模态攻击支持
+  type: open
+- name: Inspect
+  category: safety-and-compliance/evaluation
+  sub_category: evaluation
+  description: 英国 AI 安全研究所评估框架，100+ 预构建评估项
+  tags:
+  - security
+  - data-analysis
+  - compliance
+  status: active
+  stars: 1200
+  license: MIT
+  url: https://inspect.aisi.org.uk
+  repo: https://github.com/UKGovernmentBEIS/inspect_ai
+  highlights:
+  - 英国 AISI 出品
+  - 100+ 预构建评估
+  - Anthropic/DeepMind 采用
+  type: open
+- name: HarmBench
+  category: safety-and-compliance/evaluation
+  sub_category: evaluation
+  description: AI 安全中心发布的标准化红队基准，510 种有害行为
+  tags:
+  - security
+  - data-analysis
+  - academic
+  status: active
+  stars: 900
+  license: MIT
+  url: https://harmbench.org
+  repo: https://github.com/centerforaisafety/HarmBench
+  highlights:
+  - 510 种有害行为
+  - 18 种对抗攻击方法
+  - 学术界标准基准
+  type: open

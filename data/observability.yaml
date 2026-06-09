@@ -1,0 +1,273 @@
+- name: RagaAI Catalyst
+  category: observability/tracing
+  sub_category: tracing
+  description: AI Agent 可观测性、监控与评估框架
+  tags:
+  - observability
+  - data-analysis
+  - agent
+  status: active
+  stars: 16000
+  license: Apache-2.0
+  url: https://github.com/raga-ai-hub/RagaAI-Catalyst
+  highlights:
+  - AI Agent 可观测性
+  - 监控+评估
+  - 16K Stars
+  type: open
+- name: Langfuse
+  category: observability/tracing
+  sub_category: tracing
+  description: 开源 LLM 工程平台，追踪、评估、提示管理
+  tags:
+  - observability
+  - data-analysis
+  - open-source
+  status: active
+  stars: 8000
+  license: MIT
+  url: https://github.com/langfuse/langfuse
+  highlights:
+  - 开源 LLM 工程平台
+  - 追踪+评估+提示管理
+  - 8K Stars
+  type: open
+- name: Helicone
+  category: observability/tracing
+  sub_category: tracing
+  description: 开源 LLM 可观测性平台，支持 OpenAI/Claude
+  tags:
+  - observability
+  - open-source
+  status: active
+  stars: 6000
+  license: Apache-2.0
+  url: https://github.com/Helicone/helicone
+  highlights:
+  - 开源 LLM 可观测性
+  - 6K Stars
+  - OpenAI/Claude 支持
+  type: open
+- name: Pezzo
+  category: observability/tracing
+  sub_category: tracing
+  description: 开源开发者优先的 LLMOps 平台，提示管理+追踪
+  tags:
+  - observability
+  - automation
+  status: active
+  stars: 3200
+  license: MIT
+  url: https://github.com/pezzolabs/pezzo
+  highlights:
+  - 3.2K Stars
+  - 开发者优先
+  - 提示管理+追踪
+  type: open
+- name: OpenLIT
+  category: observability/tracing
+  sub_category: tracing
+  description: OpenTelemetry 原生的 LLM 可观测性平台
+  tags:
+  - observability
+  - open-source
+  status: active
+  stars: 2500
+  license: Apache-2.0
+  url: https://github.com/openlit/openlit
+  highlights:
+  - OpenTelemetry 原生
+  - LLM 可观测性
+  - 2.5K Stars
+  type: open
+- name: Langtrace
+  category: observability/tracing
+  sub_category: tracing
+  description: 基于 OpenTelemetry 的 LLM 追踪工具
+  tags:
+  - observability
+  - open-source
+  status: active
+  stars: 1200
+  license: Apache-2.0
+  url: https://github.com/Scale3-Labs/langtrace
+  highlights:
+  - OpenTelemetry 追踪
+  - 1.2K Stars
+  - 轻量级
+  type: open
+- name: LangSmith
+  category: observability/tracing
+  sub_category: tracing
+  description: LangChain 官方的 LLM 应用追踪与评估平台
+  tags:
+  - observability
+  - data-analysis
+  - langchain
+  status: active
+  license: Proprietary
+  url: https://smith.langchain.com
+  highlights:
+  - LangChain 官方
+  - 追踪+评估
+  - LLM 应用平台
+  type: closed
+- name: LiteLLM Budget Manager
+  category: observability/cost-monitoring
+  sub_category: cost
+  description: LiteLLM 内置的预算与 Token 限额管理
+  tags:
+  - cost-effective
+  - openai-compatible
+  status: active
+  stars: 15000
+  license: MIT
+  url: https://github.com/BerriAI/litellm
+  highlights:
+  - 预算管理
+  - Token 限额
+  - 内置功能
+  type: open
+- name: OpenRouter Usage
+  category: observability/cost-monitoring
+  sub_category: cost
+  description: OpenRouter 内置的 Token 消耗与成本监控
+  tags:
+  - cost-effective
+  - observability
+  - openai-compatible
+  status: active
+  license: Proprietary
+  url: https://openrouter.ai
+  highlights:
+  - Token 消耗监控
+  - 成本分析
+  - 内置功能
+  type: closed
+- name: OpenAI Evals
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: OpenAI 官方 LLM 评估框架，支持自定义评估任务
+  tags:
+  - data-analysis
+  - openai-compatible
+  status: active
+  stars: 18600
+  license: MIT
+  url: https://github.com/openai/evals
+  highlights:
+  - 18.6K Stars
+  - OpenAI 官方
+  - 自定义评估
+  type: open
+- name: DeepEval
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: LLM 评估框架，支持 14+ 评估指标，单元测试风格
+  tags:
+  - data-analysis
+  - automation
+  - observability
+  status: active
+  stars: 16000
+  license: Apache-2.0
+  url: https://github.com/confident-ai/deepeval
+  highlights:
+  - 16K Stars
+  - 14+ 评估指标
+  - 单元测试风格
+  type: open
+- name: OpenCompass
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: LLM 评估平台，支持 100+ 数据集，国内最权威
+  tags:
+  - data-analysis
+  - chinese
+  status: active
+  stars: 7000
+  license: Apache-2.0
+  url: https://github.com/open-compass/opencompass
+  highlights:
+  - 7K Stars
+  - 100+ 数据集
+  - 国内最权威
+  type: open
+- name: AgentBench
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: ICLR 2024 论文，评估 LLM 作为 Agent 的能力
+  tags:
+  - data-analysis
+  - agent
+  - academic
+  status: active
+  stars: 3500
+  license: Apache-2.0
+  url: https://github.com/THUDM/AgentBench
+  highlights:
+  - 3.5K Stars
+  - ICLR 2024
+  - Agent 评估
+  type: open
+- name: EvalScope
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: ModelScope 出品的 LLM 评估框架，支持自定义评估
+  tags:
+  - data-analysis
+  - open-source
+  status: active
+  stars: 2900
+  license: Apache-2.0
+  url: https://github.com/modelscope/evalscope
+  highlights:
+  - 2.9K Stars
+  - ModelScope 出品
+  - 自定义评估
+  type: open
+- name: LMSYS Chatbot Arena
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: LLM 众包评测平台，ELO 排名
+  tags:
+  - data-analysis
+  status: active
+  license: Apache-2.0
+  url: https://lmarena.ai
+  highlights:
+  - LLM 众包评测
+  - ELO 排名
+  - 最权威
+  type: closed
+- name: Open LLM Leaderboard
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: HuggingFace 的开源 LLM 排行榜
+  tags:
+  - data-analysis
+  - open-source
+  status: active
+  license: Apache-2.0
+  url: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+  highlights:
+  - HuggingFace 排行榜
+  - 开源 LLM 评测
+  - 社区驱动
+  type: closed
+- name: HELM
+  category: observability/benchmarks
+  sub_category: benchmark
+  description: 斯坦福的 LLM 评估框架，多维度评测
+  tags:
+  - data-analysis
+  - academic
+  status: active
+  license: Apache-2.0
+  url: https://github.com/stanford-crfm/helm
+  highlights:
+  - 斯坦福评估框架
+  - 多维度评测
+  - 学术权威
+  type: open
+  stars: 2818

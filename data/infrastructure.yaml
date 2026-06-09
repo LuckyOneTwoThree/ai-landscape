@@ -1,0 +1,1228 @@
+- name: vLLM
+  url: https://github.com/vllm-project/vllm
+  description: 高性能 LLM 推理引擎，PagedAttention 连续批处理
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - high-performance
+  - gpu-acceleration
+  highlights:
+  - PagedAttention 连续批处理
+  - 多 LoRA 支持
+  - OpenAI 兼容 API
+  - 社区活跃
+  properties:
+    language: Python
+    license: Apache 2.0
+    quantization:
+    - AWQ
+    - GPTQ
+    - FP8
+    - INT4
+    max_model: 405B
+    deploy:
+    - Docker
+    - pip
+  status: active
+  stars: 45000
+  license: Apache-2.0
+- name: SGLang
+  url: https://github.com/sgl-project/sglang
+  description: 高吞吐结构化生成推理引擎
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - high-performance
+  - structured
+  highlights:
+  - RadixAttention 高吞吐
+  - 结构化生成 (JSON/正则)
+  - 多模态支持
+  properties:
+    language: Python
+    license: Apache 2.0
+    quantization:
+    - AWQ
+    - GPTQ
+    - FP8
+    max_model: 405B
+    deploy:
+    - Docker
+    - pip
+  status: active
+  stars: 12000
+  license: Apache-2.0
+- name: TensorRT-LLM
+  url: https://github.com/NVIDIA/TensorRT-LLM
+  description: NVIDIA 官方 GPU 优化推理引擎
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - gpu-acceleration
+  highlights:
+  - NVIDIA GPU 深度优化
+  - FP8/INT4 量化
+  - 推测解码
+  - 生产级性能
+  properties:
+    language: C++/Python
+    license: Apache 2.0
+    quantization:
+    - FP8
+    - INT4
+    - INT8
+    max_model: 405B
+    deploy:
+    - Docker
+    - Triton
+  status: active
+  license: Apache-2.0
+  stars: 13832
+- name: TGI (Text Generation Inference)
+  url: https://github.com/huggingface/text-generation-inference
+  description: HuggingFace 出品的推理服务
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - open-source
+  - easy-to-use
+  highlights:
+  - HuggingFace 生态集成
+  - 简单部署
+  - Token 流式输出
+  properties:
+    language: Rust
+    license: Apache 2.0
+    quantization:
+    - GPTQ
+    - AWQ
+    - bitsandbytes
+    max_model: 70B
+    deploy:
+    - Docker
+  status: active
+  license: Apache-2.0
+  stars: 10861
+- name: LMDeploy
+  url: https://github.com/InternLM/lmdeploy
+  description: 面壁智能 TurboMind 推理引擎，W4A16 量化
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - china-based
+  highlights:
+  - TurboMind 高吞吐
+  - W4A16/KV Cache 量化
+  - InternLM/Qwen/Llama 支持
+  - 国内生态
+  properties:
+    language: Python/C++
+    license: Apache 2.0
+    quantization:
+    - W4A16
+    - W8A16
+    - KV-INT4
+    max_model: 70B
+    deploy:
+    - Docker
+    - pip
+  status: active
+  license: Apache-2.0
+  stars: 7886
+- name: xinference
+  url: https://github.com/xorbitsai/inference
+  description: 统一推理平台，多后端聚合管理
+  type: open
+  category: infrastructure/inference
+  sub_category: cloud
+  tags:
+  - fast-inference
+  - all-in-one
+  - pipeline
+  highlights:
+  - 多后端 (vLLM/llama.cpp/TensorRT)
+  - 模型管理/分布式推理
+  - OpenAI 兼容 API
+  - 6k+ stars
+  properties:
+    language: Python
+    license: Apache 2.0
+    quantization:
+    - 取决于后端
+    max_model: 405B
+    deploy:
+    - Docker
+    - pip
+  status: active
+  license: Apache-2.0
+  stars: 9349
+- name: Ollama
+  url: https://ollama.com
+  description: 最简单的本地模型部署工具
+  type: open
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - self-hosted
+  - easy-to-use
+  - open-source
+  highlights:
+  - 一键安装运行
+  - REST API
+  - 模型库丰富
+  - 跨平台
+  properties:
+    language: Go
+    license: MIT
+    quantization:
+    - GGUF
+    max_model: 70B
+    deploy:
+    - macOS
+    - Linux
+    - Windows
+  status: active
+  stars: 120000
+  license: MIT
+- name: MLX LM
+  category: infrastructure/inference
+  sub_category: local
+  description: Apple Silicon 优化的 LLM 推理框架
+  tags:
+  - fast-inference
+  - on-device
+  status: active
+  stars: 5000
+  license: MIT
+  url: https://github.com/ml-explore/mlx-lm
+  highlights:
+  - Apple Silicon 优化
+  - 统一内存
+  - 5K Stars
+  type: open
+- name: LM Studio
+  url: https://lmstudio.ai
+  description: GUI 桌面本地模型运行工具
+  type: closed
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - self-hosted
+  - desktop
+  highlights:
+  - 图形界面
+  - 本地模型运行
+  - 内置模型搜索
+  properties:
+    language: —
+    license: Proprietary
+    quantization:
+    - GGUF
+    max_model: 70B
+    deploy:
+    - macOS
+    - Linux
+    - Windows
+  status: active
+  license: Proprietary
+- name: GPT4All
+  url: https://gpt4all.io
+  description: Nomic 出品的离线本地模型
+  type: open
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - self-hosted
+  - on-device
+  - open-source
+  highlights:
+  - 离线运行
+  - 简单易用
+  - 本地知识库
+  properties:
+    language: C++
+    license: MIT
+    quantization:
+    - GGUF
+    max_model: 13B
+    deploy:
+    - macOS
+    - Linux
+    - Windows
+  status: active
+  license: MIT
+  stars: 77353
+- name: Jan
+  url: https://jan.ai
+  description: 开源桌面本地模型应用
+  type: open
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - self-hosted
+  - desktop
+  - open-source
+  highlights:
+  - 开源桌面应用
+  - 本地模型运行
+  - 插件扩展
+  properties:
+    language: TypeScript
+    license: AGPL-3.0
+    quantization:
+    - GGUF
+    max_model: 70B
+    deploy:
+    - macOS
+    - Linux
+    - Windows
+  status: active
+  license: AGPL-3.0
+  stars: 42947
+- name: ExLlamaV2
+  url: https://github.com/turboderp/exllamav2
+  description: 消费级 GPU 量化推理引擎，EXL2 混合精度格式
+  type: open
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - fast-inference
+  - cost-effective
+  - gpu-acceleration
+  highlights:
+  - EXL2 混合精度量化 (2-8 bit)
+  - 24GB 显存跑 70B
+  - 速度极快
+  - 社区活跃
+  properties:
+    language: Python/C++
+    license: MIT
+    quantization:
+    - EXL2
+    - GPTQ
+    - 2-8bit
+    max_model: 70B
+    deploy:
+    - Linux
+    - Windows
+  status: active
+  license: MIT
+  stars: 4547
+- name: LocalAI
+  url: https://github.com/mudler/LocalAI
+  description: 支持 LLM/语音/图像/视频的本地 AI 引擎，Ollama 竞品
+  type: open
+  category: infrastructure/inference
+  sub_category: local
+  tags:
+  - fast-inference
+  - multimodal
+  - self-hosted
+  highlights:
+  - 支持 LLM/语音/图像/视频
+  - OpenAI 兼容 API
+  - CPU/GPU 运行
+  - 47k stars
+  properties:
+    language: Go
+    license: Apache 2.0
+    quantization:
+    - GGUF
+    - GPTQ
+    max_model: 70B
+    deploy:
+    - Docker
+    - Linux
+    - macOS
+  status: active
+  license: MIT
+  stars: 46740
+- name: llama.cpp
+  url: https://github.com/ggerganov/llama.cpp
+  description: C++ 实现的全平台 LLM 推理
+  type: open
+  category: infrastructure/inference
+  sub_category: gateway
+  tags:
+  - edge
+  - coding-assistant
+  - cross-platform
+  highlights:
+  - C++ 实现，无依赖
+  - GGUF 量化格式
+  - CPU/GPU 混合推理
+  - 极致轻量
+  properties:
+    language: C++
+    license: MIT
+    quantization:
+    - GGUF
+    - Q4_K_M
+    - Q5_K_M
+    max_model: 70B
+    deploy:
+    - 全平台
+  status: active
+  stars: 70000
+  license: MIT
+- name: Portkey
+  url: https://portkey.ai
+  description: AI 网关平台，可观测性与可靠性
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: gateway
+  tags:
+  - api-gateway
+  - observability
+  - enterprise
+  highlights:
+  - 可观测性
+  - 自动重试/回退
+  - Guardrails/缓存
+  - A/B 测试
+  properties:
+    providers: 100+
+    auth: API Key
+    features:
+    - 可观测
+    - 重试
+    - Guardrails
+    - A/B
+  status: active
+  stars: 8000
+  license: Apache-2.0
+- name: Kong
+  url: https://github.com/Kong/kong
+  description: 企业级 API 网关，AI 插件支持
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: gateway
+  tags:
+  - api-gateway
+  - enterprise
+  - mcp
+  highlights:
+  - 企业级 API 网关标准
+  - AI 插件生态
+  - 高性能/高可用
+  - 43k stars
+  properties:
+    providers:
+    - 通用 API + AI 插件
+    auth:
+    - API Key
+    - OAuth
+    - JWT
+    features:
+    - 限流
+    - 负载均衡
+    - 插件
+    - 可观测
+  status: active
+  license: Apache-2.0
+  stars: 43547
+- name: Higress
+  url: https://github.com/higress-group/higress
+  description: 阿里云 AI 原生 API 网关
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: gateway
+  tags:
+  - api-gateway
+  - china-based
+  - cloud-native
+  highlights:
+  - 阿里云出品
+  - AI 原生设计
+  - Envoy 底座
+  - 8.5k stars
+  properties:
+    providers:
+    - 国内模型 + 国际模型
+    auth: API Key
+    features:
+    - AI路由
+    - 限流
+    - 缓存
+    - Wasm插件
+  status: active
+  license: Apache-2.0
+  stars: 8589
+- name: MLC-LLM
+  url: https://github.com/mlc-ai/mlc-llm
+  description: 通用 GPU 编译部署框架
+  type: open
+  category: infrastructure/inference
+  sub_category: edge
+  tags:
+  - edge
+  - gpu-acceleration
+  - cross-platform
+  highlights:
+  - 通用 GPU 编译
+  - 全平台部署
+  - 高性能
+  properties:
+    language: Python/C++
+    license: Apache 2.0
+    quantization:
+    - Q4
+    - Q8
+    max_model: 70B
+    deploy:
+    - 全平台
+    - 移动端
+  status: active
+  license: Apache-2.0
+  stars: 22777
+- name: Core ML
+  url: https://developer.apple.com/core-ml/
+  description: Apple 设备原生推理框架
+  type: closed
+  category: infrastructure/inference
+  sub_category: edge
+  tags:
+  - edge
+  - on-device
+  - cloud-native
+  highlights:
+  - Apple 设备原生优化
+  - Neural Engine 加速
+  - Swift 集成
+  properties:
+    language: Swift
+    license: Proprietary
+    quantization:
+    - INT4
+    - INT8
+    max_model: 7B
+    deploy:
+    - iOS
+    - macOS
+  status: active
+  license: Proprietary
+- name: ONNX Runtime
+  url: https://onnxruntime.ai
+  description: 微软跨平台推理引擎
+  type: open
+  category: infrastructure/inference
+  sub_category: edge
+  tags:
+  - edge
+  - cross-platform
+  - microsoft
+  highlights:
+  - 跨平台推理
+  - 多硬件后端
+  - 生产级
+  properties:
+    language: C++/Python
+    license: MIT
+    quantization:
+    - INT4
+    - INT8
+    - FP16
+    max_model: 70B
+    deploy:
+    - 全平台
+  status: active
+  license: MIT
+  stars: 20771
+- name: Cloudflare AI Gateway
+  url: https://developers.cloudflare.com/ai-gateway/
+  description: 边缘计算 AI 网关，全球分布式
+  type: closed
+  category: infrastructure/api-gateway
+  sub_category: edge
+  tags:
+  - api-gateway
+  - edge
+  - cloud-only
+  highlights:
+  - 边缘节点低延迟
+  - 多 Provider 支持
+  - 限流/日志
+  - Workers AI 集成
+  properties:
+    providers: 10+
+    auth: API Key
+    features:
+    - 边缘路由
+    - 限流
+    - 缓存
+  status: active
+  license: Proprietary
+- name: WebLLM
+  url: https://github.com/mlc-ai/web-llm
+  description: 浏览器端高性能 LLM 推理引擎 (WebGPU)
+  type: open
+  category: infrastructure/inference
+  sub_category: edge
+  tags:
+  - fast-inference
+  - browser
+  - on-device
+  highlights:
+  - 浏览器端推理
+  - WebGPU 加速
+  - 无需服务器
+  - 18k stars
+  properties:
+    language: TypeScript
+    license: Apache 2.0
+    quantization:
+    - Q4
+    - Q8
+    max_model: 7B
+    deploy:
+    - 浏览器
+  status: active
+  license: Apache-2.0
+  stars: 18147
+- name: MNN
+  url: https://github.com/alibaba/MNN
+  description: 阿里巴巴移动端/边缘推理引擎
+  type: open
+  category: infrastructure/inference
+  sub_category: edge
+  tags:
+  - fast-inference
+  - mobile
+  - china-based
+  highlights:
+  - 阿里出品
+  - 移动端优化
+  - 极致轻量
+  - 15k stars
+  properties:
+    language: C++
+    license: Apache 2.0
+    quantization:
+    - INT4
+    - INT8
+    - FP16
+    max_model: 7B
+    deploy:
+    - Android
+    - iOS
+    - 嵌入式
+  status: active
+  license: Apache-2.0
+  stars: 15447
+- name: Redis
+  category: infrastructure/vector-db
+  sub_category: distributed
+  description: 高性能向量数据库，实时数据驱动
+  tags:
+  - vector-db
+  - real-time
+  - high-performance
+  status: active
+  stars: 74800
+  license: BSD-3
+  url: https://github.com/redis/redis
+  highlights:
+  - 74.8K Stars
+  - 实时数据
+  - 高性能向量
+  type: open
+- name: TiDB
+  category: infrastructure/vector-db
+  sub_category: distributed
+  description: 为 Agent 工作负载设计的分布式数据库
+  tags:
+  - vector-db
+  - distributed
+  - agent
+  status: active
+  stars: 40100
+  license: Apache-2.0
+  url: https://github.com/pingcap/tidb
+  highlights:
+  - 40.1K Stars
+  - Agent 工作负载
+  - 分布式
+  type: open
+- name: OpenViking
+  category: infrastructure/vector-db
+  sub_category: distributed
+  description: 火山引擎出品的开源上下文数据库，专为 AI Agent 设计
+  tags:
+  - vector-db
+  - agent
+  - china-based
+  status: active
+  stars: 25300
+  license: Apache-2.0
+  url: https://github.com/volcengine/OpenViking
+  highlights:
+  - 25.3K Stars
+  - 火山引擎出品
+  - Agent 上下文数据库
+  type: open
+- name: Qdrant
+  url: https://qdrant.tech
+  description: Rust 高性能向量数据库，Payload 过滤
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - coding-assistant
+  - high-performance
+  highlights:
+  - Rust 编写高性能
+  - Payload 过滤
+  - 多向量支持
+  - 量化压缩
+  properties:
+    scale: 十亿级
+    index_types:
+    - HNSW
+    cloud: Qdrant Cloud
+    latency: <5ms
+  status: active
+  stars: 22000
+  license: Apache-2.0
+- name: Typesense
+  url: https://github.com/typesense/typesense
+  description: 快速容错搜索引擎，原生向量搜索支持
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - search
+  - api-gateway
+  highlights:
+  - 全文+向量混合搜索
+  - 容错搜索 (typo-tolerant)
+  - 极速响应
+  - 22k stars
+  properties:
+    scale: 十亿级
+    index_types:
+    - HNSW
+    cloud: Typesense Cloud
+    latency: <5ms
+  status: active
+  stars: 22000
+  license: GPL-3.0
+- name: Cognee
+  category: infrastructure/vector-db
+  sub_category: distributed
+  description: 开源 AI 记忆平台，为 Agent 提供持久化记忆
+  tags:
+  - agent
+  - rag
+  status: active
+  stars: 17700
+  license: Apache-2.0
+  url: https://github.com/topoteretes/cognee
+  highlights:
+  - 17.7K Stars
+  - AI 记忆平台
+  - 持久化记忆
+  type: open
+- name: Milvus
+  url: https://milvus.io
+  description: 分布式向量数据库，GPU 加速，百亿级规模
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - distributed
+  highlights:
+  - 分布式架构
+  - GPU 加速索引
+  - IVF/HNSW/DiskANN
+  - 生产级可靠性
+  properties:
+    scale: 百亿级
+    index_types:
+    - IVF
+    - HNSW
+    - DiskANN
+    cloud: Zilliz Cloud
+    latency: <10ms
+  status: active
+  license: Apache-2.0
+  stars: 44689
+- name: Weaviate
+  url: https://weaviate.io
+  description: 多模态向量搜索引擎，GraphQL API
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - multimodal
+  - api-gateway
+  highlights:
+  - 内置向量化模块
+  - 多模态搜索
+  - GraphQL API
+  - Agent-ready
+  properties:
+    scale: 十亿级
+    index_types:
+    - HNSW
+    cloud: Weaviate Cloud
+    latency: <10ms
+  status: active
+  license: BSD-3
+  stars: 16298
+- name: Vespa
+  url: https://vespa.ai
+  description: Yahoo 出品全文+向量混合搜索引擎
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - search
+  highlights:
+  - 全文+向量混合搜索
+  - 实时索引
+  - ML 模型内嵌
+  - 大规模生产验证
+  properties:
+    scale: 百亿级
+    index_types:
+    - HNSW
+    - 自定义
+    cloud: Vespa Cloud
+    latency: 1-10ms
+  status: active
+  license: Apache-2.0
+  stars: 6953
+- name: Elasticsearch 8.x
+  url: https://www.elastic.co/elasticsearch
+  description: 主流向量搜索引擎，HNSW 大幅改进
+  type: open
+  category: infrastructure/vector-db
+  sub_category: distributed
+  tags:
+  - gpu-acceleration
+  - search
+  - open-source
+  highlights:
+  - HNSW 原生支持
+  - 全文+向量混合
+  - 生态极其广泛
+  - Elastic Cloud 全托管
+  properties:
+    scale: 百亿级
+    index_types:
+    - HNSW
+    cloud: Elastic Cloud
+    latency: 5-50ms
+  status: active
+  license: Elastic License
+  stars: 76902
+- name: Chroma
+  url: https://www.trychroma.com
+  description: 极简嵌入式向量数据库，适合原型
+  type: open
+  category: infrastructure/vector-db
+  sub_category: embedded
+  tags:
+  - gpu-acceleration
+  - on-device
+  - lightweight
+  highlights:
+  - 极简 API
+  - 嵌入式部署
+  - 自动向量化
+  - 适合原型
+  properties:
+    scale: 百万级
+    index_types:
+    - HNSW
+    cloud: Chroma Cloud
+    latency: <10ms
+  status: active
+  stars: 18000
+  license: Apache-2.0
+- name: LanceDB
+  url: https://lancedb.com
+  description: 嵌入式多模态向量数据库，零配置
+  type: open
+  category: infrastructure/vector-db
+  sub_category: embedded
+  tags:
+  - gpu-acceleration
+  - on-device
+  - multimodal
+  highlights:
+  - 零配置嵌入式
+  - 多模态支持
+  - Apache Arrow 格式
+  properties:
+    scale: 千万级
+    index_types:
+    - IVF
+    - HNSW
+    cloud: LanceDB Cloud
+    latency: <10ms
+  status: active
+  license: Apache-2.0
+  stars: 6609
+- name: Pinecone
+  url: https://www.pinecone.io
+  description: 全托管 Serverless 向量数据库
+  type: closed
+  category: infrastructure/vector-db
+  sub_category: cloud-native
+  tags:
+  - gpu-acceleration
+  - serverless
+  - cloud-only
+  highlights:
+  - 全托管 Serverless
+  - 低运维
+  - 混合搜索
+  - 快速上手
+  properties:
+    scale: 十亿级
+    index_types:
+    - 专有
+    cloud: Pinecone
+    latency: <10ms
+  status: active
+  license: Proprietary
+- name: pgvector
+  url: https://github.com/pgvector/pgvector
+  description: PostgreSQL 向量扩展，无需额外基础设施
+  type: open
+  category: infrastructure/vector-db
+  sub_category: extension
+  tags:
+  - gpu-acceleration
+  - vector-db
+  - distributed
+  highlights:
+  - 基于 PostgreSQL
+  - 无需额外基础设施
+  - IVFFlat/HNSW 索引
+  properties:
+    scale: 千万级
+    index_types:
+    - IVFFlat
+    - HNSW
+    cloud: 各云厂商 PG
+    latency: <50ms
+  status: active
+  stars: 12000
+  license: PostgreSQL
+- name: FAISS
+  url: https://github.com/facebookresearch/faiss
+  description: Meta 开源高性能向量检索库
+  type: open
+  category: infrastructure/vector-db
+  sub_category: library
+  tags:
+  - gpu-acceleration
+  - open-source
+  - high-performance
+  highlights:
+  - Meta 开源
+  - GPU 加速
+  - 极致性能
+  - 研究首选
+  properties:
+    scale: 十亿级
+    index_types:
+    - IVF
+    - HNSW
+    - PQ
+    cloud: —
+    latency: <1ms
+  status: active
+  license: MIT
+  stars: 40233
+- name: txtai
+  url: https://github.com/neuml/txtai
+  description: AI 搜索引擎 + Embeddings 数据库，支持 RAG
+  type: open
+  category: infrastructure/vector-db
+  sub_category: library
+  tags:
+  - gpu-acceleration
+  - rag
+  - search
+  highlights:
+  - 语义搜索
+  - RAG 工作流
+  - Python 原生
+  - 9k stars
+  properties:
+    scale: 百万级
+    index_types:
+    - HNSW
+    cloud: —
+    latency: <10ms
+  status: active
+  license: Apache-2.0
+  stars: 12641
+- name: LiteLLM
+  url: https://github.com/BerriAI/litellm
+  description: 统一 API 格式调用 100+ LLM Provider
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: proxy
+  tags:
+  - api-gateway
+  - all-in-one
+  highlights:
+  - 统一 OpenAI 格式
+  - 100+ Provider 支持
+  - 负载均衡/故障转移
+  - 缓存/预算管理
+  properties:
+    providers: 100+
+    auth: API Key
+    features:
+    - 负载均衡
+    - 故障转移
+    - 限流
+    - 缓存
+  status: active
+  stars: 15000
+  license: MIT
+- name: OneAPI
+  url: https://github.com/songquanpeng/one-api
+  description: 多渠道 Token 管理平台，国内常用
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: management
+  tags:
+  - api-gateway
+  - china-based
+  highlights:
+  - 多渠道 Token 管理
+  - Azure/OpenAI/国产模型
+  - 限流/计费/密钥分发
+  - 中文社区活跃
+  properties:
+    providers: 50+
+    auth: API Key
+    features:
+    - 限流
+    - 计费
+    - 密钥分发
+  status: active
+  license: MIT
+  stars: 34748
+- name: CC Switch
+  url: https://github.com/farion1231/cc-switch
+  description: 跨平台桌面 AI 工具统一管理器
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: management
+  tags:
+  - api-gateway
+  - desktop
+  - all-in-one
+  highlights:
+  - Claude Code/Codex/Gemini 统一管理
+  - 跨平台桌面应用
+  - Tauri 2 构建
+  - 94k stars
+  properties:
+    providers:
+    - Claude Code
+    - Codex
+    - Gemini CLI
+    - OpenCode
+    - Hermes Agent
+    auth: API Key
+    features:
+    - 配置切换
+    - 多工具管理
+    - 跨平台
+  status: active
+  license: MIT
+  stars: 100
+- name: one-api
+  category: infrastructure/api-gateway
+  sub_category: aggregator
+  description: 国产多模型统一代理，计费系统
+  tags:
+  - api-gateway
+  - chinese
+  status: active
+  stars: 37000
+  license: MIT
+  url: https://github.com/songquanpeng/one-api
+  highlights:
+  - 国产多模型代理
+  - 计费系统
+  - 37K Stars
+  type: open
+- name: OpenRouter
+  url: https://openrouter.ai
+  description: 多模型路由聚合平台，统一 API
+  type: closed
+  category: infrastructure/api-gateway
+  sub_category: aggregator
+  tags:
+  - api-gateway
+  highlights:
+  - 200+ 模型
+  - 按用量付费
+  - 自动路由最优 Provider
+  properties:
+    providers: 200+
+    auth: API Key
+    features:
+    - 自动路由
+    - 按量付费
+  status: active
+  license: Proprietary
+- name: new-api
+  url: https://github.com/QuantumNous/new-api
+  description: 国内最火 AI 模型聚合分发平台
+  type: open
+  category: infrastructure/api-gateway
+  sub_category: aggregator
+  tags:
+  - api-gateway
+  - china-based
+  highlights:
+  - 统一 OpenAI 兼容 API
+  - 多模型聚合分发
+  - 国内生态首选
+  - 37k stars
+  properties:
+    providers: 50+
+    auth: API Key
+    features:
+    - 聚合分发
+    - 计费
+    - 限流
+  status: active
+  license: MIT
+  stars: 37788
+- name: Together AI
+  url: https://together.ai
+  description: 最流行的开源模型托管平台，Serverless 推理 + Fine-tuning
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: serverless
+  tags:
+  - gpu-acceleration
+  - serverless
+  - open-source
+  highlights:
+  - 200+ 开源模型一键部署
+  - Serverless 推理按量付费
+  - Fine-tuning 微调服务
+  - 极低冷启动延迟
+  status: active
+- name: Fireworks AI
+  url: https://fireworks.ai
+  description: 高速推理平台，专注开源模型极致延迟优化
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: serverless
+  tags:
+  - gpu-acceleration
+  - fast-inference
+  - open-source
+  highlights:
+  - 推理速度行业领先
+  - 开源模型深度优化
+  - Function Calling 支持
+  - 批量推理
+  status: active
+- name: Replicate
+  url: https://replicate.com
+  description: 最简单的模型部署平台，一行代码跑模型
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: serverless
+  tags:
+  - gpu-acceleration
+  - easy-to-use
+  - multimodal
+  highlights:
+  - 一行代码部署模型
+  - 多模态模型丰富
+  - API + Web 界面
+  - 按秒计费
+  status: active
+- name: Modal
+  url: https://modal.com
+  description: 开发者导向的 Serverless GPU 平台，Python 原生
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: serverless
+  tags:
+  - gpu-acceleration
+  - serverless
+  - coding-assistant
+  highlights:
+  - Python 原生开发体验
+  - 自动扩缩容
+  - 极低冷启动
+  - 适合自定义推理逻辑
+  status: active
+  license: Proprietary
+- name: Silicon Flow (硅基流动)
+  url: https://siliconflow.cn
+  description: 国内最流行的开源模型推理平台，极致性价比
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: serverless
+  tags:
+  - gpu-acceleration
+  - china-based
+  - cost-effective
+  - open-source
+  highlights:
+  - 国内最流行的开源模型平台
+  - DeepSeek/Qwen/FLUX 一键部署
+  - 极致性价比
+  - 免费额度
+  status: active
+- name: RunPod
+  url: https://runpod.io
+  description: GPU 租赁市场，按小时租用 A100/H100
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: rental
+  tags:
+  - gpu-acceleration
+  - cost-effective
+  highlights:
+  - 按小时租用 GPU
+  - A100/H100 可用
+  - Serverless + Pod 两种模式
+  - 社区模板丰富
+  status: active
+- name: Lambda Labs
+  url: https://lambdalabs.com
+  description: GPU 云服务商，H100 集群性价比高
+  type: closed
+  category: infrastructure/gpu-cloud
+  sub_category: rental
+  tags:
+  - gpu-acceleration
+  - distributed
+  highlights:
+  - H100 集群性价比高
+  - 1-4 卡到多节点
+  - 适合大规模训练
+  status: active

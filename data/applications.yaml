@@ -1,0 +1,1576 @@
+- name: Cline
+  description: 在 VS Code 内部运行的开源全能自主编码 Agent
+  url: https://github.com/cline/cline
+  repo: https://github.com/cline/cline
+  category: applications/coding-ide
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - agent
+  - vscode-extension
+  - open-source
+  - mcp
+  highlights:
+  - 强大的全自动执行流水线
+  - 原生全面集成 MCP 协议扩展工具
+  - 完全开源
+  sub_category: coding
+  stars: 40000
+- name: Tabby
+  category: applications/coding-ide
+  sub_category: coding
+  description: 自托管 AI 编码助手
+  tags:
+  - coding
+  - self-hosted
+  - agent
+  status: active
+  stars: 33600
+  license: Apache-2.0
+  url: https://github.com/TabbyML/tabby
+  highlights:
+  - 33.6K Stars
+  - 自托管
+  - AI 编码助手
+  type: open
+- name: Continue
+  description: 开源 IDE AI 助手，支持本地模型
+  url: https://continue.dev
+  repo: https://github.com/continuedev/continue
+  category: applications/coding-ide
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - vscode-extension
+  - open-source
+  - on-device
+  - mcp
+  highlights:
+  - 开源本地模型支持
+  - MCP 集成
+  - VS Code/JetBrains 扩展
+  sub_category: coding
+  stars: 20000
+- name: CodeGeeX
+  description: 智谱 AI 开源编程助手，GLM-5.1 驱动
+  url: https://codegeex.cn
+  repo: https://github.com/THUDM/CodeGeeX
+  category: applications/coding-ide
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - chinese
+  - open-source
+  - china-based
+  highlights:
+  - GLM-5.1 驱动
+  - 开源
+  - VS Code 集成
+  sub_category: coding
+  stars: 10000
+- name: Cursor
+  description: 当下最领先的 AI 原生代码编辑器，深度重塑编程体验
+  url: https://cursor.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - coding-assistant
+  - agent
+  highlights:
+  - Composer 模式自动多文件修改
+  - 极速的 Tab 预测补全 (100ms 以内)
+  - 项目级理解与智能重构
+  - 完美适配最强代码模型 (Claude Opus 4/GPT-5.5)
+  sub_category: coding
+- name: GitHub Copilot
+  description: GitHub 推出的 AI 编程助手，Cloud Agent + 多模型
+  url: https://github.com/features/copilot
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - agentic
+  - cloud-only
+  highlights:
+  - Copilot Workspace: Issue 到 PR 一站式
+  - Cloud Agent 云端随时唤起
+  - 多模型支持
+  - VS Code/JetBrains 原生集成
+  sub_category: coding
+- name: Windsurf
+  description: Codeium 团队 AI 原生 IDE，Cascade 核心，后被 Cognition 收购
+  url: https://codeium.com/windsurf
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - coding-assistant
+  - agent
+  - automation
+  highlights:
+  - Cascade 核心——理解整个代码库
+  - AI 原生架构设计
+  - 被 Cognition 收购 (~2.5 亿美元)
+  - 与 Cursor 并列第一梯队
+  sub_category: coding
+- name: Augment Code
+  description: 企业级 AI 编程助手，深度理解代码库上下文
+  url: https://augmentcode.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - enterprise
+  - long-context
+  highlights:
+  - 企业级代码理解
+  - 深度上下文感知
+  - VS Code/JetBrains 集成
+  sub_category: coding
+- name: Trae
+  description: 字节跳动推出的 AI 原生 IDE
+  url: https://trae.ai
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - coding-assistant
+  - chinese
+  - agent
+  highlights:
+  - 字节跳动出品
+  - AI 原生 IDE
+  - 中文优化
+  sub_category: coding
+- name: 通义灵码
+  description: 阿里巴巴 AI 编程助手，Qwen3 驱动
+  url: https://tongyi.aliyun.com/lingma
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - chinese
+  - china-based
+  highlights:
+  - Qwen3 驱动
+  - 中文优化
+  - 阿里生态集成
+  sub_category: coding
+- name: MarsCode
+  description: 字节跳动 AI 编程助手，豆包模型驱动
+  url: https://marscode.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - chinese
+  - china-based
+  highlights:
+  - 豆包模型驱动
+  - 字节生态集成
+  sub_category: coding
+- name: Amazon Kiro
+  description: Amazon Agentic IDE，Spec 驱动开发+Agent Hooks+AWS 深度集成
+  url: https://kiro.dev
+  repo: https://github.com/kirodotdev/Kiro
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - enterprise
+  highlights:
+  - Spec 驱动开发（Spec Mode）
+  - Agent Hooks 自动化工作流
+  - AWS 深度集成（Lambda/DynamoDB/CloudFormation）
+  - IDE + CLI 双模式
+  sub_category: coding
+- name: Amazon Q Developer
+  description: AWS 生态 AI 编程助手，前身为 CodeWhisperer，深耕云开发
+  url: https://aws.amazon.com/q/developer
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - enterprise
+  - cloud-only
+  highlights:
+  - AWS 生态完美优化（Lambda/DynamoDB/CloudFormation）
+  - 安全漏洞快速检测
+  - 基础设施优化建议
+  - VS Code/JetBrains 集成
+  sub_category: coding
+- name: Gemini Code Assist
+  description: Google AI 编程助手，Gemini 驱动，长上下文代码理解
+  url: https://cloud.google.com/gemini/docs/codeassist
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - google
+  - long-context
+  highlights:
+  - Gemini 3 驱动，百万级 Token 上下文
+  - 单次提示分析庞大 GitHub 仓库
+  - Android Studio 原生首选
+  - GCP 部署优化
+  sub_category: coding
+- name: JetBrains AI
+  description: JetBrains 全家桶内置 AI 助手，深度 IDE 集成
+  url: https://www.jetbrains.com/ai/
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - enterprise
+  highlights:
+  - IntelliJ/PyCharm/WebStorm 全系列集成
+  - 深度代码理解和重构
+  - 企业级安全合规
+  - Koog 1.0 Agent 框架支持
+  sub_category: coding
+- name: Replit
+  description: 浏览器端 AI 开发平台，Replit Agent 可自动规划/构建/调试/部署
+  url: https://replit.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - cloud-only
+  highlights:
+  - 浏览器端完整开发环境
+  - Replit Agent 全自动构建部署
+  - 内置 PostgreSQL 数据库
+  - 从想法到上线极速路径
+  sub_category: coding
+- name: Sourcegraph Cody
+  description: 企业级代码智能平台，跨仓库搜索+AI 编码助手
+  url: https://sourcegraph.com/cody
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - enterprise
+  - code-quality
+  highlights:
+  - 强大的跨仓库代码搜索
+  - 企业级代码智能平台
+  - VS Code/JetBrains 集成
+  - 适合大型组织代码理解
+  sub_category: coding
+- name: Supermaven
+  description: 极速 AI 代码补全工具，百万 Token 上下文窗口
+  url: https://supermaven.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - coding-assistant
+  highlights:
+  - 极速代码补全（百万 Token 上下文）
+  - VS Code 集成
+  - 低延迟预测
+  sub_category: coding
+- name: Qodo (CodiumAI)
+  description: AI 代码质量与测试平台，深度单元测试生成+代码审查
+  url: https://www.qodo.ai
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - code-quality
+  - coding
+  highlights:
+  - 深度单元测试自动生成
+  - 自动代码审查
+  - 防止回归错误
+  - 代码完整性分析
+  sub_category: coding
+- name: Tabnine
+  description: 隐私优先的 AI 编码助手，支持完全本地部署
+  url: https://www.tabnine.com
+  repo: null
+  category: applications/coding-ide
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - self-hosted
+  - on-device
+  highlights:
+  - 隐私优先，零代码保留
+  - 气隙隔离部署选项
+  - 本地推理能力
+  - 适合高合规企业
+  sub_category: coding
+- name: Kilo Code
+  description: 开源 AI 编程助手，跨 IDE/终端/浏览器/Slack 使用
+  url: https://kilo.ai
+  repo: null
+  category: applications/coding-ide
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - open-source
+  - agent
+  highlights:
+  - 跨 IDE/终端/浏览器/Slack
+  - BYOK 自带密钥
+  - 模型选择自由
+  - 透明可控开源方案
+  sub_category: coding
+  stars: 19946
+- name: Perplexity
+  description: 颠覆性的 AI 搜索引擎与研究助手，提供深度研究功能
+  url: https://perplexity.ai
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - deep-research
+  highlights:
+  - 极速且精准的信息聚合引用
+  - Pro 模式下复杂的多步逻辑推理
+  - Deep Research 撰写长篇报告
+  sub_category: search
+- name: ChatGPT Search
+  description: OpenAI AI 搜索，GPT-5.5 驱动 Deep Research
+  url: https://chatgpt.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - deep-research
+  - openai-compatible
+  highlights:
+  - GPT-5.5 驱动
+  - Deep Research 深度研究
+  - 联网搜索 + 引用
+  sub_category: search
+- name: Google AI Overviews
+  description: Google 搜索 AI 概览，Gemini 驱动
+  url: https://www.google.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - google
+  highlights:
+  - Gemini 驱动
+  - Google 搜索原生集成
+  - AI 概览摘要
+  sub_category: search
+- name: 秘塔 AI 搜索 (Metaso)
+  description: 国内领先的无广告强力学术与通用 AI 搜索引擎
+  url: https://metaso.cn
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - search
+  - deep-research
+  - academic
+  highlights:
+  - 极佳的中文搜索体验
+  - 学术研究与长文提纲生成
+  - 无广告
+  sub_category: search
+- name: Kimi
+  description: 月之暗面 AI 研究助手，K2-6 驱动，长上下文深度研究
+  url: https://kimi.moonshot.cn
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - search
+  - deep-research
+  - long-context
+  highlights:
+  - K2-6 驱动
+  - 超强长上下文
+  - 深度研究能力
+  sub_category: search
+- name: Consensus
+  description: AI 学术论文搜索引擎，基于证据的回答
+  url: https://consensus.app
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - academic
+  - deep-research
+  highlights:
+  - 学术论文搜索
+  - 基于证据的回答
+  - 引用追踪
+  sub_category: search
+- name: 秘塔 AI 搜索
+  category: applications/search-research
+  sub_category: search
+  description: 国内 AI 搜索引擎，中文优化
+  tags:
+  - search
+  - chinese
+  - real-time
+  status: active
+  license: Proprietary
+  url: https://metaso.cn
+  highlights:
+  - 国内 AI 搜索
+  - 中文优化
+  - 无广告
+  type: closed
+- name: You.com
+  description: AI 搜索引擎，自建网络索引，开发者 API 服务
+  url: https://you.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - api
+  highlights:
+  - 自建网络索引
+  - You.com Search API 面向开发者
+  - 多语言搜索结果优秀
+  - 内容提取功能
+  sub_category: search
+- name: Phind
+  description: 面向开发者的 AI 搜索引擎，Stack Overflow 替代品
+  url: https://www.phind.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - coding
+  - deep-research
+  highlights:
+  - 专注开发者搜索
+  - 答案富含代码块
+  - 自研 Phind 70B 代码模型
+  - CLI 命令行搜索
+  sub_category: search
+- name: Exa
+  description: 面向开发者的语义搜索 API，嵌入驱动的 AI 搜索
+  url: https://exa.ai
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - api
+  - rag
+  highlights:
+  - 嵌入驱动的语义搜索
+  - 内容提取（对 RAG 友好）
+  - findSimilar 相似页面发现
+  - 面向 LLM 工作流设计
+  sub_category: search
+- name: Tavily
+  description: Agent 搜索 API，LangChain/LlamaIndex 默认搜索工具
+  url: https://tavily.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - api
+  - agent
+  highlights:
+  - LangChain/LlamaIndex 默认搜索
+  - 专为 LLM Agent 工作流设计
+  - basic/advanced 双模式
+  - 可选答案综合
+  sub_category: search
+- name: Kagi
+  description: 付费隐私优先搜索引擎，AI 助手+无广告
+  url: https://kagi.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - privacy
+  highlights:
+  - 无广告隐私优先
+  - Quick Answer AI 摘要
+  - 可选 Claude/GPT/Gemini 模型
+  - Universal Summarizer
+  sub_category: search
+- name: Gemini Deep Research
+  description: Google Gemini 深度研究模式，依托 Google 索引新鲜度
+  url: https://gemini.google.com
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - search
+  - deep-research
+  - google
+  highlights:
+  - Google 索引新鲜度无与伦比
+  - 1M+ Token 上下文窗口
+  - Grounding API 开发者集成
+  - AI Mode 搜索结果重构
+  sub_category: search
+- name: 纳米搜索
+  description: 360 推出的 AI 搜索引擎，国内免费可用
+  url: https://nami.ai
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - search
+  - china-based
+  highlights:
+  - 360 出品
+  - 国内免费可用
+  - 中文搜索优化
+  - 多模态搜索
+  sub_category: search
+- name: 天工 AI 搜索
+  description: 昆仑万维 AI 搜索引擎，深度研究+学术搜索
+  url: https://search.tiangong.cn
+  repo: null
+  category: applications/search-research
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - search
+  - deep-research
+  - china-based
+  highlights:
+  - 昆仑万维出品
+  - 深度研究能力
+  - 学术搜索优化
+  - 中文场景优秀
+  sub_category: search
+- name: ChatGPT
+  description: OpenAI 通用 AI 助手，GPT-5.5 驱动
+  url: https://chatgpt.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chat
+  - multimodal
+  - openai-compatible
+  highlights:
+  - GPT-5.5 驱动
+  - 多模态 (文本/图像/语音/视频)
+  - GPTs 自定义 Agent
+  - 3M+ GPTs
+  sub_category: productivity
+- name: Claude
+  description: Anthropic 通用 AI 助手，编码/文档/分析
+  url: https://claude.ai
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chat
+  - coding
+  - data-analysis
+  - anthropic
+  highlights:
+  - Claude Opus 4/Sonnet 4 驱动
+  - 编码/文档/分析极强
+  - Artifacts 可视化输出
+  sub_category: productivity
+- name: Notion AI
+  description: Notion 内置 AI 助手，文档/知识库/项目管理
+  url: https://notion.so
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - document
+  - rag
+  - collaboration
+  highlights:
+  - Notion 内置 AI
+  - 文档智能编辑
+  - 知识库问答
+  sub_category: productivity
+- name: Microsoft Copilot
+  description: 微软 365 全家桶 AI 助手
+  url: https://copilot.microsoft.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - collaboration
+  - enterprise
+  - microsoft
+  highlights:
+  - Word/Excel/PPT/Outlook 全集成
+  - 企业级安全
+  - Microsoft 365 原生
+  sub_category: productivity
+- name: Gamma
+  description: AI 演示文稿生成，一键创建精美 PPT
+  url: https://gamma.app
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - presentation
+  - content-creation
+  highlights:
+  - AI 演示文稿生成
+  - 一键创建精美 PPT
+  - 多模板支持
+  sub_category: productivity
+- name: 智谱清言
+  description: 智谱 AI 通用助手，GLM-5.1 驱动，全模态
+  url: https://chatglm.cn
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - multimodal
+  highlights:
+  - GLM-5.1 驱动
+  - 全模态 (文本/图像/视频/语音)
+  - AutoGLM 自主操作
+  sub_category: productivity
+- name: 豆包
+  description: 字节跳动通用 AI 助手，抖音生态
+  url: https://doubao.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - china-based
+  highlights:
+  - 抖音生态集成
+  - 多模态能力
+  sub_category: productivity
+- name: 海螺 AI
+  description: MiniMax 通用助手，Speech 2/Music 2/Hailuo 2
+  url: https://hailuoai.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - multimodal
+  - content-creation
+  highlights:
+  - MiniMax M3 驱动
+  - Speech 2/Music 2/Hailuo 2
+  - 创作能力突出
+  sub_category: productivity
+- name: WPS AI
+  description: 金山 WPS 内置 AI 助手
+  url: https://ai.wps.cn
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - collaboration
+  - document
+  highlights:
+  - WPS 内置 AI
+  - 文档/表格/演示 AI 辅助
+  - 国内办公场景首选
+  sub_category: productivity
+- name: 飞书智能伙伴
+  description: 字节跳动飞书 AI 助手，企业协作
+  url: https://feishu.cn
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - enterprise
+  - collaboration
+  highlights:
+  - 飞书原生 AI
+  - 企业协作场景
+  - 多 Agent 协作
+  sub_category: productivity
+- name: 钉钉 AI
+  description: 阿里巴巴钉钉 AI 助手，企业协作
+  url: https://dingtalk.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - enterprise
+  - collaboration
+  highlights:
+  - 钉钉原生 AI
+  - 企业协作场景
+  - 阿里生态集成
+  sub_category: productivity
+- name: 飞书 AI
+  category: applications/productivity
+  sub_category: productivity
+  description: 飞书内置 AI 助手，企业协作增强
+  tags:
+  - collaboration
+  - enterprise
+  status: active
+  license: Proprietary
+  url: https://feishu.cn/ai
+  highlights:
+  - 飞书内置 AI
+  - 企业协作增强
+  - 中文优化
+  type: closed
+- name: Gemini
+  description: Google 通用 AI 助手，Gemini 3.5 Pro 驱动，Google 生态深度集成
+  url: https://gemini.google.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chat
+  - multimodal
+  - google
+  highlights:
+  - Gemini 3.5 Pro/Flash 驱动
+  - Google 搜索/地图/邮件/文档全集成
+  - 百万级 Token 上下文
+  - Gemini App Agent 化
+  sub_category: productivity
+- name: Grok
+  description: xAI 通用 AI 助手，实时 𝕏 平台数据，多智能体协作
+  url: https://grok.x.ai
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chat
+  - multimodal
+  - real-time
+  highlights:
+  - Grok 4.3 Beta 驱动
+  - 𝕏 平台实时数据接入
+  - 多智能体协作架构
+  - 图像生成+高级推理
+  sub_category: productivity
+- name: DeepSeek
+  description: 深度求索通用 AI 助手，DeepSeek-V3 驱动，开源模型领先
+  url: https://chat.deepseek.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chat
+  - chinese
+  - china-based
+  - open-source
+  highlights:
+  - DeepSeek-V3 驱动
+  - 开源模型领先
+  - 深度推理（R1 系列）
+  - 性价比极高
+  sub_category: productivity
+- name: v0 by Vercel
+  description: Vercel AI UI 生成器，自然语言生成 React 组件和页面
+  url: https://v0.dev
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - presentation
+  - content-creation
+  - coding
+  highlights:
+  - 自然语言生成 React 组件
+  - 一键部署到 Vercel
+  - shadcn/ui + Tailwind 风格
+  - 前端 UI 快速原型
+  sub_category: productivity
+- name: Bolt.new
+  description: StackBlitz AI 全栈应用构建器，浏览器内即时预览
+  url: https://bolt.new
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - content-creation
+  - coding
+  - agent
+  highlights:
+  - 浏览器内全栈开发
+  - 30 秒首次预览
+  - 框架灵活性高
+  - 内置 WebContainer 运行
+  sub_category: productivity
+- name: Lovable
+  description: AI 全栈应用构建器，Claude/GPT 驱动，内置 Supabase 数据库
+  url: https://lovable.dev
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - content-creation
+  - coding
+  - agent
+  highlights:
+  - Claude/GPT 双模型
+  - 内置 Supabase 数据库
+  - 代码可导出（完整 React）
+  - 适合 MVP 验证想法
+  sub_category: productivity
+- name: Suno
+  description: AI 音乐创作平台，文字生成完整歌曲
+  url: https://suno.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - content-creation
+  - multimodal
+  highlights:
+  - 文字生成完整歌曲
+  - 多种音乐风格
+  - 歌词+旋律+编曲全生成
+  - AI 音乐创作领先者
+  sub_category: productivity
+- name: 百度文心一言
+  description: 百度通用 AI 助手，文心 4.5 驱动，百度生态集成
+  url: https://yiyan.baidu.com
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - china-based
+  highlights:
+  - 文心 4.5 驱动
+  - 百度搜索生态集成
+  - 中文场景优化
+  - 多模态能力
+  sub_category: productivity
+- name: 讯飞星火
+  description: 科大讯飞通用 AI 助手，星火 5.0 驱动，语音能力领先
+  url: https://xinghuo.xfyun.cn
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - china-based
+  highlights:
+  - 星火 5.0 驱动
+  - 语音能力行业领先
+  - 教育/医疗场景深耕
+  - 讯飞生态集成
+  sub_category: productivity
+- name: 通义千问
+  description: 阿里通用 AI 助手，Qwen3 驱动，阿里云生态集成
+  url: https://tongyi.aliyun.com/qianwen
+  repo: null
+  category: applications/productivity
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - chinese
+  - chat
+  - china-based
+  - enterprise
+  highlights:
+  - Qwen3 驱动
+  - 阿里云生态深度集成
+  - 开源模型 Qwen 系列
+  - 企业级部署方案
+  sub_category: productivity
+- name: Hermes Agent
+  description: Nous Research 开源自进化 AI Agent，持久记忆+自动技能创建+多平台消息网关
+  url: https://hermes-agent.nousresearch.com
+  repo: https://github.com/NousResearch/hermes-agent
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - autonomous
+  - open-source
+  - memory
+  - mcp
+  highlights:
+  - 188K Stars，2026 年最火开源 Agent
+  - 自我进化：从经验中自动创建技能并持续改进
+  - 三层记忆：持久记忆+FTS5 对话搜索+Honcho 用户建模
+  - 全平台消息网关：Telegram/Discord/Slack/WhatsApp/Signal/CLI
+  - 多模型自由切换，200+ 模型支持
+  - Cron 定时自动化 + 子 Agent 委派并行
+  sub_category: agent
+  stars: 188000
+- name: AutoGPT
+  description: 开源自主 AI Agent 平台先驱，无需人工干预自主完成复杂任务
+  url: https://agpt.co
+  repo: https://github.com/Significant-Gravitas/AutoGPT
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - autonomous
+  - open-source
+  highlights:
+  - 183K Stars，自主 Agent 开山鼻祖
+  - 无需人工逐轮干预，自主拆解和执行复杂任务
+  - 长时间运行任务场景优势明显
+  - Forge/Backend/Frontend 完整平台架构
+  - 庞大的插件和扩展生态
+  sub_category: agent
+  stars: 183000
+- name: Claw Code
+  description: Rust 重写的开源 AI 编码 Agent，Claude Code 架构的净室实现，GitHub 历史增速第一
+  url: https://claw-code.codes
+  repo: https://github.com/ultraworkers/claw-code
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - coding
+  - agent
+  - cli-tool
+  - open-source
+  - autonomous
+  highlights:
+  - 167K Stars，GitHub 史上最快破 10 万星
+  - Rust 重写，极速低内存
+  - Claude Code 架构净室实现
+  - 多 Agent 编排 + MCP 协议支持
+  - 跨平台 CLI
+  sub_category: agent
+  stars: 167000
+- name: Gemini CLI
+  description: Google 开源终端 AI Agent，免费使用 Gemini 2.5 Pro + 1M Token 上下文
+  url: https://github.com/google-gemini/gemini-cli
+  repo: https://github.com/google-gemini/gemini-cli
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - agent
+  - cli-tool
+  - google
+  - open-source
+  highlights:
+  - 100K Stars，Google 官方开源
+  - 免费使用 Gemini 2.5 Pro（60 次/分钟、1000 次/天）
+  - 1M Token 上下文窗口
+  - 终端编码/调试/文件操作
+  - MCP 工具扩展支持
+  sub_category: agent
+  stars: 100000
+- name: browser-use
+  description: 最热门的 AI 浏览器自动化框架，让 Agent 直接操控浏览器完成复杂网页任务
+  url: https://github.com/browser-use/browser-use
+  repo: https://github.com/browser-use/browser-use
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - browser
+  - open-source
+  - automation
+  highlights:
+  - 93K Stars，AI 浏览器自动化第一
+  - 支持多种 LLM 后端
+  - DOM 交互 + 视觉理解双模式
+  - 多标签页管理与表单自动填写
+  - 与 OpenClaw/Claude Code 生态联动
+  sub_category: agent
+  stars: 93000
+- name: DeerFlow
+  description: 字节跳动开源深度研究多 Agent 框架，LangGraph 驱动，支持子代理协同
+  url: https://github.com/bytedance/deer-flow
+  repo: https://github.com/bytedance/deer-flow
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - agent
+  - open-source
+  - deep-research
+  - chinese
+  highlights:
+  - GitHub Trending 冠军项目
+  - 字节跳动出品，SuperAgent 架构
+  - LangGraph 驱动的多 Agent 协同
+  - 深度研究能力（Deep Research）
+  - 子代理动态调度
+  sub_category: agent
+  stars: 50000
+- name: CowAgent
+  category: applications/agent-tools
+  sub_category: agent
+  description: 开源超级 AI 助手，任务规划+执行，Agent Harness
+  tags:
+  - agent
+  - automation
+  status: active
+  stars: 45000
+  license: Apache-2.0
+  url: https://github.com/zhayujie/CowAgent
+  highlights:
+  - 45K Stars
+  - 任务规划
+  - Agent Harness
+  type: open
+- name: Cherry Studio
+  description: AI 生产力桌面系统，300+ 助手与自主 Agent，多模型统一接入
+  url: https://cherry-ai.com
+  repo: https://github.com/CherryHQ/cherry-studio
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - cross-platform
+  - desktop
+  - open-source
+  - mcp
+  highlights:
+  - 43K Stars，桌面端 AI 生产力工具
+  - 300+ 预置助手与自主 Agent
+  - 多模型自由切换（OpenAI/Claude/Gemini/DeepSeek 等）
+  - 本地 API 服务器 + Agent 模式
+  - MCP 工具集成
+  sub_category: agent
+  stars: 43000
+- name: Open Interpreter
+  description: 开源本地代码解释器，让 LLM 在本地运行代码完成任意任务
+  url: https://openinterpreter.com
+  repo: https://github.com/OpenInterpreter/open-interpreter
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - cli-tool
+  - open-source
+  - on-device
+  highlights:
+  - 42K Stars，本地代码执行
+  - 支持 Python/JavaScript/Shell 等多语言
+  - 本地运行，无文件大小和时间限制
+  - OpenAI Code Interpreter 的开源替代
+  - 可访问互联网，利用任何包或库
+  sub_category: agent
+  stars: 42000
+- name: AstrBot
+  category: applications/agent-tools
+  sub_category: agent
+  description: 开源 AI Agent 助手，集成多平台，支持插件扩展
+  tags:
+  - agent
+  - cross-platform
+  - mcp
+  status: active
+  stars: 34000
+  license: Apache-2.0
+  url: https://github.com/AstrBotDevs/AstrBot
+  highlights:
+  - 34K Stars
+  - 多平台集成
+  - 插件扩展
+  type: open
+- name: Aider
+  description: 开源终端 AI 结对编程助手，Git 原生设计，多模型后端
+  url: https://aider.chat
+  repo: https://github.com/Aider-AI/aider
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - cli-tool
+  - coding-assistant
+  - open-source
+  - agentic
+  highlights:
+  - Git 原生设计，每次修改自动 commit
+  - 多模型后端 (Claude/GPT/Gemini/DeepSeek)
+  - 43K+ Stars
+  - 完全开源免费
+  sub_category: agent
+  stars: 30000
+- name: Goose
+  description: Block 开源可扩展 AI Agent，自主完成复杂工程任务，桌面+CLI+API 三模式
+  url: https://goose-docs.ai
+  repo: https://github.com/aaif-goose/goose
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - agent
+  - open-source
+  - automation
+  - cross-platform
+  highlights:
+  - Block（原 Square）出品，27K+ Stars
+  - 从零构建项目、编写执行代码、调试
+  - 桌面应用 + CLI + API 三种模式
+  - 任意 LLM 后端
+  - 丰富的工具扩展生态
+  sub_category: agent
+  stars: 27000
+- name: OpenManus
+  category: applications/agent-tools
+  sub_category: agent
+  description: 开源 Manus 替代方案
+  tags:
+  - agent
+  - open-source
+  - multimodal
+  status: active
+  stars: 25000
+  license: MIT
+  url: https://github.com/OpenManus/OpenManus
+  highlights:
+  - 开源 Manus 替代
+  - 多 Agent 协作
+  - 社区驱动
+  type: open
+- name: BabyAGI
+  description: 最早的任务驱动自主 Agent，基于目标分解自动管理任务队列
+  url: https://github.com/yoheinakajima/babyagi
+  repo: https://github.com/yoheinakajima/babyagi
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - autonomous
+  - open-source
+  highlights:
+  - 22K Stars，任务驱动 Agent 先驱
+  - 目标分解为子任务自动执行
+  - 优先级动态调整
+  - 上下文感知的任务创建
+  - 自主 Agent 概念启蒙者
+  sub_category: agent
+  stars: 22000
+- name: Trigger.dev
+  category: applications/agent-tools
+  sub_category: agent
+  description: AI Agent 和工作流的全托管部署平台
+  tags:
+  - automation
+  - workflow
+  - serverless
+  status: active
+  stars: 15200
+  license: Apache-2.0
+  url: https://github.com/triggerdotdev/trigger.dev
+  highlights:
+  - 15.2K Stars
+  - 全托管部署
+  - AI Agent 工作流
+  type: open
+- name: Letta (MemGPT)
+  description: 开源长期记忆 Agent 框架，让 LLM 拥有持久状态
+  url: https://letta.com
+  repo: https://github.com/letta-ai/letta
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - agent
+  - open-source
+  - memory
+  highlights:
+  - Agent 长期记忆框架
+  - 持久状态管理
+  - 自定义工具集成
+  - MemGPT 论文实现
+  sub_category: agent
+  stars: 15000
+- name: Claude Code
+  description: Anthropic 终端自主编程 Agent，基于 Claude Opus 4.7，全局工程理解与闭环执行
+  url: https://www.anthropic.com/product/claude-code
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - cli-tool
+  - autonomous
+  - anthropic
+  highlights:
+  - 终端 CLI 自主执行，无需 IDE
+  - 全局工程理解与闭环迭代
+  - MCP/Skills/Hooks 扩展
+  - Git Worktree 并行开发
+  - Computer Use 能力
+  sub_category: agent
+- name: OpenAI Codex
+  description: OpenAI 云端编程 Agent，CLI 开源 + Cloud 云端沙盒，自动提交 PR
+  url: https://chatgpt.com/codex
+  repo: https://github.com/openai/codex
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - agent
+  - cloud-only
+  - openai-compatible
+  - autonomous
+  highlights:
+  - Codex CLI 开源 + Codex Cloud 云端沙盒
+  - 云端隔离执行，自动提交 PR
+  - 并行多任务
+  - 6 款角色专用插件
+  - 周活用户 500 万+
+  sub_category: agent
+  stars: 89744
+- name: Devin
+  description: Cognition 自主 AI 软件工程师，拥有独立 Shell/IDE/浏览器，SOLO 模式全自主交付
+  url: https://www.cognition.ai/devin
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - autonomous
+  - all-in-one
+  highlights:
+  - 自主 AI 软件工程师
+  - 独立 Shell/IDE/浏览器环境
+  - Devin 3.0 SOLO 模式 + Vibe Coding
+  - $20/月起
+  - Cognition 估值 260 亿美元
+  sub_category: agent
+- name: WorkBuddy
+  description: 腾讯云全场景桌面办公 Agent，可操控微信/浏览器/Office，集成 CodeBuddy 编程能力
+  url: https://www.codebuddy.cn/work/
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - agent
+  - collaboration
+  - chinese
+  - enterprise
+  - desktop
+  highlights:
+  - 全场景桌面办公 Agent
+  - 可操控微信/浏览器/Office
+  - 集成 CodeBuddy 编程能力
+  - 企业版 Agent Suite
+  - 深度适配国内办公生态
+  sub_category: agent
+- name: Manus
+  category: applications/agent-tools
+  sub_category: agent
+  description: 通用 AI Agent，可执行复杂任务
+  tags:
+  - agent
+  - multimodal
+  - automation
+  status: active
+  license: Proprietary
+  url: https://manus.im
+  highlights:
+  - 通用 AI Agent
+  - 可执行复杂任务
+  - 多工具协作
+  type: closed
+- name: Google Antigravity
+  description: Google Agent 开发平台，从 IDE 演进为完整 Agent 平台，Gemini 3.5 驱动
+  url: https://kiro.dev/blog/antigravity/
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - google
+  - autonomous
+  highlights:
+  - Antigravity 2.0：从 IDE 插件进化为独立 Agent 桌面应用
+  - Gemini 3.5 驱动，Manager Surface 动态子 Agent 协调
+  - JSON Hooks + Cron 定时任务 + 异步子 Agent
+  - Antigravity CLI（取代 Gemini CLI）
+  - 编辑器+终端+浏览器全栈验证
+  sub_category: agent
+- name: Google Jules
+  description: Google 自主编码 Agent，Gemini 3 Pro 驱动，云端 VM 自主执行
+  url: https://jules.google.com
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - google
+  - autonomous
+  highlights:
+  - Gemini 3 Pro 驱动
+  - 云端 VM 自主执行
+  - GitHub 深度集成
+  - 自动规划/实现/提交 PR
+  sub_category: agent
+- name: Conductor
+  description: 模型中立的多 Agent 协调 UI，连接 Codex/Claude Code 等多个编码 Agent
+  url: https://www.conductor.build
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - agent
+  - automation
+  highlights:
+  - 模型中立，连接多个底层 Agent
+  - 隔离工作区统一界面
+  - 多 Agent 并行推进
+  - 适合复杂项目协调
+  sub_category: agent
+- name: OpenClaw
+  description: 开源个人 AI Agent 平台，技能/记忆/多通道消息/Dreaming
+  url: https://docs.openclaw.ai
+  repo: https://github.com/openclaw/openclaw
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - open-source
+  - mcp
+  highlights:
+  - 个人 AI Agent 平台
+  - 技能+记忆+Dreaming
+  - 多通道消息集成
+  - Canvas/A2UI 可视化
+  sub_category: agent
+  stars: 377707
+- name: Qoder
+  description: 阿里巴巴 AI Agent 编程平台，需求驱动开发+智能上下文引擎+自主桌面
+  url: https://qoder.com
+  repo: null
+  category: applications/agent-tools
+  type: closed
+  license: proprietary
+  status: active
+  tags:
+  - coding
+  - agent
+  - chinese
+  - china-based
+  highlights:
+  - 阿里巴巴出品 Agent 编程平台
+  - 需求驱动开发（非代码优先）
+  - 智能上下文引擎自动感知项目
+  - Ask 模式 + Agent 智能体模式
+  - QoderWork 团队协作版
+  sub_category: agent
+- name: Ruflo
+  description: Claude Code 多智能体编排平台，100+ 专用 Agent + Swarm 群智协调
+  url: https://github.com/ruvnet/ruflo
+  repo: https://github.com/ruvnet/ruflo
+  category: applications/agent-tools
+  type: open
+  license: MIT
+  status: active
+  tags:
+  - agent
+  - open-source
+  - mcp
+  highlights:
+  - Claude Code 多智能体编排层
+  - 100+ 专业化 Agent 协同
+  - Swarm 编排 + 自学习记忆
+  - RAG 向量记忆集成
+  - 企业级安全 + MCP 集成
+  sub_category: agent
+  stars: 58572
+- name: Sweep AI
+  description: AI 自动将 GitHub Issue 转为 Pull Request，自主编码修复+完整测试
+  url: https://sweep.dev
+  repo: https://github.com/sweepai/sweep
+  category: applications/agent-tools
+  type: open
+  license: Apache-2.0
+  status: active
+  tags:
+  - coding
+  - agent
+  - automation
+  highlights:
+  - GitHub Issue 自动转 PR
+  - 自主编码修复 Bug 和实现功能
+  - JetBrains IDE 插件
+  - 开源免费
+  sub_category: agent
+  stars: 7704

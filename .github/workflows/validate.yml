@@ -1,0 +1,52 @@
+name: Validate Data & Build Docs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'docs/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'docs/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+      
+      - name: Validate YAML data
+        run: |
+          python scripts/validate.py
+      
+      - name: Build documentation
+        run: |
+          python scripts/build_docs.py
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --exit-code || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true' && github.event_name == 'push'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git commit -m "docs: auto-rebuild documentation [skip ci]"
+          git push

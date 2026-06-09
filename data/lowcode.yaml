@@ -1,0 +1,319 @@
+- name: Dify
+  description: 开源 LLM 应用开发与编排平台，支持 Agentic Workflow，开源领导者
+  url: https://dify.ai
+  repo: https://github.com/langgenius/dify
+  category: lowcode-platforms/ai-builder
+  language: Python, TypeScript
+  license: Apache-2.0
+  status: active
+  tags:
+  - low-code
+  - rag
+  - workflow
+  - mcp
+  highlights:
+  - 强大的可视化工作流编排
+  - 内置高级 RAG 引擎
+  - MCP 全面支持与海量插件
+  - 132K+ Stars，开源领导者
+  sub_category: ai-builder
+  stars: 144000
+  type: open
+- name: Langflow
+  description: 适用于 RAG 和多智能体 AI 应用的低代码构建器
+  url: https://langflow.org
+  repo: https://github.com/langflow-ai/langflow
+  category: lowcode-platforms/ai-builder
+  language: Python, TypeScript
+  license: MIT
+  status: active
+  tags:
+  - low-code
+  - rag
+  - agent
+  highlights:
+  - 可视化流程构建
+  - 与模型/API/数据库无关
+  - Python 原生
+  - 148K+ Stars
+  sub_category: ai-builder
+  stars: 55000
+  type: open
+- name: Flowise
+  description: 拖拽式 LLM 应用可视化构建平台，130+ 内置节点
+  url: https://flowiseai.com
+  repo: https://github.com/FlowiseAI/Flowise
+  category: lowcode-platforms/ai-builder
+  language: TypeScript
+  license: Apache-2.0
+  status: active
+  tags:
+  - low-code
+  highlights:
+  - 零门槛拖拽构建 AI 应用
+  - 130+ 内置功能节点
+  - 100+ 支持模型
+  - 52K+ Stars
+  sub_category: ai-builder
+  stars: 38000
+  type: open
+- name: FastGPT
+  description: 开源知识库 AI 应用构建平台，国内用户友好
+  url: https://fastgpt.in
+  repo: https://github.com/labring/FastGPT
+  category: lowcode-platforms/ai-builder
+  language: TypeScript
+  license: Apache-2.0
+  status: active
+  tags:
+  - low-code
+  - rag
+  - chinese
+  highlights:
+  - 知识库管理强
+  - 国内用户友好
+  - 自部署支持
+  sub_category: ai-builder
+  stars: 28300
+  type: open
+- name: Dyad
+  category: lowcode-platforms/ai-builder
+  sub_category: ai-builder
+  description: 本地开源 AI 应用构建器，v0/Lovable 的开源替代
+  tags:
+  - self-hosted
+  - open-source
+  - coding-assistant
+  status: active
+  stars: 20500
+  license: MIT
+  url: https://github.com/dyad-sh/dyad
+  highlights:
+  - 20.5K Stars
+  - 本地开源
+  - v0/Lovable 替代
+  type: open
+- name: DocsGPT
+  category: lowcode-platforms/ai-builder
+  sub_category: ai-builder
+  description: 私有 AI 平台，支持 Agent、助手和企业搜索
+  tags:
+  - self-hosted
+  - enterprise
+  - search
+  status: active
+  stars: 17900
+  license: MIT
+  url: https://github.com/arc53/DocsGPT
+  highlights:
+  - 17.9K Stars
+  - 私有部署
+  - 企业级搜索
+  type: open
+- name: Botpress
+  description: 对话机器人专精平台，多渠道部署
+  url: https://botpress.com
+  repo: https://github.com/botpress/botpress
+  category: lowcode-platforms/ai-builder
+  language: TypeScript
+  license: Apache-2.0
+  status: active
+  tags:
+  - chat
+  - low-code
+  - pipeline
+  highlights:
+  - 对话机器人专精
+  - 多渠道部署
+  - 集成知识库
+  sub_category: ai-builder
+  stars: 13000
+  type: open
+- name: Open Agent Builder
+  category: lowcode-platforms/ai-builder
+  sub_category: ai-builder
+  description: Firecrawl 出品的可视化 AI Agent 工作流构建器
+  tags:
+  - content-creation
+  - workflow
+  - search
+  status: active
+  stars: 2300
+  license: MIT
+  url: https://github.com/firecrawl/open-agent-builder
+  highlights:
+  - 2.3K Stars
+  - Firecrawl 出品
+  - 可视化构建
+  type: open
+- name: Coze (扣子)
+  description: 字节跳动低代码 AI Bot 开发平台，强调插件生态和快速发布
+  url: https://www.coze.com
+  repo: null
+  category: lowcode-platforms/ai-builder
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - low-code
+  - chat
+  - mcp
+  - chinese
+  highlights:
+  - 多人多 Agent 协作与项目空间
+  - 插件生态丰富 (600+)
+  - 快速发布到飞书/微信等社交平台
+  - Coze Studio 开发环境
+  sub_category: ai-builder
+  type: closed
+- name: Bolt.new
+  description: StackBlitz 浏览器端全栈 AI 应用构建器，WebContainer 驱动
+  url: https://bolt.new
+  repo: null
+  category: lowcode-platforms/ai-builder
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - low-code
+  - all-in-one
+  highlights:
+  - WebContainer 浏览器内模拟 Linux
+  - 支持多 JS 框架
+  - 代码完全可见可编辑
+  - 从提示词到可运行应用闭环
+  sub_category: ai-builder
+  type: closed
+- name: Lovable
+  description: 2026 年最火 AI 无代码应用构建平台，ARR 突破 4 亿美元
+  url: https://lovable.dev
+  repo: null
+  category: lowcode-platforms/ai-builder
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - low-code
+  highlights:
+  - 自然语言到完整应用
+  - 前端 UI 质量极高
+  - ARR 突破 4 亿美元
+  - 估值 120 亿美元
+  sub_category: ai-builder
+  type: closed
+- name: v0 by Vercel
+  description: Vercel 前端 AI 生成工具，专注产出干净的 Next.js 应用
+  url: https://v0.dev
+  repo: null
+  category: lowcode-platforms/ai-builder
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - low-code
+  - content-creation
+  - coding-assistant
+  highlights:
+  - 专注前端生成
+  - 产出干净的 Next.js 应用
+  - 实时渲染预览
+  - 与 Vercel 部署生态深度集成
+  sub_category: ai-builder
+  type: closed
+- name: n8n
+  description: 开源工作流自动化平台，深度整合 AI 原生节点，400+ 集成
+  url: https://n8n.io
+  repo: https://github.com/n8n-io/n8n
+  category: lowcode-platforms/workflow-automation
+  language: TypeScript
+  license: Sustainable Use
+  status: active
+  tags:
+  - workflow
+  - automation
+  - self-hosted
+  - agent
+  highlights:
+  - 400+ 集成节点
+  - AI 原生节点与无缝 API 对接
+  - 运行在 140 万台机器上
+  - 70K+ Stars
+  sub_category: workflow
+  stars: 65000
+  type: open
+- name: Activepieces
+  category: lowcode-platforms/workflow-automation
+  sub_category: workflow
+  description: 开源 AI Agent & MCP & 工作流自动化平台，400+ MCP 服务器
+  tags:
+  - workflow
+  - mcp
+  - agent
+  - open-source
+  status: active
+  stars: 22600
+  license: AGPL-3.0
+  url: https://github.com/activepieces/activepieces
+  highlights:
+  - 22.6K Stars
+  - 400+ MCP 服务器
+  - 开源替代 Zapier
+  type: open
+- name: Windmill
+  description: 开发者导向的自动化平台，支持多语言脚本
+  url: https://windmill.dev
+  repo: https://github.com/windmill-labs/windmill
+  category: lowcode-platforms/workflow-automation
+  language: Python, TypeScript, Go, Bash
+  license: AGPLv3
+  status: active
+  tags:
+  - workflow
+  - automation
+  - coding-assistant
+  - self-hosted
+  highlights:
+  - 支持 Python/TS/Go/Bash 脚本
+  - 可替代 Airflow/n8n
+  - 开发者导向
+  sub_category: workflow
+  stars: 12000
+  type: open
+- name: Make (前 Integromat)
+  description: 可视化工作流自动化平台，1500+ 应用集成
+  url: https://www.make.com
+  repo: null
+  category: lowcode-platforms/workflow-automation
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - workflow
+  - automation
+  - enterprise
+  highlights:
+  - 可视化场景构建器
+  - 1500+ 应用集成
+  - AI 模块集成
+  - 企业级稳定性
+  sub_category: workflow
+  type: closed
+- name: Zapier
+  description: 最大用户基数自动化平台，7000+ 应用，自然语言创建 Zaps
+  url: https://zapier.com
+  repo: null
+  category: lowcode-platforms/workflow-automation
+  language: 闭源
+  license: proprietary
+  status: active
+  tags:
+  - workflow
+  - automation
+  - low-code
+  highlights:
+  - 7000+ 应用集成
+  - 自然语言创建 Zaps
+  - AI by Zapier
+  - 最大用户基数
+  sub_category: workflow
+  type: closed

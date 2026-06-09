@@ -1,0 +1,526 @@
+- name: MinerU
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 国内最活跃的开源文档解析工具，中文 PDF 支持极好
+  tags:
+  - document
+  - data-analysis
+  - chinese
+  status: active
+  stars: 32000
+  license: AGPL-3.0
+  url: https://github.com/opendatalab/MinerU
+  highlights:
+  - 中文 PDF 解析首选
+  - 表格/公式/多栏支持
+  - 32K Stars
+  type: open
+- name: Unstructured
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 最流行的文档解析库，支持 PDF/Word/HTML 等 20+ 格式，RAG 标配
+  tags:
+  - document
+  - data-analysis
+  - rag
+  status: active
+  stars: 28000
+  license: Apache-2.0
+  url: https://github.com/Unstructured-IO/unstructured
+  highlights:
+  - 28K Stars
+  - 20+ 格式支持
+  - RAG 标配
+  type: open
+- name: Firecrawl
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 为 LLM 设计的网页爬取 API，输出干净 Markdown/结构化数据
+  tags:
+  - search
+  - document
+  - api-gateway
+  status: active
+  stars: 28000
+  license: AGPL-3.0
+  url: https://github.com/mendableai/firecrawl
+  highlights:
+  - 28K Stars
+  - 输出干净 Markdown
+  - API 优先
+  type: open
+- name: Crawl4AI
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 为 LLM 设计的网页抓取工具，输出 Markdown
+  tags:
+  - search
+  - document
+  status: active
+  stars: 25000
+  license: Apache-2.0
+  url: https://github.com/unclecode/crawl4ai
+  highlights:
+  - 为 LLM 设计
+  - 网页转 Markdown
+  - 25K Stars
+  type: open
+- name: Docling
+  url: https://github.com/DS4SD/docling
+  category: data-and-knowledge/data-parsing
+  highlights:
+  - IBM 出品的结构化高保真解析器
+  - 完美还原复杂的语义层级与表格
+  - 内置 MCP Server，生态绝佳
+  type: open
+  description: IBM 出品的文档解析工具，支持多种格式
+  sub_category: parsing
+  tags:
+  - document
+  - data-analysis
+  - enterprise
+  status: active
+  license: MIT
+  stars: 18000
+- name: Marker
+  url: https://github.com/datalab-to/marker
+  category: data-and-knowledge/data-parsing
+  highlights:
+  - 极速深度学习模型流水线
+  - 完美适配科研文献与复杂公式转换
+  - 支持可选的大模型增强 (LLM-boost)
+  type: open
+  description: AI 驱动的 PDF 解析工具，支持扫描件、表格、公式
+  sub_category: parsing
+  tags:
+  - document
+  - data-analysis
+  status: active
+  license: AGPL-3.0
+  stars: 15000
+- name: GOT-OCR
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 阶跃星辰出品的通用 OCR 模型，支持复杂文档/乐谱/数学公式
+  tags:
+  - data-analysis
+  - chinese
+  status: active
+  stars: 12000
+  license: Apache-2.0
+  url: https://github.com/Ucas-HaoranWei/GOT-OCR2.0
+  highlights:
+  - 12K Stars
+  - 通用 OCR
+  - 公式+乐谱
+  type: open
+- name: Nougat
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: Meta 出品的学术文档解析模型，擅长公式识别
+  tags:
+  - document
+  - data-analysis
+  - academic
+  status: active
+  stars: 9000
+  license: MIT
+  url: https://github.com/facebookresearch/nougat
+  highlights:
+  - Meta 出品
+  - 学术论文解析
+  - 公式识别
+  type: open
+- name: PyMuPDF
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 高性能 PDF 处理库，纯文本提取首选
+  tags:
+  - document
+  - open-source
+  - fast-inference
+  status: active
+  stars: 5000
+  license: AGPL-3.0
+  url: https://github.com/pymupdf/PyMuPDF
+  highlights:
+  - 高性能 PDF 库
+  - 纯文本提取
+  - 轻量级
+  type: open
+- name: LlamaParse
+  url: https://github.com/run-llama/llama_parse
+  category: data-and-knowledge/data-parsing
+  highlights:
+  - 专为 LLM 设计的高效闭源 API 解析服务
+  - 无需配置本地环境，开箱即用
+  - 原生无缝集成 LlamaIndex 生态
+  type: open
+  description: LlamaIndex 出品的文档解析 API，专为 RAG 优化
+  sub_category: parsing
+  tags:
+  - document
+  - api-gateway
+  - rag
+  status: active
+  license: Proprietary
+  stars: 4250
+- name: Jina Reader
+  category: data-and-knowledge/data-parsing
+  sub_category: parsing
+  description: 网页转 Markdown API，最简单的网页解析方案
+  tags:
+  - search
+  - api-gateway
+  - document
+  status: active
+  license: Proprietary
+  url: https://jina.ai/reader
+  highlights:
+  - 网页转 Markdown API
+  - 最简单方案
+  - 无需部署
+  type: closed
+- name: GraphRAG
+  category: data-and-knowledge/knowledge-graph
+  sub_category: knowledge-graph
+  description: 微软出品的图增强 RAG 框架
+  tags:
+  - rag
+  - microsoft
+  status: active
+  stars: 25000
+  license: MIT
+  url: https://github.com/microsoft/graphrag
+  highlights:
+  - 微软出品
+  - 图增强 RAG
+  - 25K Stars
+  type: open
+- name: Neo4j
+  url: https://neo4j.com/
+  category: data-and-knowledge/knowledge-graph
+  highlights:
+  - 行业标杆的原生图数据库引擎
+  - Cypher 查询语言完美协同大模型
+  - 无缝集成主流 RAG 框架
+  type: open
+  description: 最流行的图数据库，生态成熟
+  sub_category: knowledge-graph
+  tags:
+  - rag
+  - enterprise
+  status: active
+  license: GPL-3.0
+  stars: 14000
+- name: NebulaGraph
+  category: data-and-knowledge/knowledge-graph
+  sub_category: knowledge-graph
+  description: 分布式图数据库，支持大规模图数据
+  tags:
+  - rag
+  - distributed
+  status: active
+  stars: 11000
+  license: Apache-2.0
+  url: https://github.com/vesoft-inc/nebula
+  highlights:
+  - 分布式图数据库
+  - 大规模图数据
+  - 11K Stars
+  type: open
+- name: LightRAG
+  url: https://github.com/HKUDS/LightRAG
+  category: data-and-knowledge/knowledge-graph
+  highlights:
+  - 香港大学开源，双层极速图谱检索架构
+  - 成本不到微软方案的十分之一
+  - 原生支持图谱的无缝增量更新
+  type: open
+  description: LLM 驱动的轻量级知识图谱 RAG 框架
+  sub_category: knowledge-graph
+  tags:
+  - rag
+  - openai-compatible
+  status: active
+  license: MIT
+  stars: 5000
+- name: FalkorDB
+  category: data-and-knowledge/knowledge-graph
+  sub_category: knowledge-graph
+  description: 超快图数据库，GraphBLAS 底层，适合知识图谱 RAG
+  tags:
+  - rag
+  - fast-inference
+  status: active
+  stars: 4500
+  license: SSPL
+  url: https://github.com/FalkorDB/FalkorDB
+  highlights:
+  - 4.5K Stars
+  - GraphBLAS 加速
+  - 超快图查询
+  type: open
+- name: HippoRAG
+  category: data-and-knowledge/knowledge-graph
+  sub_category: knowledge-graph
+  description: 受海马体启发的 RAG 框架，NeurIPS 2024 论文，知识图谱+检索融合
+  tags:
+  - rag
+  - academic
+  status: active
+  stars: 3500
+  license: MIT
+  url: https://github.com/OSU-NLP-Group/HippoRAG
+  highlights:
+  - 3.5K Stars
+  - NeurIPS 2024
+  - 海马体启发
+  type: open
+- name: Cleanlab
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: 数据质量工具，自动检测标注错误/异常值，提升训练数据质量
+  tags:
+  - data-analysis
+  status: active
+  stars: 11500
+  license: AGPL-3.0
+  url: https://github.com/cleanlab/cleanlab
+  highlights:
+  - 11.5K Stars
+  - 数据质量
+  - 自动检测标注错误
+  type: open
+- name: Distilabel
+  url: https://github.com/argilla-io/distilabel
+  category: data-and-knowledge/synthetic-data
+  highlights:
+  - 为 LLM 设计的高效可编程造数据流水线
+  - 内置 LLM-as-a-judge 智能过滤与打分
+  - 直接导出兼容 SFT/DPO 的极简格式
+  type: open
+  description: Argilla 出品的合成数据生成框架
+  sub_category: synthetic-data
+  tags:
+  - data-analysis
+  - openai-compatible
+  - pipeline
+  status: active
+  license: Apache-2.0
+  stars: 5000
+- name: Argilla
+  url: https://github.com/argilla-io/argilla
+  category: data-and-knowledge/synthetic-data
+  highlights:
+  - 为人类反馈 (RLHF) 打造的顶级标注协同 UI
+  - 与 Distilabel 无缝串联，构成闭环
+  - 小团队精细化数据清洗的必备案头工具
+  type: open
+  description: 数据标注与合成数据平台，支持人机协作
+  sub_category: synthetic-data
+  tags:
+  - data-analysis
+  - collaboration
+  status: active
+  license: Apache-2.0
+  stars: 5000
+- name: SDG (Synthetic Data Generator)
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: 国内最活跃的合成数据生成框架，支持多种生成策略
+  tags:
+  - data-analysis
+  - chinese
+  - langchain
+  status: active
+  stars: 2400
+  license: Apache-2.0
+  url: https://github.com/hitsz-ids/synthetic-data-generator
+  highlights:
+  - 2.4K Stars
+  - 国内最活跃
+  - 多种生成策略
+  type: open
+- name: Bespoke Curator
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: 合成数据策展框架，支持后训练与结构化数据生成
+  tags:
+  - data-analysis
+  - academic
+  status: active
+  stars: 1700
+  license: Apache-2.0
+  url: https://github.com/bespokelabsai/curator
+  highlights:
+  - 1.7K Stars
+  - 后训练数据
+  - 结构化生成
+  type: open
+- name: Synthetic Data Kit
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: Meta 出品的合成数据生成工具，支持 PDF/HTML/URL 转 QA 对
+  tags:
+  - data-analysis
+  - open-source
+  status: active
+  stars: 1600
+  license: Meta License
+  url: https://github.com/meta-llama/synthetic-data-kit
+  highlights:
+  - 1.6K Stars
+  - Meta 出品
+  - PDF→QA 对
+  type: open
+- name: DataDreamer
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: 合成数据生成流水线框架
+  tags:
+  - data-analysis
+  - pipeline
+  - openai-compatible
+  status: active
+  license: MIT
+  url: https://github.com/datadreamer-dev/datadreamer
+  stars: 1000
+  highlights:
+  - 合成数据流水线
+  - LLM 驱动
+  - 批量生成
+  type: open
+- name: Magpie
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: ICLR 2025 论文，从零开始用 LLM 生成对齐数据，无需种子数据
+  tags:
+  - data-analysis
+  - compliance
+  - academic
+  status: active
+  stars: 900
+  license: Apache-2.0
+  url: https://github.com/magpie-align/magpie
+  highlights:
+  - 900 Stars
+  - ICLR 2025
+  - 无需种子数据
+  type: open
+- name: GPT-5.4-mini
+  category: data-and-knowledge/synthetic-data
+  sub_category: synthetic-data
+  description: 最便宜的高质量合成数据生成 API
+  tags:
+  - data-analysis
+  - api-gateway
+  - cost-effective
+  status: active
+  license: Proprietary
+  url: https://openai.com
+  highlights:
+  - 最便宜的合成数据 API
+  - 高质量
+  - 低延迟
+  type: closed
+- name: PrivateGPT
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: 100% 私有 RAG 系统，无需联网，支持本地 LLM + 本地向量库
+  tags:
+  - rag
+  - self-hosted
+  status: active
+  stars: 55000
+  license: Apache-2.0
+  url: https://github.com/zylon-ai/private-gpt
+  highlights:
+  - 55K Stars
+  - 100% 私有
+  - 无需联网
+  type: open
+- name: RAGFlow
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: 开源 RAG 引擎，深度文档理解 + 检索增强
+  tags:
+  - rag
+  - pipeline
+  - document
+  status: active
+  stars: 40000
+  license: Apache-2.0
+  url: https://github.com/infiniflow/ragflow
+  highlights:
+  - 开源 RAG 引擎
+  - 深度文档理解
+  - 40K Stars
+  type: open
+- name: Quivr
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: 个人 AI 助手，支持多种文件格式的 RAG 知识库
+  tags:
+  - rag
+  - self-hosted
+  - pipeline
+  status: active
+  stars: 36000
+  license: Apache-2.0
+  url: https://github.com/QuivrHQ/quivr
+  highlights:
+  - 36K Stars
+  - 个人助手
+  - 多格式支持
+  type: open
+- name: AnythingLLM
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: 开箱即用的 RAG 桌面应用，支持多种 LLM
+  tags:
+  - rag
+  - desktop
+  - low-code
+  status: active
+  stars: 35000
+  license: MIT
+  url: https://github.com/Mintplex-Labs/anything-llm
+  highlights:
+  - 开箱即用 RAG
+  - 桌面应用
+  - 35K Stars
+  type: open
+- name: Khoj
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: 开源 AI 个人助理，支持 Obsidian/Notion/本地文件的 RAG
+  tags:
+  - rag
+  - document
+  - self-hosted
+  status: active
+  stars: 25000
+  license: AGPL-3.0
+  url: https://github.com/khoj-ai/khoj
+  highlights:
+  - 25K Stars
+  - Obsidian 集成
+  - 个人助理
+  type: open
+- name: Verba
+  category: data-and-knowledge/rag
+  sub_category: rag
+  description: Weaviate 出品的开箱即用 RAG 应用，GoldRAG 检索策略
+  tags:
+  - rag
+  - easy-to-use
+  status: active
+  stars: 7000
+  license: BSD-3
+  url: https://github.com/weaviate/Verba
+  highlights:
+  - 7K Stars
+  - Weaviate 出品
+  - 开箱即用
+  type: open

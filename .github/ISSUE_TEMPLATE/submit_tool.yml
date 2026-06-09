@@ -1,0 +1,75 @@
+name: Submit New Tool
+description: Submit a new AI tool, model, or platform to the landscape
+labels: [new-tool]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: e.g. Dify
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      placeholder: https://dify.ai
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub Repository (if open source)
+      placeholder: https://github.com/langgenius/dify
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line Description
+      placeholder: Open-source LLM app development platform
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - '01 - Foundation Models (LLM/Multimodal/Embedding)'
+        - '02 - Infrastructure (Inference/API Gateway/Vector DB)'
+        - '03 - Data & Knowledge (Parsing/Synthetic/Graph/RAG)'
+        - '04 - Dev Frameworks (LLM Framework/Multi-Agent)'
+        - '05 - Low-code Platforms (AI Builder/Workflow)'
+        - '06 - Tools & Protocols (MCP/Function Calling/Browser)'
+        - '07 - Skills & Plugins'
+        - '08 - Observability (Tracing/Cost/Benchmarks)'
+        - '09 - Safety & Compliance'
+        - '10 - Applications (Coding IDE/Search/Productivity)'
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Open Source?
+      options:
+        - 'Yes (open source)'
+        - 'No (closed source)'
+        - 'Partial (freemium/open core)'
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License (if open source)
+      placeholder: MIT, Apache-2.0, etc.
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Key Highlights (2-3 bullet points)
+      placeholder: |
+        - Visual workflow builder
+        - Built-in RAG engine
+        - 500+ plugins
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other info, pricing, notable users, etc.
