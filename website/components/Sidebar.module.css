@@ -1,8 +1,7 @@
 .sidebar {
   width: 260px;
   height: 100vh;
-  position: fixed;
-  left: 0;
+  position: sticky;
   top: 0;
   overflow-y: auto;
   background: var(--bg-color);
