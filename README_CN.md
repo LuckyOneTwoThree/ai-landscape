@@ -1,38 +1,35 @@
 <div align="center">
 
+---
+
+### 🌍 Language / 语言
+
+# [🇺🇸 English](./README.md)　|　[🇨🇳 中文](./README_CN.md)
+
+---
+
+</div>
+
 # 🌐 AI 技术栈生态全景图
 
 ### **AI Tech Stack Landscape**
 
-<br>
+<div align="center">
 
 ![Stars](https://img.shields.io/github/stars/LuckyOneTwoThree/ai-landscape?style=flat-square&logo=github&color=2ea44f)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square&color=blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&color=2ea44f)
 ![Last Update](https://img.shields.io/badge/updated-2026--06--09-brightgreen?style=flat-square)
 
-<br>
-
-**一份全面、结构化的 AI 技术栈目录**
-
-**涵盖从基础大模型到终端应用的完整生态**
-
-**帮助开发者、产品经理和决策者快速了解 AI 领域的技术选型与全景格局**
-
-<br>
-
-[![English](https://img.shields.io/badge/English-README-blue?style=flat-square)](./README.md)
-[![中文文档](https://img.shields.io/badge/中文文档-README_CN-brightgreen?style=flat-square)](./README_CN.md)
-
-<br>
-
----
-
 </div>
 
-## 📊 项目概览
+> **一份全面、结构化的 AI 技术栈目录**
+> 
+> **涵盖从基础大模型到终端应用的完整生态**
+> 
+> **帮助开发者、产品经理和决策者快速了解 AI 领域的技术选型与全景格局**
 
-<div align="center">
+---
 
 | 🎯 **目标** | 📦 **规模** | 🔧 **维护** | 🤝 **社区** |
 |:-----------:|:-----------:|:-----------:|:-----------:|

@@ -1,36 +1,35 @@
 <div align="center">
 
+---
+
+### 🌍 Language / 语言
+
+# [🇺🇸 English](./README.md)　|　[🇨🇳 中文](./README_CN.md)
+
+---
+
+</div>
+
 # 🌐 AI Tech Stack Landscape
 
 ### **A Comprehensive Guide to the AI Ecosystem**
 
-<br>
+<div align="center">
 
 ![Stars](https://img.shields.io/github/stars/LuckyOneTwoThree/ai-landscape?style=flat-square&logo=github&color=2ea44f)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square&color=blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&color=2ea44f)
 ![Last Update](https://img.shields.io/badge/updated-2026--06--09-brightgreen?style=flat-square)
 
-<br>
-
-**A comprehensive, structured directory of AI tech stacks**
-
-**Covering the complete ecosystem from foundation models to end-user applications**
-
-**Helping developers, product managers, and decision-makers quickly understand AI technology choices and landscape**
-
-<br>
-
-[![English](https://img.shields.io/badge/English-README-blue?style=flat-square)](./README.md)
-[![中文文档](https://img.shields.io/badge/中文文档-README_CN-brightgreen?style=flat-square)](./README_CN.md)
-
-<br>
-
----
-
 </div>
 
-## 📊 Overview
+> **A comprehensive, structured directory of AI tech stacks**
+> 
+> **Covering the complete ecosystem from foundation models to end-user applications**
+> 
+> **Helping developers, product managers, and decision-makers quickly understand AI technology choices and landscape**
+
+---
 
 <div align="center">
 
