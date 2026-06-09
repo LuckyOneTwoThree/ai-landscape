@@ -16,7 +16,7 @@ export default function EnglishHome() {
           </p>
           
           <div className={styles.actionContainer}>
-            <Link href="/docs/01-foundation-models/llm" className={styles.primaryBtn}>
+            <Link href="/en/docs/00-guides-and-trends/ecosystem-map" className={styles.primaryBtn}>
               Read the Documentation
             </Link>
             <a href="https://github.com/LuckyOneTwoThree/ai-landscape" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
@@ -26,9 +26,9 @@ export default function EnglishHome() {
 
           <div className={styles.trendingSection}>
             <span className={styles.trendingLabel}>🔥 Trending:</span>
-            <Link href="/docs/01-foundation-models/llm" className={styles.trendingLink}>Local LLMs</Link>
-            <Link href="/docs/02-infrastructure/vector-db" className={styles.trendingLink}>Vector & RAG</Link>
-            <Link href="/docs/10-applications/agent-tools" className={styles.trendingLink}>Autonomous Agents</Link>
+            <Link href="/en/docs/01-foundation-models/llm" className={styles.trendingLink}>Local LLMs</Link>
+            <Link href="/en/docs/02-infrastructure/vector-db" className={styles.trendingLink}>Vector & RAG</Link>
+            <Link href="/en/docs/10-applications/agent-tools" className={styles.trendingLink}>Autonomous Agents</Link>
           </div>
         </div>
         

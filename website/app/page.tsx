@@ -16,7 +16,7 @@ export default function Home() {
           </p>
           
           <div className={styles.actionContainer}>
-            <Link href="/docs/01-foundation-models/llm" className={styles.primaryBtn}>
+            <Link href="/docs/00-guides-and-trends/ecosystem-map" className={styles.primaryBtn}>
               阅读文档
             </Link>
             <a href="https://github.com/LuckyOneTwoThree/ai-landscape" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
