@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🌐 AI Tech Stack Landscape
 
@@ -242,4 +242,3 @@ open docs/index.html
 **你的支持是我们持续更新的动力**
 
 </div>
-]]>
