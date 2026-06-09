@@ -7,17 +7,17 @@
 
 ## 🧭 AI 办公助手选型罗盘
 
-| [](https://bolt.new)你的情况[](https://bolt.new) | [](https://bolt.new)推荐工具[](https://bolt.new) | [](https://bolt.new)理由[](https://bolt.new) |
-| --------- | --------- | ------ |
-| 💬 [**[](https://bolt.new)通用[](https://bolt.new) [](https://bolt.new)AI[](https://bolt.new) [](https://bolt.new)对话[](https://bolt.new)，[](https://bolt.new)最强模型[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**ChatGPT[**](https://chatgpt.com) / [**](https://chatgpt.com)Claude**](https://[claude](https://claude.ai).ai) | [GPT-5.5](https://openai.com) / [Claude](https://claude.ai) Opus 4 驱动，能力最强 |
-| 🔍 [**[](https://bolt.new)Google[](https://bolt.new) [](https://bolt.new)生态用户[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Gemini**](https://gemini.google.com) | [](https://bolt.new)Google[](https://bolt.new) [](https://bolt.new)搜索[](https://bolt.new)/[](https://bolt.new)地图[](https://bolt.new)/[](https://bolt.new)邮件[](https://bolt.new)/[](https://bolt.new)文档全集成[](https://bolt.new) |
-| 📊 [**[](https://bolt.new)微软[](https://bolt.new) [](https://bolt.new)365[](https://bolt.new) [](https://bolt.new)办公套件[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Microsoft Copilot**](https://copilot.microsoft.com) | [](https://bolt.new)Word[](https://bolt.new)/[](https://bolt.new)Excel[](https://bolt.new)/[](https://bolt.new)PPT[](https://bolt.new)/[](https://bolt.new)Outlook[](https://bolt.new) [](https://bolt.new)原生集成[](https://bolt.new) |
-| 📝 [**[](https://bolt.new)Notion[](https://bolt.new) [](https://bolt.new)用户[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Notion AI**](https://notion.so) | [](https://bolt.new)文档智能编辑[](https://bolt.new) + [](https://bolt.new)知识库问答[](https://bolt.new) |
-| 🎨 [**[](https://bolt.new)做[](https://bolt.new) [](https://bolt.new)PPT[](https://bolt.new) [](https://bolt.new)演示文稿[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Gamma[**](https://gamma.app) / [**](https://gamma.app)v0**](https://v0.dev) | [](https://bolt.new)AI[](https://bolt.new) [](https://bolt.new)一键生成精美演示文稿[](https://bolt.new) |
-| 🚀 [**[](https://bolt.new)全栈应用快速原型[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Bolt.new[**](https://bolt.new) / [**](https://bolt.new)Lovable**](https://[lovable](https://lovable.dev).dev) | [](https://bolt.new)浏览器内全栈开发[](https://bolt.new)，[](https://bolt.new)30[](https://bolt.new) [](https://bolt.new)秒预览[](https://bolt.new) |
-| 🎵 [**[](https://bolt.new)AI[](https://bolt.new) [](https://bolt.new)音乐创作[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**Suno**](https://suno.com) | [](https://bolt.new)文字生成完整歌曲[](https://bolt.new)，[](https://bolt.new)多种风格[](https://bolt.new) |
-| 🇨🇳 [**[](https://bolt.new)国内办公场景[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**WPS AI**](https://ai.wps.cn) / [**飞书**](https://feishu.cn) / [**钉钉**](https://dingtalk.com) | [](https://bolt.new)国内办公生态原生集成[](https://bolt.new) |
-| 🗣️ [**[](https://bolt.new)中文[](https://bolt.new) [](https://bolt.new)AI[](https://bolt.new) [](https://bolt.new)助手[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [**智谱清言**](https://chatglm.cn) / [**豆包**](https://doubao.com) / [**DeepSeek**](https://chat.deepseek.com) | [](https://bolt.new)国内模型[](https://bolt.new)，[](https://bolt.new)中文优化[](https://bolt.new) |
+| 你的情况 | 推荐工具 | 理由 |
+|---------|---------|------|
+| 💬 **通用 AI 对话，最强模型** | **ChatGPT** / **Claude** | GPT-5.5 / Claude Opus 4 驱动，能力最强 |
+| 🔍 **Google 生态用户** | **Gemini** | Google 搜索/地图/邮件/文档全集成 |
+| 📊 **微软 365 办公套件** | **Microsoft Copilot** | Word/Excel/PPT/Outlook 原生集成 |
+| 📝 **Notion 用户** | **Notion AI** | 文档智能编辑 + 知识库问答 |
+| 🎨 **做 PPT 演示文稿** | **Gamma** / **v0** | AI 一键生成精美演示文稿 |
+| 🚀 **全栈应用快速原型** | **Bolt.new** / **Lovable** | 浏览器内全栈开发，30 秒预览 |
+| 🎵 **AI 音乐创作** | **Suno** | 文字生成完整歌曲，多种风格 |
+| 🇨🇳 **国内办公场景** | **WPS AI** / **飞书** / **钉钉** | 国内办公生态原生集成 |
+| 🗣️ **中文 AI 助手** | **智谱清言** / **豆包** / **DeepSeek** | 国内模型，中文优化 |
 
 > [!TIP]
 > **ChatGPT 和 Claude 是通用 AI 助手的两大标杆**
@@ -69,14 +69,14 @@
 
 ## 💡 工具对比
 
-| [](https://bolt.new)维度[](https://bolt.new) | [](https://bolt.new)ChatGPT[](https://bolt.new) | [](https://bolt.new)Claude[](https://bolt.new) | [](https://bolt.new)Gemini[](https://bolt.new) | [](https://bolt.new)DeepSeek[](https://bolt.new) | [](https://bolt.new)Kimi[](https://bolt.new) |
-| ------ | --------- | -------- | -------- | ---------- | ------ |
-| 🤖 [**[](https://bolt.new)模型[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | [](https://bolt.new)GPT[](https://bolt.new)-[](https://bolt.new)5[](https://bolt.new).[](https://bolt.new)5[](https://bolt.new) | [](https://bolt.new)Claude[](https://bolt.new) [](https://bolt.new)Opus[](https://bolt.new) [](https://bolt.new)4[](https://bolt.new) | [](https://bolt.new)Gemini[](https://bolt.new) [](https://bolt.new)3[](https://bolt.new).[](https://bolt.new)5[](https://bolt.new) | [](https://bolt.new)V4[](https://bolt.new)-[](https://bolt.new)Pro[](https://bolt.new) | [](https://bolt.new)K2[](https://bolt.new)-[](https://bolt.new)6[](https://bolt.new) |
-| 🎨 [**[](https://bolt.new)多模态[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 💻 [**[](https://bolt.new)编码[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 📄 [**[](https://bolt.new)长文档[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🇨🇳 [**[](https://bolt.new)中文[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 💰 [**[](https://bolt.new)价格[](https://bolt.new)**](https://[bolt.new](https://bolt.new)) | $[](https://bolt.new)20[](https://bolt.new)/[](https://bolt.new)月[](https://bolt.new) | $[](https://bolt.new)20[](https://bolt.new)/[](https://bolt.new)月[](https://bolt.new) | $[](https://bolt.new)20[](https://bolt.new)/[](https://bolt.new)月[](https://bolt.new) | [](https://bolt.new)免费[](https://bolt.new)/[](https://bolt.new)低价[](https://bolt.new) | [](https://bolt.new)免费[](https://bolt.new)/[](https://bolt.new)低价[](https://bolt.new) |
+| 维度 | ChatGPT | Claude | Gemini | DeepSeek | Kimi |
+|------|---------|--------|--------|----------|------|
+| 🤖 **模型** | GPT-5.5 | Claude Opus 4 | Gemini 3.5 | V4-Pro | K2-6 |
+| 🎨 **多模态** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 💻 **编码** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| 📄 **长文档** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 🇨🇳 **中文** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 💰 **价格** | $20/月 | $20/月 | $20/月 | 免费/低价 | 免费/低价 |
 
 ---
 

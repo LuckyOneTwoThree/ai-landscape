@@ -7,17 +7,17 @@
 
 ## 🧭 AI 编程 IDE 选型罗盘
 
-| [](https://github.com/cline/cline)你的情况[](https://github.com/cline/cline) | [](https://github.com/cline/cline)推荐[](https://github.com/cline/cline) [](https://github.com/cline/cline)IDE[](https://github.com/cline/cline) | [](https://github.com/cline/cline)理由[](https://github.com/cline/cline) |
-| --------- | --------- | ------ |
-| 🎯 [**[](https://github.com/cline/cline)VS[](https://github.com/cline/cline) [](https://github.com/cline/cline)Code[](https://github.com/cline/cline) [](https://github.com/cline/cline)用户[](https://github.com/cline/cline)，[](https://github.com/cline/cline)想要最强[](https://github.com/cline/cline) [](https://github.com/cline/cline)AI[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Cursor**](https://cursor.com) | [](https://github.com/cline/cline)Composer[](https://github.com/cline/cline) [](https://github.com/cline/cline)多文件修改[](https://github.com/cline/cline) + [](https://github.com/cline/cline)Tab[](https://github.com/cline/cline) [](https://github.com/cline/cline)补全[](https://github.com/cline/cline)，[](https://github.com/cline/cline)最强[](https://github.com/cline/cline) [](https://github.com/cline/cline)AI[](https://github.com/cline/cline) [](https://github.com/cline/cline)原生[](https://github.com/cline/cline) [](https://github.com/cline/cline)IDE[](https://github.com/cline/cline) |
-| 🧠 [**[](https://github.com/cline/cline)JetBrains[](https://github.com/cline/cline) [](https://github.com/cline/cline)用户[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**JetBrains AI**](https://www.jetbrains.com/ai/) / [**Continue**](https://continue.dev) | [](https://github.com/cline/cline)原生集成[](https://github.com/cline/cline) / [](https://github.com/cline/cline)开源[](https://github.com/cline/cline) [](https://github.com/cline/cline)MCP[](https://github.com/cline/cline) [](https://github.com/cline/cline)支持[](https://github.com/cline/cline) |
-| 🔒 [**[](https://github.com/cline/cline)隐私优先[](https://github.com/cline/cline)，[](https://github.com/cline/cline)不想代码上传[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Tabnine**](https://www.tabnine.com) | [](https://github.com/cline/cline)气隙隔离部署[](https://github.com/cline/cline)，[](https://github.com/cline/cline)零代码保留[](https://github.com/cline/cline) |
-| ☁️ [**[](https://github.com/cline/cline)AWS[](https://github.com/cline/cline) [](https://github.com/cline/cline)生态开发者[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Amazon Kiro**](https://aws.amazon.com/q/) / [**Q Developer**](https://aws.amazon.com/q/developer/) | [](https://github.com/cline/cline)Spec[](https://github.com/cline/cline) [](https://github.com/cline/cline)驱动[](https://github.com/cline/cline) + [](https://github.com/cline/cline)AWS[](https://github.com/cline/cline) [](https://github.com/cline/cline)深度集成[](https://github.com/cline/cline) |
-| 🔍 [**[](https://github.com/cline/cline)Google[](https://github.com/cline/cline) [](https://github.com/cline/cline)生态开发者[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Gemini Code Assist**](https://cloud.google.com/gemini/docs/codeassist) | [](https://github.com/cline/cline)百万[](https://github.com/cline/cline) [](https://github.com/cline/cline)Token[](https://github.com/cline/cline) [](https://github.com/cline/cline)上下文[](https://github.com/cline/cline)，[](https://github.com/cline/cline)Android[](https://github.com/cline/cline) [](https://github.com/cline/cline)Studio[](https://github.com/cline/cline) [](https://github.com/cline/cline)原生[](https://github.com/cline/cline) |
-| 🆓 [**[](https://github.com/cline/cline)想要开源免费方案[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Cline[**](https://github.com/cline/cline) / [**](https://github.com/cline/cline)Continue**](https://[continue](https://continue.dev).dev) | [](https://github.com/cline/cline)完全开源[](https://github.com/cline/cline)，[](https://github.com/cline/cline)MCP[](https://github.com/cline/cline) [](https://github.com/cline/cline)支持[](https://github.com/cline/cline) |
-| 🇨🇳 [**[](https://github.com/cline/cline)中文场景[](https://github.com/cline/cline)，[](https://github.com/cline/cline)国内模型[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**通义灵码**](https://tongyi.aliyun.com/lingma) / [**Trae**](https://www.trae.ai) | [](https://github.com/cline/cline)Qwen3[](https://github.com/cline/cline) / [](https://github.com/cline/cline)豆包驱动[](https://github.com/cline/cline)，[](https://github.com/cline/cline)中文优化[](https://github.com/cline/cline) |
-| 🏢 [**[](https://github.com/cline/cline)企业级[](https://github.com/cline/cline)，[](https://github.com/cline/cline)跨仓库理解[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Sourcegraph Cody**](https://sourcegraph.com/cody) / [**Augment Code**](https://www.augmentcode.com) | [](https://github.com/cline/cline)跨仓库搜索[](https://github.com/cline/cline) + [](https://github.com/cline/cline)深度上下文[](https://github.com/cline/cline) |
-| 🌐 [**[](https://github.com/cline/cline)浏览器端开发[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | [**Replit**](https://replit.com) | [](https://github.com/cline/cline)全自动构建部署[](https://github.com/cline/cline)，[](https://github.com/cline/cline)内置数据库[](https://github.com/cline/cline) |
+| 你的情况 | 推荐 IDE | 理由 |
+|---------|---------|------|
+| 🎯 **VS Code 用户，想要最强 AI** | **Cursor** | Composer 多文件修改 + Tab 补全，最强 AI 原生 IDE |
+| 🧠 **JetBrains 用户** | **JetBrains AI** / **Continue** | 原生集成 / 开源 MCP 支持 |
+| 🔒 **隐私优先，不想代码上传** | **Tabnine** | 气隙隔离部署，零代码保留 |
+| ☁️ **AWS 生态开发者** | **Amazon Kiro** / **Q Developer** | Spec 驱动 + AWS 深度集成 |
+| 🔍 **Google 生态开发者** | **Gemini Code Assist** | 百万 Token 上下文，Android Studio 原生 |
+| 🆓 **想要开源免费方案** | **Cline** / **Continue** | 完全开源，MCP 支持 |
+| 🇨🇳 **中文场景，国内模型** | **通义灵码** / **Trae** | Qwen3 / 豆包驱动，中文优化 |
+| 🏢 **企业级，跨仓库理解** | **Sourcegraph Cody** / **Augment Code** | 跨仓库搜索 + 深度上下文 |
+| 🌐 **浏览器端开发** | **Replit** | 全自动构建部署，内置数据库 |
 
 > [!TIP]
 > **Cursor 是 2026 年 AI 编程 IDE 的标杆**
@@ -71,14 +71,14 @@
 
 ## 💡 IDE 对比
 
-| [](https://github.com/cline/cline)维度[](https://github.com/cline/cline) | [Cursor](https://cursor.com) | [](https://github.com/cline/cline)Windsurf[](https://github.com/cline/cline) | [](https://github.com/cline/cline)GitHub[](https://github.com/cline/cline) [](https://github.com/cline/cline)Copilot[](https://github.com/cline/cline) | [JetBrains AI](https://www.jetbrains.com/ai/) | [Continue](https://continue.dev) |
-| ------ | -------- | ---------- | ---------------- | -------------- | ---------- |
-| 🤖 [**[](https://github.com/cline/cline)AI[](https://github.com/cline/cline) [](https://github.com/cline/cline)原生[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| ⌨️ [**[](https://github.com/cline/cline)Tab[](https://github.com/cline/cline) [](https://github.com/cline/cline)补全[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 📝 [**[](https://github.com/cline/cline)多文件修改[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| 🔌 [**[](https://github.com/cline/cline)MCP[](https://github.com/cline/cline) [](https://github.com/cline/cline)支持[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
-| 🆓 [**[](https://github.com/cline/cline)开源[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ❌ | ❌ | ❌ | ❌ | ✅ |
-| 💻 [**[](https://github.com/cline/cline)本地模型[](https://github.com/cline/cline)**](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| 维度 | Cursor | Windsurf | GitHub Copilot | JetBrains AI | Continue |
+|------|--------|----------|----------------|--------------|----------|
+| 🤖 **AI 原生** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| ⌨️ **Tab 补全** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 📝 **多文件修改** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| 🔌 **MCP 支持** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
+| 🆓 **开源** | ❌ | ❌ | ❌ | ❌ | ✅ |
+| 💻 **本地模型** | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 

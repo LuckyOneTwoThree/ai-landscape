@@ -10,11 +10,11 @@
 在 2026 年，单纯比较"最大维度"已经过时。现代企业级 RAG 架构更加关注**多模态融合检索**以及通过 **Matryoshka (套娃) 弹性维度**来平衡成本与精度。
 
 | 架构需求 | 推荐 Embedding | 推荐 Reranker | 组合优势 |
-| --------- | --------------- | -------------- | --------- |
-| **全能商业旗舰** | [**Cohere Embed v4**](https://cohere.com) | [Cohere Rerank v3](https://cohere.com) | 支持文本+图表混排，Matryoshka 弹性维度 |
-| **开源首选** | [**BGE-M3**](https://github.com/FlagOpen/FlagEmbedding) | **[BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding)** | 稀疏+密集双检索，本地部署极高召回 |
-| **中文深层语义** | [**GTE-Qwen2**](https://huggingface.co/Alibaba-NLP/gte-Qwen2) | [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) | 中文多义词、生僻字、专业领域优化 |
-| **超长上下文 (32K+)** | [**Jina v5 Omni**](https://jina.ai) | [Jina Reranker](https://jina.ai) | 32K 上下文嵌入，无需切割 PDF |
+|---------|---------------|--------------|---------|
+| **全能商业旗舰** | **Cohere Embed v4** | Cohere Rerank v3 | 支持文本+图表混排，Matryoshka 弹性维度 |
+| **开源首选** | **BGE-M3** | **BGE-Reranker-V2** | 稀疏+密集双检索，本地部署极高召回 |
+| **中文深层语义** | **GTE-Qwen2** | BGE-Reranker-V2 | 中文多义词、生僻字、专业领域优化 |
+| **超长上下文 (32K+)** | **Jina v5 Omni** | Jina Reranker | 32K 上下文嵌入，无需切割 PDF |
 | **代码片段检索** | **Codestral Embed** | — | 专精 AST 结构与函数级召回 |
 
 > [!TIP]
@@ -53,7 +53,7 @@
 ## 🔧 维度选择指南
 
 | 维度 | 精度 | 存储成本 | 检索速度 | 适用场景 |
-| ------ | ------ | --------- | --------- | --------- |
+|------|------|---------|---------|---------|
 | **256** | 低 | 最低 | 最快 | 原型验证，资源受限 |
 | **1024** | 中 | 中 | 快 | 通用 RAG，性价比最优 |
 | **1536** | 高 | 较高 | 中 | 中文语义，专业领域 |
@@ -66,11 +66,11 @@
 ## 💡 RAG 最佳实践
 
 | 环节 | 推荐方案 | 说明 |
-| ------ | --------- | ------ |
+|------|---------|------|
 | **文档切分** | 按语义切分 (512 Token) | 避免按固定字符切分破坏语义 |
-| **Embedding** | [BGE-M3](https://github.com/FlagOpen/FlagEmbedding) (开源) / Cohere (商业) | 稀疏+密集双检索效果最佳 |
+| **Embedding** | BGE-M3 (开源) / Cohere (商业) | 稀疏+密集双检索效果最佳 |
 | **向量存储** | Milvus / Qdrant / pgvector | 参见 `02-infrastructure/vector-db.md` |
-| **Reranking** | [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) / [Cohere Rerank](https://cohere.com) | 两阶段检索提升 20-40% 准确率 |
+| **Reranking** | BGE-Reranker-V2 / Cohere Rerank | 两阶段检索提升 20-40% 准确率 |
 | **混合搜索** | Elasticsearch / Vespa | 全文+向量混合，精确+语义 |
 
 ---

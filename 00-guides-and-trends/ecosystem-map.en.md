@@ -142,28 +142,28 @@ flowchart TB
 
 ### Model Layer
 
-| Tier | Model | Vendor | Positioning |
-| ------ | ------- | -------- | ------------- |
-| **T0 Flagship** | [GPT-5.5](https://openai.com) Pro | OpenAI | Strongest Intelligence, Agent/Coding/Knowledge Work |
-| **T0 Flagship** | [Claude Opus 4](https://anthropic.com).8 | Anthropic | Strongest Agent Reliability, Coding Consistency |
-| **T0 Flagship** | [Gemini 3.5 Flash](https://gemini.google.com) | Google | Agent Workflows, Multi-Agent Coordination |
-| **T1 High Cost-Performance** | [DeepSeek-V4-Pro](https://deepseek.com) | DeepSeek | Open-Source MoE, 1M Context |
-| **T1 High Cost-Performance** | [Qwen3-Coder](https://qwen.ai)-480B | Alibaba | Agent-level Programming, Open-Source |
-| **T1 High Cost-Performance** | [GLM-5.1](https://open.bigmodel.cn) | Zhipu AI | Omnimodal Matrix, Chinese Optimization |
-| **T2 Lightweight** | [GPT-5.5-mini](https://openai.com) | OpenAI | High Cost-Performance, Rapid Response |
-| **T2 Lightweight** | [Claude Haiku 4](https://anthropic.com) | Anthropic | Lightweight, Low Cost |
-| **T2 Lightweight** | [DeepSeek-V4-Flash](https://deepseek.com) | DeepSeek | Ultra-High Cost-Performance |
+| Tier | **Model** | Vendor | Positioning |
+| ------ | **-------** | -------- | ------------- |
+| **T0 Flagship** | **GPT-5.5 Pro** | OpenAI | Strongest Intelligence, Agent/Coding/Knowledge Work |
+| **T0 Flagship** | **Claude Opus 4.8** | Anthropic | Strongest Agent Reliability, Coding Consistency |
+| **T0 Flagship** | **Gemini 3.5 Flash** | Google | Agent Workflows, Multi-Agent Coordination |
+| **T1 High Cost-Performance** | **DeepSeek-V4-Pro** | DeepSeek | Open-Source MoE, 1M Context |
+| **T1 High Cost-Performance** | **Qwen3-Coder-480B** | Alibaba | Agent-level Programming, Open-Source |
+| **T1 High Cost-Performance** | **GLM-5.1** | Zhipu AI | Omnimodal Matrix, Chinese Optimization |
+| **T2 Lightweight** | **GPT-5.5-mini** | OpenAI | High Cost-Performance, Rapid Response |
+| **T2 Lightweight** | **Claude Haiku 4** | Anthropic | Lightweight, Low Cost |
+| **T2 Lightweight** | **DeepSeek-V4-Flash** | DeepSeek | Ultra-High Cost-Performance |
 
 ### Tool Layer
 
-| Category | Representative Tools | Core Capabilities |
-| ---------- | ---------------------- | ------------------- |
-| **AI IDE** | Cursor, Windsurf | AI-Native Coding, Agent Mode |
-| **Coding Agents** | [Codex](https://openai.com), Claude Code | Autonomous Coding in Terminal, PR Generation |
-| **AI App Builders** | Bolt.new, Lovable, v0 | Generating Complete Apps with One Prompt |
-| **AI Search** | Perplexity, Kimi | Real-Time Search + AI Summarization |
-| **Agent Frameworks** | [OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview), LangGraph | Agent Orchestration, Tool Calling |
-| **Tool Protocols** | MCP, A2A | Standardized Tool Connections |
+| Category | **Representative Tools** | Core Capabilities |
+| ---------- | **----------------------** | ------------------- |
+| **AI IDE** | **Cursor, Windsurf** | AI-Native Coding, Agent Mode |
+| **Coding Agents** | **Codex, Claude Code** | Autonomous Coding in Terminal, PR Generation |
+| **AI App Builders** | **Bolt.new, Lovable, v0** | Generating Complete Apps with One Prompt |
+| **AI Search** | **Perplexity, Kimi** | Real-Time Search + AI Summarization |
+| **Agent Frameworks** | **OpenAI Agents SDK, LangGraph** | Agent Orchestration, Tool Calling |
+| **Tool Protocols** | **MCP, A2A** | Standardized Tool Connections |
 
 ### Trend Layer
 

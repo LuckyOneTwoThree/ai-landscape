@@ -9,14 +9,14 @@
 
 Converting PDF to text sounds simple, but it is actually the **most error-prone step** in the RAG pipeline.
 
-| Document Type | Difficulty | Common Pitfalls | Recommended Solutions |
-| --------- | ------ | -------- | --------- |
-| **Text-only PDF** | ⭐ | Almost none | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) direct extraction |
-| **Scanned PDF** | ⭐⭐⭐ | OCR recognition errors, layout formatting mess | [Marker](https://github.com/datalab-to/marker) / [Docling](https://github.com/DS4SD/docling) |
-| **PDF with Tables** | ⭐⭐⭐⭐ | Table structure loss, column misalignment | [MinerU](https://github.com/opendatalab/MinerU) / [Docling](https://github.com/DS4SD/docling) |
-| **Multi-column Layout PDF** | ⭐⭐⭐ | Reading order disruption | [Nougat](https://github.com/facebookresearch/nougat) / [Marker](https://github.com/datalab-to/marker) |
-| **PDF with Images** | ⭐⭐⭐⭐ | Missing image captions/descriptions | Direct understanding via multimodal models |
-| **Webpage / HTML** | ⭐⭐ | High noise (ads, navigation) | [Crawl4AI](https://github.com/unclecode/crawl4ai) / [Jina Reader](https://jina.ai/reader) |
+| Document Type | **Difficulty** | Common Pitfalls | Recommended Solutions |
+| --------- | **------** | -------- | --------- |
+| **Text-only PDF** | **⭐** | Almost none | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) direct extraction |
+| **Scanned PDF** | **⭐⭐⭐** | OCR recognition errors, layout formatting mess | [Marker](https://github.com/datalab-to/marker) / [Docling](https://github.com/DS4SD/docling) |
+| **PDF with Tables** | **⭐⭐⭐⭐** | Table structure loss, column misalignment | [MinerU](https://github.com/opendatalab/MinerU) / [Docling](https://github.com/DS4SD/docling) |
+| **Multi-column Layout PDF** | **⭐⭐⭐** | Reading order disruption | [Nougat](https://github.com/facebookresearch/nougat) / [Marker](https://github.com/datalab-to/marker) |
+| **PDF with Images** | **⭐⭐⭐⭐** | Missing image captions/descriptions | Direct understanding via multimodal models |
+| **Webpage / HTML** | **⭐⭐** | High noise (ads, navigation) | [Crawl4AI](https://github.com/unclecode/crawl4ai) / [Jina Reader](https://jina.ai/reader) |
 
 > [!TIP]
 > **90% of PDF parsing issues can be solved with MinerU**

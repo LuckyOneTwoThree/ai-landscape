@@ -10,16 +10,16 @@
 选框架的核心问题不是"哪个最好"，而是**"你的项目需要什么"**。
 
 | 你的情况 | 推荐框架 | 理由 |
-| --------- | --------- | ------ |
-| **快速原型 / MVP** | [LangChain](https://langchain.com) | 生态最完整，集成最多，社区最大 |
-| **RAG / 知识库** | [LlamaIndex](https://llamaindex.ai) | 数据处理专精，PageIndex，Agentic RAG |
-| **企业级 / 微软生态** | [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) | Azure 集成，MAF 合并，企业级 |
-| **声明式 Prompt 工程** | [DSPy](https://dspy.ai) | 自动优化 Prompt，程序化 LLM |
-| **前端 AI 集成** | [Vercel AI SDK](https://sdk.vercel.ai) | React/[Next.js](https://nextjs.org) 原生，流式 UI |
-| **类型安全 / 结构化输出** | [Pydantic AI](https://ai.pydantic.dev) / [Instructor](https://python.useinstructor.com) | Pydantic 深度集成 |
-| **Java/JVM 生态** | [LangChain4j](https://github.com/langchain4j/langchain4j) | Java 版 [LangChain](https://langchain.com)，12.2K Stars |
-| **Go 语言生态** | [Eino](https://github.com/cloudwego/eino) | 字节跳动出品，11.7K Stars |
-| **Ruby 生态** | [RubyLLM](https://github.com/crmne/ruby_llm) | 全能 Ruby AI 框架 |
+|---------|---------|------|
+| **快速原型 / MVP** | LangChain | 生态最完整，集成最多，社区最大 |
+| **RAG / 知识库** | LlamaIndex | 数据处理专精，PageIndex，Agentic RAG |
+| **企业级 / 微软生态** | Semantic Kernel | Azure 集成，MAF 合并，企业级 |
+| **声明式 Prompt 工程** | DSPy | 自动优化 Prompt，程序化 LLM |
+| **前端 AI 集成** | Vercel AI SDK | React/Next.js 原生，流式 UI |
+| **类型安全 / 结构化输出** | Pydantic AI / Instructor | Pydantic 深度集成 |
+| **Java/JVM 生态** | LangChain4j | Java 版 LangChain，12.2K Stars |
+| **Go 语言生态** | Eino | 字节跳动出品，11.7K Stars |
+| **Ruby 生态** | RubyLLM | 全能 Ruby AI 框架 |
 
 > [!TIP]
 > **90% 的项目用 LangChain 或 LlamaIndex 就够了**
@@ -71,35 +71,35 @@
 ### 🔵 全栈框架：什么都能做
 
 | 框架 | 语言 | Stars | 核心优势 | 适合谁 |
-| ------ | ------ | ------- | --------- | -------- |
-| [**LangChain**](https://langchain.com) | Python/TS | 138K | 生态最完整，集成最多 | 快速原型，全栈开发 |
-| [**LlamaIndex**](https://llamaindex.ai) | Python | 50K | RAG 专精，PageIndex | 知识库，数据密集 |
-| [**Haystack**](https://haystack.deepset.ai) | Python | 25K | 模块化 Pipeline | 搜索，RAG，生产就绪 |
-| [**Semantic Kernel**](https://learn.microsoft.com/en-us/semantic-kernel/) | C#/Python/Java | 18K | 微软生态，Azure 集成 | 企业级，.NET 生态 |
+|------|------|-------|---------|--------|
+| **LangChain** | Python/TS | 138K | 生态最完整，集成最多 | 快速原型，全栈开发 |
+| **LlamaIndex** | Python | 50K | RAG 专精，PageIndex | 知识库，数据密集 |
+| **Haystack** | Python | 25K | 模块化 Pipeline | 搜索，RAG，生产就绪 |
+| **Semantic Kernel** | C#/Python/Java | 18K | 微软生态，Azure 集成 | 企业级，.NET 生态 |
 
 ### 🟢 专精框架：一个方向做到极致
 
 | 框架 | 方向 | Stars | 核心优势 | 适合谁 |
-| ------ | ------ | ------- | --------- | -------- |
-| [**DSPy**](https://dspy.ai) | 声明式 Prompt | 22K | 自动优化 Prompt | Prompt 工程师 |
-| [**Pydantic AI**](https://ai.pydantic.dev) | 类型安全 | 18K | Pydantic 深度集成 | Python 开发者 |
-| [**Instructor**](https://python.useinstructor.com) | 结构化输出 | 13K | LLM → 结构化数据 | 数据处理 |
-| [**BAML**](https://github.com/BoundaryML/baml) | 工程化 Prompt | 8.3K | 结构化输出 | 企业级应用 |
-| [**Vercel AI SDK**](https://sdk.vercel.ai) | 前端集成 | 15K | React/[Next.js](https://nextjs.org) 原生 | 前端开发者 |
+|------|------|-------|---------|--------|
+| **DSPy** | 声明式 Prompt | 22K | 自动优化 Prompt | Prompt 工程师 |
+| **Pydantic AI** | 类型安全 | 18K | Pydantic 深度集成 | Python 开发者 |
+| **Instructor** | 结构化输出 | 13K | LLM → 结构化数据 | 数据处理 |
+| **BAML** | 工程化 Prompt | 8.3K | 结构化输出 | 企业级应用 |
+| **Vercel AI SDK** | 前端集成 | 15K | React/Next.js 原生 | 前端开发者 |
 
 ### 🟡 语言特定：非 Python 生态
 
 | 框架 | 语言 | Stars | 核心优势 | 适合谁 |
-| ------ | ------ | ------- | --------- | -------- |
-| [**LangChain4j**](https://github.com/langchain4j/langchain4j) | Java | 12.2K | Java 版 [LangChain](https://langchain.com) | Java/JVM 开发者 |
-| [**Eino**](https://github.com/cloudwego/eino) | Go | 11.7K | 字节跳动出品 | Go 开发者 |
-| [**RubyLLM**](https://github.com/crmne/ruby_llm) | Ruby | 4K | 全能 Ruby AI 框架 | Ruby 开发者 |
-| [**Mastra**](https://mastra.ai) | TypeScript | 25K | 全栈 Agent 框架 | TypeScript 开发者 |
+|------|------|-------|---------|--------|
+| **LangChain4j** | Java | 12.2K | Java 版 LangChain | Java/JVM 开发者 |
+| **Eino** | Go | 11.7K | 字节跳动出品 | Go 开发者 |
+| **RubyLLM** | Ruby | 4K | 全能 Ruby AI 框架 | Ruby 开发者 |
+| **Mastra** | TypeScript | 25K | 全栈 Agent 框架 | TypeScript 开发者 |
 
 ## 💡 框架对比
 
-| 维度 | [LangChain](https://langchain.com) | [LlamaIndex](https://llamaindex.ai) | [DSPy](https://dspy.ai) | [Pydantic AI](https://ai.pydantic.dev) |
-| ------ | ----------- | ------------ | ------ | ------------- |
+| 维度 | LangChain | LlamaIndex | DSPy | Pydantic AI |
+|------|-----------|------------|------|-------------|
 | **学习曲线** | 中 | 中 | 高 | 低 |
 | **生态完整度** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 | **RAG 支持** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ |

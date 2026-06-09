@@ -7,13 +7,13 @@
 
 ## ⚙️ Workflow Automation: What Do You Really Need?
 
-| Your Situation | Recommended Platform | Reason |
-| --------- | --------- | ------ |
-| **Open Source / Private Deployment** | [n8n](https://n8n.io) | 65K Stars, AI-native nodes |
-| **AI Agent + MCP** | [Activepieces](https://github.com/activepieces/activepieces) | 400+ MCP servers |
-| **Simple Automation / Non-Technical** | [Zapier](https://zapier.com) | 7000+ apps, easiest to use |
-| **Complex Workflows / Visual** | [Make](https://make.com) | 1500+ apps, powerful orchestration |
-| **Developers / Scripting** | [Windmill](https://windmill.dev) | Multi-language scripting, code-first |
+| Your Situation | **Recommended Platform** | Reason |
+| --------- | **---------** | ------ |
+| **Open Source / Private Deployment** | **n8n** | 65K Stars, AI-native nodes |
+| **AI Agent + MCP** | **Activepieces** | 400+ MCP servers |
+| **Simple Automation / Non-Technical** | **Zapier** | 7000+ apps, easiest to use |
+| **Complex Workflows / Visual** | **Make** | 1500+ apps, powerful orchestration |
+| **Developers / Scripting** | **Windmill** | Multi-language scripting, code-first |
 
 > [!TIP]
 > **n8n is the best choice in 2026**

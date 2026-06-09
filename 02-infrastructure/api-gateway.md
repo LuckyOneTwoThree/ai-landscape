@@ -12,8 +12,8 @@
 **场景**：你的 Agent 一天调用 1000 次 LLM，其中 800 次是简单问答，200 次是复杂推理。
 
 | 方案 | 简单任务 (800次) | 复杂任务 (200次) | 日成本 |
-| ------ | ----------------- | ----------------- | -------- |
-| [**全用 GPT-5.5**](https://openai.com) | 800 × $0.015 = $12 | 200 × $0.075 = $15 | **$27** |
+|------|-----------------|-----------------|--------|
+| **全用 GPT-5.5** | 800 × $0.015 = $12 | 200 × $0.075 = $15 | **$27** |
 | **路由：简单用 nano，复杂用 5.5** | 800 × $0.001 = $0.8 | 200 × $0.075 = $15 | **$15.8** |
 
 **省了 41%**，而且简单任务的质量几乎没有下降。
@@ -74,10 +74,10 @@
 **核心思路**：根据任务复杂度自动选择模型。
 
 | 任务类型 | 推荐模型 | 价格 (输入/输出) |
-| --------- | --------- | ----------------- |
-| **日常对话 / 简单问答** | GPT-5.4-nano / [DeepSeek-V4-Flash](https://deepseek.com) | $0.10 / $0.40 |
-| **代码生成 / 文档撰写** | GPT-5.4-mini / [Claude Haiku 4](https://anthropic.com) | $0.40 / $1.60 |
-| **复杂推理 / 系统设计** | [GPT-5.5](https://openai.com) / [Claude Opus 4](https://anthropic.com) | $5.00 / $25.00 |
+|---------|---------|-----------------|
+| **日常对话 / 简单问答** | GPT-5.4-nano / DeepSeek-V4-Flash | $0.10 / $0.40 |
+| **代码生成 / 文档撰写** | GPT-5.4-mini / Claude Haiku 4 | $0.40 / $1.60 |
+| **复杂推理 / 系统设计** | GPT-5.5 / Claude Opus 4 | $5.00 / $25.00 |
 
 **用 LiteLLM 实现路由**：
 ```python
@@ -110,14 +110,14 @@ smart_route("设计一个分布式任务调度系统", "complex")
 ## 🌏 工具速查
 
 | 工具 | Stars | 定位 | 适合谁 |
-| ------ | ------- | ------ | -------- |
-| [**CC Switch**](https://github.com/farion1231/cc-switch) | 94K | 桌面 AI 模型管理 | 本地实验，模型对比 |
-| [**one-api**](https://github.com/songquanpeng/one-api) | 37K | 多模型统一代理 | 国内团队，多供应商 |
-| [**new-api**](https://github.com/QuantumNous/new-api) | 37K | [one-api](https://github.com/songquanpeng/one-api) 增强版 | 需要更多功能 |
-| [**LiteLLM**](https://github.com/BerriAI/litellm) | 15K | AI 多模型代理 | 开发者，自建路由 |
-| [**OpenRouter**](https://openrouter.ai) | — | 云端多模型路由 | 不想自建，按量付费 |
-| [**Higress**](https://github.com/higress-group/higress) | 8.5K | 阿里云原生网关 | 阿里云用户 |
-| [**Kong**](https://github.com/Kong/kong) | 43K | 企业级 API 网关 | 传统 API + AI 混合 |
+|------|-------|------|--------|
+| **CC Switch** | 94K | 桌面 AI 模型管理 | 本地实验，模型对比 |
+| **one-api** | 37K | 多模型统一代理 | 国内团队，多供应商 |
+| **new-api** | 37K | one-api 增强版 | 需要更多功能 |
+| **LiteLLM** | 15K | AI 多模型代理 | 开发者，自建路由 |
+| **OpenRouter** | — | 云端多模型路由 | 不想自建，按量付费 |
+| **Higress** | 8.5K | 阿里云原生网关 | 阿里云用户 |
+| **Kong** | 43K | 企业级 API 网关 | 传统 API + AI 混合 |
 
 ---
 

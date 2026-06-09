@@ -7,27 +7,27 @@
 
 ## 🔍 Agent 工具 vs IDE 工具
 
-| [](https://aider.chat)维度[](https://aider.chat) | [](https://aider.chat)IDE[](https://aider.chat) [](https://aider.chat)类[](https://aider.chat) ([](https://aider.chat)Cursor[](https://aider.chat)/[](https://aider.chat)Cline[](https://aider.chat)) | [](https://aider.chat)Agent[](https://aider.chat) [](https://aider.chat)工具[](https://aider.chat) ([](https://aider.chat)本页[](https://aider.chat)) |
-| ------ | ---------------------- | ------------------- |
-| 🖥️ [](https://aider.chat)交互方式[](https://aider.chat) | [](https://aider.chat)IDE[](https://aider.chat) [](https://aider.chat)内嵌[](https://aider.chat)，[](https://aider.chat)人机协作[](https://aider.chat) | [](https://aider.chat)终端[](https://aider.chat)/[](https://aider.chat)云端[](https://aider.chat)，[](https://aider.chat)Agent[](https://aider.chat) [](https://aider.chat)自主执行[](https://aider.chat) |
-| 📦 [](https://aider.chat)是否需要[](https://aider.chat) [](https://aider.chat)IDE[](https://aider.chat) | ✅ [](https://aider.chat)是[](https://aider.chat) | ❌ [](https://aider.chat)否[](https://aider.chat) |
-| ⚡ [](https://aider.chat)执行模式[](https://aider.chat) | [](https://aider.chat)补全[](https://aider.chat) + [](https://aider.chat)Agent[](https://aider.chat) [](https://aider.chat)辅助[](https://aider.chat) | [](https://aider.chat)全自主闭环[](https://aider.chat) |
-| 🎯 [](https://aider.chat)代表[](https://aider.chat) | [](https://aider.chat)Cursor[](https://aider.chat), [](https://aider.chat)Windsurf[](https://aider.chat), [](https://aider.chat)Cline[](https://aider.chat) | [Claude Code](https://www.anthropic.com/product/claude-code), [Codex](https://openai.com), [Devin](https://www.cognition.ai/devin) |
+| 维度 | IDE 类 (Cursor/Cline) | Agent 工具 (本页) |
+|------|----------------------|-------------------|
+| 🖥️ 交互方式 | IDE 内嵌，人机协作 | 终端/云端，Agent 自主执行 |
+| 📦 是否需要 IDE | ✅ 是 | ❌ 否 |
+| ⚡ 执行模式 | 补全 + Agent 辅助 | 全自主闭环 |
+| 🎯 代表 | Cursor, Windsurf, Cline | Claude Code, Codex, Devin |
 
 ---
 
 ## 🧭 Agent 工具选型罗盘
 
-| [](https://aider.chat)你的情况[](https://aider.chat) | [](https://aider.chat)推荐工具[](https://aider.chat) | [](https://aider.chat)理由[](https://aider.chat) |
-| --------- | --------- | ------ |
-| 🖥️ [**[](https://aider.chat)终端开发者[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**Claude Code**](https://claude.ai) / [**Aider**](https://aider.chat) | [](https://aider.chat)CLI[](https://aider.chat) [](https://aider.chat)原生[](https://aider.chat)，[](https://aider.chat)全局工程理解[](https://aider.chat) |
-| ☁️ [**[](https://aider.chat)云端异步编码[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**OpenAI Codex[**](https://chatgpt.com/codex) / [**](https://openai.com)Devin**](https://cognition.ai) | [](https://aider.chat)云端沙盒[](https://aider.chat)，[](https://aider.chat)不污染本地[](https://aider.chat) |
-| 👔 [**[](https://aider.chat)全办公场景[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**WorkBuddy**](https://workbuddy.ai) | [](https://aider.chat)不限于编程[](https://aider.chat)，[](https://aider.chat)覆盖全办公[](https://aider.chat) |
-| 🆓 [**[](https://aider.chat)开源免费[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**Aider[**](https://aider.chat) / [**](https://aider.chat)Hermes Agent**](https://github.com/NousResearch/Hermes-Function-Calling) | [](https://aider.chat)完全开源[](https://aider.chat)，[](https://aider.chat)多模型可选[](https://aider.chat) |
-| 🚀 [**[](https://aider.chat)全自主交付[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**Devin 3.0**](https://cognition.ai) | [](https://aider.chat)独立环境[](https://aider.chat)，[](https://aider.chat)SOLO[](https://aider.chat) [](https://aider.chat)模式[](https://aider.chat) |
-| 🌐 [**[](https://aider.chat)浏览器自动化[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**browser-use**](https://github.com/browser-use/browser-use) | [](https://aider.chat)97K[](https://aider.chat) [](https://aider.chat)Stars[](https://aider.chat)，[](https://aider.chat)AI[](https://aider.chat) [](https://aider.chat)浏览器操控[](https://aider.chat) |
-| 🧠 [**[](https://aider.chat)自我进化[](https://aider.chat) [](https://aider.chat)Agent[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**Hermes Agent**](https://github.com/NousResearch/Hermes-Function-Calling) | [](https://aider.chat)188K[](https://aider.chat) [](https://aider.chat)Stars[](https://aider.chat)，[](https://aider.chat)自动创建技能[](https://aider.chat) |
-| 🔬 [**[](https://aider.chat)深度研究[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [**DeerFlow**](https://github.com/bytedance/DeerFlow) | [](https://aider.chat)字节跳动[](https://aider.chat)，[](https://aider.chat)多[](https://aider.chat) [](https://aider.chat)Agent[](https://aider.chat) [](https://aider.chat)协同[](https://aider.chat) |
+| 你的情况 | 推荐工具 | 理由 |
+|---------|---------|------|
+| 🖥️ **终端开发者** | **Claude Code** / **Aider** | CLI 原生，全局工程理解 |
+| ☁️ **云端异步编码** | **OpenAI Codex** / **Devin** | 云端沙盒，不污染本地 |
+| 👔 **全办公场景** | **WorkBuddy** | 不限于编程，覆盖全办公 |
+| 🆓 **开源免费** | **Aider** / **Hermes Agent** | 完全开源，多模型可选 |
+| 🚀 **全自主交付** | **Devin 3.0** | 独立环境，SOLO 模式 |
+| 🌐 **浏览器自动化** | **browser-use** | 97K Stars，AI 浏览器操控 |
+| 🧠 **自我进化 Agent** | **Hermes Agent** | 188K Stars，自动创建技能 |
+| 🔬 **深度研究** | **DeerFlow** | 字节跳动，多 Agent 协同 |
 
 > [!TIP]
 > **Hermes Agent 是 2026 年最火的开源 Agent**
@@ -85,15 +85,15 @@
 
 ## 💡 工具对比
 
-| [](https://aider.chat)维度[](https://aider.chat) | [](https://aider.chat)Hermes[](https://aider.chat) [](https://aider.chat)Agent[](https://aider.chat) | [Claude Code](https://www.anthropic.com/product/claude-code) | [](https://aider.chat)Codex[](https://aider.chat) | [Devin](https://www.cognition.ai/devin) | [Aider](https://aider.chat) |
-| ------ | -------------- | ------------- | ------- | ------- | ------- |
-| ⭐ [**[](https://aider.chat)Stars[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [](https://aider.chat)188K[](https://aider.chat) | - | - | - | [](https://aider.chat)43K[](https://aider.chat) |
-| 🆓 [**[](https://aider.chat)开源[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | ✅ | ❌ | [](https://aider.chat)部分[](https://aider.chat) | ❌ | ✅ |
-| 🧠 [**[](https://aider.chat)自我进化[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| 💾 [**[](https://aider.chat)持久记忆[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| ☁️ [**[](https://aider.chat)云端执行[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | ❌ | ❌ | ✅ | ✅ | ❌ |
-| 🌐 [**[](https://aider.chat)浏览器[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | ✅ | ✅ | ❌ | ✅ | ❌ |
-| 💰 [**[](https://aider.chat)价格[](https://aider.chat)**](https://[aider](https://aider.chat).chat) | [](https://aider.chat)免费[](https://aider.chat) | $[](https://aider.chat)20[](https://aider.chat)/[](https://aider.chat)月[](https://aider.chat) | $[](https://aider.chat)20[](https://aider.chat)/[](https://aider.chat)月[](https://aider.chat) | $[](https://aider.chat)500[](https://aider.chat)/[](https://aider.chat)月[](https://aider.chat) | [](https://aider.chat)免费[](https://aider.chat) |
+| 维度 | Hermes Agent | Claude Code | Codex | Devin | Aider |
+|------|--------------|-------------|-------|-------|-------|
+| ⭐ **Stars** | 188K | - | - | - | 43K |
+| 🆓 **开源** | ✅ | ❌ | 部分 | ❌ | ✅ |
+| 🧠 **自我进化** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| 💾 **持久记忆** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| ☁️ **云端执行** | ❌ | ❌ | ✅ | ✅ | ❌ |
+| 🌐 **浏览器** | ✅ | ✅ | ❌ | ✅ | ❌ |
+| 💰 **价格** | 免费 | $20/月 | $20/月 | $500/月 | 免费 |
 
 ---
 

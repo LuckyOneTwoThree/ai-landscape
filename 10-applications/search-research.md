@@ -7,16 +7,16 @@
 
 ## 🧭 AI 搜索工具选型罗盘
 
-| [](https://tavily.com)你的情况[](https://tavily.com) | [](https://tavily.com)推荐工具[](https://tavily.com) | [](https://tavily.com)理由[](https://tavily.com) |
-| --------- | --------- | ------ |
-| 🔎 [**[](https://tavily.com)通用搜索[](https://tavily.com)，[](https://tavily.com)替代[](https://tavily.com) [](https://tavily.com)Google[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Perplexity[**](https://perplexity.ai) / [**](https://perplexity.ai)ChatGPT Search**](https://chatgpt.com) | [](https://tavily.com)AI[](https://tavily.com) [](https://tavily.com)搜索标杆[](https://tavily.com)，[](https://tavily.com)引用精准[](https://tavily.com) |
-| 📚 [**[](https://tavily.com)学术论文搜索[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Consensus[**](https://consensus.app) / [**](https://consensus.app)秘塔 AI**](https://metaso.cn) | [](https://tavily.com)学术论文专项[](https://tavily.com)，[](https://tavily.com)基于证据[](https://tavily.com) |
-| 📊 [**[](https://tavily.com)深度研究报告[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Perplexity Deep Research[**](https://perplexity.ai) / [**](https://perplexity.ai)Gemini Deep Research**](https://gemini.google.com) | [](https://tavily.com)多步推理[](https://tavily.com)，[](https://tavily.com)长篇报告[](https://tavily.com) |
-| 💻 [**[](https://tavily.com)开发者搜索[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Phind**](https://phind.com) | [](https://tavily.com)代码块丰富[](https://tavily.com)，[](https://tavily.com)Stack[](https://tavily.com) [](https://tavily.com)Overflow[](https://tavily.com) [](https://tavily.com)替代[](https://tavily.com) |
-| 🔌 [**[](https://tavily.com)Agent[](https://tavily.com) [](https://tavily.com)搜索[](https://tavily.com) [](https://tavily.com)API[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Tavily[**](https://tavily.com) / [**](https://tavily.com)Exa**](https://[exa](https://exa.ai).ai) | [](https://tavily.com)LangChain[](https://tavily.com)/[](https://tavily.com)LlamaIndex[](https://tavily.com) [](https://tavily.com)默认集成[](https://tavily.com) |
-| 🔒 [**[](https://tavily.com)隐私优先[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Kagi**](https://kagi.com) | [](https://tavily.com)付费无广告[](https://tavily.com)，[](https://tavily.com)隐私保护[](https://tavily.com) |
-| 🇨🇳 [**[](https://tavily.com)国内免费搜索[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**秘塔 AI**](https://metaso.cn) / [**纳米搜索**](https://nami.com) / [**天工 AI**](https://tiangong.cn) | [](https://tavily.com)中文优化[](https://tavily.com)，[](https://tavily.com)免费可用[](https://tavily.com) |
-| 🌐 [**[](https://tavily.com)Google[](https://tavily.com) [](https://tavily.com)生态[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [**Google AI Overviews**](https://google.com) / [**Gemini Deep Research**](https://gemini.google.com) | [](https://tavily.com)Google[](https://tavily.com) [](https://tavily.com)索引新鲜度无与伦比[](https://tavily.com) |
+| 你的情况 | 推荐工具 | 理由 |
+|---------|---------|------|
+| 🔎 **通用搜索，替代 Google** | **Perplexity** / **ChatGPT Search** | AI 搜索标杆，引用精准 |
+| 📚 **学术论文搜索** | **Consensus** / **秘塔 AI** | 学术论文专项，基于证据 |
+| 📊 **深度研究报告** | **Perplexity Deep Research** / **Gemini Deep Research** | 多步推理，长篇报告 |
+| 💻 **开发者搜索** | **Phind** | 代码块丰富，Stack Overflow 替代 |
+| 🔌 **Agent 搜索 API** | **Tavily** / **Exa** | LangChain/LlamaIndex 默认集成 |
+| 🔒 **隐私优先** | **Kagi** | 付费无广告，隐私保护 |
+| 🇨🇳 **国内免费搜索** | **秘塔 AI** / **纳米搜索** / **天工 AI** | 中文优化，免费可用 |
+| 🌐 **Google 生态** | **Google AI Overviews** / **Gemini Deep Research** | Google 索引新鲜度无与伦比 |
 
 > [!TIP]
 > **Perplexity 是 2026 年 AI 搜索的标杆**
@@ -66,14 +66,14 @@
 
 ## 💡 工具对比
 
-| [](https://tavily.com)维度[](https://tavily.com) | [](https://tavily.com)Perplexity[](https://tavily.com) | [](https://tavily.com)ChatGPT[](https://tavily.com) [](https://tavily.com)Search[](https://tavily.com) | [](https://tavily.com)秘塔[](https://tavily.com) [](https://tavily.com)AI[](https://tavily.com) | [](https://tavily.com)Phind[](https://tavily.com) | [](https://tavily.com)Kagi[](https://tavily.com) |
-| ------ | ------------ | ---------------- | --------- | ------- | ------ |
-| 🔍 [**[](https://tavily.com)搜索质量[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 📚 [**[](https://tavily.com)学术搜索[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 💻 [**[](https://tavily.com)代码搜索[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
-| 🇨🇳 [**[](https://tavily.com)中文支持[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
-| 🔌 [**[](https://tavily.com)API[](https://tavily.com) [](https://tavily.com)可用[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| 🆓 [**[](https://tavily.com)免费使用[](https://tavily.com)**](https://[tavily](https://tavily.com).com) | [](https://tavily.com)部分[](https://tavily.com) | [](https://tavily.com)部分[](https://tavily.com) | ✅ | [](https://tavily.com)部分[](https://tavily.com) | ❌ |
+| 维度 | Perplexity | ChatGPT Search | 秘塔 AI | Phind | Kagi |
+|------|------------|----------------|---------|-------|------|
+| 🔍 **搜索质量** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| 📚 **学术搜索** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| 💻 **代码搜索** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| 🇨🇳 **中文支持** | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
+| 🔌 **API 可用** | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 🆓 **免费使用** | 部分 | 部分 | ✅ | 部分 | ❌ |
 
 ---
 

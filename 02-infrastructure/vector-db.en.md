@@ -17,11 +17,11 @@ The essence of vector retrieval: **turning text into a set of numbers (vectors),
 
 **Why not use keyword search?** Because "Apple smartphone" and "iPhone" don't share any keywords, but their semantic meaning is exactly the same.
 
-| Retrieval Method | Can it find "iPhone"? | Can it find "Apple 16 Pro price"? | Applicable Scenario |
-| --------- | ----------------- | --------------------------- | --------- |
-| **Keyword (BM25)** | ❌ | ✅ | Exact match (Product names, code) |
-| **Vector (Dense)** | ✅ | ❌ | Semantic search (Natural language) |
-| **Hybrid Retrieval** | ✅ | ✅ | Both |
+| Retrieval Method | **Can it find "iPhone"?** | Can it find "Apple 16 Pro price"? | Applicable Scenario |
+| --------- | **-----------------** | --------------------------- | --------- |
+| **Keyword (BM25)** | **❌** | ✅ | Exact match (Product names, code) |
+| **Vector (Dense)** | **✅** | ❌ | Semantic search (Natural language) |
+| **Hybrid Retrieval** | **✅** | ✅ | Both |
 
 > [!TIP]
 > **2026 Consensus: Hybrid Retrieval is the Standard**

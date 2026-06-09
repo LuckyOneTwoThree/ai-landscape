@@ -9,13 +9,13 @@
 
 Faced with the explosive growth of the model matrix in 2026, simply comparing parameter counts has lost its meaning. We summarize the best practical selection recommendations for different application scenarios:
 
-| Business Scenario / Architectural Need | Closed-Source Flagship (Performance Ceiling) | Open-Source Base (On-Premise) | Fast & Low-Cost Option | Special Dimensions & Hacker Alternatives |
-| --------------------- | ----------------------- | ------------------- | ---------------- | -------------------- |
-| **Code Refactoring & System Design** | [**Claude Opus 4**](https://anthropic.com)<br>(Best for global refactoring) | [**DeepSeek-V4-Pro**](https://deepseek.com)<br>[**MiMo-V2.5-Pro[**](https://mimo.xiaomi.com) | [Claude Sonnet 4](https://anthropic.com)<br>[Qwen3-Coder](https://qwen.ai) | [**](https://anthropic.com)Mistral Large 3**](https://mistral.ai)<br>(Focus on remote workflow integration) |
-| **High-Frequency Agent & API Calls** | [**GPT-5.5 Instant**](https://openai.com) | [**MiMo-V2.5**](https://mimo.xiaomi.com)<br>[**Qwen3-235B**](https://qwen.ai) | [**DeepSeek-V4-Flash**](https://deepseek.com)<br>(<$0.1 per 1M Tokens) | [Gemini 3.5 Flash](https://gemini.google.com) |
-| **Strong Logical Reasoning & Math** | [**o3**](https://openai.com) | [**DeepSeek-V4-Pro[**](https://deepseek.com) | [Phi-4](https://azure.microsoft.com/en-us/products/phi) | [**](https://azure.microsoft.com/en-us/products/phi)DeepSeek-R1**](https://deepseek.com)<br>[**MiMo-7B-RL**](https://mimo.xiaomi.com) (Edge deployment) |
-| **Massive Docs & Financial Report Parsing** | [**Gemini 3.5 Pro**](https://gemini.google.com) | [**Llama 4 Scout (10M)**](https://ai.meta.com/llama/) | [Kimi K2-6](https://platform.moonshot.cn) (Long-context optimized) | [Claude Sonnet 4](https://anthropic.com) (1M) |
-| **Full-Modal Interaction (Native Voice/Vision)** | [**GPT-5.5 Pro**](https://openai.com) | [**GLM-5.1**](https://open.bigmodel.cn)<br>**Hunyuan HY3** | [MiniMax M3](https://minimaxi.com) | - |
+| Business Scenario / Architectural Need | **Closed-Source Flagship Performance Ceiling** | Open-Source Base (On-Premise) | Fast & Low-Cost Option | Special Dimensions & Hacker Alternatives |
+| --------------------- | **-----------------------** | ------------------- | ---------------- | -------------------- |
+| **Code Refactoring & System Design** | **Claude Opus 4<br>Best for global refactoring** | [**DeepSeek-V4-Pro**](https://deepseek.com)<br>[**MiMo-V2.5-Pro[**](https://mimo.xiaomi.com) | [Claude Sonnet 4](https://anthropic.com)<br>[Qwen3-Coder](https://qwen.ai) | [**](https://anthropic.com)Mistral Large 3**](https://mistral.ai)<br>(Focus on remote workflow integration) |
+| **High-Frequency Agent & API Calls** | **GPT-5.5 Instant** | [**MiMo-V2.5**](https://mimo.xiaomi.com)<br>[**Qwen3-235B**](https://qwen.ai) | [**DeepSeek-V4-Flash**](https://deepseek.com)<br>(<$0.1 per 1M Tokens) | [Gemini 3.5 Flash](https://gemini.google.com) |
+| **Strong Logical Reasoning & Math** | **o3** | [**DeepSeek-V4-Pro[**](https://deepseek.com) | [Phi-4](https://azure.microsoft.com/en-us/products/phi) | [**](https://azure.microsoft.com/en-us/products/phi)DeepSeek-R1**](https://deepseek.com)<br>[**MiMo-7B-RL**](https://mimo.xiaomi.com) (Edge deployment) |
+| **Massive Docs & Financial Report Parsing** | **Gemini 3.5 Pro** | [**Llama 4 Scout (10M)**](https://ai.meta.com/llama/) | [Kimi K2-6](https://platform.moonshot.cn) (Long-context optimized) | [Claude Sonnet 4](https://anthropic.com) (1M) |
+| **Full-Modal Interaction (Native Voice/Vision)** | **GPT-5.5 Pro** | [**GLM-5.1**](https://open.bigmodel.cn)<br>**Hunyuan HY3** | [MiniMax M3](https://minimaxi.com) | - |
 
 > [!TIP]
 > **Warning on 1M+ Ultra-Long Contexts in Production**

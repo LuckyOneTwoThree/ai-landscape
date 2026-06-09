@@ -7,12 +7,12 @@
 
 ## 🧪 When Do You Need Synthetic Data?
 
-| Scenario | Need Synthetic Data? | Reason |
-| ------ | -------------- | ------ |
-| **Fine-tuning a model, but only have 100 data points** | ✅ Yes | Data volume is too small; the model won't learn anything |
-| **Training a classifier, but some classes have very few samples** | ✅ Yes | Class imbalance; the model will be biased towards the majority class |
-| **Testing a RAG system, but have no annotated data** | ✅ Yes | Use LLMs to generate Q&A pairs for evaluation |
-| **Already have 100,000 high-quality data points** | ❌ No | Sufficient data volume; synthetic data might introduce noise |
+| Scenario | **Need Synthetic Data?** | Reason |
+| ------ | **--------------** | ------ |
+| **Fine-tuning a model, but only have 100 data points** | **✅ Yes** | Data volume is too small; the model won't learn anything |
+| **Training a classifier, but some classes have very few samples** | **✅ Yes** | Class imbalance; the model will be biased towards the majority class |
+| **Testing a RAG system, but have no annotated data** | **✅ Yes** | Use LLMs to generate Q&A pairs for evaluation |
+| **Already have 100,000 high-quality data points** | **❌ No** | Sufficient data volume; synthetic data might introduce noise |
 
 > [!TIP]
 > **The Core Value of Synthetic Data: Cold Start**

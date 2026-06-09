@@ -7,12 +7,12 @@
 
 ## 🛡️ AI Guardrails: Securing LLMs
 
-| Your Situation | Recommended Solution | Reason |
-| --------- | --------- | ------ |
-| **Programmable Rules** | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | By NVIDIA, 6.4K Stars |
-| **Output Validation** | [Guardrails AI](https://guardrailsai.com) | Auto-correction, 5K Stars |
-| **Prompt Injection Protection** | [Superagent](https://superagent.sh) / [Rebuff AI](https://rebuff.ai) | Injection/Data leak prevention |
-| **Content Safety Classification** | [Llama Guard](https://ai.meta.com/llama/) | By Meta |
+| Your Situation | **Recommended Solution** | Reason |
+| --------- | **---------** | ------ |
+| **Programmable Rules** | **NeMo Guardrails** | By NVIDIA, 6.4K Stars |
+| **Output Validation** | **Guardrails AI** | Auto-correction, 5K Stars |
+| **Prompt Injection Protection** | **Superagent / Rebuff AI** | Injection/Data leak prevention |
+| **Content Safety Classification** | **Llama Guard** | By Meta |
 
 > [!TIP]
 > **NeMo Guardrails is the premier choice for enterprise-grade guardrails**

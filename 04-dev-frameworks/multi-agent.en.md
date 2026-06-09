@@ -9,14 +9,14 @@
 
 A Multi-Agent system is not just "putting multiple LLMs together," but rather **making multiple Agents collaborate to complete complex tasks**.
 
-| Your Situation | Recommended Framework | Reason |
-| --------- | --------- | ------ |
-| **Rapid Prototype / Role-Playing** | [CrewAI](https://crewai.com) | Simplest, intuitive role definition |
-| **Complex Workflows / State Machines** | [LangGraph](https://langchain-ai.github.io/langgraph/) | State graph orchestration, flexible and powerful |
-| **OpenAI Ecosystem** | [OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview) | Official support, lightweight |
-| **Microsoft Ecosystem** | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | Enterprise-grade, Azure integration |
-| **HuggingFace Ecosystem** | [Smolagents](https://github.com/huggingface/smolagents) | Lightweight, 12K Stars |
-| **TypeScript Full-Stack** | [Mastra](https://mastra.ai) / [VoltAgent](https://github.com/VoltAgent/voltagent) | TS native, full-stack development |
+| Your Situation | **Recommended Framework** | Reason |
+| --------- | **---------** | ------ |
+| **Rapid Prototype / Role-Playing** | **CrewAI** | Simplest, intuitive role definition |
+| **Complex Workflows / State Machines** | **LangGraph** | State graph orchestration, flexible and powerful |
+| **OpenAI Ecosystem** | **OpenAI Agents SDK** | Official support, lightweight |
+| **Microsoft Ecosystem** | **Microsoft Agent Framework** | Enterprise-grade, Azure integration |
+| **HuggingFace Ecosystem** | **Smolagents** | Lightweight, 12K Stars |
+| **TypeScript Full-Stack** | **Mastra / VoltAgent** | TS native, full-stack development |
 
 > [!TIP]
 > **Three Architecture Patterns for Multi-Agent Systems**

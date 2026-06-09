@@ -9,12 +9,12 @@
 
 In 2026, simply comparing "maximum dimensions" is obsolete. Modern enterprise-grade RAG architectures focus more on **multimodal hybrid retrieval** and balancing cost and precision through **Matryoshka (nested) elastic dimensions**.
 
-| Architecture Need | Recommended Embedding | Recommended Reranker | Combination Advantage |
-| ------------------- | ----------------------- | ---------------------- | ----------------------- |
-| **All-Round Commercial Flagship** | [**Cohere Embed v4**](https://cohere.com) | [Cohere Rerank v3](https://cohere.com) | Supports text + chart interleaving, Matryoshka elastic dimensions |
-| **Top Open Source** | [**BGE-M3**](https://github.com/FlagOpen/FlagEmbedding) | **[BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding)** | Sparse + dense dual retrieval, extremely high recall for local deployment |
-| **Chinese Deep Semantics** | [**GTE-Qwen2**](https://huggingface.co/Alibaba-NLP/gte-Qwen2) | [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) | Optimized for Chinese polysemy, rare characters, and specialized domains |
-| **Ultra-Long Context (32K+)** | [**Jina v5 Omni**](https://jina.ai) | [Jina Reranker](https://jina.ai) | 32K context embedding, no need to chunk PDFs |
+| Architecture Need | **Recommended Embedding** | Recommended Reranker | Combination Advantage |
+| ------------------- | **-----------------------** | ---------------------- | ----------------------- |
+| **All-Round Commercial Flagship** | **Cohere Embed v4** | [Cohere Rerank v3](https://cohere.com) | Supports text + chart interleaving, Matryoshka elastic dimensions |
+| **Top Open Source** | **BGE-M3** | **[BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding)** | Sparse + dense dual retrieval, extremely high recall for local deployment |
+| **Chinese Deep Semantics** | **GTE-Qwen2** | [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) | Optimized for Chinese polysemy, rare characters, and specialized domains |
+| **Ultra-Long Context (32K+)** | **Jina v5 Omni** | [Jina Reranker](https://jina.ai) | 32K context embedding, no need to chunk PDFs |
 | **Code Snippet Retrieval** | **Codestral Embed** | — | Specialized in AST structures and function-level recall |
 
 > [!TIP]

@@ -10,13 +10,13 @@
 对个人开发者来说，最核心的问题是：**我的显卡能跑什么模型？**
 
 | 显卡 | 显存 | 能跑的模型 (4-bit 量化) | 推荐引擎 |
-| ------ | ------ | ------------------------ | --------- |
-| **RTX 4090** | 24GB | Qwen3-32B, Llama-3-70B (勉强) | [vLLM](https://github.com/vllm-project/vllm) / [Ollama](https://ollama.com) |
-| **RTX 3090** | 24GB | Qwen3-14B, DeepSeek-V4-16B | [Ollama](https://ollama.com) / [llama.cpp](https://github.com/ggerganov/llama.cpp) |
-| **RTX 4070** | 12GB | [Qwen3-8B](https://qwen.ai), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) |
-| **Mac M4 Pro** | 24GB 统一 | Qwen3-32B, Llama-3-70B (量化) | [Ollama](https://ollama.com) / MLX |
-| **Mac M4** | 16GB 统一 | Qwen3-14B, [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) / MLX |
-| **CPU only** | — | [Qwen3-8B](https://qwen.ai) (慢), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-mini | [llama.cpp](https://github.com/ggerganov/llama.cpp) |
+|------|------|------------------------|---------|
+| **RTX 4090** | 24GB | Qwen3-32B, Llama-3-70B (勉强) | vLLM / Ollama |
+| **RTX 3090** | 24GB | Qwen3-14B, DeepSeek-V4-16B | Ollama / llama.cpp |
+| **RTX 4070** | 12GB | Qwen3-8B, Phi-4-14B | Ollama |
+| **Mac M4 Pro** | 24GB 统一 | Qwen3-32B, Llama-3-70B (量化) | Ollama / MLX |
+| **Mac M4** | 16GB 统一 | Qwen3-14B, Phi-4-14B | Ollama / MLX |
+| **CPU only** | — | Qwen3-8B (慢), Phi-4-mini | llama.cpp |
 
 > [!TIP]
 > **Mac 的统一内存是隐藏优势**
@@ -87,12 +87,12 @@ ollama run phi4:14b            # Phi-4 14B，推理能力强
 量化的核心取舍：**用一点质量损失换巨大的显存节省**。
 
 | 格式 | 精度 | 大小缩减 | 速度 | 质量损失 | 怎么用 |
-| ------ | ------ | --------- | ------ | --------- | -------- |
-| **FP8** | 8-bit | 2× | ⭐⭐⭐⭐⭐ | 极低 | [vLLM](https://github.com/vllm-project/vllm) 直接支持 |
-| **AWQ** | 4-bit | 4× | ⭐⭐⭐⭐⭐ | 低 | [vLLM](https://github.com/vllm-project/vllm) / AutoGPTQ |
+|------|------|---------|------|---------|--------|
+| **FP8** | 8-bit | 2× | ⭐⭐⭐⭐⭐ | 极低 | vLLM 直接支持 |
+| **AWQ** | 4-bit | 4× | ⭐⭐⭐⭐⭐ | 低 | vLLM / AutoGPTQ |
 | **GPTQ** | 4-bit | 4× | ⭐⭐⭐⭐ | 低 | 兼容性最好 |
-| **GGUF** | 2-8 bit | 2-8× | ⭐⭐⭐⭐ | 可变 | [Ollama](https://ollama.com) / [llama.cpp](https://github.com/ggerganov/llama.cpp) 直接用 |
-| **EXL2** | 2-6 bit | 2-6× | ⭐⭐⭐⭐⭐ | 同大小最高 | [ExLlamaV2](https://github.com/turboderp/exllamav2)，极客玩家 |
+| **GGUF** | 2-8 bit | 2-8× | ⭐⭐⭐⭐ | 可变 | Ollama / llama.cpp 直接用 |
+| **EXL2** | 2-6 bit | 2-6× | ⭐⭐⭐⭐⭐ | 同大小最高 | ExLlamaV2，极客玩家 |
 
 > [!TIP]
 > **不知道选什么量化？**
@@ -103,7 +103,7 @@ ollama run phi4:14b            # Phi-4 14B，推理能力强
 **量化对质量的影响有多大？** 以 Qwen3-32B 为例：
 
 | 量化 | 模型大小 | MMLU | 代码生成 | 数学推理 |
-| ------ | --------- | ------ | --------- | --------- |
+|------|---------|------|---------|---------|
 | FP16 (原始) | 64GB | 78.5 | 82.3 | 71.2 |
 | AWQ-4bit | 16GB | 77.8 (-0.7) | 81.5 (-0.8) | 69.8 (-1.4) |
 | GGUF-Q4 | 18GB | 77.2 (-1.3) | 80.9 (-1.4) | 68.5 (-2.7) |
@@ -116,18 +116,18 @@ ollama run phi4:14b            # Phi-4 14B，推理能力强
 **KV-Cache 优化**：跑长上下文（32K+）时，KV-Cache 占用的显存比模型本身还多。
 
 | 引擎 | KV-Cache 策略 | 效果 |
-| ------ | -------------- | ------ |
-| [**vLLM**](https://github.com/vllm-project/vllm) | PagedAttention | 显存占用降低 40-60% |
-| [**SGLang**](https://github.com/sgl-project/sglang) | RadixAttention | 多轮对话复用前缀 Cache，效果最佳 |
-| [**llama.cpp**](https://github.com/ggerganov/llama.cpp) | 量化 KV-Cache | KV 也量化，进一步省显存 |
+|------|--------------|------|
+| **vLLM** | PagedAttention | 显存占用降低 40-60% |
+| **SGLang** | RadixAttention | 多轮对话复用前缀 Cache，效果最佳 |
+| **llama.cpp** | 量化 KV-Cache | KV 也量化，进一步省显存 |
 
 **MoE 模型部署**：MoE 模型（如 DeepSeek-V4-685B）总参数量巨大，但每次推理只激活部分 Expert。
 
 | 显卡配置 | 能跑的 MoE 模型 | 策略 |
-| --------- | ---------------- | ------ |
+|---------|----------------|------|
 | 4×A100 (80GB) | DeepSeek-V4-685B | Expert 并行 |
 | 2×A100 | Mixtral-8x22B | Expert 缓存 + 预加载 |
-| 单卡 RTX 4090 | [Phi-4](https://azure.microsoft.com/en-us/products/phi)-MoE (激活 7B) | 直接跑 |
+| 单卡 RTX 4090 | Phi-4-MoE (激活 7B) | 直接跑 |
 
 ---
 

@@ -10,13 +10,13 @@
 多 Agent 系统不是"把多个 LLM 放在一起"，而是**让多个 Agent 协作完成复杂任务**。
 
 | 你的情况 | 推荐框架 | 理由 |
-| --------- | --------- | ------ |
-| **快速原型 / 角色扮演** | [CrewAI](https://crewai.com) | 最简单，角色定义直观 |
-| **复杂工作流 / 状态机** | [LangGraph](https://langchain-ai.github.io/langgraph/) | 状态图编排，灵活强大 |
-| **OpenAI 生态** | [OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview) | 官方支持，轻量级 |
-| **微软生态** | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 企业级，Azure 集成 |
-| **HuggingFace 生态** | [Smolagents](https://github.com/huggingface/smolagents) | 轻量级，12K Stars |
-| **TypeScript 全栈** | [Mastra](https://mastra.ai) / [VoltAgent](https://github.com/VoltAgent/voltagent) | TS 原生，全栈开发 |
+|---------|---------|------|
+| **快速原型 / 角色扮演** | CrewAI | 最简单，角色定义直观 |
+| **复杂工作流 / 状态机** | LangGraph | 状态图编排，灵活强大 |
+| **OpenAI 生态** | OpenAI Agents SDK | 官方支持，轻量级 |
+| **微软生态** | Microsoft Agent Framework | 企业级，Azure 集成 |
+| **HuggingFace 生态** | Smolagents | 轻量级，12K Stars |
+| **TypeScript 全栈** | Mastra / VoltAgent | TS 原生，全栈开发 |
 
 > [!TIP]
 > **多 Agent 的三种架构模式**
@@ -69,31 +69,31 @@
 ### 🔵 角色扮演型：定义角色，自动协作
 
 | 框架 | Stars | 核心优势 | 适合谁 |
-| ------ | ------- | --------- | -------- |
-| [**CrewAI**](https://crewai.com) | 53K | 最简单，角色定义直观 | 快速原型，角色扮演 |
-| [**Agent Squad**](https://github.com/2FastLabs/agent-squad) | 7.6K | 灵活的多 Agent 管理 | 多类型 Agent 协作 |
-| [**Swarms**](https://github.com/kyegomez/swarms) | 6.8K | 企业级生产就绪 | 企业级应用 |
+|------|-------|---------|--------|
+| **CrewAI** | 53K | 最简单，角色定义直观 | 快速原型，角色扮演 |
+| **Agent Squad** | 7.6K | 灵活的多 Agent 管理 | 多类型 Agent 协作 |
+| **Swarms** | 6.8K | 企业级生产就绪 | 企业级应用 |
 
 ### 🟢 状态图型：定义流程，精确控制
 
 | 框架 | Stars | 核心优势 | 适合谁 |
-| ------ | ------- | --------- | -------- |
-| [**LangGraph**](https://langchain-ai.github.io/langgraph/) | 34K | 状态图编排，灵活强大 | 复杂工作流 |
-| [**OpenAI Agents SDK**](https://platform.openai.com/docs/assistants/overview) | 27K | 官方支持，轻量级 | OpenAI 生态 |
-| [**Microsoft Agent Framework**](https://github.com/microsoft/agent-framework) | 11.1K | 微软出品，企业级 | 微软生态 |
-| [**Smolagents**](https://github.com/huggingface/smolagents) | 12K | HuggingFace 出品，轻量级 | HuggingFace 生态 |
+|------|-------|---------|--------|
+| **LangGraph** | 34K | 状态图编排，灵活强大 | 复杂工作流 |
+| **OpenAI Agents SDK** | 27K | 官方支持，轻量级 | OpenAI 生态 |
+| **Microsoft Agent Framework** | 11.1K | 微软出品，企业级 | 微软生态 |
+| **Smolagents** | 12K | HuggingFace 出品，轻量级 | HuggingFace 生态 |
 
 ### 🟡 TypeScript 全栈型
 
 | 框架 | Stars | 核心优势 | 适合谁 |
-| ------ | ------- | --------- | -------- |
-| [**Mastra**](https://mastra.ai) | 25K | Gatsby 团队出品，全栈 Agent | TS 全栈开发者 |
-| [**VoltAgent**](https://github.com/VoltAgent/voltagent) | 9.5K | Agent 工程平台 | TS 开发者 |
+|------|-------|---------|--------|
+| **Mastra** | 25K | Gatsby 团队出品，全栈 Agent | TS 全栈开发者 |
+| **VoltAgent** | 9.5K | Agent 工程平台 | TS 开发者 |
 
 ## 💡 框架对比
 
-| 维度 | [CrewAI](https://crewai.com) | [LangGraph](https://langchain-ai.github.io/langgraph/) | [OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview) | [Smolagents](https://github.com/huggingface/smolagents) |
-| ------ | -------- | ----------- | ------------------- | ------------ |
+| 维度 | CrewAI | LangGraph | OpenAI Agents SDK | Smolagents |
+|------|--------|-----------|-------------------|------------|
 | **学习曲线** | 低 | 高 | 低 | 低 |
 | **灵活性** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 | **生产就绪** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
@@ -157,9 +157,9 @@ print(result)
 多 Agent 系统的核心挑战之一是**记忆管理**：
 
 | 框架 | 记忆类型 | 说明 |
-| ------ | --------- | ------ |
-| [**CrewAI**](https://crewai.com) | 短期记忆 | 对话内记忆，不跨会话 |
-| [**LangGraph**](https://langchain-ai.github.io/langgraph/) | 状态持久化 | 通过 Checkpoint 持久化状态 |
+|------|---------|------|
+| **CrewAI** | 短期记忆 | 对话内记忆，不跨会话 |
+| **LangGraph** | 状态持久化 | 通过 Checkpoint 持久化状态 |
 | **Cognee** | 长期记忆 | 知识图谱 + 向量检索（见 `02-infrastructure/vector-db.md`） |
 | **OpenViking** | 上下文数据库 | 专为 Agent 设计的上下文管理（见 `02-infrastructure/vector-db.md`） |
 

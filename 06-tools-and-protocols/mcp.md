@@ -10,15 +10,15 @@
 MCP (Model Context Protocol) 是 Anthropic 提出的**AI 工具集成标准**，已成为行业事实标准。
 
 | 你的情况 | 推荐方案 | 理由 |
-| --------- | --------- | ------ |
-| **开发 [MCP](https://modelcontextprotocol.io) 服务器** | [FastMCP](https://github.com/PrefectHQ/fastmcp) | 25.5K Stars，Pythonic 方式 |
-| **找现成 [MCP](https://modelcontextprotocol.io)** | awesome-[mcp](https://modelcontextprotocol.io)-servers / [Smithery](https://smithery.ai) | 88.7K Stars / 最大 [MCP](https://modelcontextprotocol.io) 市场 |
-| **文件系统** | [MCP Filesystem Server](https://github.com/modelcontextprotocol/servers) | 官方参考实现 |
-| **代码管理** | [GitHub MCP Server](https://github.com/github/github-mcp-server) | 30.5K Stars，官方出品 |
-| **浏览器自动化** | Playwright [MCP](https://modelcontextprotocol.io) | 33.6K Stars，微软出品 |
-| **文档拉取** | [Context7 MCP](https://github.com/upstash/context7-mcp) | 57K Stars，实时文档 |
-| **SaaS 集成** | Notion/Slack/Linear/[Sentry MCP](https://github.com/getsentry/sentry-mcp) | 各 SaaS 官方出品 |
-| **[MCP](https://modelcontextprotocol.io) 客户端** | [CodePilot](https://github.com/op7418/CodePilot) / [5ire](https://github.com/nanbingxyz/5ire) | 桌面 AI 助手 |
+|---------|---------|------|
+| **开发 MCP 服务器** | FastMCP | 25.5K Stars，Pythonic 方式 |
+| **找现成 MCP** | awesome-mcp-servers / Smithery | 88.7K Stars / 最大 MCP 市场 |
+| **文件系统** | MCP Filesystem Server | 官方参考实现 |
+| **代码管理** | GitHub MCP Server | 30.5K Stars，官方出品 |
+| **浏览器自动化** | Playwright MCP | 33.6K Stars，微软出品 |
+| **文档拉取** | Context7 MCP | 57K Stars，实时文档 |
+| **SaaS 集成** | Notion/Slack/Linear/Sentry MCP | 各 SaaS 官方出品 |
+| **MCP 客户端** | CodePilot / 5ire | 桌面 AI 助手 |
 
 > [!TIP]
 > **MCP 已成为 2026 年的事实标准**
@@ -129,8 +129,8 @@ MCP (Model Context Protocol) 是 Anthropic 提出的**AI 工具集成标准**，
 
 ## 💡 MCP vs Function Calling
 
-| 维度 | [MCP](https://modelcontextprotocol.io) | Function Calling |
-| ------ | ----- | ------------------ |
+| 维度 | MCP | Function Calling |
+|------|-----|------------------|
 | **标准化** | ✅ 行业标准 | ❌ 各厂商不同 |
 | **可复用** | ✅ 跨平台 | ❌ 绑定厂商 |
 | **生态** | 快速增长 | 成熟 |
@@ -167,12 +167,12 @@ MCP (Model Context Protocol) 是 Anthropic 提出的**AI 工具集成标准**，
 ## 📚 MCP 资源
 
 | 资源 | Stars | 说明 | 链接 |
-| ------ | ------- | ------ | ------ |
-| [**awesome-mcp-servers (punkpeye)**](https://github.com/punkpeye/awesome-mcp-servers) | 88.7K | [MCP](https://modelcontextprotocol.io) 精选集合 | github.com/punkpeye/awesome-[mcp](https://modelcontextprotocol.io)-servers |
-| [**awesome-mcp-servers (appcypher)**](https://github.com/appcypher/awesome-mcp-servers) | 5.6K | [MCP](https://modelcontextprotocol.io) 精选列表 | github.com/appcypher/awesome-[mcp](https://modelcontextprotocol.io)-servers |
-| [**awesome-claude-plugins**](https://github.com/ComposioHQ/awesome-claude-plugins) | 1.7K | Claude 插件精选 | github.com/ComposioHQ/[awesome-claude-plugins](https://github.com/ComposioHQ/awesome-claude-plugins) |
-| **[MCP](https://modelcontextprotocol.io) 官方文档** | - | 协议规范 | modelcontextprotocol.io |
-| **[MCP](https://modelcontextprotocol.io) Registry** | 6.9K | 社区服务器注册表 | github.com/modelcontextprotocol/registry |
+|------|-------|------|------|
+| **awesome-mcp-servers (punkpeye)** | 88.7K | MCP 精选集合 | github.com/punkpeye/awesome-mcp-servers |
+| **awesome-mcp-servers (appcypher)** | 5.6K | MCP 精选列表 | github.com/appcypher/awesome-mcp-servers |
+| **awesome-claude-plugins** | 1.7K | Claude 插件精选 | github.com/ComposioHQ/awesome-claude-plugins |
+| **MCP 官方文档** | - | 协议规范 | modelcontextprotocol.io |
+| **MCP Registry** | 6.9K | 社区服务器注册表 | github.com/modelcontextprotocol/registry |
 
 ---
 

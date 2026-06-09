@@ -9,12 +9,12 @@
 
 The core of function calling: **enabling LLMs to call external APIs and tools**.
 
-| Your Situation | Recommended Solution | Reason |
-| --------- | --------- | ------ |
-| **Native Function Calling** | OpenAI / Anthropic | LLM built-in tool calling |
-| **Tool Integration Platform** | [Composio](https://composio.dev) / [ACI.dev](https://github.com/aipotheosis-labs/aci) | 200+ / 600+ app connectors |
-| **MCP Protocol** | MCP Servers | Standardized tool protocol |
-| **Agent Protocol** | [ACP](https://github.com/i-am-bee/acp) / A2A | Inter-Agent communication |
+| Your Situation | **Recommended Solution** | Reason |
+| --------- | **---------** | ------ |
+| **Native Function Calling** | **OpenAI / Anthropic** | LLM built-in tool calling |
+| **Tool Integration Platform** | **Composio / ACI.dev** | 200+ / 600+ app connectors |
+| **MCP Protocol** | **MCP Servers** | Standardized tool protocol |
+| **Agent Protocol** | **ACP / A2A** | Inter-Agent communication |
 
 > [!TIP]
 > **Composio is the best choice for tool integration**

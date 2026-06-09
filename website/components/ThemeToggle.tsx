@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes'
 
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
 
   // Avoid hydration mismatch
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function ThemeToggle() {
     return <div style={{ width: 34, height: 34 }}></div>
   }
 
-  const isLight = theme === 'light'
+  const isLight = resolvedTheme === 'light'
 
   return (
     <button

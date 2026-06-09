@@ -46,13 +46,13 @@ Answer + Source Citations
 
 **Common Pitfalls in Each Step**:
 
-| Step | Common Pitfall | Solution |
-| ------ | -------- | --------- |
-| **Document Splitting** | Splitting by fixed characters, destroying semantics | Split by semantics (paragraph, sentence boundaries) |
-| **Embedding** | Using general models, inaccurate for professional terms | Fine-tune or use domain-specific models |
-| **Vector Retrieval** | Only using Dense, weak exact match | Hybrid retrieval (Dense + BM25) |
-| **Reranking** | Skipping this step, many noisy recalls | Two-stage retrieval, improves 20-40% |
-| **LLM Generation** | No citations provided, severe hallucinations | Require LLM to annotate source citations |
+| Step | **Common Pitfall** | Solution |
+| ------ | **--------** | --------- |
+| **Document Splitting** | **Splitting by fixed characters, destroying semantics** | Split by semantics (paragraph, sentence boundaries) |
+| **Embedding** | **Using general models, inaccurate for professional terms** | Fine-tune or use domain-specific models |
+| **Vector Retrieval** | **Only using Dense, weak exact match** | Hybrid retrieval (Dense + BM25) |
+| **Reranking** | **Skipping this step, many noisy recalls** | Two-stage retrieval, improves 20-40% |
+| **LLM Generation** | **No citations provided, severe hallucinations** | Require LLM to annotate source citations |
 
 ---
 

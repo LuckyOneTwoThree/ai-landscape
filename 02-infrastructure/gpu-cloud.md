@@ -8,7 +8,7 @@
 ## 🤔 什么时候需要 GPU 云服务？
 
 | 场景 | 需要 GPU 云吗 | 理由 |
-| ------ | ------------- | ------ |
+|------|-------------|------|
 | **没有 GPU，想跑开源模型** | ✅ 需要 | 最快的起步方式 |
 | **有 GPU 但显存不够** | ✅ 需要 | 按需租用更大显卡 |
 | **生产环境需要高可用** | ✅ 需要 | Serverless 自动扩缩容 |
@@ -50,13 +50,13 @@
 ## 🔧 选型建议
 
 | 场景 | 推荐 | 理由 |
-| ------ | ------ | ------ |
-| **快速跑开源模型** | [Together AI](https://together.ai) / [Silicon Flow](https://siliconflow.cn) | 200+ 模型一键部署 |
-| **极致推理速度** | [Fireworks AI](https://fireworks.ai) | 延迟优化行业领先 |
-| **一行代码部署** | [Replicate](https://replicate.com) | 最简单的部署体验 |
-| **自定义推理逻辑** | [Modal](https://modal.com) | Python 原生，灵活度最高 |
-| **大规模训练** | [Lambda Labs](https://lambdalabs.com) / [RunPod](https://runpod.io) | H100 集群性价比高 |
-| **国内用户** | [Silicon Flow](https://siliconflow.cn) (硅基流动) | 国内最流行，免费额度 |
+|------|------|------|
+| **快速跑开源模型** | Together AI / Silicon Flow | 200+ 模型一键部署 |
+| **极致推理速度** | Fireworks AI | 延迟优化行业领先 |
+| **一行代码部署** | Replicate | 最简单的部署体验 |
+| **自定义推理逻辑** | Modal | Python 原生，灵活度最高 |
+| **大规模训练** | Lambda Labs / RunPod | H100 集群性价比高 |
+| **国内用户** | Silicon Flow (硅基流动) | 国内最流行，免费额度 |
 
 ---
 

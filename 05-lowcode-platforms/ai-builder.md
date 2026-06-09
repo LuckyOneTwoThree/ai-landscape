@@ -8,13 +8,13 @@
 ## 🏗️ 低代码 AI 构建：你到底需要什么？
 
 | 你的情况 | 推荐平台 | 理由 |
-| --------- | --------- | ------ |
-| **快速搭建 AI Bot** | [Dify](https://dify.ai) / [Coze](https://www.coze.com) | 开箱即用，拖拽构建 |
-| **知识库问答** | [FastGPT](https://fastgpt.in) / [DocsGPT](https://github.com/arc53/DocsGPT) | 国内友好，私有部署 |
-| **可视化工作流** | [Flowise](https://flowiseai.com) / [Langflow](https://langflow.org) | 拖拽式，130+ 节点 |
-| **全栈应用生成** | [Bolt.new](https://bolt.new) / [Lovable](https://lovable.dev) | 一句话生成完整应用 |
-| **前端 UI 生成** | [v0 by Vercel](https://v0.dev) | 专注 [Next.js](https://nextjs.org) 组件 |
-| **本地开源替代** | [Dyad](https://github.com/dyad-sh/dyad) | v0/[Lovable](https://lovable.dev) 的开源替代 |
+|---------|---------|------|
+| **快速搭建 AI Bot** | Dify / Coze | 开箱即用，拖拽构建 |
+| **知识库问答** | FastGPT / DocsGPT | 国内友好，私有部署 |
+| **可视化工作流** | Flowise / Langflow | 拖拽式，130+ 节点 |
+| **全栈应用生成** | Bolt.new / Lovable | 一句话生成完整应用 |
+| **前端 UI 生成** | v0 by Vercel | 专注 Next.js 组件 |
+| **本地开源替代** | Dyad | v0/Lovable 的开源替代 |
 
 > [!TIP]
 > **开源 vs 商业的选择**
@@ -64,34 +64,34 @@
 ### 🔵 开源自部署型：数据在自己手里
 
 | 平台 | Stars | 核心优势 | 适合谁 |
-| ------ | ------- | --------- | -------- |
-| [**Dify**](https://dify.ai) | 144K | 开源领导者，Agentic Workflow | 企业级，私有部署 |
-| [**Langflow**](https://langflow.org) | 55K | RAG + 多 Agent 低代码构建 | 开发者，RAG 场景 |
-| [**Flowise**](https://flowiseai.com) | 38K | 拖拽式，130+ 内置节点 | 快速原型，可视化 |
-| [**FastGPT**](https://fastgpt.in) | 28K | 国内用户友好，知识库专精 | 国内团队 |
-| [**Dyad**](https://github.com/dyad-sh/dyad) | 20.5K | 本地开源，v0/[Lovable](https://lovable.dev) 替代 | 本地开发 |
-| [**DocsGPT**](https://github.com/arc53/DocsGPT) | 17.9K | 私有 AI 平台，企业搜索 | 企业级搜索 |
+|------|-------|---------|--------|
+| **Dify** | 144K | 开源领导者，Agentic Workflow | 企业级，私有部署 |
+| **Langflow** | 55K | RAG + 多 Agent 低代码构建 | 开发者，RAG 场景 |
+| **Flowise** | 38K | 拖拽式，130+ 内置节点 | 快速原型，可视化 |
+| **FastGPT** | 28K | 国内用户友好，知识库专精 | 国内团队 |
+| **Dyad** | 20.5K | 本地开源，v0/Lovable 替代 | 本地开发 |
+| **DocsGPT** | 17.9K | 私有 AI 平台，企业搜索 | 企业级搜索 |
 
 ### 🟢 商业 SaaS 型：开箱即用
 
 | 平台 | 核心优势 | 适合谁 |
-| ------ | --------- | -------- |
-| [**Coze (扣子)**](https://www.coze.com) | 字节出品，插件生态丰富 | 国内用户，快速发布 |
-| [**Bolt.new**](https://bolt.new) | 浏览器端全栈构建 | 快速原型 |
-| [**Lovable**](https://lovable.dev) | ARR 4 亿美元，最火无代码平台 | 非技术人员 |
-| [**v0 by Vercel**](https://v0.dev) | 专注 [Next.js](https://nextjs.org) 组件 | 前端开发者 |
+|------|---------|--------|
+| **Coze (扣子)** | 字节出品，插件生态丰富 | 国内用户，快速发布 |
+| **Bolt.new** | 浏览器端全栈构建 | 快速原型 |
+| **Lovable** | ARR 4 亿美元，最火无代码平台 | 非技术人员 |
+| **v0 by Vercel** | 专注 Next.js 组件 | 前端开发者 |
 
 ### 🟡 专业对话型：Bot 构建专精
 
 | 平台 | 核心优势 | 适合谁 |
-| ------ | --------- | -------- |
-| [**Botpress**](https://botpress.com) | 多渠道部署，对话机器人专精 | 客服，对话场景 |
-| [**Open Agent Builder**](https://github.com/firecrawl/open-agent-builder) | Firecrawl 出品，可视化构建 | Agent 工作流 |
+|------|---------|--------|
+| **Botpress** | 多渠道部署，对话机器人专精 | 客服，对话场景 |
+| **Open Agent Builder** | Firecrawl 出品，可视化构建 | Agent 工作流 |
 
 ## 💡 平台对比
 
-| 维度 | [Dify](https://dify.ai) | [Flowise](https://flowiseai.com) | [Langflow](https://langflow.org) | [Coze](https://www.coze.com) |
-| ------ | ------ | --------- | ---------- | ------ |
+| 维度 | Dify | Flowise | Langflow | Coze |
+|------|------|---------|----------|------|
 | **开源** | ✅ | ✅ | ✅ | ❌ |
 | **学习曲线** | 低 | 低 | 中 | 低 |
 | **RAG 支持** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |

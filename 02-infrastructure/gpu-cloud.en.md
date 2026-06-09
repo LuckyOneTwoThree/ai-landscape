@@ -7,13 +7,13 @@
 
 ## 🤔 When Do You Need GPU Cloud Services?
 
-| Scenario | Need GPU Cloud? | Reason |
-| ------ | ------------- | ------ |
-| **No GPU, want to run open-source models** | ✅ Yes | Fastest way to get started |
-| **Have GPU but insufficient VRAM** | ✅ Yes | Rent larger GPUs on demand |
-| **Production needs high availability** | ✅ Yes | Serverless auto-scaling |
-| **Already have sufficient GPU clusters** | ❌ No | Self-hosting offers better control |
-| **Only calling APIs, not running models** | ❌ No | Just use model provider APIs |
+| Scenario | **Need GPU Cloud?** | Reason |
+| ------ | **-------------** | ------ |
+| **No GPU, want to run open-source models** | **✅ Yes** | Fastest way to get started |
+| **Have GPU but insufficient VRAM** | **✅ Yes** | Rent larger GPUs on demand |
+| **Production needs high availability** | **✅ Yes** | Serverless auto-scaling |
+| **Already have sufficient GPU clusters** | **❌ No** | Self-hosting offers better control |
+| **Only calling APIs, not running models** | **❌ No** | Just use model provider APIs |
 
 > [!TIP]
 > **Serverless vs GPU Rentals**

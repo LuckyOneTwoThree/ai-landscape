@@ -9,13 +9,13 @@
 
 A knowledge graph is not a silver bullet. For most RAG scenarios, vector retrieval is sufficient. **You only need a graph in these situations**:
 
-| Scenario | Need a Graph? | Reason |
-| ------ | ----------- | ------ |
-| **"Who is Zhang San's boss?"** | ✅ Yes | Multi-hop relationship reasoning, vector retrieval cannot handle this |
-| **"The leaders of all company projects"** | ✅ Yes | Structured querying, naturally suited for graph databases |
-| **"The user manual for this product"** | ❌ No | Pure text retrieval, vectors are sufficient |
-| **"Help me write a weekly report"** | ❌ No | Generative task, no graph needed |
-| **"What is the relationship between A and B?"** | ✅ Yes | Relationship discovery, core advantage of graphs |
+| Scenario | **Need a Graph?** | Reason |
+| ------ | **-----------** | ------ |
+| **"Who is Zhang San's boss?"** | **✅ Yes** | Multi-hop relationship reasoning, vector retrieval cannot handle this |
+| **"The leaders of all company projects"** | **✅ Yes** | Structured querying, naturally suited for graph databases |
+| **"The user manual for this product"** | **❌ No** | Pure text retrieval, vectors are sufficient |
+| **"Help me write a weekly report"** | **❌ No** | Generative task, no graph needed |
+| **"What is the relationship between A and B?"** | **✅ Yes** | Relationship discovery, core advantage of graphs |
 
 > [!TIP]
 > **90% of RAG scenarios do not require a knowledge graph**

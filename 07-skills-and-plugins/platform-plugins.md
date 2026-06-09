@@ -7,17 +7,17 @@
 
 ## 🧭 平台插件选型罗盘
 
-| [](https://cursor.com)你的情况[](https://cursor.com) | [](https://cursor.com)推荐平台[](https://cursor.com) | [](https://cursor.com)理由[](https://cursor.com) |
-| --------- | --------- | ------ |
-| **[](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)编程[](https://cursor.com) [](https://cursor.com)Agent[](https://cursor.com)，[](https://cursor.com)VS[](https://cursor.com) [](https://cursor.com)Code[](https://cursor.com) [](https://cursor.com)集成[](https://cursor.com)** | [**Cline[**](https://github.com/cline/cline) / [**](https://github.com/cline/cline)Continue**](https://[continue](https://github.com/continuedev/continue).dev) | [](https://cursor.com)42K[](https://cursor.com)/[](https://cursor.com)25K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)MCP[](https://cursor.com) [](https://cursor.com)支持[](https://cursor.com)，[](https://cursor.com)开源[](https://cursor.com) |
-| **[](https://cursor.com)终端[](https://cursor.com) [](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)编程助手[](https://cursor.com)** | [**Aider**](https://aider.chat) | [](https://cursor.com)32K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)Git[](https://cursor.com) [](https://cursor.com)集成[](https://cursor.com)，[](https://cursor.com)多模型支持[](https://cursor.com) |
-| **[](https://cursor.com)开源[](https://cursor.com) [](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)Chat[](https://cursor.com) [](https://cursor.com)平台[](https://cursor.com)** | [**Onyx**](https://github.com/danswer-ai/danswer) / [**LibreChat**](https://github.com/danny-avila/LibreChat) | [](https://cursor.com)30K[](https://cursor.com)/[](https://cursor.com)38K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)企业级功能[](https://cursor.com) |
-| **[](https://cursor.com)企业级知识库[](https://cursor.com)** | [**MaxKB[**](https://github.com/1Panel-dev/MaxKB) / [**](https://github.com/1Panel-dev/MaxKB)WeKnora**](https://github.com/[WeKnora](https://github.com/Tencent/WeKnora)/[WeKnora](https://github.com/Tencent/WeKnora)) | [](https://cursor.com)21K[](https://cursor.com)/[](https://cursor.com)16K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)文档转知识库[](https://cursor.com) |
-| **[](https://cursor.com)低代码[](https://cursor.com) [](https://cursor.com)Agent[](https://cursor.com) [](https://cursor.com)构建[](https://cursor.com)** | [**ToolJet[**](https://tooljet.com) / [**](https://github.com/ToolJet/ToolJet)NocoBase**](https://[nocobase](https://github.com/nocobase/nocobase).com) | [](https://cursor.com)38K[](https://cursor.com)/[](https://cursor.com)22K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)可视化构建[](https://cursor.com) |
-| **[](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)工程[](https://cursor.com)/[](https://cursor.com)可观测性[](https://cursor.com)** | [**MLflow[**](https://mlflow.org) / [**](https://github.com/mlflow/mlflow)Langfuse**](https://langfuse.com) | [](https://cursor.com)26K[](https://cursor.com)/[](https://cursor.com)8K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)LLM[](https://cursor.com) [](https://cursor.com)监控追踪[](https://cursor.com) |
-| **[](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)数字人[](https://cursor.com)** | [**Duix-Avatar**](https://github.com/Duix-Avatar/Duix) | [](https://cursor.com)13K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)离线运行[](https://cursor.com) |
-| **[](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)视频[](https://cursor.com)/[](https://cursor.com)影视[](https://cursor.com)** | [**WaoWao[**](https://waowao.com) / [**](https://github.com/waooAI/waoowaoo)KrillinAI**](https://krillin.ai) | [](https://cursor.com)12K[](https://cursor.com)/[](https://cursor.com)10K[](https://cursor.com) [](https://cursor.com)Stars[](https://cursor.com)，[](https://cursor.com)全流程生产[](https://cursor.com) |
-| **[](https://cursor.com)官方插件市场[](https://cursor.com)** | [**Cursor[**](https://cursor.com) / [**](https://cursor.com)Dify**](https://dify.ai) / [**Coze**](https://coze.com) | [](https://cursor.com)官方生态[](https://cursor.com)，[](https://cursor.com)插件丰富[](https://cursor.com) |
+| 你的情况 | 推荐平台 | 理由 |
+|---------|---------|------|
+| **AI 编程 Agent，VS Code 集成** | **Cline** / **Continue** | 42K/25K Stars，MCP 支持，开源 |
+| **终端 AI 编程助手** | **Aider** | 32K Stars，Git 集成，多模型支持 |
+| **开源 AI Chat 平台** | **Onyx** / **LibreChat** | 30K/38K Stars，企业级功能 |
+| **企业级知识库** | **MaxKB** / **WeKnora** | 21K/16K Stars，文档转知识库 |
+| **低代码 Agent 构建** | **ToolJet** / **NocoBase** | 38K/22K Stars，可视化构建 |
+| **AI 工程/可观测性** | **MLflow** / **Langfuse** | 26K/8K Stars，LLM 监控追踪 |
+| **AI 数字人** | **Duix-Avatar** | 13K Stars，离线运行 |
+| **AI 视频/影视** | **WaoWao** / **KrillinAI** | 12K/10K Stars，全流程生产 |
+| **官方插件市场** | **Cursor** / **Dify** / **Coze** | 官方生态，插件丰富 |
 
 > [!TIP]
 > **开源平台正在快速追赶商业产品，AI 编程 Agent 成为新增量**
@@ -81,14 +81,14 @@
 
 ## 💡 平台对比
 
-| [](https://cursor.com)维度[](https://cursor.com) | [](https://cursor.com)Cline[](https://cursor.com) | [](https://cursor.com)Aider[](https://cursor.com) | [](https://cursor.com)Continue[](https://cursor.com) | [](https://cursor.com)Onyx[](https://cursor.com) | [](https://cursor.com)MaxKB[](https://cursor.com) |
-| ------ | ------- | ------- | ---------- | ------ | ------- |
-| **[](https://cursor.com)Stars[](https://cursor.com)** | [](https://cursor.com)42K[](https://cursor.com) | [](https://cursor.com)32K[](https://cursor.com) | [](https://cursor.com)25K[](https://cursor.com) | [](https://cursor.com)30[](https://cursor.com).[](https://cursor.com)1K[](https://cursor.com) | [](https://cursor.com)21[](https://cursor.com).[](https://cursor.com)2K[](https://cursor.com) |
-| **[](https://cursor.com)开源[](https://cursor.com)** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **[](https://cursor.com)AI[](https://cursor.com) [](https://cursor.com)编程[](https://cursor.com)** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **[](https://cursor.com)MCP[](https://cursor.com) [](https://cursor.com)集成[](https://cursor.com)** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **[](https://cursor.com)IDE[](https://cursor.com) [](https://cursor.com)支持[](https://cursor.com)** | [](https://cursor.com)VS[](https://cursor.com) [](https://cursor.com)Code[](https://cursor.com) | [](https://cursor.com)终端[](https://cursor.com) | [](https://cursor.com)VS[](https://cursor.com) [](https://cursor.com)Code[](https://cursor.com)/[](https://cursor.com)JetBrains[](https://cursor.com) | [](https://cursor.com)Web[](https://cursor.com) | [](https://cursor.com)Web[](https://cursor.com) |
-| **[](https://cursor.com)知识库[](https://cursor.com)** | ⭐ | ⭐ | ⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 维度 | Cline | Aider | Continue | Onyx | MaxKB |
+|------|-------|-------|----------|------|-------|
+| **Stars** | 42K | 32K | 25K | 30.1K | 21.2K |
+| **开源** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **AI 编程** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **MCP 集成** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| **IDE 支持** | VS Code | 终端 | VS Code/JetBrains | Web | Web |
+| **知识库** | ⭐ | ⭐ | ⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
 ---
 

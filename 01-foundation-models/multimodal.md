@@ -12,26 +12,26 @@
 ### 🎨 图像生成选型
 
 | 核心需求 | 首选引擎 | 开源替代 | 关键差异 |
-| --------- | --------- | --------- | --------- |
-| **艺术美学与高保真摄影** | [**Midjourney V8.1**](https://midjourney.com) | [DALL-E 4](https://openai.com/dall-e) | 统治级的材质质感与构图美学，2K HD |
-| **极致排版与文字渲染** | [**DALL-E 4**](https://openai.com/dall-e) | [FLUX.2](https://bfl.ai) | 文字渲染准确，Prompt 遵循度高 |
-| **中文风格与国风** | [**即梦 (Jimeng)**](https://jimeng.jianying.com) | — | 字节出品，抖音生态集成 |
+|---------|---------|---------|---------|
+| **艺术美学与高保真摄影** | **Midjourney V8.1** | DALL-E 4 | 统治级的材质质感与构图美学，2K HD |
+| **极致排版与文字渲染** | **DALL-E 4** | FLUX.2 | 文字渲染准确，Prompt 遵循度高 |
+| **中文风格与国风** | **即梦 (Jimeng)** | — | 字节出品，抖音生态集成 |
 
 ### 🎬 视频生成选型
 
 | 核心需求 | 首选引擎 | 开源替代 | 关键差异 |
-| --------- | --------- | --------- | --------- |
-| **长视频与一致性** | [**Sora 2.0**](https://openai.com/sora) | [CogVideoX-3](https://github.com/THUDM/CogVideo) | 60s 超长视频，物理规律模拟 |
-| **运镜控制与电影感** | [**可灵 (Kling) 3.5**](https://kling.kuaishou.com) | — | 无提示词物理轨迹，4K 60fps |
-| **快速迭代与短视频** | [**Hailuo 2**](https://hailuoai.video) | — | MiniMax 出品，与 M3 生态集成 |
+|---------|---------|---------|---------|
+| **长视频与一致性** | **Sora 2.0** | CogVideoX-3 | 60s 超长视频，物理规律模拟 |
+| **运镜控制与电影感** | **可灵 (Kling) 3.5** | — | 无提示词物理轨迹，4K 60fps |
+| **快速迭代与短视频** | **Hailuo 2** | — | MiniMax 出品，与 M3 生态集成 |
 
 ### 🎵 音频生成选型
 
 | 核心需求 | 首选引擎 | 开源替代 | 关键差异 |
-| --------- | --------- | --------- | --------- |
-| **全曲目音乐生成** | [**Suno v5.5**](https://suno.com) | — | 自定义 Voices 音色克隆，原生无损全曲 |
-| **语音合成 (TTS)** | [**GLM-TTS**](https://open.bigmodel.cn) | [CosyVoice 2](https://open.bigmodel.cn) | 自然度极高，中文优化 |
-| **语音识别 (ASR)** | — | [**Whisper V3**](https://github.com/openai/whisper) | 多语言，MIT 开源 |
+|---------|---------|---------|---------|
+| **全曲目音乐生成** | **Suno v5.5** | — | 自定义 Voices 音色克隆，原生无损全曲 |
+| **语音合成 (TTS)** | **GLM-TTS** | CosyVoice 2 | 自然度极高，中文优化 |
+| **语音识别 (ASR)** | — | **Whisper V3** | 多语言，MIT 开源 |
 
 > [!TIP]
 > **多模态模型的 API 可用性**
@@ -83,12 +83,12 @@
 ## 💡 工作流集成指南
 
 | 工作流 | 推荐组合 | 说明 |
-| -------- | --------- | ------ |
-| **图文创作** | [Midjourney V8.1](https://midjourney.com) + [GPT-5.5](https://openai.com) | 图像生成 + 文案优化 |
-| **短视频制作** | [可灵 3.5](https://kling.kuaishou.com) + [Suno v5.5](https://suno.com) | 视频 + 配乐 |
-| **播客/有声书** | [GLM-TTS](https://open.bigmodel.cn) + [Whisper V3](https://github.com/openai/whisper) | 合成 + 校验 |
-| **产品展示** | [DALL-E 4](https://openai.com/dall-e) + [Sora 2.0](https://openai.com/sora) | 产品图 + 展示视频 |
-| **教育内容** | [即梦](https://jimeng.jianying.com) + [CosyVoice 2](https://open.bigmodel.cn) | 中文图文 + 中文语音 |
+|--------|---------|------|
+| **图文创作** | Midjourney V8.1 + GPT-5.5 | 图像生成 + 文案优化 |
+| **短视频制作** | 可灵 3.5 + Suno v5.5 | 视频 + 配乐 |
+| **播客/有声书** | GLM-TTS + Whisper V3 | 合成 + 校验 |
+| **产品展示** | DALL-E 4 + Sora 2.0 | 产品图 + 展示视频 |
+| **教育内容** | 即梦 + CosyVoice 2 | 中文图文 + 中文语音 |
 
 ---
 

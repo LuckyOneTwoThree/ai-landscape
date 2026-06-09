@@ -8,12 +8,12 @@
 ## 📊 LLM 追踪：让 AI 应用可观测
 
 | 你的情况 | 推荐平台 | 理由 |
-| --------- | --------- | ------ |
-| **LangChain 生态** | [LangSmith](https://smith.langchain.com) | 官方追踪+评估 |
-| **开源 / 私有部署** | [Langfuse](https://github.com/langfuse/langfuse) | MIT 开源，8K Stars |
+|---------|---------|------|
+| **LangChain 生态** | LangSmith | 官方追踪+评估 |
+| **开源 / 私有部署** | Langfuse | MIT 开源，8K Stars |
 | **AI 网关 + 追踪** | Portkey | 全链路追踪 |
-| **OpenTelemetry 原生** | [OpenLIT](https://github.com/openlit/openlit) / [Langtrace](https://github.com/Scale3-Labs/langtrace) | 标准化追踪 |
-| **Agent 可观测性** | [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16K Stars |
+| **OpenTelemetry 原生** | OpenLIT / Langtrace | 标准化追踪 |
+| **Agent 可观测性** | RagaAI Catalyst | 16K Stars |
 
 > [!TIP]
 > **Langfuse 是开源场景的最佳选择**
@@ -44,24 +44,24 @@
 ### 🔵 商业 SaaS 型：开箱即用
 
 | 平台 | 核心优势 | 适合谁 |
-| ------ | --------- | -------- |
-| [**LangSmith**](https://smith.langchain.com) | LangChain 官方，追踪+评估 | LangChain 生态 |
+|------|---------|--------|
+| **LangSmith** | LangChain 官方，追踪+评估 | LangChain 生态 |
 | **Portkey** | AI 网关 + 全链路追踪 | 企业级 |
-| [**Helicone**](https://github.com/Helicone/helicone) | 开源，请求日志/成本追踪 | 开发者 |
+| **Helicone** | 开源，请求日志/成本追踪 | 开发者 |
 
 ### 🟢 开源自部署型：数据在自己手里
 
 | 平台 | Stars | 核心优势 | 适合谁 |
-| ------ | ------- | --------- | -------- |
-| [**Langfuse**](https://github.com/langfuse/langfuse) | 8K | MIT 开源，追踪+评估+提示管理 | 私有部署 |
-| [**RagaAI Catalyst**](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16K | Agent 可观测性，监控+评估 | Agent 开发 |
-| [**OpenLIT**](https://github.com/openlit/openlit) | 2.5K | OpenTelemetry 原生 | 标准化追踪 |
-| [**Langtrace**](https://github.com/Scale3-Labs/langtrace) | 1.2K | OpenTelemetry 追踪 | 轻量级 |
+|------|-------|---------|--------|
+| **Langfuse** | 8K | MIT 开源，追踪+评估+提示管理 | 私有部署 |
+| **RagaAI Catalyst** | 16K | Agent 可观测性，监控+评估 | Agent 开发 |
+| **OpenLIT** | 2.5K | OpenTelemetry 原生 | 标准化追踪 |
+| **Langtrace** | 1.2K | OpenTelemetry 追踪 | 轻量级 |
 
 ## 💡 工具对比
 
-| 维度 | [LangSmith](https://smith.langchain.com) | [Langfuse](https://github.com/langfuse/langfuse) | Portkey | [OpenLIT](https://github.com/openlit/openlit) |
-| ------ | ----------- | ---------- | --------- | --------- |
+| 维度 | LangSmith | Langfuse | Portkey | OpenLIT |
+|------|-----------|----------|---------|---------|
 | **开源** | ❌ | ✅ | ✅ | ✅ |
 | **LangChain 集成** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 | **评估功能** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |

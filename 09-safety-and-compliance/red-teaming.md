@@ -9,14 +9,14 @@
 
 红队测试的核心：**在部署前用自动化手段模拟攻击，发现 AI 系统的安全漏洞**。
 
-| [](https://github.com/Azure/PyRIT)测试目标[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)测试方法[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)推荐工具[](https://github.com/Azure/PyRIT) |
-| --------- | --------- | --------- |
-| [**[](https://github.com/Azure/PyRIT)Prompt[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)注入攻击[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)构造恶意[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)Prompt[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)绕过系统指令[](https://github.com/Azure/PyRIT) | [**Promptfoo[**](https://promptfoo.dev) / [**](https://promptfoo.dev)Garak**](https://[garak](https://garak.ai).ai) |
-| [**[](https://github.com/Azure/PyRIT)越狱攻击[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)让模型生成有害内容[](https://github.com/Azure/PyRIT) | [**PyRIT[**](https://github.com/Azure/PyRIT) / [**](https://github.com/Azure/PyRIT)HarmBench**](https://harmbench.org) |
-| [**[](https://github.com/Azure/PyRIT)幻觉检测[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)测试模型是否编造事实[](https://github.com/Azure/PyRIT) | [**Garak**](https://garak.ai) |
-| [**[](https://github.com/Azure/PyRIT)数据泄露[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)测试模型是否泄露训练数据[](https://github.com/Azure/PyRIT) | [**PyRIT**](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)多轮攻击[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)多步骤渐进式攻击[](https://github.com/Azure/PyRIT) | [**PyRIT**](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)CI[](https://github.com/Azure/PyRIT)/[](https://github.com/Azure/PyRIT)CD[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)集成[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)每次发布前自动扫描[](https://github.com/Azure/PyRIT) | [**Promptfoo**](https://promptfoo.dev) |
+| 测试目标 | 测试方法 | 推荐工具 |
+|---------|---------|---------|
+| **Prompt 注入攻击** | 构造恶意 Prompt 绕过系统指令 | **Promptfoo** / **Garak** |
+| **越狱攻击** | 让模型生成有害内容 | **PyRIT** / **HarmBench** |
+| **幻觉检测** | 测试模型是否编造事实 | **Garak** |
+| **数据泄露** | 测试模型是否泄露训练数据 | **PyRIT** |
+| **多轮攻击** | 多步骤渐进式攻击 | **PyRIT** |
+| **CI/CD 集成** | 每次发布前自动扫描 | **Promptfoo** |
 
 > [!TIP]
 > **快速扫描用 Garak，多轮攻击用 PyRIT，CI/CD 集成用 Promptfoo**
@@ -40,15 +40,15 @@
 
 ## 💡 工具对比
 
-| [](https://github.com/Azure/PyRIT)维度[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)Promptfoo[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)Garak[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)PyRIT[](https://github.com/Azure/PyRIT) |
-| ------ | ----------- | ------- | ------- |
-| [**[](https://github.com/Azure/PyRIT)出品方[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)OpenAI[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)收购[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)NVIDIA[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)Microsoft[](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)Stars[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)8K[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)4[](https://github.com/Azure/PyRIT).[](https://github.com/Azure/PyRIT)5K[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)2[](https://github.com/Azure/PyRIT).[](https://github.com/Azure/PyRIT)8K[](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)漏洞类型[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)50[](https://github.com/Azure/PyRIT)+ | [](https://github.com/Azure/PyRIT)37[](https://github.com/Azure/PyRIT)+ | [](https://github.com/Azure/PyRIT)多模态[](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)多轮攻击[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | ❌ | ❌ | ✅ |
-| [**[](https://github.com/Azure/PyRIT)CI[](https://github.com/Azure/PyRIT)/[](https://github.com/Azure/PyRIT)CD[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)集成[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| [**[](https://github.com/Azure/PyRIT)报告输出[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)YAML[](https://github.com/Azure/PyRIT)/[](https://github.com/Azure/PyRIT)JSON[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)结构化报告[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)结构化报告[](https://github.com/Azure/PyRIT) |
-| [**[](https://github.com/Azure/PyRIT)适用场景[](https://github.com/Azure/PyRIT)**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | [](https://github.com/Azure/PyRIT)CI[](https://github.com/Azure/PyRIT)/[](https://github.com/Azure/PyRIT)CD[](https://github.com/Azure/PyRIT) [](https://github.com/Azure/PyRIT)自动扫描[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)快速漏洞扫描[](https://github.com/Azure/PyRIT) | [](https://github.com/Azure/PyRIT)多轮攻击编排[](https://github.com/Azure/PyRIT) |
+| 维度 | Promptfoo | Garak | PyRIT |
+|------|-----------|-------|-------|
+| **出品方** | OpenAI 收购 | NVIDIA | Microsoft |
+| **Stars** | 8K | 4.5K | 2.8K |
+| **漏洞类型** | 50+ | 37+ | 多模态 |
+| **多轮攻击** | ❌ | ❌ | ✅ |
+| **CI/CD 集成** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **报告输出** | YAML/JSON | 结构化报告 | 结构化报告 |
+| **适用场景** | CI/CD 自动扫描 | 快速漏洞扫描 | 多轮攻击编排 |
 
 ---
 

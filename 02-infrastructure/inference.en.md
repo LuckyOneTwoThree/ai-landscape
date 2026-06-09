@@ -9,14 +9,14 @@
 
 For individual developers, the core question is: **What models can my GPU run?**
 
-| GPU | VRAM | Capable Models (4-bit Quantization) | Recommended Engine |
-| ------ | ------ | ------------------------ | --------- |
-| **RTX 4090** | 24GB | Qwen3-32B, Llama-3-70B (barely) | [vLLM](https://github.com/vllm-project/vllm) / [Ollama](https://ollama.com) |
-| **RTX 3090** | 24GB | Qwen3-14B, DeepSeek-V4-16B | [Ollama](https://ollama.com) / [llama.cpp](https://github.com/ggerganov/llama.cpp) |
-| **RTX 4070** | 12GB | [Qwen3-8B](https://qwen.ai), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) |
-| **Mac M4 Pro** | 24GB Unified | Qwen3-32B, Llama-3-70B (Quantized) | [Ollama](https://ollama.com) / MLX |
-| **Mac M4** | 16GB Unified | Qwen3-14B, [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) / MLX |
-| **CPU only** | — | [Qwen3-8B](https://qwen.ai) (Slow), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-mini | [llama.cpp](https://github.com/ggerganov/llama.cpp) |
+| GPU | **VRAM** | Capable Models (4-bit Quantization) | Recommended Engine |
+| ------ | **------** | ------------------------ | --------- |
+| **RTX 4090** | **24GB** | Qwen3-32B, Llama-3-70B (barely) | [vLLM](https://github.com/vllm-project/vllm) / [Ollama](https://ollama.com) |
+| **RTX 3090** | **24GB** | Qwen3-14B, DeepSeek-V4-16B | [Ollama](https://ollama.com) / [llama.cpp](https://github.com/ggerganov/llama.cpp) |
+| **RTX 4070** | **12GB** | [Qwen3-8B](https://qwen.ai), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) |
+| **Mac M4 Pro** | **24GB Unified** | Qwen3-32B, Llama-3-70B (Quantized) | [Ollama](https://ollama.com) / MLX |
+| **Mac M4** | **16GB Unified** | Qwen3-14B, [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) / MLX |
+| **CPU only** | **—** | [Qwen3-8B](https://qwen.ai) (Slow), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-mini | [llama.cpp](https://github.com/ggerganov/llama.cpp) |
 
 > [!TIP]
 > **Mac's Unified Memory is a hidden advantage**
