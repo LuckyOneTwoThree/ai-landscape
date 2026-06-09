@@ -1,243 +1,214 @@
-<div align="center">
+<![CDATA[<div align="center">
+
+# 🌐 AI 技术栈全景图
+
+### AI Tech Stack Landscape
+
+<p>
+  <a href="https://github.com/LuckyOneTwoThree/ai-landscape/stargazers"><img src="https://img.shields.io/github/stars/LuckyOneTwoThree/ai-landscape?style=social" alt="Stars"></a>
+  <a href="https://github.com/LuckyOneTwoThree/ai-landscape/network/members"><img src="https://img.shields.io/github/forks/LuckyOneTwoThree/ai-landscape?style=social" alt="Forks"></a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Tools-463+-blue?style=flat-square" alt="Tools">
+  <img src="https://img.shields.io/badge/Categories-10-green?style=flat-square" alt="Categories">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Updated-2026--06-orange?style=flat-square" alt="Updated">
+</p>
+
+<p>
+  <b>🇺🇸 <a href="./README_EN.md">English</a></b>　|　<b>🇨🇳 中文</b>
+</p>
 
 ---
 
-### 🌍 Language / 语言
+一份全面、结构化的 AI 技术栈目录，涵盖从基础大模型到终端应用的完整生态。
 
-# [🇺🇸 English](./README.md)　|　[🇨🇳 中文](./README_CN.md)
-
----
-
-</div>
-
-# 🌐 AI Tech Stack Landscape
-
-### **A Comprehensive Guide to the AI Ecosystem**
-
-<div align="center">
-
-![Stars](https://img.shields.io/github/stars/LuckyOneTwoThree/ai-landscape?style=flat-square&logo=github&color=2ea44f)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square&color=blue)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&color=2ea44f)
-![Last Update](https://img.shields.io/badge/updated-2026--06--09-brightgreen?style=flat-square)
-
-</div>
-
-> **A comprehensive, structured directory of AI tech stacks**
-> 
-> **Covering the complete ecosystem from foundation models to end-user applications**
-> 
-> **Helping developers, product managers, and decision-makers quickly understand AI technology choices and landscape**
-
----
-
-<div align="center">
-
-| 🎯 **Goal** | 📦 **Scale** | 🔧 **Maintenance** | 🤝 **Community** |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| AI Stack Selection | 463+ Tools | Auto-build | Open Source |
-| 10 Categories | 34 Docs | YAML Data | Issue Templates |
-| Developer Friendly | Continuous Updates | CI/CD | PRs Welcome |
+帮助开发者、产品经理和决策者快速了解 AI 领域的技术选型与全景格局。
 
 </div>
 
 ---
 
-## 🏗️ Architecture
+## 📖 目录
+
+- [📊 项目概览](#-项目概览)
+- [🏗️ 架构全景](#️-架构全景)
+- [📑 模块导航](#-模块导航)
+- [🔥 2026年6月 AI 格局](#-2026年6月-ai-格局)
+- [🚀 快速开始](#-快速开始)
+- [🤝 贡献指南](#-贡献指南)
+- [📄 开源协议](#-开源协议)
+
+---
+
+## 📊 项目概览
+
+<table>
+  <tr>
+    <td align="center"><b>🎯 目标</b></td>
+    <td align="center"><b>📦 规模</b></td>
+    <td align="center"><b>🔧 维护</b></td>
+    <td align="center"><b>🤝 社区</b></td>
+  </tr>
+  <tr>
+    <td align="center">AI 全栈选型</td>
+    <td align="center">463+ 工具</td>
+    <td align="center">自动化构建</td>
+    <td align="center">开源共建</td>
+  </tr>
+  <tr>
+    <td align="center">10 个分类</td>
+    <td align="center">34 篇文档</td>
+    <td align="center">YAML 数据源</td>
+    <td align="center">Issue 模板</td>
+  </tr>
+</table>
+
+---
+
+## 🏗️ 架构全景
 
 <div align="center">
 
 ```mermaid
 graph TD
-    subgraph L0["🎯 00 Selection Guide"]
-        T[Scenario Recommendations · Trend Tracking]
-    end
-    subgraph L1["🧠 01-03 Models·Infra·Data"]
-        M[Foundation Models] --> I[Infrastructure]
-        I --> D[Data & Knowledge]
-    end
-    subgraph L45["⚙️ 04-05 Dev Frameworks"]
-        F[Code Frameworks] & L[Low-Code Platforms]
-    end
-    subgraph L67["🔌 06-07 Tools·Plugins"]
-        P[Protocols & Tools] & S[Skills & Plugins]
-    end
-    subgraph L89["📈 08-09 Ops·Security"]
-        O[Observability] & G[Safety & Compliance]
-    end
-    subgraph LA["🖥️ 10 End-User Apps"]
-        A[Coding · Search · Creation]
-    end
-    D --> F & L
-    F --> P
-    L --> S
-    P & S --> A
-    M --> O & G
-    style L0 fill:#e94560,color:#fff
-    style LA fill:#e94560,color:#fff
+    A[🧠 基础大模型] --> B[🏗️ 基础设施]
+    B --> C[📊 数据与知识]
+    C --> D[⚙️ 开发框架]
+    C --> E[🧩 低代码平台]
+    D --> F[🔌 工具与协议]
+    E --> G[🧱 技能与插件]
+    F --> H[🖥️ 终端应用]
+    G --> H
+    A --> I[📈 可观测性]
+    A --> J[🛡️ 安全合规]
 ```
 
 </div>
 
 ---
 
-## 📑 Quick Navigation
+## 📑 模块导航
 
-<div align="center">
-
-| Level | Directory | Core Content | Tools |
-|:-----:|-----------|--------------|:-----:|
-| `00` | [Selection Guide & Trends](./00-guides-and-trends/) | Industry trends, tech selection advice & comparisons | 3 |
-| `01` | [Foundation Models](./01-foundation-models/) | LLM, multimodal models, open & closed source | 58 |
-| `02` | [Infrastructure](./02-infrastructure/) | GPU cloud, inference engines, training platforms | 52 |
-| `03` | [Data & Knowledge](./03-data-and-knowledge/) | Data pipelines, vector DB, knowledge graphs, RAG | 32 |
-| `04` | [Dev Frameworks](./04-dev-frameworks/) | LangChain, LlamaIndex, Semantic Kernel, etc. | 29 |
-| `05` | [Low-Code Platforms](./05-lowcode-platforms/) | Dify, Coze, Flowise & other no-code/low-code | 17 |
-| `06` | [Tools & Protocols](./06-tools-and-protocols/) | MCP, A2A, Function Calling, Tool Use | 62 |
-| `07` | [Skills & Plugins](./07-skills-and-plugins/) | Agent skills, plugin marketplaces, extensions | 98 |
-| `08` | [Observability](./08-observability/) | LLM monitoring, tracing, evaluation, logging | 17 |
-| `09` | [Safety & Compliance](./09-safety-and-compliance/) | Content moderation, data privacy, AI safety | 12 |
-| `10` | [End-User Applications](./10-applications/) | AI assistants, coding tools, search, creative | 86 |
-
-</div>
+| 层级 | 模块 | 说明 | 工具数 |
+|:----:|------|------|:------:|
+| `00` | [选型指南与趋势](./00-guides-and-trends/) | 行业趋势、技术选型、横向对比 | 3 |
+| `01` | [基础大模型](./01-foundation-models/) | LLM、多模态、开源与闭源模型 | 58 |
+| `02` | [基础设施](./02-infrastructure/) | GPU 云、推理引擎、向量数据库 | 52 |
+| `03` | [数据与知识](./03-data-and-knowledge/) | 数据管线、知识图谱、RAG | 32 |
+| `04` | [开发框架](./04-dev-frameworks/) | LangChain、LlamaIndex、多 Agent | 29 |
+| `05` | [低代码平台](./05-lowcode-platforms/) | Dify、Coze、n8n | 17 |
+| `06` | [工具与协议](./06-tools-and-protocols/) | MCP、A2A、Function Calling | 62 |
+| `07` | [技能与插件](./07-skills-and-plugins/) | Agent 技能、插件市场 | 98 |
+| `08` | [可观测性](./08-observability/) | 监控、Tracing、评测 | 17 |
+| `09` | [安全合规](./09-safety-and-compliance/) | 护栏、审核、红队测试 | 12 |
+| `10` | [终端应用](./10-applications/) | AI IDE、搜索、办公、创作 | 86 |
 
 ---
 
-## 🧭 Where Should I Start?
+## 🧭 快速入口
 
-<div align="center">
-
-| Role | Recommended Path | Why |
-|:----:|------------------|-----|
-| 👨‍💻 **Developer** | [`04-dev-frameworks`](./04-dev-frameworks/) → [`06-tools-and-protocols`](./06-tools-and-protocols/) | Quickly find frameworks and protocols for building AI apps |
-| 📋 **Product Manager** | [`05-lowcode-platforms`](./05-lowcode-platforms/) → [`07-skills-and-plugins`](./07-skills-and-plugins/) | Discover low-code solutions and existing plugin capabilities |
-| 🙋 **End User** | [`10-applications`](./10-applications/) | Browse AI products and tools ready to use |
-| 🧑‍💼 **Decision Maker** | [`00-guides-and-trends`](./00-guides-and-trends/) | Industry landscape, trend analysis, and selection guidance |
-
-</div>
-
----
-
-## 🔥 AI Landscape - June 2026
-
-<div align="center">
-
-### 🏆 Frontier Model Tiers
-
-</div>
-
-| Tier | Model | Vendor | Focus |
-|:----:|-------|--------|-------|
-| **T0 Frontier** | GPT-5.5 Pro | OpenAI | Highest intelligence, Agent/Coding/Knowledge work |
-| **T0 Frontier** | Claude Opus 4.8 | Anthropic | Best Agent reliability, coding consistency |
-| **T0 Frontier** | Gemini 3.5 Flash | Google | Agent workflows, multi-agent coordination |
-| **T1 Value** | DeepSeek-V4-Pro | DeepSeek | Open-source MoE, 1M context |
-| **T1 Value** | Qwen3-Coder-480B | Alibaba | Agent-level coding, open-source |
-| **T2 Lightweight** | GPT-5.5-mini | OpenAI | Cost-effective, fast response |
-
-<div align="center">
-
-### 🚀 Key Trends
-
-</div>
-
-1. **Agents as Core** - All frontier models prioritize Agent capabilities
-2. **Coding Agent Explosion** - Codex, Claude Code, Cursor fully Agent-ized
-3. **Computer Use Standard** - GPT-5.5 OSWorld 78.7%, Claude Opus 4.8 Online-Mind2Web 84%
-4. **Multi-Agent Coordination** - Gemini 3.5 focuses on multi-agent workflows
-5. **Vibe Coding Goes Mainstream** - Natural language-driven development widely adopted
-6. **MCP Becomes De Facto Standard** - All major IDEs/frameworks support it
+<table>
+  <tr>
+    <td align="center">👨‍💻 开发者</td>
+    <td>→ <a href="./04-dev-frameworks/">开发框架</a> + <a href="./06-tools-and-protocols/">工具协议</a></td>
+    <td>找框架和协议</td>
+  </tr>
+  <tr>
+    <td align="center">📋 产品经理</td>
+    <td>→ <a href="./05-lowcode-platforms/">低代码平台</a> + <a href="./07-skills-and-plugins/">技能插件</a></td>
+    <td>找落地方案</td>
+  </tr>
+  <tr>
+    <td align="center">🙋 终端用户</td>
+    <td>→ <a href="./10-applications/">终端应用</a></td>
+    <td>找现成产品</td>
+  </tr>
+  <tr>
+    <td align="center">🧑‍💼 决策者</td>
+    <td>→ <a href="./00-guides-and-trends/">选型指南</a></td>
+    <td>看行业全景</td>
+  </tr>
+</table>
 
 ---
 
-## 🚀 Quick Start
+## 🔥 2026年6月 AI 格局
 
-<div align="center">
+### 前沿模型梯队
 
-### Run Locally
+| 梯队 | 模型 | 厂商 | 定位 |
+|:----:|------|------|------|
+| **T0** | GPT-5.5 Pro | OpenAI | 智能最强，Agent/编码/知识工作 |
+| **T0** | Claude Opus 4.8 | Anthropic | Agent 可靠性最强 |
+| **T0** | Gemini 3.5 Flash | Google | Agent 工作流，多 Agent 协调 |
+| **T1** | DeepSeek-V4-Pro | DeepSeek | 开源 MoE，1M 上下文 |
+| **T1** | Qwen3-Coder-480B | 阿里 | Agent 级编程，开源 |
+| **T2** | GPT-5.5-mini | OpenAI | 高性价比 |
 
-</div>
+### 核心趋势
+
+1. **Agent 成为核心** — 所有前沿模型以 Agent 能力为卖点
+2. **编码 Agent 爆发** — Codex、Claude Code、Cursor 全面 Agent 化
+3. **计算机使用标配** — GPT-5.5 OSWorld 78.7%
+4. **MCP 成为标准** — 所有主流 IDE/框架已支持
+5. **Vibe Coding 主流化** — 自然语言驱动开发被广泛接受
+6. **中国模型追赶** — DeepSeek V4、GLM-5.1、Kimi K2 达前沿水平
+
+---
+
+## 🚀 快速开始
 
 ```bash
-# Clone repository
+# 克隆仓库
 git clone https://github.com/LuckyOneTwoThree/ai-landscape.git
 cd ai-landscape
 
-# Install dependencies
+# 安装依赖
 pip install pyyaml
 
-# Validate data
+# 验证数据
 python scripts/validate.py
 
-# Build documentation
+# 构建文档
 python scripts/build_docs.py
-
-# View generated docs
-open docs/index.html
 ```
 
-<div align="center">
+**贡献新工具：**
 
-### Contribute a New Tool
-
-</div>
-
-1. **Fork** this repository
-2. **Edit** YAML files in the `data/` directory
-3. **Submit** a PR for review
-
-Or simply [open an Issue](https://github.com/LuckyOneTwoThree/ai-landscape/issues/new?template=tool-submission.yml) to tell us about a tool you discovered!
+1. [提交 Issue](https://github.com/LuckyOneTwoThree/ai-landscape/issues/new?template=tool-submission.yml) — 告诉我们你发现的工具
+2. Fork → 编辑 `data/*.yaml` → 提交 PR
 
 ---
 
-## 🤝 Contributing
+## 🤝 贡献指南
 
-<div align="center">
+欢迎任何形式的贡献！请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解：
 
-**We welcome any form of contribution!**
+- ✅ 如何提交新工具
+- ✅ 内容格式规范
+- ✅ PR 流程与 Review 标准
 
-</div>
-
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first to understand:
-
-- ✅ How to submit new tool/product entries
-- ✅ Content format and classification standards
-- ✅ PR process and review criteria
-
-> 💡 Found a missing tool or incorrect info? Open an Issue or submit a PR - both are great support for us!
+> 💡 发现遗漏的工具？[提个 Issue](https://github.com/LuckyOneTwoThree/ai-landscape/issues) 或直接开 PR！
 
 ---
 
-## 📄 License
+## 📄 开源协议
 
-<div align="center">
-
-This project is licensed under the [MIT License](./LICENSE)
-
-**Free to use, free to share, free to modify**
-
-</div>
+本项目采用 [MIT License](./LICENSE) 开源。
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 致谢
 
-<div align="center">
-
-Thanks to all contributors and these open-source projects:
-
-[![awesome-selfhosted](https://img.shields.io/badge/awesome--selfhosted-reference-blue?style=flat-square)](https://github.com/awesome-selfhosted/awesome-selfhosted)
-[![awesome-chatgpt-plugins](https://img.shields.io/badge/awesome--chatgpt--plugins-reference-blue?style=flat-square)](https://github.com/acheong08/awesome-chatgpt-plugins)
-[![awesome-mcp-servers](https://img.shields.io/badge/awesome--mcp--servers-reference-blue?style=flat-square)](https://github.com/punkpeye/awesome-mcp-servers)
-
-</div>
+感谢 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)、[awesome-chatgpt-plugins](https://github.com/acheong08/awesome-chatgpt-plugins)、[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) 等开源项目。
 
 ---
 
 <div align="center">
 
-**If this project helps you, please give us a ⭐ Star!**
-
-**Your support is our motivation to keep updating**
+**⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！**
 
 </div>
+]]>
