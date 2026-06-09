@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🌐 AI Tech Stack Landscape
 
@@ -211,4 +211,3 @@ Thanks to [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-sel
 **⭐ If this project helps you, please give us a Star!**
 
 </div>
-]]>

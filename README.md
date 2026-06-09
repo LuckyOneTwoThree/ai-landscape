@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🌐 AI 技术栈全景图
 
@@ -222,4 +222,3 @@ python scripts/build_docs.py
 **⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！**
 
 </div>
-]]>
