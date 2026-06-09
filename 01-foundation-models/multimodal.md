@@ -13,7 +13,7 @@
 
 | 核心需求 | 首选引擎 | 开源替代 | 关键差异 |
 |---------|---------|---------|---------|
-| **艺术美学与高保真摄影** | **[[Midjourney](https://midjourney.com) V8.1](https://[midjourney](https://midjourney.com).com)** | [DALL-E 4](https://openai.com/dall-e) | 统治级的材质质感与构图美学，2K HD |
+| **艺术美学与高保真摄影** | **[Midjourney V8.1](https://midjourney.com)** | [DALL-E 4](https://openai.com/dall-e) | 统治级的材质质感与构图美学，2K HD |
 | **极致排版与文字渲染** | **[DALL-E 4](https://openai.com/dall-e)** | [FLUX.2](https://bfl.ai) | 文字渲染准确，Prompt 遵循度高 |
 | **中文风格与国风** | **[即梦 (Jimeng)](https://jimeng.jianying.com)** | — | 字节出品，抖音生态集成 |
 
@@ -21,7 +21,7 @@
 
 | 核心需求 | 首选引擎 | 开源替代 | 关键差异 |
 |---------|---------|---------|---------|
-| **长视频与一致性** | **[[Sora](https://openai.com) 2.0](https://openai.com/[sora](https://openai.com))** | [CogVideoX-3](https://github.com/THUDM/CogVideo) | 60s 超长视频，物理规律模拟 |
+| **长视频与一致性** | **[Sora 2.0](https://openai.com/sora)** | [CogVideoX-3](https://github.com/THUDM/CogVideo) | 60s 超长视频，物理规律模拟 |
 | **运镜控制与电影感** | **[可灵 (Kling) 3.5](https://kling.kuaishou.com)** | — | 无提示词物理轨迹，4K 60fps |
 | **快速迭代与短视频** | **[Hailuo 2](https://hailuoai.video)** | — | MiniMax 出品，与 M3 生态集成 |
 

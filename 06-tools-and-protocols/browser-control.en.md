@@ -11,10 +11,10 @@
 | --------- | **---------** | ------ |
 | **Complex Web Automation (Login/Forms/Clicks)** | **[Browser Use](https://github.com/browser-use/browser-use)** | 97K Stars, DOM parsing + visual recognition, most powerful |
 | **Cross-Browser Testing/Automation** | **[Playwright](https://playwright.dev)** | By Microsoft, full support for Chromium/Firefox/WebKit |
-| **Command Line Automation Scripts** | **[[Agent Browser](https://github.com/[vercel](https://vercel.com)-labs/agent-browser)](https://github.com/[vercel](https://vercel.com)-labs/agent-browser)** | By [Vercel](https://vercel.com), CLI format, lightweight and easy to integrate |
+| **Command Line Automation Scripts** | **[Agent Browser](https://github.com/vercel-labs/agent-browser)-labs/agent-browser)** | By [Vercel](https://vercel.com), CLI format, lightweight and easy to integrate |
 | **Chrome Extension Format** | **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** | Browser plugin, no extra installation, multi-agent collaboration |
 | **Bypass Anti-Bot/Cloudflare** | **[Camofox Browser](https://github.com/jo-inc/camofox-browser)** | Stealth headless browser, designed to bypass anti-bot detection |
-| **Vision-First, Screenshots + Coordinates** | **[[Browser Agent](https://github.com/magnitudedev/browser-agent)](https://github.com/magnitudedev/browser-agent)** | Screenshots + coordinate clicks, suitable for general Agents |
+| **Vision-First, Screenshots + Coordinates** | **[Browser Agent](https://github.com/magnitudedev/browser-agent)** | Screenshots + coordinate clicks, suitable for general Agents |
 | **System-Level Screen Control** | **[Anthropic](https://openai.com) / [OpenAI Computer Use](https://openai.com)** | Not limited to browsers, can control any desktop application |
 
 > [!TIP]

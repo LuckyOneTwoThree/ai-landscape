@@ -13,7 +13,7 @@
 | **知识库问答** | [FastGPT](https://fastgpt.in) / [DocsGPT](https://github.com/arc53/DocsGPT) | 国内友好，私有部署 |
 | **可视化工作流** | [Flowise](https://flowiseai.com) / [Langflow](https://langflow.org) | 拖拽式，130+ 节点 |
 | **全栈应用生成** | [Bolt.new](https://bolt.new) / [Lovable](https://lovable.dev) | 一句话生成完整应用 |
-| **前端 UI 生成** | [v0 by [Vercel](https://vercel.com)](https://v0.dev) | 专注 [Next.js](https://nextjs.org) 组件 |
+| **前端 UI 生成** | [v0 by Vercel](https://v0.dev) | 专注 [Next.js](https://nextjs.org) 组件 |
 | **本地开源替代** | [Dyad](https://github.com/dyad-sh/dyad) | v0/[Lovable](https://lovable.dev) 的开源替代 |
 
 > [!TIP]

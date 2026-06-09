@@ -13,7 +13,7 @@
 | **Knowledge Base Q&A** | **[FastGPT](https://fastgpt.in) / [DocsGPT](https://github.com/arc53/DocsGPT)** | China-friendly, private deployment |
 | **Visual Workflow** | **[Flowise](https://flowiseai.com) / [Langflow](https://langflow.org)** | Drag-and-drop, 130+ nodes |
 | **Full-Stack App Generation** | **[Bolt.new](https://bolt.new) / [Lovable](https://lovable.dev)** | Generate complete apps with one prompt |
-| **Frontend UI Generation** | **[v0 by [Vercel](https://vercel.com)](https://v0.dev)** | Focuses on [Next.js](https://nextjs.org) components |
+| **Frontend UI Generation** | **[v0 by Vercel](https://v0.dev)** | Focuses on [Next.js](https://nextjs.org) components |
 | **Local Open Source Alternative** | **[Dyad](https://github.com/dyad-sh/dyad)** | Open source alternative to v0/[Lovable](https://lovable.dev) |
 
 > [!TIP]

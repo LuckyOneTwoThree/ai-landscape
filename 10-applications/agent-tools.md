@@ -21,7 +21,7 @@
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
 | 🖥️ **终端开发者** | **[Claude Code](https://www.anthropic.com/product/claude-code)** / **[Aider](https://aider.chat)** | CLI 原生，全局工程理解 |
-| ☁️ **云端异步编码** | **[OpenAI [Codex](https://openai.com)](https://chatgpt.com/[codex](https://openai.com))** / **[Devin](https://www.cognition.ai/devin)** | 云端沙盒，不污染本地 |
+| ☁️ **云端异步编码** | **[OpenAI Codex](https://chatgpt.com/codex)** / **[Devin](https://www.cognition.ai/devin)** | 云端沙盒，不污染本地 |
 | 👔 **全办公场景** | **[WorkBuddy](https://www.codebuddy.cn/work/)** | 不限于编程，覆盖全办公 |
 | 🆓 **开源免费** | **[Aider](https://aider.chat)** / **[Hermes Agent](https://hermes-agent.nousresearch.com)** | 完全开源，多模型可选 |
 | 🚀 **全自主交付** | **[Devin](https://www.cognition.ai/devin) 3.0** | 独立环境，SOLO 模式 |

@@ -16,8 +16,8 @@
 | **🎨 设计** | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 89K | 多平台 UI/UX |
 | **🎨 设计** | [Open Design](https://github.com/nexu-io/open-design) | 61.5K | Claude Design 替代 |
 | **📚 研究** | [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 34.6K | 研究最近 30 天热门 |
-| **📢 营销** | [Marketing [Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills)](https://github.com/coreyhaines31/marketingskills) | 32.5K | CRO/文案/社交媒体 |
-| **🔒 安全** | Cybersecurity [Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills) | 14.9K | 754 个安全技能 |
+| **📢 营销** | [Marketing Skills](https://github.com/coreyhaines31/marketingskills)/[skills](https://github.com/antfu/skills)) | 32.5K | CRO/文案/社交媒体 |
+| **🔒 安全** | Cybersecurity [Skills](https://github.com/antfu/skills)/[skills](https://github.com/antfu/skills)) | 14.9K | 754 个安全技能 |
 | **📦 综合** | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 46K | Claude Code 精选 |
 | **📦 综合** | [Superpowers](https://github.com/NexTechFusion/superpowers) | 34K | 14 个子技能全家桶 |
 

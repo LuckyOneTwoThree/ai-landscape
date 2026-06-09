@@ -138,6 +138,9 @@ def replace_with_links(text, mapping):
         
         text = pattern.sub(lambda m: f"[{m.group(1)}]({url})", text)
         
+        # Immediately stash newly created links so they don't get modified by shorter keys
+        text = re.sub(r'\[.*?\]\(.*?\)', stash, text)
+        
     # Unstash links
     for i, link in enumerate(stashed_links):
         text = text.replace(f"__LINK_{i}__", link)

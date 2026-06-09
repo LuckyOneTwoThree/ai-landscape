@@ -15,7 +15,7 @@
 | **RAG / 知识库** | [LlamaIndex](https://llamaindex.ai) | 数据处理专精，PageIndex，Agentic RAG |
 | **企业级 / 微软生态** | [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) | Azure 集成，MAF 合并，企业级 |
 | **声明式 Prompt 工程** | [DSPy](https://dspy.ai) | 自动优化 Prompt，程序化 LLM |
-| **前端 AI 集成** | [[Vercel](https://vercel.com) AI SDK](https://sdk.[vercel](https://vercel.com).ai) | React/[Next.js](https://nextjs.org) 原生，流式 UI |
+| **前端 AI 集成** | [Vercel AI SDK](https://sdk.vercel.ai) | React/[Next.js](https://nextjs.org) 原生，流式 UI |
 | **类型安全 / 结构化输出** | [Pydantic AI](https://ai.pydantic.dev) / [Instructor](https://python.useinstructor.com) | Pydantic 深度集成 |
 | **Java/JVM 生态** | [LangChain4j](https://github.com/langchain4j/langchain4j) | Java 版 [LangChain](https://langchain.com)，12.2K Stars |
 | **Go 语言生态** | [Eino](https://github.com/cloudwego/eino) | 字节跳动出品，11.7K Stars |

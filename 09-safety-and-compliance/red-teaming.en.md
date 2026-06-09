@@ -11,12 +11,12 @@ The core of red teaming: **Using automated methods to simulate attacks before de
 
 | Testing Goal | **Testing Method** | Recommended Tools |
 | --------- | **---------** | --------- |
-| [**Prompt Injection Attacks**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Crafting malicious prompts to bypass system instructions** | [**Promptfoo[**](https://promptfoo.dev) / [**](https://promptfoo.dev)Garak**](https://[garak](https://garak.ai).ai) |
-| [**Jailbreak Attacks**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Forcing the model to generate harmful content** | [**PyRIT[**](https://github.com/Azure/PyRIT) / [**](https://github.com/Azure/PyRIT)HarmBench**](https://harmbench.org) |
-| [**Hallucination Detection**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Testing whether the model fabricates facts** | [**Garak**](https://garak.ai) |
-| [**Data Leakage**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Testing whether the model leaks training data** | [**PyRIT**](https://github.com/Azure/PyRIT) |
-| [**Multi-Turn Attacks**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Multi-step progressive attacks** | [**PyRIT**](https://github.com/Azure/PyRIT) |
-| [**CI/CD Integration**](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)) | **Automated scanning before every release** | [**Promptfoo**](https://promptfoo.dev) |
+| **Prompt Injection Attacks**) | **Crafting malicious prompts to bypass system instructions** | **[Promptfoo](https://promptfoo.dev)** / **[Garak](https://garak.ai)** |
+| **Jailbreak Attacks**) | **Forcing the model to generate harmful content** | **[PyRIT](https://github.com/Azure/PyRIT)** / **HarmBench** |
+| **Hallucination Detection**) | **Testing whether the model fabricates facts** | **[Garak](https://garak.ai)** |
+| **Data Leakage**) | **Testing whether the model leaks training data** | **[PyRIT](https://github.com/Azure/PyRIT)** |
+| **[Multi-Turn Attacks](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)**) | **Multi-step progressive attacks** | **[PyRIT](https://github.com/Azure/PyRIT)** |
+| **[CI/CD Integration](https://github.com/Azure/[PyRIT](https://github.com/Azure/PyRIT)**) | **Automated scanning before every release** | **[Promptfoo](https://promptfoo.dev)** |
 
 > [!TIP]
 > **Use Garak for rapid scanning, PyRIT for multi-turn attacks, and Promptfoo for CI/CD integration**

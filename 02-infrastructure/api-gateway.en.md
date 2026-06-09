@@ -13,7 +13,7 @@ For individuals or small teams, the core problem an API gateway solves is **savi
 
 | Solution | **Simple Tasks 800 calls** | Complex Tasks (200 calls) | Daily Cost |
 | ------ | **-----------------** | ----------------- | -------- |
-| [**All GPT-5.5**](https://openai.com) | **800 × $0.015 = $12** | 200 × $0.075 = $15 | **$27** |
+| **All [GPT-5.5](https://openai.com)** | **800 × $0.015 = $12** | 200 × $0.075 = $15 | **$27** |
 | **Routing: Simple via nano, complex via 5.5** | **800 × $0.001 = $0.8** | 200 × $0.075 = $15 | **$15.8** |
 
 **Saves 41%**, and the quality of simple tasks experiences almost no degradation.

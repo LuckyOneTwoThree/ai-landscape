@@ -11,10 +11,10 @@ The core of safety evaluation: **Using standardized benchmarks to measure the sa
 
 | Evaluation Dimension | **Evaluation Content** | Recommended Tools |
 | --------- | **---------** | --------- |
-| **Government-Grade Compliance** | **100+ pre-built evaluations, adopted by Anthropic/DeepMind** | [**Inspect**](https://inspect.ai) |
-| **Academic Research** | **510 harmful behaviors, 18 adversarial attack methods** | [**HarmBench**](https://harmbench.org) |
-| **Red Teaming** | **Vulnerability scanning and attack simulation** | [**Promptfoo[**](https://promptfoo.dev) / [**](https://promptfoo.dev)Garak**](https://garak.ai) |
-| **Content Moderation** | **Harmful content detection** | [**Llama Guard**](https://ai.meta.com/llama/) / [**OpenAI Moderation**](https://platform.openai.com/docs/guides/moderation) |
+| **Government-Grade Compliance** | **100+ pre-built evaluations, adopted by Anthropic/DeepMind** | **[Inspect](https://inspect.aisi.org.uk)** |
+| **Academic Research** | **510 harmful behaviors, 18 adversarial attack methods** | **[HarmBench](https://harmbench.org)** |
+| **Red Teaming** | **Vulnerability scanning and attack simulation** | **Promptfoo** / **Garak** |
+| **Content Moderation** | **Harmful content detection** | **Llama Guard** / **OpenAI Moderation** |
 
 > [!TIP]
 > **Inspect is the premier choice for government-grade safety evaluation**

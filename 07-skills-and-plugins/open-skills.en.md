@@ -16,8 +16,8 @@ The AI Agent skills ecosystem in 2026 is exploding, covering various domains:
 | **🎨 Design** | **[ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | 89K | Multi-platform UI/UX |
 | **🎨 Design** | **[Open Design](https://github.com/nexu-io/open-design)** | 61.5K | Claude Design alternative |
 | **📚 Research** | **[last30days-skill](https://github.com/mvanhorn/last30days-skill)** | 34.6K | Research trending topics in the last 30 days |
-| **📢 Marketing** | **[[[Marketing [[Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills)](https://github.com/[antfu](https://github.com/antfu/skills)/[skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills))](https://github.com/coreyhaines31/marketingskills)](https://github.com/coreyhaines31/marketingskills)](https://github.com/coreyhaines31/marketingskills)** | 32.5K | CRO/Copywriting/Social Media |
-| **🔒 Security** | **Cybersecurity [[Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills)](https://github.com/[antfu](https://github.com/antfu/skills)/[skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills))** | 14.9K | 754 security [skills](https://github.com/antfu/skills) |
+| **📢 Marketing** | **[Marketing Skills](https://github.com/coreyhaines31/marketingskills)/[skills](https://github.com/antfu/skills)))** | 32.5K | CRO/Copywriting/Social Media |
+| **🔒 Security** | **Cybersecurity [Skills](https://github.com/antfu/skills)/[skills](https://github.com/antfu/skills)))** | 14.9K | 754 security [skills](https://github.com/antfu/skills) |
 | **📦 Comprehensive** | **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** | 46K | Claude Code curated list |
 | **📦 Comprehensive** | **[Superpowers](https://github.com/NexTechFusion/superpowers)** | 34K | 14 sub-[skills](https://github.com/antfu/skills) family bucket |
 

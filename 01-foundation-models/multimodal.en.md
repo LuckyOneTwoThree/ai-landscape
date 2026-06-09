@@ -13,7 +13,7 @@ Multimodal generation has long passed the "gacha blind box" stage; the core focu
 
 | Core Requirement | **Preferred Engine** | Open Source Alternative | Key Differences |
 | ------------------ | **------------------** | ------------------------- | ----------------- |
-| **Artistic Aesthetics & High-Fidelity Photography** | **[[Midjourney](https://midjourney.com) V8.1](https://[midjourney](https://midjourney.com).com)** | [DALL-E 4](https://openai.com/dall-e) | Dominant material texture and composition aesthetics, 2K HD |
+| **Artistic Aesthetics & High-Fidelity Photography** | **[Midjourney V8.1](https://midjourney.com)** | [DALL-E 4](https://openai.com/dall-e) | Dominant material texture and composition aesthetics, 2K HD |
 | **Ultimate Typography & Text Rendering** | **[DALL-E 4](https://openai.com/dall-e)** | [FLUX.2](https://bfl.ai) | Accurate text rendering, high Prompt adherence |
 | **Chinese Style & Guofeng** | **[Jimeng](https://jimeng.jianying.com) 即梦** | — | By ByteDance, integrated with the TikTok/Douyin ecosystem |
 
@@ -21,7 +21,7 @@ Multimodal generation has long passed the "gacha blind box" stage; the core focu
 
 | Core Requirement | **Preferred Engine** | Open Source Alternative | Key Differences |
 | ------------------ | **------------------** | ------------------------- | ----------------- |
-| **Long Videos & Consistency** | **[[Sora](https://openai.com) 2.0](https://openai.com/[sora](https://openai.com))** | [CogVideoX-3](https://github.com/THUDM/CogVideo) | 60s ultra-long video, physical law simulation |
+| **Long Videos & Consistency** | **[Sora 2.0](https://openai.com/sora)** | [CogVideoX-3](https://github.com/THUDM/CogVideo) | 60s ultra-long video, physical law simulation |
 | **Camera Control & Cinematic Feel** | **Kling 可灵 3.5** | — | Prompt-less physical trajectories, 4K 60fps |
 | **Rapid Iteration & Short Videos** | **[Hailuo 2](https://hailuoai.video)** | — | By MiniMax, integrated with the M3 ecosystem |
 
@@ -31,7 +31,7 @@ Multimodal generation has long passed the "gacha blind box" stage; the core focu
 | ------------------ | **------------------** | ------------------------- | ----------------- |
 | **Full-Track Music Generation** | **[Suno v5.5](https://suno.com)** | — | Custom Voices clone, native lossless full tracks |
 | **Speech Synthesis (TTS)** | **[GLM-TTS](https://open.bigmodel.cn)** | [CosyVoice 2](https://open.bigmodel.cn) | Extremely high naturalness, Chinese optimization |
-| **Speech Recognition (ASR)** | **—** | [**Whisper V3**](https://github.com/openai/whisper) | Multi-language, MIT open source |
+| **Speech Recognition (ASR)** | **—** | **[Whisper V3](https://github.com/openai/whisper)** | Multi-language, MIT open source |
 
 > [!TIP]
 > **API Availability for Multimodal Models**

@@ -9,7 +9,7 @@
 
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
-| 💬 **通用 AI 对话，最强模型** | **[ChatGPT](https://chatgpt.com)** / **[Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [[Claude](https://claude.ai) Opus 4](https://anthropic.com) 驱动，能力最强 |
+| 💬 **通用 AI 对话，最强模型** | **[ChatGPT](https://chatgpt.com)** / **[Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [Claude Opus 4](https://anthropic.com) 驱动，能力最强 |
 | 🔍 **Google 生态用户** | **[Gemini](https://gemini.google.com)** | Google 搜索/地图/邮件/文档全集成 |
 | 📊 **微软 365 办公套件** | **[Microsoft Copilot](https://copilot.microsoft.com)** | Word/Excel/PPT/Outlook 原生集成 |
 | 📝 **Notion 用户** | **[Notion AI](https://notion.so)** | 文档智能编辑 + 知识库问答 |

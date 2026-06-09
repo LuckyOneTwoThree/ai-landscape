@@ -12,12 +12,12 @@ MCP (Model Context Protocol) is an **AI tool integration standard** proposed by 
 | Your Situation | **Recommended Solution** | Reason |
 | --------- | **---------** | ------ |
 | **Developing an [MCP](https://modelcontextprotocol.io) Server** | **[FastMCP](https://github.com/PrefectHQ/fastmcp)** | 25.5K Stars, Pythonic approach |
-| **Finding Ready-to-Use MCPs** | **[awesome-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)-servers](https://github.com/appcypher/awesome-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)-servers) / [Smithery](https://smithery.ai)** | 88.7K Stars / Largest [MCP](https://modelcontextprotocol.io) marketplace |
-| **File System** | **[[[MCP](https://modelcontextprotocol.io)](https://modelcontextprotocol.io) Filesystem Server](https://github.com/modelcontextprotocol/servers)** | Official reference implementation |
-| **Code Management** | **[[GitHub [[MCP](https://modelcontextprotocol.io)](https://modelcontextprotocol.io) Server](https://github.com/github/github-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)-server)](https://github.com/github/github-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)-server)** | 30.5K Stars, officially maintained |
-| **Browser Automation** | **Playwright [[MCP](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)** | 33.6K Stars, by Microsoft |
-| **Documentation Fetching** | **[Context7 [[MCP](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)](https://github.com/upstash/context7-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io))** | 57K Stars, real-time documentation |
-| **SaaS Integration** | **Notion/Slack/Linear/[Sentry [[MCP](https://modelcontextprotocol.io)](https://modelcontextprotocol.io)](https://github.com/getsentry/sentry-[[mcp](https://modelcontextprotocol.io)](https://modelcontextprotocol.io))** | Official implementations by respective SaaS |
+| **Finding Ready-to-Use MCPs** | **[awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) / [Smithery](https://smithery.ai)** | 88.7K Stars / Largest [MCP](https://modelcontextprotocol.io) marketplace |
+| **File System** | **[MCP Filesystem Server](https://github.com/modelcontextprotocol/servers)** | Official reference implementation |
+| **Code Management** | **[GitHub MCP Server](https://github.com/github/github-mcp-server)** | 30.5K Stars, officially maintained |
+| **Browser Automation** | **Playwright [MCP](https://modelcontextprotocol.io)** | 33.6K Stars, by Microsoft |
+| **Documentation Fetching** | **[Context7 MCP](https://github.com/upstash/context7-mcp)** | 57K Stars, real-time documentation |
+| **SaaS Integration** | **Notion/Slack/Linear/[Sentry MCP](https://github.com/getsentry/sentry-mcp)** | Official implementations by respective SaaS |
 | **[MCP](https://modelcontextprotocol.io) Clients** | **[CodePilot](https://github.com/op7418/CodePilot) / [5ire](https://github.com/nanbingxyz/5ire)** | Desktop AI assistants |
 
 > [!TIP]

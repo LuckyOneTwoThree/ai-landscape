@@ -9,15 +9,15 @@
 
 | Your Situation | **Recommended Tool** | Rationale |
 | ---------------- | **------------------** | ----------- |
-| 💬 [**General AI chat, strongest model**](https://[bolt.new](https://bolt.new)) | **[ChatGPT](https://chatgpt.com) / [Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [Claude](https://claude.ai) Opus 4 driven, strongest capabilities |
-| 🔍 [**Google ecosystem user**](https://[bolt.new](https://bolt.new)) | **[Gemini](https://gemini.google.com)** | Full integration with Google Search/Maps/Mail/Docs |
-| 📊 [**Microsoft 365 office suite**](https://[bolt.new](https://bolt.new)) | **[Microsoft Copilot](https://copilot.microsoft.com)** | Native integration with Word/Excel/PPT/Outlook |
-| 📝 [**Notion user**](https://[bolt.new](https://bolt.new)) | **[Notion AI](https://notion.so)** | Intelligent document editing + Knowledge base Q&A |
-| 🎨 [**Making PPT presentations**](https://[bolt.new](https://bolt.new)) | **[Gamma](https://gamma.app) / v0** | AI generates beautiful presentations with one click |
-| 🚀 [**Full-stack app rapid prototyping**](https://[bolt.new](https://bolt.new)) | **[Bolt.new](https://bolt.new) / [Lovable](https://lovable.dev)** | In-browser full-stack development, 30-second preview |
-| 🎵 [**AI music creation**](https://[bolt.new](https://bolt.new)) | **[Suno](https://suno.com)** | Text to complete song, multiple styles |
-| 🇨🇳 [**Domestic office scenarios**](https://[bolt.new](https://bolt.new)) | **[WPS AI](https://ai.wps.cn) / Feishu / DingTalk** | Native integration with domestic office ecosystems |
-| 🗣️ [**Chinese AI assistants**](https://[bolt.new](https://bolt.new)) | **[Zhipu Qingyan](https://chatglm.cn) / [Doubao](https://doubao.com) / [DeepSeek](https://chat.deepseek.com)** | Domestic models, [Chinese](https://[bolt.new](https://bolt.new) optimization |
+| 💬 **General AI chat, strongest [model](https://[bolt.new](https://bolt.new)**) | **[ChatGPT](https://chatgpt.com) / [Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [Claude Opus 4](https://anthropic.com) driven, strongest capabilities |
+| 🔍 **Google ecosystem user**) | **[Gemini](https://gemini.google.com)** | Full integration with Google Search/Maps/Mail/Docs |
+| 📊 **Microsoft 365 office suite**) | **[Microsoft Copilot](https://copilot.microsoft.com)** | Native integration with Word/Excel/PPT/Outlook |
+| 📝 **Notion user**) | **[Notion AI](https://notion.so)** | Intelligent document editing + Knowledge base Q&A |
+| 🎨 **Making PPT presentations**) | **[Gamma](https://gamma.app) / v0** | AI generates beautiful presentations with one click |
+| 🚀 **Full-stack app rapid prototyping**) | **[Bolt.new](https://bolt.new) / [Lovable](https://lovable.dev)** | In-browser full-stack development, 30-second preview |
+| 🎵 **AI music creation**) | **[Suno](https://suno.com)** | Text to complete song, multiple styles |
+| 🇨🇳 **Domestic office scenarios**) | **[WPS AI](https://ai.wps.cn) / Feishu / DingTalk** | Native integration with domestic office ecosystems |
+| 🗣️ **[Chinese](https://[bolt.new](https://bolt.new) AI assistants**) | **[Zhipu Qingyan](https://chatglm.cn) / [Doubao](https://doubao.com) / [DeepSeek](https://chat.deepseek.com)** | Domestic models, [Chinese](https://[bolt.new](https://bolt.new) optimization |
 
 > [!TIP]
 > **ChatGPT and Claude are the two major benchmarks for general AI assistants**
