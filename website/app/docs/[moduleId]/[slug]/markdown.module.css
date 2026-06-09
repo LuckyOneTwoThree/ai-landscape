@@ -140,3 +140,8 @@
   background: none;
   padding: 0;
 }
+
+.markdownBody .mermaid-container svg {
+  margin: 2rem auto;
+  display: block;
+}

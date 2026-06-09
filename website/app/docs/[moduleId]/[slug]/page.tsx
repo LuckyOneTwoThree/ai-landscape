@@ -2,6 +2,7 @@ import { getModules, getDocumentsInModule, getDocumentContent } from '@/lib/mark
 import styles from './markdown.module.css'
 import Link from 'next/link'
 import TableOfContents from '@/components/TableOfContents'
+import MarkdownViewer from '@/components/MarkdownViewer'
 
 export async function generateStaticParams() {
   const modules = getModules()
@@ -33,7 +34,7 @@ export default async function DocumentPage({
   return (
     <div className={styles.pageContainer}>
       <article className={styles.markdownBody}>
-        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+        <MarkdownViewer contentHtml={contentHtml} />
       </article>
       <aside className={styles.tocAside}>
         <TableOfContents locale="zh" />
