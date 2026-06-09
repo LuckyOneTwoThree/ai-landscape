@@ -92,13 +92,13 @@ graph TD
 ## 📑 Modules
 
 | Level | Module | Description | Tools |
-|:-----:|--------|-------------|:-----:|
+| :-----: | -------- | ------------- | :-----: |
 | `00` | [Selection Guide](./00-guides-and-trends/) | Industry trends, tech selection, comparisons | 3 |
 | `01` | [Foundation Models](./01-foundation-models/) | LLM, multimodal, open & closed source | 58 |
 | `02` | [Infrastructure](./02-infrastructure/) | GPU cloud, inference engines, vector DB | 52 |
 | `03` | [Data & Knowledge](./03-data-and-knowledge/) | Data pipelines, knowledge graphs, RAG | 32 |
 | `04` | [Dev Frameworks](./04-dev-frameworks/) | LangChain, LlamaIndex, multi-agent | 29 |
-| `05` | [Low-Code Platforms](./05-lowcode-platforms/) | Dify, Coze, n8n | 17 |
+| `05` | [Low-Code Platforms](./05-lowcode-platforms/) | Dify, Coze, [n8n](https://n8n.io) | 17 |
 | `06` | [Tools & Protocols](./06-tools-and-protocols/) | MCP, A2A, Function Calling | 62 |
 | `07` | [Skills & Plugins](./07-skills-and-plugins/) | Agent skills, plugin marketplaces | 98 |
 | `08` | [Observability](./08-observability/) | Monitoring, tracing, benchmarks | 17 |
@@ -139,13 +139,13 @@ graph TD
 ### Frontier Model Tiers
 
 | Tier | Model | Vendor | Focus |
-|:----:|-------|--------|-------|
-| **T0** | GPT-5.5 Pro | OpenAI | Highest intelligence, Agent/Coding/Knowledge |
-| **T0** | Claude Opus 4.8 | Anthropic | Best Agent reliability |
-| **T0** | Gemini 3.5 Flash | Google | Agent workflows, multi-agent |
-| **T1** | DeepSeek-V4-Pro | DeepSeek | Open-source MoE, 1M context |
-| **T1** | Qwen3-Coder-480B | Alibaba | Agent-level coding, open-source |
-| **T2** | GPT-5.5-mini | OpenAI | Cost-effective |
+| :----: | ------- | -------- | ------- |
+| **T0** | [GPT-5.5](https://openai.com) Pro | OpenAI | Highest intelligence, Agent/Coding/Knowledge |
+| **T0** | [Claude Opus 4](https://anthropic.com).8 | Anthropic | Best Agent reliability |
+| **T0** | [Gemini 3.5 Flash](https://gemini.google.com) | Google | Agent workflows, multi-agent |
+| **T1** | [DeepSeek-V4-Pro](https://deepseek.com) | DeepSeek | Open-source MoE, 1M context |
+| **T1** | [Qwen3-Coder](https://qwen.ai)-480B | Alibaba | Agent-level coding, open-source |
+| **T2** | [GPT-5.5-mini](https://openai.com) | OpenAI | Cost-effective |
 
 ### Key Trends
 

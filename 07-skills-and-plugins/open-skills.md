@@ -10,16 +10,16 @@
 2026 年的 AI Agent 技能生态正在爆发，覆盖各个领域：
 
 | 领域 | 热门技能 | Stars | 说明 |
-|------|---------|-------|------|
-| **💻 编码** | deer-flow | 70.8K | 字节跳动 SuperAgent |
-| **💻 编码** | Caveman | 70K | Token 优化 |
-| **🎨 设计** | ui-ux-pro-max-skill | 89K | 多平台 UI/UX |
-| **🎨 设计** | Open Design | 61.5K | Claude Design 替代 |
-| **📚 研究** | last30days-skill | 34.6K | 研究最近 30 天热门 |
-| **📢 营销** | Marketing Skills | 32.5K | CRO/文案/社交媒体 |
-| **🔒 安全** | Cybersecurity Skills | 14.9K | 754 个安全技能 |
-| **📦 综合** | awesome-claude-code | 46K | Claude Code 精选 |
-| **📦 综合** | Superpowers | 34K | 14 个子技能全家桶 |
+| ------ | --------- | ------- | ------ |
+| **💻 编码** | [deer-flow](https://github.com/bytedance/deer-flow) | 70.8K | 字节跳动 SuperAgent |
+| **💻 编码** | [Caveman](https://github.com/JuliusBrussee/caveman) | 70K | Token 优化 |
+| **🎨 设计** | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 89K | 多平台 UI/UX |
+| **🎨 设计** | [Open Design](https://github.com/nexu-io/open-design) | 61.5K | Claude Design 替代 |
+| **📚 研究** | [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 34.6K | 研究最近 30 天热门 |
+| **📢 营销** | [Marketing Skills](https://github.com/coreyhaines31/marketingskills) | 32.5K | CRO/文案/社交媒体 |
+| **🔒 安全** | Cybersecurity [Skills](https://github.com/antfu/skills) | 14.9K | 754 个安全技能 |
+| **📦 综合** | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 46K | Claude Code 精选 |
+| **📦 综合** | [Superpowers](https://github.com/NexTechFusion/superpowers) | 34K | 14 个子技能全家桶 |
 
 > [!TIP]
 > **技能生态正在从"通用工具集成"向"专业领域深化"演进**
@@ -35,22 +35,22 @@
 ### 🤖 Agent 技能库
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Agent Skills](https://github.com/addyosmani/agent-skills) | 生产级 AI 编码 Agent 技能库，49K Stars | agent, coding, enterprise | 49.1K Stars<br>生产级技能<br>AI 编码 Agent |
-| [LibreChat](https://github.com/danny-avila/LibreChat) | 增强版 ChatGPT 克隆，支持 Agent、MCP、Skills、DeepSeek | openai-compatible, agent, mcp | 38.6K Stars<br>ChatGPT 克隆<br>Agent+MCP+Skills |
+| [LibreChat](https://github.com/danny-avila/LibreChat) | 增强版 ChatGPT 克隆，支持 Agent、MCP、[Skills](https://github.com/antfu/skills)、DeepSeek | openai-compatible, agent, mcp | 38.6K Stars<br>ChatGPT 克隆<br>Agent+MCP+[Skills](https://github.com/antfu/skills) |
 | [Coze Studio](https://github.com/coze-dev/coze-studio) | 字节跳动开源的 AI Agent 开发平台，可视化工具 | agent, openai-compatible, china-based | 20.9K Stars<br>字节跳动开源<br>可视化 Agent 开发 |
 | [Hermes Agent Skills](https://github.com/nousresearch/hermes-agent) | Hermes Agent 的开源技能库，支持 MCP 工具调用 | mcp, agent | Hermes Agent 技能库<br>MCP 工具调用<br>开源 |
 
 ### 📦 框架工具
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [LangChain Tools](https://github.com/langchain-ai/langchain) | LangChain 生态的工具集成库 | mcp, langchain | LangChain 工具库<br>生态丰富<br>100K Stars |
 
 ### 🎨 设计
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | AI SKILL，为多平台专业 UI/UX 构建提供设计智能 | open-source, cross-platform, content-creation | 89K Stars<br>多平台 UI/UX<br>设计智能 |
 | [Open Design](https://github.com/nexu-io/open-design) | 本地优先的开源 Claude Design 替代方案 | content-creation, self-hosted, open-source | 61.5K Stars<br>本地优先<br>Claude Design 替代 |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | 给 AI 好品味，停止生成丑陋 UI | content-creation | 38.5K Stars<br>好品味<br>停止丑陋 UI |
@@ -65,7 +65,7 @@
 ### 🌐 前端
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Frontend Slides](https://github.com/zarazhangrui/frontend-slides) | 用编码 Agent 创建精美网页幻灯片 | content-creation, presentation | 20.8K Stars<br>网页幻灯片<br>编码 Agent |
 | [gsap-skills](https://github.com/greensock/gsap-skills) | GSAP 官方 AI 技能，教 AI Agent 正确使用 GSAP 动画 | open-source, content-creation, coding | 8.6K Stars<br>GSAP 官方<br>动画技能 |
 | [Pinme](https://github.com/glitternetwork/pinme) | 一行命令部署前端，Claude Code 技能 | content-creation, automation, coding-assistant | 3.6K Stars<br>一行命令部署<br>Claude Code 技能 |
@@ -73,11 +73,11 @@
 ### 💻 编码
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Andrej Karpathy 观察总结的 CLAUDE.md，改善 Claude Code 行为 | coding, coding-assistant, open-source | 171K Stars<br>Karpathy 总结<br>编码最佳实践 |
 | [deer-flow](https://github.com/bytedance/deer-flow) | 字节跳动开源 SuperAgent 框架 | coding, agent, china-based | 70.8K Stars<br>字节跳动<br>SuperAgent 框架 |
 | [Caveman](https://github.com/JuliusBrussee/caveman) | Claude Code 技能，用更少 Token 完成更多工作 | coding, cost-effective | 70K Stars<br>Token 优化<br>效率提升 |
-| [Graphify](https://github.com/safishamsi/graphify) | AI 编码助手技能，支持 Claude Code/Codex/OpenCode/Cursor | coding, chat, agent | 63K Stars<br>多 Agent 支持<br>编码助手 |
+| [Graphify](https://github.com/safishamsi/graphify) | AI 编码助手技能，支持 Claude Code/[Codex](https://openai.com)/OpenCode/Cursor | coding, chat, agent | 63K Stars<br>多 Agent 支持<br>编码助手 |
 | [OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec 驱动开发，AI 编码助手规范 | coding, document, automation | 53.5K Stars<br>Spec 驱动开发<br>AI 编码规范 |
 | [SocratiCode](https://github.com/giancarloerra/SocratiCode) | 企业级代码库智能，零配置，40M+ LOC 支持 | coding, enterprise, agent | 2.8K Stars<br>企业级<br>40M+ LOC |
 | [ralph-wiggum](https://github.com/nicekid1/ralph-wiggum) | 循环迭代技能，根据任务说明书自动反复改进直到满意 | coding, agent, automation | 循环迭代<br>自动改进<br>UI/文案打磨 |
@@ -86,7 +86,7 @@
 ### 📚 研究
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 研究 Reddit/X/YouTube 最近 30 天热门话题 | deep-research, content-creation, latest | 34.6K Stars<br>最近 30 天<br>热门话题 |
 | [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) | 学术研究技能，研究→写作→引用全流程 | deep-research, academic, content-creation | 28.9K Stars<br>学术研究<br>全流程支持 |
 | [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 让任何 AI Agent 成为 AI 科学家，#1 Agent 技能库 | deep-research, academic, agent | 27.6K Stars<br>AI 科学家<br>#1 Agent 技能库 |
@@ -98,7 +98,7 @@
 ### ✍️ 写作
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Humanizer](https://github.com/blader/humanizer) | 去除 AI 写作痕迹，让内容更自然 | content-creation, security | 23K Stars<br>去除 AI 痕迹<br>内容更自然 |
 | [Research Paper Writing](https://github.com/Master-cai/Research-Paper-Writing-Skills) | ML/CV/NLP 论文写作技能包 | content-creation, academic | 3.5K Stars<br>论文写作<br>ML/CV/NLP |
 | [SEO Skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | 20 个 SEO & GEO 技能，支持 35+ Agent | content-creation | 2.1K Stars<br>SEO 技能<br>35+ Agent |
@@ -109,7 +109,7 @@
 ### 📢 营销
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Marketing Skills](https://github.com/coreyhaines31/marketingskills) | 营销技能，CRO/文案/社交媒体/邮件营销 | content-creation | 32.5K Stars<br>营销技能<br>CRO/文案/社交媒体 |
 | [ASO Skills](https://github.com/Eronred/aso-skills) | App Store 优化技能 | content-creation, mcp | 1.5K Stars<br>App Store 优化<br>营销技能 |
 | [openclaw-marketing-skills](https://github.com/LeoYeAI/openclaw-marketing-skills) | 33 个实战营销技能 | content-creation, mcp, enterprise | 1.2K Stars<br>33 个技能<br>实战验证 |
@@ -117,13 +117,13 @@
 ### 📊 产品
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills) | 产品管理技能框架，实战验证 | automation, langchain | 5K Stars<br>产品管理<br>实战验证 |
 
 ### 🔒 安全
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 754 个结构化网络安全技能，映射到 MITRE ATT&CK | security, compliance | 14.9K Stars<br>754 个安全技能<br>MITRE ATT&CK |
 | [Raptor](https://github.com/gadievron/raptor) | Claude Code 渗透测试工具 | security, automation, coding-assistant | 2.9K Stars<br>渗透测试<br>Claude Code |
 | [ClawSec](https://github.com/prompt-security/clawsec) | 完整安全技能套件，支持 OpenClaw/Hermes/PicoCl | security, compliance | 1K Stars<br>安全审计<br>合规检查 |
@@ -131,7 +131,7 @@
 ### 📝 文档
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Agent Skills Spec](https://github.com/agentskills/agentskills) | Agent 技能规范与文档 | document, mcp | 20.1K Stars<br>技能规范<br>标准文档 |
 | [Markdown Viewer Skills](https://github.com/markdown-viewer/skills) | AI 编码 Agent 创建精美 Markdown 文档的技能 | document, content-creation | 2.9K Stars<br>Markdown 文档<br>可视化 |
 
@@ -140,7 +140,7 @@
 #### ⭐ 活跃项目 (10K-50K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code 精选列表，技能/钩子/斜杠命令/Agent | open-source, coding-assistant, mcp | 46K Stars<br>Claude Code 精选<br>技能/钩子/命令 |
 | [Superpowers](https://github.com/NexTechFusion/superpowers) | Claude Code 全家桶技能，14 个子技能覆盖完整开发流程 | mcp, agent, coding | 34K Stars<br>14 个子技能<br>完整开发流程 |
 | [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | VoltAgent 出品的 1000+ Agent 技能精选集合 | open-source, mcp, openai-compatible | 24.7K Stars<br>1000+ 技能<br>VoltAgent 出品 |
@@ -149,18 +149,18 @@
 #### 🆕 新兴项目 (<10K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
-| [awesome-claude-code-skills (helloianneo)](https://github.com/helloianneo/awesome-claude-code-skills) | Claude Code 最实用 Skills/Agents/Plugins 精选合集，50+ 精选按场景分类 | open-source, mcp, coding-assistant | 50+ 精选<br>按场景分类<br>推荐等级 |
+| ------ | ------ | ------ | ------ |
+| [awesome-claude-code-skills (helloianneo)](https://github.com/helloianneo/awesome-claude-code-skills) | Claude Code 最实用 [Skills](https://github.com/antfu/skills)/Agents/Plugins 精选合集，50+ 精选按场景分类 | open-source, mcp, coding-assistant | 50+ 精选<br>按场景分类<br>推荐等级 |
 | [antfu/skills](https://github.com/antfu/skills) | Anthony Fu 精选的 Agent 技能集合 | open-source, mcp, china-based | 5.2K Stars<br>Anthony Fu 精选<br>技能集合 |
 | [awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 人物/关系/角色技能精选列表 | open-source, content-creation, mcp | 4.4K Stars<br>人物/关系<br>角色技能 |
 | [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | Hermes Agent 精选列表，工具/集成/资源 | open-source, openai-compatible, mcp | 3.8K Stars<br>Hermes Agent<br>精选列表 |
-| [AI Agent Skills Library](https://github.com/newmindsgroup/ai-agent-skills-library) | 版本化/代码审查的 Agent 技能库，支持 Claude Code/Cursor/Codex/Windsurf | mcp, agent, open-source | 多 Agent 支持<br>版本化审查<br>6 大平台兼容 |
+| [AI Agent Skills Library](https://github.com/newmindsgroup/ai-agent-skills-library) | 版本化/代码审查的 Agent 技能库，支持 Claude Code/Cursor/[Codex](https://openai.com)/Windsurf | mcp, agent, open-source | 多 Agent 支持<br>版本化审查<br>6 大平台兼容 |
 | [Vibe Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 全能 AI 技能包，无缝集成多种 Agent | mcp, all-in-one | 2.3K Stars<br>全能技能包<br>多 Agent 集成 |
 | [Claude Code Plugins Plus Skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) | 425 插件，2810 技能，200 Agent，开放源码 | mcp, agent | 2.3K Stars<br>425 插件<br>2810 技能 |
 | [Agent Toolkit](https://github.com/softaworks/agent-toolkit) | AI 编码 Agent 技能精选集合 | mcp, open-source, coding | 2K Stars<br>技能精选<br>编码 Agent |
 | [awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | Claude Code 工具包，135 个 Agent | open-source, coding-assistant, mcp | 2K Stars<br>135 个 Agent<br>工具包 |
-| [Agents Best Practices](https://github.com/DenisSergeevitch/agents-best-practices) | Provider 中立的 Agent 技能，支持 Codex/Claude Code | open-source, openai-compatible, agent | 1.9K Stars<br>最佳实践<br>Provider 中立 |
-| [dotclaude](https://github.com/sras/dotclaude) | 15 个专业 Agent 和 Skills 合集，含 Git 规范/CLAUDE.md 生成/飞书文档等 | mcp, agent, china-based | 15 个专业 Agent<br>Git 规范提交<br>飞书文档创建 |
+| [Agents Best Practices](https://github.com/DenisSergeevitch/agents-best-practices) | Provider 中立的 Agent 技能，支持 [Codex](https://openai.com)/Claude Code | open-source, openai-compatible, agent | 1.9K Stars<br>最佳实践<br>Provider 中立 |
+| [dotclaude](https://github.com/sras/dotclaude) | 15 个专业 Agent 和 [Skills](https://github.com/antfu/skills) 合集，含 Git 规范/CLAUDE.md 生成/飞书文档等 | mcp, agent, china-based | 15 个专业 Agent<br>Git 规范提交<br>飞书文档创建 |
 | [everything-claude-code](https://github.com/eyaltoledano/everything-claude-code) | 全栈 Claude Code 技能大合集，编码/测试/安全/DevOps 全覆盖 | mcp, agent, coding | 全栈技能<br>编码/测试/安全<br>DevOps 全覆盖 |
 
 <!-- AUTOGEN_END -->
@@ -185,8 +185,8 @@
 ## 💡 技能对比
 
 | 维度 | 设计类 | 编码类 | 研究类 | 写作类 | 营销类 | 安全类 |
-|------|--------|--------|--------|--------|--------|--------|
-| **代表技能** | taste-skill | deer-flow | last30days | Humanizer | Marketing Skills | Cybersecurity Skills |
+| ------ | -------- | -------- | -------- | -------- | -------- | -------- |
+| **代表技能** | [taste-skill](https://github.com/Leonxlnx/taste-skill) | [deer-flow](https://github.com/bytedance/deer-flow) | last30days | [Humanizer](https://github.com/blader/humanizer) | [Marketing Skills](https://github.com/coreyhaines31/marketingskills) | Cybersecurity [Skills](https://github.com/antfu/skills) |
 | **Stars** | 38.5K | 70.8K | 34.6K | 23K | 32.5K | 14.9K |
 | **学习曲线** | 中 | 低 | 中 | 低 | 低 | 高 |
 | **适用场景** | UI 设计 | 代码生成 | 热门研究 | 内容优化 | 营销文案 | 安全审计 |

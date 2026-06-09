@@ -8,12 +8,12 @@
 ## 📈 LLM 评测：怎么知道模型好不好？
 
 | 你的情况 | 推荐平台 | 理由 |
-|---------|---------|------|
-| **众包评测 / ELO 排名** | LMSYS Chatbot Arena | 最权威，社区驱动 |
-| **开源 LLM 排行榜** | Open LLM Leaderboard | HuggingFace 官方 |
-| **多维度评测** | HELM | 斯坦福学术权威 |
-| **LLM 评估框架** | OpenAI Evals / DeepEval | 自定义评估任务 |
-| **国内评测** | OpenCompass | 国内最权威 |
+| --------- | --------- | ------ |
+| **众包评测 / ELO 排名** | [LMSYS Chatbot Arena](https://lmarena.ai) | 最权威，社区驱动 |
+| **开源 LLM 排行榜** | [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | HuggingFace 官方 |
+| **多维度评测** | [HELM](https://github.com/stanford-crfm/helm) | 斯坦福学术权威 |
+| **LLM 评估框架** | [OpenAI Evals](https://github.com/openai/evals) / [DeepEval](https://github.com/confident-ai/deepeval) | 自定义评估任务 |
+| **国内评测** | [OpenCompass](https://github.com/open-compass/opencompass) | 国内最权威 |
 
 > [!TIP]
 > **LMSYS Chatbot Arena 是最权威的 LLM 评测**
@@ -26,7 +26,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [OpenAI Evals](https://github.com/openai/evals) | OpenAI 官方 LLM 评估框架，支持自定义评估任务 | data-analysis, openai-compatible | 18.6K Stars<br>OpenAI 官方<br>自定义评估 |
 | [DeepEval](https://github.com/confident-ai/deepeval) | LLM 评估框架，支持 14+ 评估指标，单元测试风格 | data-analysis, automation, observability | 16K Stars<br>14+ 评估指标<br>单元测试风格 |
 | [OpenCompass](https://github.com/open-compass/opencompass) | LLM 评估平台，支持 100+ 数据集，国内最权威 | data-analysis, chinese | 7K Stars<br>100+ 数据集<br>国内最权威 |
@@ -45,29 +45,29 @@
 ### 🔵 众包评测平台
 
 | 平台 | 核心优势 | 适合谁 |
-|------|---------|--------|
-| **LMSYS Chatbot Arena** | ELO 排名，最权威 | 模型选型 |
-| **Open LLM Leaderboard** | HuggingFace 官方 | 开源模型对比 |
+| ------ | --------- | -------- |
+| [**LMSYS Chatbot Arena**](https://lmarena.ai) | ELO 排名，最权威 | 模型选型 |
+| [**Open LLM Leaderboard**](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | HuggingFace 官方 | 开源模型对比 |
 
 ### 🟢 学术评测框架
 
 | 平台 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
-| **HELM** | - | 斯坦福多维度评测 | 学术研究 |
-| **OpenCompass** | 7K | 国内最权威，100+ 数据集 | 国内评测 |
-| **AgentBench** | 3.5K | ICLR 2024 Agent 评估 | Agent 评测 |
+| ------ | ------- | --------- | -------- |
+| [**HELM**](https://github.com/stanford-crfm/helm) | - | 斯坦福多维度评测 | 学术研究 |
+| [**OpenCompass**](https://github.com/open-compass/opencompass) | 7K | 国内最权威，100+ 数据集 | 国内评测 |
+| [**AgentBench**](https://github.com/THUDM/AgentBench) | 3.5K | ICLR 2024 Agent 评估 | Agent 评测 |
 
 ### 🟡 自定义评估框架
 
 | 平台 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
-| **OpenAI Evals** | 18.6K | OpenAI 官方，自定义评估 | 开发者 |
-| **DeepEval** | 16K | 14+ 评估指标，单元测试风格 | 开发者 |
+| ------ | ------- | --------- | -------- |
+| [**OpenAI Evals**](https://github.com/openai/evals) | 18.6K | OpenAI 官方，自定义评估 | 开发者 |
+| [**DeepEval**](https://github.com/confident-ai/deepeval) | 16K | 14+ 评估指标，单元测试风格 | 开发者 |
 
 ## 💡 评测指标说明
 
 | 指标 | 含义 | 常用基准 |
-|------|------|---------|
+| ------ | ------ | --------- |
 | **MMLU** | 多任务语言理解 | 知识广度 |
 | **HumanEval** | 代码生成 | 编程能力 |
 | **MATH** | 数学推理 | 数学能力 |

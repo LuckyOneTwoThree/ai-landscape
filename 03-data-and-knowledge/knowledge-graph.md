@@ -10,7 +10,7 @@
 知识图谱不是万能的。大多数 RAG 场景用向量检索就够了，**只有在这些情况下才需要图谱**：
 
 | 场景 | 需要图谱吗 | 理由 |
-|------|-----------|------|
+| ------ | ----------- | ------ |
 | **"张三的老板是谁"** | ✅ 需要 | 多跳关系推理，向量检索搞不定 |
 | **"公司所有项目的负责人"** | ✅ 需要 | 结构化查询，图数据库天然擅长 |
 | **"这个产品的说明书"** | ❌ 不需要 | 纯文本检索，向量够用 |
@@ -28,7 +28,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [GraphRAG](https://github.com/microsoft/graphrag) | 微软出品的图增强 RAG 框架 | rag, microsoft | 微软出品<br>图增强 RAG<br>25K Stars |
 | [Neo4j](https://neo4j.com/) | 最流行的图数据库，生态成熟 | rag, enterprise | 行业标杆的原生图数据库引擎<br>Cypher 查询语言完美协同大模型<br>无缝集成主流 RAG 框架 |
 | [NebulaGraph](https://github.com/vesoft-inc/nebula) | 分布式图数据库，支持大规模图数据 | rag, distributed | 分布式图数据库<br>大规模图数据<br>11K Stars |
@@ -82,13 +82,13 @@ def extract_entities(text: str) -> list[dict]:
 ## 🔧 工具对比
 
 | 工具 | 类型 | 适合谁 | 学习成本 |
-|------|------|--------|---------|
-| **Neo4j** | 图数据库 | 入门首选，生态最好 | 中 |
-| **NebulaGraph** | 图数据库 | 大规模，国产 | 高 |
-| **LightRAG** | LLM + 图谱 | 快速构建，LLM 驱动 | 低 |
-| **GraphRAG** | 微软方案 | 企业级，与 Azure 集成 | 中 |
-| **HippoRAG** | 海马体启发 | 学术研究，NeurIPS 论文 | 中 |
-| **FalkorDB** | 图数据库 | 超快查询，GraphBLAS | 中 |
+| ------ | ------ | -------- | --------- |
+| [**Neo4j**](https://neo4j.com/) | 图数据库 | 入门首选，生态最好 | 中 |
+| [**NebulaGraph**](https://github.com/vesoft-inc/nebula) | 图数据库 | 大规模，国产 | 高 |
+| [**LightRAG**](https://github.com/HKUDS/LightRAG) | LLM + 图谱 | 快速构建，LLM 驱动 | 低 |
+| [**GraphRAG**](https://github.com/microsoft/graphrag) | 微软方案 | 企业级，与 Azure 集成 | 中 |
+| [**HippoRAG**](https://github.com/OSU-NLP-Group/HippoRAG) | 海马体启发 | 学术研究，NeurIPS 论文 | 中 |
+| [**FalkorDB**](https://github.com/FalkorDB/FalkorDB) | 图数据库 | 超快查询，GraphBLAS | 中 |
 
 > [!TIP]
 > **LightRAG 是个人/小团队的最佳起点**

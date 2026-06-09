@@ -103,13 +103,13 @@ graph TD
 ## 📑 模块导航
 
 | 层级 | 模块 | 说明 | 工具数 |
-|:----:|------|------|:------:|
+| :----: | ------ | ------ | :------: |
 | `00` | [选型指南与趋势](./00-guides-and-trends/) | 行业趋势、技术选型、横向对比 | 3 |
 | `01` | [基础大模型](./01-foundation-models/) | LLM、多模态、开源与闭源模型 | 58 |
 | `02` | [基础设施](./02-infrastructure/) | GPU 云、推理引擎、向量数据库 | 52 |
 | `03` | [数据与知识](./03-data-and-knowledge/) | 数据管线、知识图谱、RAG | 32 |
 | `04` | [开发框架](./04-dev-frameworks/) | LangChain、LlamaIndex、多 Agent | 29 |
-| `05` | [低代码平台](./05-lowcode-platforms/) | Dify、Coze、n8n | 17 |
+| `05` | [低代码平台](./05-lowcode-platforms/) | Dify、Coze、[n8n](https://n8n.io) | 17 |
 | `06` | [工具与协议](./06-tools-and-protocols/) | MCP、A2A、Function Calling | 62 |
 | `07` | [技能与插件](./07-skills-and-plugins/) | Agent 技能、插件市场 | 98 |
 | `08` | [可观测性](./08-observability/) | 监控、Tracing、评测 | 17 |
@@ -150,13 +150,13 @@ graph TD
 ### 前沿模型梯队
 
 | 梯队 | 模型 | 厂商 | 定位 |
-|:----:|------|------|------|
-| **T0** | GPT-5.5 Pro | OpenAI | 智能最强，Agent/编码/知识工作 |
-| **T0** | Claude Opus 4.8 | Anthropic | Agent 可靠性最强 |
-| **T0** | Gemini 3.5 Flash | Google | Agent 工作流，多 Agent 协调 |
-| **T1** | DeepSeek-V4-Pro | DeepSeek | 开源 MoE，1M 上下文 |
-| **T1** | Qwen3-Coder-480B | 阿里 | Agent 级编程，开源 |
-| **T2** | GPT-5.5-mini | OpenAI | 高性价比 |
+| :----: | ------ | ------ | ------ |
+| **T0** | [GPT-5.5](https://openai.com) Pro | OpenAI | 智能最强，Agent/编码/知识工作 |
+| **T0** | [Claude Opus 4](https://anthropic.com).8 | Anthropic | Agent 可靠性最强 |
+| **T0** | [Gemini 3.5 Flash](https://gemini.google.com) | Google | Agent 工作流，多 Agent 协调 |
+| **T1** | [DeepSeek-V4-Pro](https://deepseek.com) | DeepSeek | 开源 MoE，1M 上下文 |
+| **T1** | [Qwen3-Coder](https://qwen.ai)-480B | 阿里 | Agent 级编程，开源 |
+| **T2** | [GPT-5.5-mini](https://openai.com) | OpenAI | 高性价比 |
 
 ### 核心趋势
 

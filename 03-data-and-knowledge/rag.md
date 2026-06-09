@@ -47,7 +47,7 @@ LLM 生成 (基于检索结果回答)
 **每个环节的常见坑**：
 
 | 环节 | 常见坑 | 解决方案 |
-|------|--------|---------|
+| ------ | -------- | --------- |
 | **文档切分** | 按固定字符切分，破坏语义 | 按语义切分（段落、句子边界） |
 | **Embedding** | 用通用模型，专业术语不准 | 微调或用专业领域模型 |
 | **向量检索** | 只用 Dense，精确匹配弱 | 混合检索（Dense + BM25） |
@@ -61,7 +61,7 @@ LLM 生成 (基于检索结果回答)
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [PrivateGPT](https://github.com/zylon-ai/private-gpt) | 100% 私有 RAG 系统，无需联网，支持本地 LLM + 本地向量库 | rag, self-hosted | 55K Stars<br>100% 私有<br>无需联网 |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | 开源 RAG 引擎，深度文档理解 + 检索增强 | rag, pipeline, document | 开源 RAG 引擎<br>深度文档理解<br>40K Stars |
 | [Quivr](https://github.com/QuivrHQ/quivr) | 个人 AI 助手，支持多种文件格式的 RAG 知识库 | rag, self-hosted, pipeline | 36K Stars<br>个人助手<br>多格式支持 |
@@ -78,7 +78,7 @@ LLM 生成 (基于检索结果回答)
 切分是 RAG 中**最被低估的环节**。切分不好，后面全白费。
 
 | 策略 | 方法 | 优点 | 缺点 | 适用场景 |
-|------|------|------|------|---------|
+| ------ | ------ | ------ | ------ | --------- |
 | **固定字符** | 每 500 字符切一段 | 最简单 | 破坏语义 | ❌ 不推荐 |
 | **按段落** | 以空行分隔 | 保留段落语义 | 段落长度不均 | 通用文档 |
 | **按语义** | 用 Embedding 相似度判断边界 | 语义完整 | 计算量大 | 高质量 RAG |
@@ -102,13 +102,13 @@ LLM 生成 (基于检索结果回答)
 个人/小团队的技术栈推荐：
 
 | 环节 | 推荐方案 | 说明 |
-|------|---------|------|
+| ------ | --------- | ------ |
 | **文档解析** | MinerU / Marker | 参见 `data-parsing.md` |
 | **文档切分** | RecursiveCharacterTextSplitter | chunk_size=512 |
 | **Embedding** | BGE-M3 (开源) | 参见 `01-foundation-models/embedding-reranker.md` |
 | **向量存储** | Chroma (原型) / Qdrant (生产) | 参见 `02-infrastructure/vector-db.md` |
 | **Reranking** | BGE-Reranker-V2 (开源) | 两阶段检索提升准确率 |
-| **LLM** | DeepSeek-V4-Flash / Claude Sonnet 4 | 参见 `01-foundation-models/llm.md` |
+| **LLM** | [DeepSeek-V4-Flash](https://deepseek.com) / [Claude Sonnet 4](https://anthropic.com) | 参见 `01-foundation-models/llm.md` |
 
 **最简 RAG 代码**（LangChain + Chroma）：
 ```python
@@ -138,7 +138,7 @@ results = vectorstore.similarity_search("用户问题", k=5)
 怎么知道你的 RAG 效果好不好？
 
 | 指标 | 含义 | 怎么测 |
-|------|------|--------|
+| ------ | ------ | -------- |
 | **召回率** | 相关文档是否被检索到 | 人工标注 + 自动计算 |
 | **准确率** | 检索到的文档是否相关 | 人工标注 + 自动计算 |
 | **忠实度** | LLM 回答是否基于检索结果 | LLM-as-Judge |

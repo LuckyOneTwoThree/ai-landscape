@@ -1,0 +1,62 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  background: var(--bg-color);
+  border-right: 1px solid var(--surface-border);
+  padding: 2.5rem 1rem;
+  z-index: 100;
+}
+
+.sidebarHeader {
+  margin-bottom: 2.5rem;
+  padding-left: 1rem;
+}
+
+.sidebarHeader h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.moduleSection {
+  margin-bottom: 1.5rem;
+}
+
+.moduleTitle {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.docList {
+  list-style: none;
+  padding: 0;
+}
+
+.docLink {
+  display: block;
+  padding: 0.4rem 1rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  margin-bottom: 0.1rem;
+}
+
+.docLink:hover {
+  background: var(--surface-hover);
+  color: var(--text-primary);
+}
+
+.active {
+  background: rgba(var(--text-primary-rgb), 0.1) !important;
+  color: var(--text-primary) !important;
+  font-weight: 500;
+}

@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  margin-left: 280px;
+  padding: 3rem 4rem;
+  max-width: 1200px;
+}

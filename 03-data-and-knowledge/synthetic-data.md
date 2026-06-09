@@ -8,7 +8,7 @@
 ## 🧪 什么时候需要合成数据？
 
 | 场景 | 需要合成数据吗 | 理由 |
-|------|--------------|------|
+| ------ | -------------- | ------ |
 | **微调模型，但只有 100 条数据** | ✅ 需要 | 数据量太少，模型学不到东西 |
 | **训练分类器，但某些类别样本极少** | ✅ 需要 | 类别不平衡，模型偏向多数类 |
 | **测试 RAG 系统，但没有标注数据** | ✅ 需要 | 用 LLM 生成 Q&A 对做评估 |
@@ -25,10 +25,10 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [Cleanlab](https://github.com/cleanlab/cleanlab) | 数据质量工具，自动检测标注错误/异常值，提升训练数据质量 | data-analysis | 11.5K Stars<br>数据质量<br>自动检测标注错误 |
-| [Distilabel](https://github.com/argilla-io/distilabel) | Argilla 出品的合成数据生成框架 | data-analysis, openai-compatible, pipeline | 为 LLM 设计的高效可编程造数据流水线<br>内置 LLM-as-a-judge 智能过滤与打分<br>直接导出兼容 SFT/DPO 的极简格式 |
-| [Argilla](https://github.com/argilla-io/argilla) | 数据标注与合成数据平台，支持人机协作 | data-analysis, collaboration | 为人类反馈 (RLHF) 打造的顶级标注协同 UI<br>与 Distilabel 无缝串联，构成闭环<br>小团队精细化数据清洗的必备案头工具 |
+| [Distilabel](https://github.com/argilla-io/distilabel) | [Argilla](https://github.com/argilla-io/argilla) 出品的合成数据生成框架 | data-analysis, openai-compatible, pipeline | 为 LLM 设计的高效可编程造数据流水线<br>内置 LLM-as-a-judge 智能过滤与打分<br>直接导出兼容 SFT/DPO 的极简格式 |
+| [Argilla](https://github.com/argilla-io/argilla) | 数据标注与合成数据平台，支持人机协作 | data-analysis, collaboration | 为人类反馈 (RLHF) 打造的顶级标注协同 UI<br>与 [Distilabel](https://github.com/argilla-io/distilabel) 无缝串联，构成闭环<br>小团队精细化数据清洗的必备案头工具 |
 | [SDG (Synthetic Data Generator)](https://github.com/hitsz-ids/synthetic-data-generator) | 国内最活跃的合成数据生成框架，支持多种生成策略 | data-analysis, chinese, langchain | 2.4K Stars<br>国内最活跃<br>多种生成策略 |
 | [Bespoke Curator](https://github.com/bespokelabsai/curator) | 合成数据策展框架，支持后训练与结构化数据生成 | data-analysis, academic | 1.7K Stars<br>后训练数据<br>结构化生成 |
 | [Synthetic Data Kit](https://github.com/meta-llama/synthetic-data-kit) | Meta 出品的合成数据生成工具，支持 PDF/HTML/URL 转 QA 对 | data-analysis, open-source | 1.6K Stars<br>Meta 出品<br>PDF→QA 对 |
@@ -113,11 +113,11 @@ def label_data(texts: list[str]) -> list[dict]:
 ## 💡 工具对比
 
 | 工具 | 类型 | 适合谁 | 特点 |
-|------|------|--------|------|
-| **GPT-5.4-mini** | API | 最灵活 | 便宜，质量好 |
+| ------ | ------ | -------- | ------ |
+| [**GPT-5.4-mini**](https://openai.com) | API | 最灵活 | 便宜，质量好 |
 | **DeepSeek-V4** | API | 成本敏感 | 国内最便宜 |
-| **DataDreamer** | 框架 | 批量生成 | 流水线化 |
-| **Argilla** | 平台 | 人工校验 | 合成 + 人工标注 |
+| [**DataDreamer**](https://github.com/datadreamer-dev/datadreamer) | 框架 | 批量生成 | 流水线化 |
+| [**Argilla**](https://github.com/argilla-io/argilla) | 平台 | 人工校验 | 合成 + 人工标注 |
 
 > [!TIP]
 > **合成数据的质量控制**

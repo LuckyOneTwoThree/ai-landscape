@@ -32,7 +32,7 @@
 <div align="center">
 
 | 方式 | 适合场景 | 难度 |
-|:----:|----------|:----:|
+| :----: | ---------- | :----: |
 | 🐛 **报告问题** | 发现错误、过时信息 | ⭐ |
 | 💡 **提交工具** | 发现新工具、新产品 | ⭐⭐ |
 | 📝 **改进文档** | 优化描述、补充信息 | ⭐⭐ |
@@ -85,7 +85,7 @@
 ### 字段说明
 
 | 字段 | 必填 | 说明 |
-|------|:----:|------|
+| ------ | :----: | ------ |
 | `name` | ✅ | 工具/产品名称 |
 | `url` | ✅ | 官网或 GitHub 仓库链接 |
 | `description` | ✅ | 一句话描述（≤100字） |
@@ -104,12 +104,12 @@
 ### 主分类
 
 | 分类 | 说明 | 示例 |
-|------|------|------|
+| ------ | ------ | ------ |
 | `foundation-models` | 基础大模型 | GPT-5, Claude 4, Gemini 3 |
-| `infrastructure` | 基础设施 | vLLM, Ollama, Milvus |
-| `data-and-knowledge` | 数据与知识 | Unstructured, LlamaIndex |
+| `infrastructure` | 基础设施 | [vLLM](https://github.com/vllm-project/vllm), [Ollama](https://ollama.com), Milvus |
+| `data-and-knowledge` | 数据与知识 | [Unstructured](https://unstructured.io/), LlamaIndex |
 | `dev-frameworks` | 开发框架 | LangChain, CrewAI |
-| `lowcode-platforms` | 低代码平台 | Dify, Coze, n8n |
+| `lowcode-platforms` | 低代码平台 | Dify, Coze, [n8n](https://n8n.io) |
 | `tools-and-protocols` | 工具与协议 | MCP, A2A, Function Calling |
 | `skills-and-plugins` | 技能与插件 | Agent Skills, MCP Servers |
 | `observability` | 可观测性 | Langfuse, LangSmith |

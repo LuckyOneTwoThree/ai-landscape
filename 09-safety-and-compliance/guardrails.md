@@ -8,10 +8,10 @@
 ## 🛡️ AI 护栏：让 LLM 更安全
 
 | 你的情况 | 推荐方案 | 理由 |
-|---------|---------|------|
-| **可编程规则** | NeMo Guardrails | NVIDIA 出品，6.4K Stars |
-| **输出验证** | Guardrails AI | 自动纠正，5K Stars |
-| **Prompt 注入防护** | Superagent / Rebuff AI | 防注入/数据泄露 |
+| --------- | --------- | ------ |
+| **可编程规则** | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA 出品，6.4K Stars |
+| **输出验证** | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | 自动纠正，5K Stars |
+| **Prompt 注入防护** | Superagent / [Rebuff AI](https://github.com/protectai/rebuff) | 防注入/数据泄露 |
 | **内容安全分类** | Llama Guard | Meta 出品 |
 
 > [!TIP]
@@ -25,7 +25,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA 出品的 LLM 护栏工具包，可编程规则 | security, gpu-acceleration, automation | NVIDIA 出品<br>可编程规则<br>6.4K Stars |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | 开源 LLM 输出验证与纠正框架 | security, compliance, open-source | 开源输出验证<br>自动纠正<br>100+ 社区验证器 |
 | [Rebuff AI](https://github.com/protectai/rebuff) | Prompt 注入检测的自愈式防护框架 | security, automation | 自愈式防护<br>Prompt 注入检测<br>1.5K Stars |
@@ -41,28 +41,28 @@
 ### 🔵 可编程规则型
 
 | 工具 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
-| **NeMo Guardrails** | 6.4K | NVIDIA 出品，可编程规则 | 企业级 |
-| **Guardrails AI** | 5K | 开源输出验证，自动纠正 | 开发者 |
+| ------ | ------- | --------- | -------- |
+| [**NeMo Guardrails**](https://github.com/NVIDIA/NeMo-Guardrails) | 6.4K | NVIDIA 出品，可编程规则 | 企业级 |
+| [**Guardrails AI**](https://github.com/guardrails-ai/guardrails) | 5K | 开源输出验证，自动纠正 | 开发者 |
 
 ### 🟢 Prompt 注入防护型
 
 | 工具 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
+| ------ | ------- | --------- | -------- |
 | **Superagent** | 6.6K | 防注入/数据泄露 | 企业级 |
-| **Rebuff AI** | 1.5K | 自愈式防护 | 开发者 |
+| [**Rebuff AI**](https://github.com/protectai/rebuff) | 1.5K | 自愈式防护 | 开发者 |
 
 ### 🟡 内容安全分类型
 
 | 工具 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
+| ------ | ------- | --------- | -------- |
 | **Llama Guard** | 3K | Meta 出品，内容安全分类 | 内容审核 |
 | **OpenAI Moderation** | - | OpenAI 内置，免费 | OpenAI 用户 |
 
 ## 💡 护栏策略
 
 | 策略 | 实现方式 | 适用场景 |
-|------|---------|---------|
+| ------ | --------- | --------- |
 | **输入过滤** | Prompt 注入检测 | 所有场景 |
 | **输出验证** | 结构化输出校验 | 数据处理 |
 | **内容审核** | 安全分类模型 | 用户交互 |

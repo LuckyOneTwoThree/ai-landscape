@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Minimalist monochrome */
+  --bg-color: #000000;
+  --bg-color-rgb: 0, 0, 0;
+  
+  --text-primary: #ededed;
+  --text-primary-rgb: 237, 237, 237;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
+  
+  --surface-border: rgba(255, 255, 255, 0.1);
+  --surface-hover: rgba(255, 255, 255, 0.05);
+
+  /* Accent Colors (Vercel Blue) */
+  --accent-color: #3291ff;
+  --accent-hover: #79b8ff;
+
+  --font-sans: 'Inter', sans-serif;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --transition-smooth: all 0.2s ease-in-out;
+}
+
+.light {
+  --bg-color: #ffffff;
+  --bg-color-rgb: 255, 255, 255;
+  
+  --text-primary: #111111;
+  --text-primary-rgb: 17, 17, 17;
+  --text-secondary: #52525b;
+  --text-muted: #a1a1aa;
+  
+  --surface-border: rgba(0, 0, 0, 0.1);
+  --surface-hover: rgba(0, 0, 0, 0.05);
+
+  --accent-color: #0070f3;
+  --accent-hover: #0051a2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at center, rgba(var(--text-primary-rgb), 0.03) 0%, transparent 60%);
+}
+
+.text-gradient {
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

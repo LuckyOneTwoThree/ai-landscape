@@ -18,7 +18,7 @@
 **为什么不用关键词搜索？** 因为"苹果手机"和"iPhone"没有任何共同关键词，但语义完全相同。
 
 | 检索方式 | 能搜到"iPhone"吗 | 能搜到"苹果 16 Pro 价格"吗 | 适用场景 |
-|---------|-----------------|---------------------------|---------|
+| --------- | ----------------- | --------------------------- | --------- |
 | **关键词 (BM25)** | ❌ | ✅ | 精确匹配（产品名、代码） |
 | **向量 (Dense)** | ✅ | ❌ | 语义搜索（自然语言） |
 | **混合检索** | ✅ | ✅ | 两者兼顾 |
@@ -36,41 +36,41 @@
 ### 🏗️ 分布式
 
 | 数据库 | 规模 | 索引类型 | 云服务 | 延迟 | 核心亮点 |
-|--------|------|----------|--------|------|----------|
+| -------- | ------ | ---------- | -------- | ------ | ---------- |
 | ✅ [Redis](https://github.com/redis/redis) | - | - | - | - | 74.8K Stars<br>实时数据<br>高性能向量 |
 | ✅ [TiDB](https://github.com/pingcap/tidb) | - | - | - | - | 40.1K Stars<br>Agent 工作负载<br>分布式 |
 | ✅ [OpenViking](https://github.com/volcengine/OpenViking) | - | - | - | - | 25.3K Stars<br>火山引擎出品<br>Agent 上下文数据库 |
-| ✅ [Qdrant](https://qdrant.tech) | 十亿级 | HNSW | Qdrant Cloud | <5ms | Rust 编写高性能<br>Payload 过滤<br>多向量支持 |
-| ✅ [Typesense](https://github.com/typesense/typesense) | 十亿级 | HNSW | Typesense Cloud | <5ms | 全文+向量混合搜索<br>容错搜索 (typo-tolerant)<br>极速响应 |
+| ✅ [Qdrant](https://qdrant.tech) | 十亿级 | HNSW | [Qdrant](https://qdrant.tech) Cloud | <5ms | Rust 编写高性能<br>Payload 过滤<br>多向量支持 |
+| ✅ [Typesense](https://github.com/typesense/typesense) | 十亿级 | HNSW | [Typesense](https://github.com/typesense/typesense) Cloud | <5ms | 全文+向量混合搜索<br>容错搜索 (typo-tolerant)<br>极速响应 |
 | ✅ [Cognee](https://github.com/topoteretes/cognee) | - | - | - | - | 17.7K Stars<br>AI 记忆平台<br>持久化记忆 |
 | ✅ [Milvus](https://milvus.io) | 百亿级 | IVF, HNSW, DiskANN | Zilliz Cloud | <10ms | 分布式架构<br>GPU 加速索引<br>IVF/HNSW/DiskANN |
-| ✅ [Weaviate](https://weaviate.io) | 十亿级 | HNSW | Weaviate Cloud | <10ms | 内置向量化模块<br>多模态搜索<br>GraphQL API |
-| ✅ [Vespa](https://vespa.ai) | 百亿级 | HNSW, 自定义 | Vespa Cloud | 1-10ms | 全文+向量混合搜索<br>实时索引<br>ML 模型内嵌 |
+| ✅ [Weaviate](https://weaviate.io) | 十亿级 | HNSW | [Weaviate](https://weaviate.io) Cloud | <10ms | 内置向量化模块<br>多模态搜索<br>GraphQL API |
+| ✅ [Vespa](https://vespa.ai) | 百亿级 | HNSW, 自定义 | [Vespa](https://vespa.ai) Cloud | 1-10ms | 全文+向量混合搜索<br>实时索引<br>ML 模型内嵌 |
 | ✅ [Elasticsearch 8.x](https://www.elastic.co/elasticsearch) | 百亿级 | HNSW | Elastic Cloud | 5-50ms | HNSW 原生支持<br>全文+向量混合<br>生态极其广泛 |
 
 ### 📦 嵌入式
 
 | 数据库 | 规模 | 索引类型 | 云服务 | 延迟 | 核心亮点 |
-|--------|------|----------|--------|------|----------|
-| ✅ [Chroma](https://www.trychroma.com) | 百万级 | HNSW | Chroma Cloud | <10ms | 极简 API<br>嵌入式部署<br>自动向量化 |
-| ✅ [LanceDB](https://lancedb.com) | 千万级 | IVF, HNSW | LanceDB Cloud | <10ms | 零配置嵌入式<br>多模态支持<br>Apache Arrow 格式 |
+| -------- | ------ | ---------- | -------- | ------ | ---------- |
+| ✅ [Chroma](https://www.trychroma.com) | 百万级 | HNSW | [Chroma](https://www.trychroma.com) Cloud | <10ms | 极简 API<br>嵌入式部署<br>自动向量化 |
+| ✅ [LanceDB](https://lancedb.com) | 千万级 | IVF, HNSW | [LanceDB](https://lancedb.com) Cloud | <10ms | 零配置嵌入式<br>多模态支持<br>Apache Arrow 格式 |
 
 ### ☁️ 云原生
 
 | 数据库 | 规模 | 索引类型 | 云服务 | 延迟 | 核心亮点 |
-|--------|------|----------|--------|------|----------|
-|  [Pinecone](https://www.pinecone.io) | 十亿级 | 专有 | Pinecone | <10ms | 全托管 Serverless<br>低运维<br>混合搜索 |
+| -------- | ------ | ---------- | -------- | ------ | ---------- |
+| [Pinecone](https://www.pinecone.io) | 十亿级 | 专有 | [Pinecone](https://www.pinecone.io) | <10ms | 全托管 Serverless<br>低运维<br>混合搜索 |
 
 ### 🔌 扩展
 
 | 数据库 | 规模 | 索引类型 | 云服务 | 延迟 | 核心亮点 |
-|--------|------|----------|--------|------|----------|
+| -------- | ------ | ---------- | -------- | ------ | ---------- |
 | ✅ [pgvector](https://github.com/pgvector/pgvector) | 千万级 | IVFFlat, HNSW | 各云厂商 PG | <50ms | 基于 PostgreSQL<br>无需额外基础设施<br>IVFFlat/HNSW 索引 |
 
 ### 📚 库
 
 | 数据库 | 规模 | 索引类型 | 云服务 | 延迟 | 核心亮点 |
-|--------|------|----------|--------|------|----------|
+| -------- | ------ | ---------- | -------- | ------ | ---------- |
 | ✅ [FAISS](https://github.com/facebookresearch/faiss) | 十亿级 | IVF, HNSW, PQ | — | <1ms | Meta 开源<br>GPU 加速<br>极致性能 |
 | ✅ [txtai](https://github.com/neuml/txtai) | 百万级 | HNSW | — | <10ms | 语义搜索<br>RAG 工作流<br>Python 原生 |
 
@@ -83,18 +83,18 @@
 ### 专精向量派：只做向量检索，做到极致
 
 | 数据库 | 特点 | 最大规模 | 部署方式 | 适合谁 |
-|--------|------|---------|---------|--------|
-| **Qdrant** | Rust 写的，性能极好 | 10 亿+ | Docker / Cloud | 小团队首选 |
-| **Milvus** | 企业级，GPU 加速 | 100 亿+ | K8s / Cloud | 大规模场景 |
-| **Chroma** | 嵌入式，5 分钟上手 | 千万级 | pip install | 原型验证 |
+| -------- | ------ | --------- | --------- | -------- |
+| [**Qdrant**](https://qdrant.tech) | Rust 写的，性能极好 | 10 亿+ | Docker / Cloud | 小团队首选 |
+| [**Milvus**](https://milvus.io) | 企业级，GPU 加速 | 100 亿+ | K8s / Cloud | 大规模场景 |
+| [**Chroma**](https://www.trychroma.com) | 嵌入式，5 分钟上手 | 千万级 | pip install | 原型验证 |
 
 ### 混合检索派：全文 + 向量，一步到位
 
 | 数据库 | 特点 | 全文检索 | 向量检索 | 适合谁 |
-|--------|------|---------|---------|--------|
+| -------- | ------ | --------- | --------- | -------- |
 | **Elasticsearch** | 生态最成熟 | ✅ 原生 | ✅ 原生 | 已有 ES 基建 |
-| **pgvector** | PG 扩展，零迁移 | ✅ PG 全文 | ✅ 扩展 | 已有 PostgreSQL |
-| **Typesense** | 轻量易用 | ✅ 原生 | ✅ 扩展 | 小团队快速上手 |
+| [**pgvector**](https://github.com/pgvector/pgvector) | PG 扩展，零迁移 | ✅ PG 全文 | ✅ 扩展 | 已有 PostgreSQL |
+| [**Typesense**](https://github.com/typesense/typesense) | 轻量易用 | ✅ 原生 | ✅ 扩展 | 小团队快速上手 |
 
 > [!TIP]
 > **不知道选什么？**
@@ -108,10 +108,10 @@
 个人/小团队的 RAG 技术栈：
 
 | 环节 | 推荐方案 | 说明 |
-|------|---------|------|
+| ------ | --------- | ------ |
 | **文档切分** | 按语义切分，512 Token | 避免按固定字符切分破坏语义 |
 | **Embedding** | BGE-M3 (开源) | 参见 `01-foundation-models/embedding-reranker.md` |
-| **向量存储** | Chroma (原型) / Qdrant (生产) | 千万级以下单机足够 |
+| **向量存储** | [Chroma](https://www.trychroma.com) (原型) / [Qdrant](https://qdrant.tech) (生产) | 千万级以下单机足够 |
 | **Reranking** | BGE-Reranker-V2 (开源) | 两阶段检索提升 20-40% 准确率 |
 
 **最简 RAG 代码**（Chroma + BGE-M3）：

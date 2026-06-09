@@ -8,12 +8,12 @@
 ## ⚙️ 工作流自动化：你到底需要什么？
 
 | 你的情况 | 推荐平台 | 理由 |
-|---------|---------|------|
-| **开源 / 私有部署** | n8n | 65K Stars，AI 原生节点 |
-| **AI Agent + MCP** | Activepieces | 400+ MCP 服务器 |
-| **简单自动化 / 非技术** | Zapier | 7000+ 应用，最易用 |
-| **复杂工作流 / 可视化** | Make | 1500+ 应用，强大编排 |
-| **开发者 / 脚本化** | Windmill | 多语言脚本，代码优先 |
+| --------- | --------- | ------ |
+| **开源 / 私有部署** | [n8n](https://n8n.io) | 65K Stars，AI 原生节点 |
+| **AI Agent + MCP** | [Activepieces](https://github.com/activepieces/activepieces) | 400+ MCP 服务器 |
+| **简单自动化 / 非技术** | [Zapier](https://zapier.com) | 7000+ 应用，最易用 |
+| **复杂工作流 / 可视化** | [Make](https://make.com) | 1500+ 应用，强大编排 |
+| **开发者 / 脚本化** | [Windmill](https://windmill.dev) | 多语言脚本，代码优先 |
 
 > [!TIP]
 > **n8n 是 2026 年的最佳选择**
@@ -26,12 +26,12 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-|------|------|------|------|
+| ------ | ------ | ------ | ------ |
 | [n8n](https://n8n.io) | 开源工作流自动化平台，深度整合 AI 原生节点，400+ 集成 | workflow, automation, self-hosted, agent | 400+ 集成节点<br>AI 原生节点与无缝 API 对接<br>运行在 140 万台机器上<br>70K+ Stars |
-| [Activepieces](https://github.com/activepieces/activepieces) | 开源 AI Agent & MCP & 工作流自动化平台，400+ MCP 服务器 | workflow, mcp, agent, open-source | 22.6K Stars<br>400+ MCP 服务器<br>开源替代 Zapier |
-| [Windmill](https://windmill.dev) | 开发者导向的自动化平台，支持多语言脚本 | workflow, automation, coding-assistant, self-hosted | 支持 Python/TS/Go/Bash 脚本<br>可替代 Airflow/n8n<br>开发者导向 |
+| [Activepieces](https://github.com/activepieces/activepieces) | 开源 AI Agent & MCP & 工作流自动化平台，400+ MCP 服务器 | workflow, mcp, agent, open-source | 22.6K Stars<br>400+ MCP 服务器<br>开源替代 [Zapier](https://zapier.com) |
+| [Windmill](https://windmill.dev) | 开发者导向的自动化平台，支持多语言脚本 | workflow, automation, coding-assistant, self-hosted | 支持 Python/TS/Go/Bash 脚本<br>可替代 Airflow/[n8n](https://n8n.io)<br>开发者导向 |
 | [Make (前 Integromat)](https://www.make.com) | 可视化工作流自动化平台，1500+ 应用集成 | workflow, automation, enterprise | 可视化场景构建器<br>1500+ 应用集成<br>AI 模块集成<br>企业级稳定性 |
-| [Zapier](https://zapier.com) | 最大用户基数自动化平台，7000+ 应用，自然语言创建 Zaps | workflow, automation, low-code | 7000+ 应用集成<br>自然语言创建 Zaps<br>AI by Zapier<br>最大用户基数 |
+| [Zapier](https://zapier.com) | 最大用户基数自动化平台，7000+ 应用，自然语言创建 Zaps | workflow, automation, low-code | 7000+ 应用集成<br>自然语言创建 Zaps<br>AI by [Zapier](https://zapier.com)<br>最大用户基数 |
 
 <!-- AUTOGEN_END -->
 
@@ -42,22 +42,22 @@
 ### 🔵 开源型：数据在自己手里
 
 | 平台 | Stars | 核心优势 | 适合谁 |
-|------|-------|---------|--------|
-| **n8n** | 65K | AI 原生节点，400+ 集成 | 通用自动化 |
-| **Activepieces** | 22.6K | 400+ MCP 服务器，开源替代 Zapier | AI Agent 自动化 |
-| **Windmill** | 12K | 开发者导向，多语言脚本 | 开发者 |
+| ------ | ------- | --------- | -------- |
+| [**n8n**](https://n8n.io) | 65K | AI 原生节点，400+ 集成 | 通用自动化 |
+| [**Activepieces**](https://github.com/activepieces/activepieces) | 22.6K | 400+ MCP 服务器，开源替代 [Zapier](https://zapier.com) | AI Agent 自动化 |
+| [**Windmill**](https://windmill.dev) | 12K | 开发者导向，多语言脚本 | 开发者 |
 
 ### 🟢 商业 SaaS 型：开箱即用
 
 | 平台 | 核心优势 | 适合谁 |
-|------|---------|--------|
-| **Zapier** | 7000+ 应用，自然语言创建 | 非技术人员 |
-| **Make** | 1500+ 应用，强大编排 | 复杂工作流 |
+| ------ | --------- | -------- |
+| [**Zapier**](https://zapier.com) | 7000+ 应用，自然语言创建 | 非技术人员 |
+| [**Make**](https://make.com) | 1500+ 应用，强大编排 | 复杂工作流 |
 
 ## 💡 平台对比
 
-| 维度 | n8n | Activepieces | Zapier | Make |
-|------|-----|--------------|--------|------|
+| 维度 | [n8n](https://n8n.io) | [Activepieces](https://github.com/activepieces/activepieces) | [Zapier](https://zapier.com) | [Make](https://make.com) |
+| ------ | ----- | -------------- | -------- | ------ |
 | **开源** | ✅ | ✅ | ❌ | ❌ |
 | **AI 集成** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
 | **MCP 支持** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ❌ | ❌ |
