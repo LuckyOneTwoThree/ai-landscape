@@ -7,12 +7,14 @@ on:
       - 'data/**'
       - 'scripts/**'
       - 'docs/**'
+      - '.github/workflows/**'
   pull_request:
     branches: [main]
     paths:
       - 'data/**'
       - 'scripts/**'
       - 'docs/**'
+      - '.github/workflows/**'
 
 jobs:
   validate:
