@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🌐 AI Tech Stack Landscape
 
@@ -242,4 +242,3 @@ Thanks to all contributors and these open-source projects:
 **Your support is our motivation to keep updating**
 
 </div>
-]]>
