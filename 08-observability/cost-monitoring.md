@@ -24,7 +24,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [LiteLLM Budget Manager](https://github.com/BerriAI/litellm) | LiteLLM 内置的预算与 Token 限额管理 | cost-effective, openai-compatible | 预算管理<br>Token 限额<br>内置功能 |
 | [OpenRouter Usage](https://openrouter.ai) | OpenRouter 内置的 Token 消耗与成本监控 | cost-effective, observability, openai-compatible | Token 消耗监控<br>成本分析<br>内置功能 |
 

@@ -25,10 +25,10 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [Cleanlab](https://github.com/cleanlab/cleanlab) | 数据质量工具，自动检测标注错误/异常值，提升训练数据质量 | data-analysis | 11.5K Stars<br>数据质量<br>自动检测标注错误 |
-| [Distilabel](https://github.com/argilla-io/distilabel) | [Argilla](https://github.com/argilla-io/argilla) 出品的合成数据生成框架 | data-analysis, openai-compatible, pipeline | 为 LLM 设计的高效可编程造数据流水线<br>内置 LLM-as-a-judge 智能过滤与打分<br>直接导出兼容 SFT/DPO 的极简格式 |
-| [Argilla](https://github.com/argilla-io/argilla) | 数据标注与合成数据平台，支持人机协作 | data-analysis, collaboration | 为人类反馈 (RLHF) 打造的顶级标注协同 UI<br>与 [Distilabel](https://github.com/argilla-io/distilabel) 无缝串联，构成闭环<br>小团队精细化数据清洗的必备案头工具 |
+| [Distilabel](https://github.com/argilla-io/distilabel) | Argilla 出品的合成数据生成框架 | data-analysis, openai-compatible, pipeline | 为 LLM 设计的高效可编程造数据流水线<br>内置 LLM-as-a-judge 智能过滤与打分<br>直接导出兼容 SFT/DPO 的极简格式 |
+| [Argilla](https://github.com/argilla-io/argilla) | 数据标注与合成数据平台，支持人机协作 | data-analysis, collaboration | 为人类反馈 (RLHF) 打造的顶级标注协同 UI<br>与 Distilabel 无缝串联，构成闭环<br>小团队精细化数据清洗的必备案头工具 |
 | [SDG (Synthetic Data Generator)](https://github.com/hitsz-ids/synthetic-data-generator) | 国内最活跃的合成数据生成框架，支持多种生成策略 | data-analysis, chinese, langchain | 2.4K Stars<br>国内最活跃<br>多种生成策略 |
 | [Bespoke Curator](https://github.com/bespokelabsai/curator) | 合成数据策展框架，支持后训练与结构化数据生成 | data-analysis, academic | 1.7K Stars<br>后训练数据<br>结构化生成 |
 | [Synthetic Data Kit](https://github.com/meta-llama/synthetic-data-kit) | Meta 出品的合成数据生成工具，支持 PDF/HTML/URL 转 QA 对 | data-analysis, open-source | 1.6K Stars<br>Meta 出品<br>PDF→QA 对 |

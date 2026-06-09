@@ -28,7 +28,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [GraphRAG](https://github.com/microsoft/graphrag) | 微软出品的图增强 RAG 框架 | rag, microsoft | 微软出品<br>图增强 RAG<br>25K Stars |
 | [Neo4j](https://neo4j.com/) | 最流行的图数据库，生态成熟 | rag, enterprise | 行业标杆的原生图数据库引擎<br>Cypher 查询语言完美协同大模型<br>无缝集成主流 RAG 框架 |
 | [NebulaGraph](https://github.com/vesoft-inc/nebula) | 分布式图数据库，支持大规模图数据 | rag, distributed | 分布式图数据库<br>大规模图数据<br>11K Stars |

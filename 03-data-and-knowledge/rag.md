@@ -61,7 +61,7 @@ LLM 生成 (基于检索结果回答)
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [PrivateGPT](https://github.com/zylon-ai/private-gpt) | 100% 私有 RAG 系统，无需联网，支持本地 LLM + 本地向量库 | rag, self-hosted | 55K Stars<br>100% 私有<br>无需联网 |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | 开源 RAG 引擎，深度文档理解 + 检索增强 | rag, pipeline, document | 开源 RAG 引擎<br>深度文档理解<br>40K Stars |
 | [Quivr](https://github.com/QuivrHQ/quivr) | 个人 AI 助手，支持多种文件格式的 RAG 知识库 | rag, self-hosted, pipeline | 36K Stars<br>个人助手<br>多格式支持 |

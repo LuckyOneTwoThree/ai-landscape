@@ -29,7 +29,7 @@
 ### ☁️ Serverless 推理
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [Together AI](https://together.ai) | 最流行的开源模型托管平台，Serverless 推理 + Fine-tuning | gpu-acceleration, serverless, open-source | 200+ 开源模型一键部署<br>Serverless 推理按量付费<br>Fine-tuning 微调服务<br>极低冷启动延迟 |
 | [Fireworks AI](https://fireworks.ai) | 高速推理平台，专注开源模型极致延迟优化 | gpu-acceleration, fast-inference, open-source | 推理速度行业领先<br>开源模型深度优化<br>Function Calling 支持<br>批量推理 |
 | [Replicate](https://replicate.com) | 最简单的模型部署平台，一行代码跑模型 | gpu-acceleration, easy-to-use, multimodal | 一行代码部署模型<br>多模态模型丰富<br>API + Web 界面<br>按秒计费 |
@@ -39,7 +39,7 @@
 ### 💳 GPU 租赁
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [RunPod](https://runpod.io) | GPU 租赁市场，按小时租用 A100/H100 | gpu-acceleration, cost-effective | 按小时租用 GPU<br>A100/H100 可用<br>Serverless + Pod 两种模式<br>社区模板丰富 |
 | [Lambda Labs](https://lambdalabs.com) | GPU 云服务商，H100 集群性价比高 | gpu-acceleration, distributed | H100 集群性价比高<br>1-4 卡到多节点<br>适合大规模训练 |
 

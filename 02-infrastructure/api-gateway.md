@@ -33,34 +33,34 @@
 ### 📱 端侧推理
 
 | 工具 | Provider数 | 功能 | 核心亮点 |
-| ------ | ----------- | ------ | ---------- |
-| [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 10+ | 边缘路由, 限流, 缓存 | 边缘节点低延迟<br>多 Provider 支持<br>限流/日志 |
+|------|-----------|------|----------|
+|  [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 10+ | 边缘路由, 限流, 缓存 | 边缘节点低延迟<br>多 Provider 支持<br>限流/日志 |
 
 ### 🔀 代理
 
 | 工具 | Provider数 | 功能 | 核心亮点 |
-| ------ | ----------- | ------ | ---------- |
+|------|-----------|------|----------|
 | ✅ [LiteLLM](https://github.com/BerriAI/litellm) | 100+ | 负载均衡, 故障转移, 限流, 缓存 | 统一 OpenAI 格式<br>100+ Provider 支持<br>负载均衡/故障转移 |
 
 ### 📋 管理
 
 | 工具 | Provider数 | 功能 | 核心亮点 |
-| ------ | ----------- | ------ | ---------- |
+|------|-----------|------|----------|
 | ✅ [OneAPI](https://github.com/songquanpeng/one-api) | 50+ | 限流, 计费, 密钥分发 | 多渠道 Token 管理<br>Azure/OpenAI/国产模型<br>限流/计费/密钥分发 |
-| ✅ [CC Switch](https://github.com/farion1231/cc-switch) | ['Claude Code', '[Codex](https://openai.com)', 'Gemini CLI', 'OpenCode', 'Hermes Agent'] | 配置切换, 多工具管理, 跨平台 | Claude Code/[Codex](https://openai.com)/Gemini 统一管理<br>跨平台桌面应用<br>Tauri 2 构建 |
+| ✅ [CC Switch](https://github.com/farion1231/cc-switch) | ['Claude Code', 'Codex', 'Gemini CLI', 'OpenCode', 'Hermes Agent'] | 配置切换, 多工具管理, 跨平台 | Claude Code/Codex/Gemini 统一管理<br>跨平台桌面应用<br>Tauri 2 构建 |
 
 ### 🔗 聚合
 
 | 工具 | Provider数 | 功能 | 核心亮点 |
-| ------ | ----------- | ------ | ---------- |
+|------|-----------|------|----------|
 | ✅ [one-api](https://github.com/songquanpeng/one-api) | - | - | 国产多模型代理<br>计费系统<br>37K Stars |
-| [OpenRouter](https://openrouter.ai) | 200+ | 自动路由, 按量付费 | 200+ 模型<br>按用量付费<br>自动路由最优 Provider |
+|  [OpenRouter](https://openrouter.ai) | 200+ | 自动路由, 按量付费 | 200+ 模型<br>按用量付费<br>自动路由最优 Provider |
 | ✅ [new-api](https://github.com/QuantumNous/new-api) | 50+ | 聚合分发, 计费, 限流 | 统一 OpenAI 兼容 API<br>多模型聚合分发<br>国内生态首选 |
 
 ### 🚪 网关
 
 | 工具 | Provider数 | 功能 | 核心亮点 |
-| ------ | ----------- | ------ | ---------- |
+|------|-----------|------|----------|
 | ✅ [Portkey](https://portkey.ai) | 100+ | 可观测, 重试, Guardrails, A/B | 可观测性<br>自动重试/回退<br>Guardrails/缓存 |
 | ✅ [Kong](https://github.com/Kong/kong) | ['通用 API + AI 插件'] | 限流, 负载均衡, 插件, 可观测 | 企业级 API 网关标准<br>AI 插件生态<br>高性能/高可用 |
 | ✅ [Higress](https://github.com/higress-group/higress) | ['国内模型 + 国际模型'] | AI路由, 限流, 缓存, Wasm插件 | 阿里云出品<br>AI 原生设计<br>Envoy 底座 |

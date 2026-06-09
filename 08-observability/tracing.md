@@ -26,7 +26,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | AI Agent 可观测性、监控与评估框架 | observability, data-analysis, agent | AI Agent 可观测性<br>监控+评估<br>16K Stars |
 | [Langfuse](https://github.com/langfuse/langfuse) | 开源 LLM 工程平台，追踪、评估、提示管理 | observability, data-analysis, open-source | 开源 LLM 工程平台<br>追踪+评估+提示管理<br>8K Stars |
 | [Helicone](https://github.com/Helicone/helicone) | 开源 LLM 可观测性平台，支持 OpenAI/Claude | observability, open-source | 开源 LLM 可观测性<br>6K Stars<br>OpenAI/Claude 支持 |

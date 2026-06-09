@@ -35,15 +35,15 @@
 #### 🔥 热门项目 (50K+ Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 多 Agent 框架，AI 软件公司，68.6K Stars | agent, automation, open-source | 68.6K Stars<br>AI 软件公司<br>多 Agent 框架 |
 | [CrewAI](https://crewai.com) | 增长最快的多 Agent 角色扮演框架，主打简单易用与生产就绪 | agent, content-creation, enterprise | 角色定义直观<br>Flows 工作流编排<br>30K+ Stars<br>可依赖设计原则 |
 
 #### ⭐ 活跃项目 (10K-50K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
-| [AutoGen (→ MAF)](https://microsoft.github.io/autogen/) | 微软多智能体对话框架，已与 Semantic Kernel 合并为 [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | agent, chat, microsoft | 多智能体对话编排<br>已合并入 MAF<br>43K+ Stars (原仓库)<br>[AutoGen](https://microsoft.github.io/autogen/) 概念深度融入行业 |
+|------|------|------|------|
+| [AutoGen (→ MAF)](https://microsoft.github.io/autogen/) | 微软多智能体对话框架，已与 Semantic Kernel 合并为 Microsoft Agent Framework | agent, chat, microsoft | 多智能体对话编排<br>已合并入 MAF<br>43K+ Stars (原仓库)<br>AutoGen 概念深度融入行业 |
 | [Agno](https://agno.com) | 高性能全栈多智能体框架 (前 Phidata)，专注速度与可扩展 | agent, high-performance, all-in-one | Multi-Agent Framework + Runtime + Control Plane<br>内置记忆/知识库/会话管理<br>动态工具集成<br>35K+ Stars |
 | [LangGraph](https://langchain-ai.github.io/langgraph/) | LangChain 下一代核心，基于状态图实现复杂多 Agent 编排 | graph, stateful, agent, pipeline | 有向图状态机<br>循环/条件分支<br>内置持久化检查点<br>人机协作节点与时空回溯<br>29K+ Stars |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | OpenAI 官方多 Agent 编排 SDK，由 Swarm 演进而来，面向生产环境 | agent, openai-compatible, enterprise | 基于 Swarm 演进<br>Agent 交接 (Handoffs)<br>Guardrails 安全护栏<br>调试追踪<br>25K+ Stars |
@@ -54,7 +54,7 @@
 #### 🆕 新兴项目 (<10K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [VoltAgent](https://github.com/VoltAgent/voltagent) | TypeScript AI Agent 工程平台，开源 | coding-assistant, agent, automation | 9.5K Stars<br>TypeScript<br>Agent 工程平台 |
 | [Agent Squad](https://github.com/2FastLabs/agent-squad) | 灵活的多 Agent 管理框架，支持多种 Agent 类型 | agent, easy-to-use, coding-assistant | 7.6K Stars<br>灵活管理<br>多 Agent 类型 |
 | [Swarms](https://github.com/kyegomez/swarms) | 企业级生产就绪的多 Agent 编排框架 | enterprise, agent | 6.8K Stars<br>企业级<br>生产就绪 |

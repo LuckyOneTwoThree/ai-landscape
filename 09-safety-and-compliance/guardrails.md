@@ -25,7 +25,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA 出品的 LLM 护栏工具包，可编程规则 | security, gpu-acceleration, automation | NVIDIA 出品<br>可编程规则<br>6.4K Stars |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | 开源 LLM 输出验证与纠正框架 | security, compliance, open-source | 开源输出验证<br>自动纠正<br>100+ 社区验证器 |
 | [Rebuff AI](https://github.com/protectai/rebuff) | Prompt 注入检测的自愈式防护框架 | security, automation | 自愈式防护<br>Prompt 注入检测<br>1.5K Stars |

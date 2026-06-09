@@ -47,11 +47,11 @@ asyncio.run(main())
 ### 🌐 浏览器
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
-| [Browser Use](https://github.com/browser-use/browser-use) | 让大模型具备完整的浏览器自主操作能力，结合 [Playwright](https://playwright.dev) 等底层 | vscode-extension, automation, mcp | DOM 解析与视觉识别结合<br>大幅增强 Agent 的互联网交互能力<br>MCP Server 集成 |
+|------|------|------|------|
+| [Browser Use](https://github.com/browser-use/browser-use) | 让大模型具备完整的浏览器自主操作能力，结合 Playwright 等底层 | vscode-extension, automation, mcp | DOM 解析与视觉识别结合<br>大幅增强 Agent 的互联网交互能力<br>MCP Server 集成 |
 | [Playwright](https://playwright.dev) | Microsoft 出品跨浏览器自动化框架，MCP Server 支持 | vscode-extension, automation, mcp | Microsoft 出品<br>跨浏览器 (Chromium/Firefox/WebKit)<br>MCP Server 支持<br>70K+ Stars |
-| [Agent Browser](https://github.com/vercel-labs/agent-browser) | [Vercel](https://vercel.com) 出品的 AI Agent 浏览器自动化 CLI | vscode-extension, agent, automation, cloud-only | 35.5K Stars<br>[Vercel](https://vercel.com) 出品<br>浏览器自动化 CLI |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 微软出品的 [Playwright](https://playwright.dev) MCP 服务器，AI 浏览器控制 | vscode-extension, mcp | 微软出品<br>[Playwright](https://playwright.dev) MCP 服务器<br>33K Stars |
+| [Agent Browser](https://github.com/vercel-labs/agent-browser) | Vercel 出品的 AI Agent 浏览器自动化 CLI | vscode-extension, agent, automation, cloud-only | 35.5K Stars<br>Vercel 出品<br>浏览器自动化 CLI |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 微软出品的 Playwright MCP 服务器，AI 浏览器控制 | vscode-extension, mcp | 微软出品<br>Playwright MCP 服务器<br>33K Stars |
 | [Nanobrowser](https://github.com/nanobrowser/nanobrowser) | 开源 Chrome 扩展，AI 多 Agent 网页自动化 | vscode-extension, agent | Chrome 扩展<br>AI 多 Agent 网页自动化<br>13K Stars |
 | [Stagehand](https://github.com/browserbase/stagehand) | AI 网页交互工具，让 Agent 自然语言操控网页 | vscode-extension, chat, automation | AI 网页交互<br>自然语言操控<br>TypeScript 原生 |
 | [OpenBrowser](https://github.com/ntegrals/openbrowser) | 让 AI Agent 浏览网页的自主工具包 | vscode-extension, agent, autonomous | 9.5K Stars<br>自主浏览<br>AI Agent 工具包 |
@@ -61,10 +61,10 @@ asyncio.run(main())
 ### 🖥️ 计算机使用
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 字节跳动开源的多模态 AI Agent 桌面应用 | agent, multimodal, desktop | 字节跳动开源<br>多模态 AI Agent<br>36K Stars |
-| [Anthropic Computer Use](https://anthropic.com) | Claude 屏幕操作能力，系统级自主控制 | agent, [anthropic](https://openai.com) | 屏幕理解与操作<br>系统级自主控制<br>Claude 原生能力 |
-| [OpenAI Computer Use](https://openai.com) | [GPT-5.5](https://openai.com) 内置计算机使用能力 | agent, openai-compatible | [GPT-5.5](https://openai.com) 原生支持<br>屏幕理解与操作<br>多模态驱动 |
+| [Anthropic Computer Use](https://anthropic.com) | Claude 屏幕操作能力，系统级自主控制 | agent, anthropic | 屏幕理解与操作<br>系统级自主控制<br>Claude 原生能力 |
+| [OpenAI Computer Use](https://openai.com) | GPT-5.5 内置计算机使用能力 | agent, openai-compatible | GPT-5.5 原生支持<br>屏幕理解与操作<br>多模态驱动 |
 
 <!-- AUTOGEN_END -->
 <!-- 以上内容由脚本自动生成 -->

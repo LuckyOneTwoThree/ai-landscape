@@ -31,9 +31,9 @@
 ### 📐 Embedding 模型
 
 | 模型与版本 | 维度 | 最大Token | MTEB 评分 | 核心亮点 |
-| ------------ | ------ | ---------- | ----------- | ---------- |
+|------------|------|----------|-----------|----------|
 | [BGE-M3](https://github.com/FlagOpen/FlagEmbedding) | 1024 | 8192 | 66.1 | 支持 100+ 语言<br>稀疏与密集双检索<br>MIT 开源 |
-| [text-embedding-3-large/small](https://openai.com) | 3072 | 8191 | 64.6 | large/[small](https://openai.com) 分层<br>维度可调<br>性能领先 |
+| [text-embedding-3-large/small](https://openai.com) | 3072 | 8191 | 64.6 | large/small 分层<br>维度可调<br>性能领先 |
 | [voyage-4-large](https://voyageai.com) | 1024 | 32000 | 领先 | 同尺寸最高检索精度<br>原生支持 32K 上下文<br>更低的商业调用成本 |
 | [GTE-Qwen2](https://huggingface.co/Alibaba-NLP/gte-Qwen2) | 1536 | 8192 | 63.5 | 中文优化<br>Apache 2.0 开源<br>Qwen2 架构 |
 | [jina-embeddings-v5-omni](https://jina.ai) | 1024 | 8192 | 65.5 | 全模态统一潜空间<br>开源可私有化部署<br>32K 超长上下文 |
@@ -42,8 +42,8 @@
 ### 🔄 Reranker 模型
 
 | 模型与版本 | 维度 | 最大Token | MTEB 评分 | 核心亮点 |
-| ------------ | ------ | ---------- | ----------- | ---------- |
-| [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) | - | 512 | 67.3 | 开源 Reranker 标杆<br>配合 [BGE-M3](https://github.com/FlagOpen/FlagEmbedding) 最佳<br>MIT 开源 |
+|------------|------|----------|-----------|----------|
+| [BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding) | - | 512 | 67.3 | 开源 Reranker 标杆<br>配合 BGE-M3 最佳<br>MIT 开源 |
 
 <!-- AUTOGEN_END -->
 <!-- 以上内容由脚本自动生成 -->

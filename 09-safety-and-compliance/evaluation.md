@@ -26,10 +26,10 @@
 
 <!-- AUTOGEN_START -->
 
-| [](https://promptfoo.dev)名称[](https://promptfoo.dev) | [](https://promptfoo.dev)简介[](https://promptfoo.dev) | [](https://promptfoo.dev)标签[](https://promptfoo.dev) | [](https://promptfoo.dev)亮点[](https://promptfoo.dev) |
-| ------ | ------ | ------ | ------ |
-| [Inspect](https://inspect.aisi.org.uk) | [](https://promptfoo.dev)英国[](https://promptfoo.dev) [](https://promptfoo.dev)AI[](https://promptfoo.dev) [](https://promptfoo.dev)安全研究所评估框架[](https://promptfoo.dev)，[](https://promptfoo.dev)100[](https://promptfoo.dev)+ [](https://promptfoo.dev)预构建评估项[](https://promptfoo.dev) | [](https://promptfoo.dev)security[](https://promptfoo.dev), [](https://promptfoo.dev)data[](https://promptfoo.dev)-[](https://promptfoo.dev)analysis[](https://promptfoo.dev), [](https://promptfoo.dev)compliance[](https://promptfoo.dev) | [](https://promptfoo.dev)英国[](https://promptfoo.dev) [](https://promptfoo.dev)AISI[](https://promptfoo.dev) [](https://promptfoo.dev)出品[](https://promptfoo.dev)<[](https://promptfoo.dev)br[](https://promptfoo.dev)>[](https://promptfoo.dev)100[](https://promptfoo.dev)+ [](https://promptfoo.dev)预构建评估[](https://promptfoo.dev)<[](https://promptfoo.dev)br[](https://promptfoo.dev)>[](https://promptfoo.dev)Anthropic[](https://promptfoo.dev)/[](https://promptfoo.dev)DeepMind[](https://promptfoo.dev) [](https://promptfoo.dev)采用[](https://promptfoo.dev) |
-| [HarmBench](https://harmbench.org) | [](https://promptfoo.dev)AI[](https://promptfoo.dev) [](https://promptfoo.dev)安全中心发布的标准化红队基准[](https://promptfoo.dev)，[](https://promptfoo.dev)510[](https://promptfoo.dev) [](https://promptfoo.dev)种有害行为[](https://promptfoo.dev) | [](https://promptfoo.dev)security[](https://promptfoo.dev), [](https://promptfoo.dev)data[](https://promptfoo.dev)-[](https://promptfoo.dev)analysis[](https://promptfoo.dev), [](https://promptfoo.dev)academic[](https://promptfoo.dev) | [](https://promptfoo.dev)510[](https://promptfoo.dev) [](https://promptfoo.dev)种有害行为[](https://promptfoo.dev)<[](https://promptfoo.dev)br[](https://promptfoo.dev)>[](https://promptfoo.dev)18[](https://promptfoo.dev) [](https://promptfoo.dev)种对抗攻击方法[](https://promptfoo.dev)<[](https://promptfoo.dev)br[](https://promptfoo.dev)>[](https://promptfoo.dev)学术界标准基准[](https://promptfoo.dev) |
+| 名称 | 简介 | 标签 | 亮点 |
+|------|------|------|------|
+| [Inspect](https://inspect.aisi.org.uk) | 英国 AI 安全研究所评估框架，100+ 预构建评估项 | security, data-analysis, compliance | 英国 AISI 出品<br>100+ 预构建评估<br>Anthropic/DeepMind 采用 |
+| [HarmBench](https://harmbench.org) | AI 安全中心发布的标准化红队基准，510 种有害行为 | security, data-analysis, academic | 510 种有害行为<br>18 种对抗攻击方法<br>学术界标准基准 |
 
 <!-- AUTOGEN_END -->
 

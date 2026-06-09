@@ -26,7 +26,7 @@
 <!-- AUTOGEN_START -->
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [OpenAI Evals](https://github.com/openai/evals) | OpenAI 官方 LLM 评估框架，支持自定义评估任务 | data-analysis, openai-compatible | 18.6K Stars<br>OpenAI 官方<br>自定义评估 |
 | [DeepEval](https://github.com/confident-ai/deepeval) | LLM 评估框架，支持 14+ 评估指标，单元测试风格 | data-analysis, automation, observability | 16K Stars<br>14+ 评估指标<br>单元测试风格 |
 | [OpenCompass](https://github.com/open-compass/opencompass) | LLM 评估平台，支持 100+ 数据集，国内最权威 | data-analysis, chinese | 7K Stars<br>100+ 数据集<br>国内最权威 |

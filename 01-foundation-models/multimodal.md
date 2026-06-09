@@ -47,32 +47,32 @@
 ### 🎨 图像生成
 
 | 模型名称 | 简介 | 分辨率 | API | 风格 | 核心亮点 |
-| ---------- | ------ | -------- | ----- | ------ | ---------- |
-| [Midjourney V8.1](https://midjourney.com) | 2026年4月发布的最新旗舰，极速生成与原生 2K HD 支持<br>`image-generation` `content-creation` | 2048x2048 (HD Mode) | ✅ | 写实, 艺术, 动漫 | 原生支持 2K HD 生成<br>生成速度提升 4-5 倍<br>指令集与细节遵循大幅增强 |
-| [DALL-E 4](https://openai.com/dall-e) | OpenAI 图像生成模型，与 [GPT-5.5](https://openai.com) 深度集成<br>`image-generation` `openai-compatible` | 1024x1024 | ✅ | 写实, 艺术 | [GPT-5.5](https://openai.com) 原生集成<br>文本渲染准确<br>API 可用 |
-| [即梦 (Jimeng)](https://jimeng.jianying.com) | 字节跳动 AI 图像/视频创作平台<br>`image-generation` `video-generation` `chinese` | 1024x1024 | ✅ | 写实, 动漫, 国风 | 字节跳动出品<br>图像+视频创作<br>抖音生态集成 |
+|----------|------|--------|-----|------|----------|
+|  [Midjourney V8.1](https://midjourney.com) | 2026年4月发布的最新旗舰，极速生成与原生 2K HD 支持<br>`image-generation` `content-creation` | 2048x2048 (HD Mode) | ✅ | 写实, 艺术, 动漫 | 原生支持 2K HD 生成<br>生成速度提升 4-5 倍<br>指令集与细节遵循大幅增强 |
+|  [DALL-E 4](https://openai.com/dall-e) | OpenAI 图像生成模型，与 GPT-5.5 深度集成<br>`image-generation` `openai-compatible` | 1024x1024 | ✅ | 写实, 艺术 | GPT-5.5 原生集成<br>文本渲染准确<br>API 可用 |
+|  [即梦 (Jimeng)](https://jimeng.jianying.com) | 字节跳动 AI 图像/视频创作平台<br>`image-generation` `video-generation` `chinese` | 1024x1024 | ✅ | 写实, 动漫, 国风 | 字节跳动出品<br>图像+视频创作<br>抖音生态集成 |
 | ✅ [FLUX.2 (Max/Pro)](https://bfl.ai) | BFL 2026 最强开源图像底座，彻底颠覆照片级生成<br>`image-generation` `flagship` | 2048x2048 | ✅ | - | 最高 4 MP 原生输出<br>极强排版与多视角一致性<br>Max/Flex/Pro 多版本矩阵 |
 
 ### 🎬 视频生成
 
 | 模型名称 | 简介 | 最大时长 | 分辨率 | 帧率 | 核心亮点 |
-| ---------- | ------ | ---------- | -------- | ------ | ---------- |
-| [Sora 2.0](https://openai.com/sora) | OpenAI 物理世界模拟器，已与 [GPT-5.5](https://openai.com) 深度联动<br>`video-generation` `openai-compatible` | 60s | 1080p | 24 | 超长一致性视频<br>物理规律模拟<br>4K 输出 |
-| [可灵 (Kling) 3.5](https://kling.kuaishou.com) | 快手 2026 最新视频大模型，支持无提示词物理轨迹与 4K 60fps<br>`video-generation` `chinese` | 30s | 1080p | 24 | 无提示词物理轨迹推演<br>原生多语言音频融合<br>4K 60fps 电影级呈现 |
-| [Hailuo 2 (海螺视频)](https://hailuoai.video) | MiniMax 视频生成模型，高质量 AI 视频<br>`video-generation` `chinese` | 30s | 1080p | 24 | MiniMax 出品<br>高质量视频生成<br>与 M3 生态集成 |
+|----------|------|----------|--------|------|----------|
+|  [Sora 2.0](https://openai.com/sora) | OpenAI 物理世界模拟器，已与 GPT-5.5 深度联动<br>`video-generation` `openai-compatible` | 60s | 1080p | 24 | 超长一致性视频<br>物理规律模拟<br>4K 输出 |
+|  [可灵 (Kling) 3.5](https://kling.kuaishou.com) | 快手 2026 最新视频大模型，支持无提示词物理轨迹与 4K 60fps<br>`video-generation` `chinese` | 30s | 1080p | 24 | 无提示词物理轨迹推演<br>原生多语言音频融合<br>4K 60fps 电影级呈现 |
+|  [Hailuo 2 (海螺视频)](https://hailuoai.video) | MiniMax 视频生成模型，高质量 AI 视频<br>`video-generation` `chinese` | 30s | 1080p | 24 | MiniMax 出品<br>高质量视频生成<br>与 M3 生态集成 |
 | ✅ [CogVideoX-3](https://github.com/THUDM/CogVideo) | 智谱 AI 开源视频生成模型<br>`video-generation` `open-source` `chinese` | 15s | 720p | 24 | 开源视频生成<br>智谱 AI 出品<br>Apache 2.0 |
-| [Runway Gen-4](https://runwayml.com) | 好莱坞级别视频生成与工业管线标配<br>`video-generation` `enterprise` | 10s | 4K | - | Motion Brush 3.0<br>Aleph 高级视频编排<br>Director Mode 导演视角 |
-| [Luma Ray3](https://lumalabs.ai) | 物理真实感与 3D 空间理解最强视频模型<br>`video-generation` `content-creation` | 5s | 1080p | - | 物理引擎级连贯性<br>替代旧版 Dream Machine<br>极致光影折射与动态模糊 |
-| [Pika 2.0](https://pika.art) | 极速迭代与炫酷风格化的短视频利器<br>`video-generation` `content-creation` | 3s | - | - | 首创 Pikaffects 特效<br>支持背景与人物局部重绘<br>速度与社交媒体首选 |
+|  [Runway Gen-4](https://runwayml.com) | 好莱坞级别视频生成与工业管线标配<br>`video-generation` `enterprise` | 10s | 4K | - | Motion Brush 3.0<br>Aleph 高级视频编排<br>Director Mode 导演视角 |
+|  [Luma Ray3](https://lumalabs.ai) | 物理真实感与 3D 空间理解最强视频模型<br>`video-generation` `content-creation` | 5s | 1080p | - | 物理引擎级连贯性<br>替代旧版 Dream Machine<br>极致光影折射与动态模糊 |
+|  [Pika 2.0](https://pika.art) | 极速迭代与炫酷风格化的短视频利器<br>`video-generation` `content-creation` | 3s | - | - | 首创 Pikaffects 特效<br>支持背景与人物局部重绘<br>速度与社交媒体首选 |
 
 ### 🎵 音频/语音
 
 | 模型名称 | 简介 | 语言 | 采样率 | 实时 | 核心亮点 |
-| ---------- | ------ | ------ | -------- | ------ | ---------- |
-| [Suno v5.5](https://suno.com) | 2026年行业霸主，支持 Voices 自定义音色训练<br>`voice-synthesis` `music-generation` | 英语, 中文, 日语 | 44.1kHz | ❌ | 自定义 Voices 音色克隆<br>音质大幅跃升<br>原生无损全曲生成 |
-| [Udio 2.0](https://udio.com) | 高质量 AI 音乐生成，与 [Suno v5.5](https://suno.com) 并驾齐驱<br>`voice-synthesis` `music-generation` | 英语, 中文, 日语 | 44.1kHz | ❌ | 高质量音乐生成<br>2.0 音质飞跃<br>多风格支持 |
-| [MiniMax Music 2](https://minimaxi.com) | MiniMax AI 音乐生成模型<br>`voice-synthesis` `music-generation` `chinese` | 中文, 英语 | 44.1kHz | ❌ | MiniMax 出品<br>中文音乐优化 |
-| [GLM-TTS / CosyVoice 2](https://open.bigmodel.cn) | 前沿语音合成模型，自然度极高<br>`voice-synthesis` `chinese` | 中文, 英语, 日语 | 24kHz | ✅ | [GLM-TTS](https://open.bigmodel.cn) 智谱出品<br>[CosyVoice 2](https://open.bigmodel.cn) 阿里出品<br>自然度极高 |
+|----------|------|------|--------|------|----------|
+|  [Suno v5.5](https://suno.com) | 2026年行业霸主，支持 Voices 自定义音色训练<br>`voice-synthesis` `music-generation` | 英语, 中文, 日语 | 44.1kHz | ❌ | 自定义 Voices 音色克隆<br>音质大幅跃升<br>原生无损全曲生成 |
+|  [Udio 2.0](https://udio.com) | 高质量 AI 音乐生成，与 Suno v5.5 并驾齐驱<br>`voice-synthesis` `music-generation` | 英语, 中文, 日语 | 44.1kHz | ❌ | 高质量音乐生成<br>2.0 音质飞跃<br>多风格支持 |
+|  [MiniMax Music 2](https://minimaxi.com) | MiniMax AI 音乐生成模型<br>`voice-synthesis` `music-generation` `chinese` | 中文, 英语 | 44.1kHz | ❌ | MiniMax 出品<br>中文音乐优化 |
+|  [GLM-TTS / CosyVoice 2](https://open.bigmodel.cn) | 前沿语音合成模型，自然度极高<br>`voice-synthesis` `chinese` | 中文, 英语, 日语 | 24kHz | ✅ | GLM-TTS 智谱出品<br>CosyVoice 2 阿里出品<br>自然度极高 |
 | ✅ [Whisper V3](https://github.com/openai/whisper) | OpenAI 开源语音识别模型，多语言支持<br>`voice-synthesis` `voice-recognition` `open-source` | 多语言 | 16kHz | ❌ | 多语言语音识别<br>MIT 开源<br>准确率极高 |
 
 <!-- AUTOGEN_END -->

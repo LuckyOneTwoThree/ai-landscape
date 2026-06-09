@@ -47,6 +47,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/
+          git add -u
           git commit -m "docs: auto-rebuild documentation [skip ci]"
           git push

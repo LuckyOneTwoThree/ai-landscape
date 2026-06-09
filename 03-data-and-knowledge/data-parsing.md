@@ -31,7 +31,7 @@
 #### ⭐ 活跃项目 (10K-50K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [MinerU](https://github.com/opendatalab/MinerU) | 国内最活跃的开源文档解析工具，中文 PDF 支持极好 | document, data-analysis, chinese | 中文 PDF 解析首选<br>表格/公式/多栏支持<br>32K Stars |
 | [Unstructured](https://github.com/Unstructured-IO/unstructured) | 最流行的文档解析库，支持 PDF/Word/HTML 等 20+ 格式，RAG 标配 | document, data-analysis, rag | 28K Stars<br>20+ 格式支持<br>RAG 标配 |
 | [Firecrawl](https://github.com/mendableai/firecrawl) | 为 LLM 设计的网页爬取 API，输出干净 Markdown/结构化数据 | search, document, api-gateway | 28K Stars<br>输出干净 Markdown<br>API 优先 |
@@ -43,7 +43,7 @@
 #### 🆕 新兴项目 (<10K Stars)
 
 | 名称 | 简介 | 标签 | 亮点 |
-| ------ | ------ | ------ | ------ |
+|------|------|------|------|
 | [Nougat](https://github.com/facebookresearch/nougat) | Meta 出品的学术文档解析模型，擅长公式识别 | document, data-analysis, academic | Meta 出品<br>学术论文解析<br>公式识别 |
 | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 高性能 PDF 处理库，纯文本提取首选 | document, open-source, fast-inference | 高性能 PDF 库<br>纯文本提取<br>轻量级 |
 | [LlamaParse](https://github.com/run-llama/llama_parse) | LlamaIndex 出品的文档解析 API，专为 RAG 优化 | document, api-gateway, rag | 专为 LLM 设计的高效闭源 API 解析服务<br>无需配置本地环境，开箱即用<br>原生无缝集成 LlamaIndex 生态 |
