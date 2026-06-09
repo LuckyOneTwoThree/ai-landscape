@@ -9,9 +9,9 @@
 
 | Your Situation | **Recommended Solution** | Reason |
 | --------- | **---------** | ------ |
-| **OpenAI User** | **OpenAI Moderation** | Built-in, free |
-| **Open Source** | **Llama Guard** | By Meta, 3K Stars |
-| **Enterprise** | **NeMo Guardrails** | Programmable rules |
+| **OpenAI User** | **[OpenAI Moderation](https://platform.openai.com/docs/guides/moderation)** | Built-in, free |
+| **Open Source** | **[Llama Guard](https://ai.meta.com/llama/)** | By Meta, 3K Stars |
+| **Enterprise** | **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** | Programmable rules |
 
 > [!TIP]
 > **OpenAI Moderation is the simplest solution**

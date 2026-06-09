@@ -12,9 +12,9 @@
 | 你的情况 | 推荐方案 | 理由 |
 |---------|---------|------|
 | **原生 Function Calling** | OpenAI / Anthropic | LLM 内置工具调用 |
-| **工具集成平台** | Composio / ACI.dev | 200+ / 600+ 应用连接器 |
+| **工具集成平台** | [Composio](https://composio.dev) / [ACI.dev](https://github.com/aipotheosis-labs/aci) | 200+ / 600+ 应用连接器 |
 | **MCP 协议** | MCP Servers | 标准化工具协议 |
-| **Agent 协议** | ACP / A2A | Agent 间通信 |
+| **Agent 协议** | [ACP](https://github.com/i-am-bee/acp) / A2A | Agent 间通信 |
 
 > [!TIP]
 > **Composio 是工具集成的最佳选择**

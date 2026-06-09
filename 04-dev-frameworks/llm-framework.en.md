@@ -11,15 +11,15 @@ The core question in choosing a framework is not "Which is the best?", but **"Wh
 
 | Your Situation | **Recommended Framework** | Reason |
 | --------- | **---------** | ------ |
-| **Rapid Prototype / MVP** | **LangChain** | Most complete ecosystem, most integrations, largest community |
-| **RAG / Knowledge Base** | **LlamaIndex** | Specialized in data processing, PageIndex, Agentic RAG |
-| **Enterprise / Microsoft Ecosystem** | **Semantic Kernel** | Azure integration, MAF merged, enterprise-grade |
-| **Declarative Prompt Engineering** | **DSPy** | Automatic Prompt optimization, programmable LLMs |
-| **Frontend AI Integration** | **Vercel AI SDK** | React/[Next.js](https://nextjs.org) native, streaming UI |
-| **Type Safety / Structured Output** | **Pydantic AI / Instructor** | Deep Pydantic integration |
-| **Java/JVM Ecosystem** | **LangChain4j** | Java version of [LangChain](https://langchain.com), 12.2K Stars |
-| **Go Ecosystem** | **Eino** | From ByteDance, 11.7K Stars |
-| **Ruby Ecosystem** | **RubyLLM** | All-in-one Ruby AI framework |
+| **Rapid Prototype / MVP** | **[[LangChain](https://langchain.com)](https://[langchain](https://langchain.com).com)** | Most complete ecosystem, most integrations, largest community |
+| **RAG / Knowledge Base** | **[LlamaIndex](https://llamaindex.ai)** | Specialized in data processing, PageIndex, Agentic RAG |
+| **Enterprise / Microsoft Ecosystem** | **[Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)** | Azure integration, MAF merged, enterprise-grade |
+| **Declarative Prompt Engineering** | **[DSPy](https://dspy.ai)** | Automatic Prompt optimization, programmable LLMs |
+| **Frontend AI Integration** | **[[Vercel](https://vercel.com) AI SDK](https://sdk.[vercel](https://vercel.com).ai)** | React/[Next.js](https://nextjs.org) native, streaming UI |
+| **Type Safety / Structured Output** | **[Pydantic AI](https://ai.pydantic.dev) / [Instructor](https://python.useinstructor.com)** | Deep Pydantic integration |
+| **Java/JVM Ecosystem** | **[LangChain4j](https://github.com/langchain4j/langchain4j)** | Java version of [LangChain](https://langchain.com), 12.2K Stars |
+| **Go Ecosystem** | **[Eino](https://github.com/cloudwego/eino)** | From ByteDance, 11.7K Stars |
+| **Ruby Ecosystem** | **[RubyLLM](https://github.com/crmne/ruby_llm)** | All-in-one Ruby AI framework |
 
 > [!TIP]
 > **90% of projects only need LangChain or LlamaIndex**

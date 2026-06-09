@@ -11,12 +11,12 @@
 
 | 你的情况 | 推荐框架 | 理由 |
 |---------|---------|------|
-| **快速原型 / 角色扮演** | CrewAI | 最简单，角色定义直观 |
-| **复杂工作流 / 状态机** | LangGraph | 状态图编排，灵活强大 |
-| **OpenAI 生态** | OpenAI Agents SDK | 官方支持，轻量级 |
-| **微软生态** | Microsoft Agent Framework | 企业级，Azure 集成 |
-| **HuggingFace 生态** | Smolagents | 轻量级，12K Stars |
-| **TypeScript 全栈** | Mastra / VoltAgent | TS 原生，全栈开发 |
+| **快速原型 / 角色扮演** | [CrewAI](https://crewai.com) | 最简单，角色定义直观 |
+| **复杂工作流 / 状态机** | [LangGraph](https://langchain-ai.github.io/langgraph/) | 状态图编排，灵活强大 |
+| **OpenAI 生态** | [OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview) | 官方支持，轻量级 |
+| **微软生态** | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 企业级，Azure 集成 |
+| **HuggingFace 生态** | [Smolagents](https://github.com/huggingface/smolagents) | 轻量级，12K Stars |
+| **TypeScript 全栈** | [Mastra](https://mastra.ai) / [VoltAgent](https://github.com/VoltAgent/voltagent) | TS 原生，全栈开发 |
 
 > [!TIP]
 > **多 Agent 的三种架构模式**

@@ -9,14 +9,14 @@
 
 | Your Situation | **Recommended Platform** | Reason |
 | --------- | **---------** | ------ |
-| **AI Coding Agent, VS Code Integration** | **Cline / Continue** | 42K/25K Stars, MCP support, open-source |
-| **Terminal AI Coding Assistant** | **Aider** | 32K Stars, Git integration, multi-model support |
-| **Open Source AI Chat Platform** | **Onyx / LibreChat** | 30K/38K Stars, enterprise-grade features |
-| **Enterprise Knowledge Base** | **MaxKB / WeKnora** | 21K/16K Stars, docs to knowledge base |
-| **Low-Code Agent Building** | **ToolJet / NocoBase** | 38K/22K Stars, visual building |
-| **AI Engineering/Observability** | **MLflow / Langfuse** | 26K/8K Stars, LLM monitoring & tracing |
-| **AI Digital Human** | **Duix-Avatar** | 13K Stars, offline execution |
-| **AI Video/Film Production** | **WaoWao / KrillinAI** | 12K/10K Stars, full-process production |
+| **AI Coding Agent, VS Code Integration** | **[Cline](https://github.com/cline/cline) / [Continue](https://github.com/continuedev/continue)** | 42K/25K Stars, MCP support, open-source |
+| **Terminal AI Coding Assistant** | **[Aider](https://github.com/Aider-AI/aider)** | 32K Stars, Git integration, multi-model support |
+| **Open Source AI Chat Platform** | **[Onyx](https://github.com/onyx-dot-app/onyx) / LibreChat** | 30K/38K Stars, enterprise-grade features |
+| **Enterprise Knowledge Base** | **[MaxKB](https://github.com/1Panel-dev/MaxKB) / [WeKnora](https://github.com/Tencent/WeKnora)** | 21K/16K Stars, docs to knowledge base |
+| **Low-Code Agent Building** | **[ToolJet](https://github.com/ToolJet/ToolJet) / [NocoBase](https://github.com/nocobase/nocobase)** | 38K/22K Stars, visual building |
+| **AI Engineering/Observability** | **[MLflow](https://github.com/mlflow/mlflow) / Langfuse** | 26K/8K Stars, LLM monitoring & tracing |
+| **AI Digital Human** | **[Duix-Avatar](https://github.com/duixcom/Duix-Avatar)** | 13K Stars, offline execution |
+| **AI Video/Film Production** | **[WaoWao](https://github.com/waooAI/waoowaoo) / [KrillinAI](https://github.com/krillinai/KrillinAI)** | 12K/10K Stars, full-process production |
 | **Official Plugin Marketplace** | **Cursor / Dify / Coze** | Official ecosystem, rich plugins |
 
 > [!TIP]

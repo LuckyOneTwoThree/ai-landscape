@@ -9,8 +9,8 @@
 
 | 你的情况 | 推荐方案 | 理由 |
 |---------|---------|------|
-| **OpenAI 用户** | OpenAI Moderation | 内置，免费 |
-| **开源方案** | Llama Guard | Meta 出品，3K Stars |
+| **OpenAI 用户** | [OpenAI Moderation](https://platform.openai.com/docs/guides/moderation) | 内置，免费 |
+| **开源方案** | [Llama Guard](https://github.com/meta-llama/PurpleLlama) | Meta 出品，3K Stars |
 | **企业级** | NeMo Guardrails | 可编程规则 |
 
 > [!TIP]

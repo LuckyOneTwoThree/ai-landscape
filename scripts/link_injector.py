@@ -75,6 +75,7 @@ URL_MAPPING = {
 
 def extract_local_links(content):
     local_mapping = {}
+    # Extract links from the AUTOGEN section
     matches = re.findall(r'\[([^\]]+)\]\((https?://[^\)]+)\)', content)
     for text, url in matches:
         clean_text = re.sub(r'<[^>]+>', '', text).replace('*', '').strip()
@@ -82,128 +83,125 @@ def extract_local_links(content):
         # Strip parentheses content like "(海螺视频)" or "(Max/Pro)"
         no_paren = re.sub(r'\s*\([^)]*\)', '', clean_text).strip()
         if no_paren:
-            local_mapping[no_paren.lower()] = url
+            local_mapping[no_paren] = url
             
         parts = [p.strip() for p in clean_text.split('/')]
         for p in parts:
             if p:
-                local_mapping[p.lower()] = url
+                local_mapping[p] = url
+                
+        local_mapping[clean_text] = url
         
-        local_mapping[clean_text.lower()] = url
-        
-        if "jina-embeddings-v5-omni" in clean_text.lower():
-            local_mapping["jina v5 omni"] = url
-            local_mapping["jina reranker"] = url
-        if "cohere-embed-v4" in clean_text.lower():
-            local_mapping["cohere embed v4"] = url
-            local_mapping["cohere rerank v3"] = url
-            local_mapping["cohere rerank"] = url
-        if "gte-qwen2" in clean_text.lower():
-            local_mapping["gte-qwen2"] = url
-        if "bge-m3" in clean_text.lower():
-            local_mapping["bge-m3"] = url
-        if "bge-reranker" in clean_text.lower():
-            local_mapping["bge-reranker-v2"] = url
-        if "codestral embed" in clean_text.lower():
-            local_mapping["codestral embed"] = url
+    # Inject specific overrides
+    overrides = {
+        "jina-embeddings-v5-omni": ["jina v5 omni", "jina reranker"],
+        "cohere-embed-v4": ["cohere embed v4", "cohere rerank v3", "cohere rerank"],
+        "gte-qwen2": ["gte-qwen2"],
+        "bge-m3": ["bge-m3"],
+        "bge-reranker": ["bge-reranker-v2"],
+        "codestral embed": ["codestral embed"]
+    }
+    
+    for key, overrides_list in overrides.items():
+        found_url = None
+        for text, url in matches:
+            if key.lower() in text.lower():
+                found_url = url
+                break
+        if found_url:
+            for override in overrides_list:
+                local_mapping[override] = found_url
+                
     return local_mapping
+
+def replace_with_links(text, mapping):
+    # We want to replace matching tool names in the text with links.
+    # We should sort the mapping keys by length descending to match longest phrases first.
+    sorted_keys = sorted(mapping.keys(), key=len, reverse=True)
+    
+    # We stash existing markdown links to avoid replacing inside them.
+    stashed_links = []
+    def stash(match):
+        stashed_links.append(match.group(0))
+        return f"__LINK_{len(stashed_links)-1}__"
+    
+    text = re.sub(r'\[.*?\]\(.*?\)', stash, text)
+    
+    for key in sorted_keys:
+        if len(key) <= 2: continue
+        url = mapping[key]
+        
+        # We replace the exact key (case insensitive), ensuring it's not part of another word.
+        # Use regex boundary. Since names can have non-word chars, we use negative lookahead/lookbehind.
+        escaped_key = re.escape(key)
+        pattern = re.compile(r'(?<![A-Za-z0-9_])(' + escaped_key + r')(?![A-Za-z0-9_])', re.IGNORECASE)
+        
+        text = pattern.sub(lambda m: f"[{m.group(1)}]({url})", text)
+        
+    # Unstash links
+    for i, link in enumerate(stashed_links):
+        text = text.replace(f"__LINK_{i}__", link)
+        
+    return text
 
 def process_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    local_map = extract_local_links(content)
+    # Split into manual and autogen parts
+    if '<!-- AUTOGEN_START -->' not in content:
+        return False
+        
+    manual_part, autogen_part = content.split('<!-- AUTOGEN_START -->', 1)
+    
+    local_map = extract_local_links(autogen_part)
     for k, v in URL_MAPPING.items():
-        local_map[k.lower()] = v
-
-    lines = content.split('\n')
-    modified = False
+        local_map[k] = v
+        
+    # We only apply replacements to table rows in the manual part
+    lines = manual_part.split('\n')
     new_lines = []
+    modified = False
     
     in_table = False
-
     for line in lines:
         if line.strip().startswith('|'):
-            if not in_table:
-                in_table = True
-            
+            if '---' in line:
+                new_lines.append(line)
+                continue
+                
             original_line = line
             
-            # 1. Process bolded items **Text**
-            bolds = re.findall(r'(?<!\[)\*\*(.*?)\*\*(?!\])', line)
-            for b in set(bolds):
-                term = b.strip()
-                term_lower = term.lower()
-                url = None
+            # Split columns and process them
+            cols = line.split('|')
+            for i in range(1, len(cols)-1): # Skip first and last empty elements due to |...| format
+                col = cols[i]
+                # Process the column text
+                new_col = replace_with_links(col, local_map)
+                cols[i] = new_col
                 
-                if term_lower in local_map:
-                    url = local_map[term_lower]
-                else:
-                    for k, v in local_map.items():
-                        if k in term_lower and len(k) > 4:
-                            url = v
-                            break
-                            
-                if url:
-                    line = line.replace(f"**{b}**", f"[**{term}**]({url})")
-
-            # 2. Process non-bolded items. Instead of skipping the whole col if it has `[`, 
-            # we just replace words if they are NOT inside `[` and `]`.
-            cols = [c.strip() for c in line.split('|')]
-            for i, col in enumerate(cols):
-                if not col or '--' in col: continue
-                
-                existing_links = []
-                def stash_link(match):
-                    existing_links.append(match.group(0))
-                    return f"__LINK_PLACEHOLDER_{len(existing_links)-1}__"
-                    
-                stashed_col = re.sub(r'\[.*?\]\(.*?\)', stash_link, col)
-                
-                col_changed = False
-                for k, v in local_map.items():
-                    if len(k) <= 2: continue
-                    pattern = re.compile(r'(?<![A-Za-z0-9_])(' + re.escape(k) + r')(?![A-Za-z0-9_])', re.IGNORECASE)
-                    if pattern.search(stashed_col):
-                        stashed_col = pattern.sub(lambda m: f"[{m.group(1)}]({v})", stashed_col)
-                        col_changed = True
-                        
-                if col_changed:
-                    for idx, link in enumerate(existing_links):
-                        stashed_col = stashed_col.replace(f"__LINK_PLACEHOLDER_{idx}__", link)
-                    cols[i] = stashed_col
-
-            new_joined_line = ' | '.join(cols).strip()
-            if new_joined_line.startswith('|'):
-                line = new_joined_line
-            else:
-                line = f"| {' | '.join(c for c in cols if c)} |"
-                if original_line.startswith('|'):
-                    line = '|' + line[1:]
-                if original_line.endswith('|'):
-                    line = line[:-1] + '|'
-
-            if line != original_line:
+            new_line = '|'.join(cols)
+            if new_line != original_line:
                 modified = True
-
+            new_lines.append(new_line)
         else:
-            in_table = False
-            
-        new_lines.append(line)
+            new_lines.append(line)
 
     if modified:
+        new_content = '\n'.join(new_lines) + '<!-- AUTOGEN_START -->' + autogen_part
         with open(filepath, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(new_lines))
+            f.write(new_content)
         return True
     return False
 
 def main():
     root_dir = Path("D:/HelloWorld/Git_Project/ai-landscape")
+    # Process both .md and .en.md
     md_files = list(root_dir.rglob("*.md"))
     
     modified_count = 0
     for f in md_files:
-        if "website" in str(f) or "scripts" in str(f): continue
+        if "website" in str(f) or "scripts" in str(f) or "pm" in str(f): continue
         if process_file(f):
             modified_count += 1
             print(f"Modified: {f.relative_to(root_dir)}")

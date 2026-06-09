@@ -9,11 +9,11 @@
 
 | 你的情况 | 推荐平台 | 理由 |
 |---------|---------|------|
-| **开源 / 私有部署** | n8n | 65K Stars，AI 原生节点 |
-| **AI Agent + MCP** | Activepieces | 400+ MCP 服务器 |
-| **简单自动化 / 非技术** | Zapier | 7000+ 应用，最易用 |
-| **复杂工作流 / 可视化** | Make | 1500+ 应用，强大编排 |
-| **开发者 / 脚本化** | Windmill | 多语言脚本，代码优先 |
+| **开源 / 私有部署** | [n8n](https://n8n.io) | 65K Stars，AI 原生节点 |
+| **AI Agent + MCP** | [Activepieces](https://github.com/activepieces/activepieces) | 400+ MCP 服务器 |
+| **简单自动化 / 非技术** | [Zapier](https://zapier.com) | 7000+ 应用，最易用 |
+| **复杂工作流 / 可视化** | [Make](https://make.com) | 1500+ 应用，强大编排 |
+| **开发者 / 脚本化** | [Windmill](https://windmill.dev) | 多语言脚本，代码优先 |
 
 > [!TIP]
 > **n8n 是 2026 年的最佳选择**

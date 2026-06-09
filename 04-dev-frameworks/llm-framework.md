@@ -11,15 +11,15 @@
 
 | 你的情况 | 推荐框架 | 理由 |
 |---------|---------|------|
-| **快速原型 / MVP** | LangChain | 生态最完整，集成最多，社区最大 |
-| **RAG / 知识库** | LlamaIndex | 数据处理专精，PageIndex，Agentic RAG |
-| **企业级 / 微软生态** | Semantic Kernel | Azure 集成，MAF 合并，企业级 |
-| **声明式 Prompt 工程** | DSPy | 自动优化 Prompt，程序化 LLM |
-| **前端 AI 集成** | Vercel AI SDK | React/Next.js 原生，流式 UI |
-| **类型安全 / 结构化输出** | Pydantic AI / Instructor | Pydantic 深度集成 |
-| **Java/JVM 生态** | LangChain4j | Java 版 LangChain，12.2K Stars |
-| **Go 语言生态** | Eino | 字节跳动出品，11.7K Stars |
-| **Ruby 生态** | RubyLLM | 全能 Ruby AI 框架 |
+| **快速原型 / MVP** | [LangChain](https://langchain.com) | 生态最完整，集成最多，社区最大 |
+| **RAG / 知识库** | [LlamaIndex](https://llamaindex.ai) | 数据处理专精，PageIndex，Agentic RAG |
+| **企业级 / 微软生态** | [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) | Azure 集成，MAF 合并，企业级 |
+| **声明式 Prompt 工程** | [DSPy](https://dspy.ai) | 自动优化 Prompt，程序化 LLM |
+| **前端 AI 集成** | [[Vercel](https://vercel.com) AI SDK](https://sdk.[vercel](https://vercel.com).ai) | React/[Next.js](https://nextjs.org) 原生，流式 UI |
+| **类型安全 / 结构化输出** | [Pydantic AI](https://ai.pydantic.dev) / [Instructor](https://python.useinstructor.com) | Pydantic 深度集成 |
+| **Java/JVM 生态** | [LangChain4j](https://github.com/langchain4j/langchain4j) | Java 版 [LangChain](https://langchain.com)，12.2K Stars |
+| **Go 语言生态** | [Eino](https://github.com/cloudwego/eino) | 字节跳动出品，11.7K Stars |
+| **Ruby 生态** | [RubyLLM](https://github.com/crmne/ruby_llm) | 全能 Ruby AI 框架 |
 
 > [!TIP]
 > **90% 的项目用 LangChain 或 LlamaIndex 就够了**

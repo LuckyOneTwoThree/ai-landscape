@@ -9,14 +9,14 @@
 
 | 你的情况 | 推荐平台 | 理由 |
 |---------|---------|------|
-| **AI 编程 Agent，VS Code 集成** | **Cline** / **Continue** | 42K/25K Stars，MCP 支持，开源 |
-| **终端 AI 编程助手** | **Aider** | 32K Stars，Git 集成，多模型支持 |
-| **开源 AI Chat 平台** | **Onyx** / **LibreChat** | 30K/38K Stars，企业级功能 |
-| **企业级知识库** | **MaxKB** / **WeKnora** | 21K/16K Stars，文档转知识库 |
-| **低代码 Agent 构建** | **ToolJet** / **NocoBase** | 38K/22K Stars，可视化构建 |
-| **AI 工程/可观测性** | **MLflow** / **Langfuse** | 26K/8K Stars，LLM 监控追踪 |
-| **AI 数字人** | **Duix-Avatar** | 13K Stars，离线运行 |
-| **AI 视频/影视** | **WaoWao** / **KrillinAI** | 12K/10K Stars，全流程生产 |
+| **AI 编程 Agent，VS Code 集成** | **[Cline](https://github.com/cline/cline)** / **[Continue](https://github.com/continuedev/continue)** | 42K/25K Stars，MCP 支持，开源 |
+| **终端 AI 编程助手** | **[Aider](https://github.com/Aider-AI/aider)** | 32K Stars，Git 集成，多模型支持 |
+| **开源 AI Chat 平台** | **[Onyx](https://github.com/onyx-dot-app/onyx)** / **LibreChat** | 30K/38K Stars，企业级功能 |
+| **企业级知识库** | **[MaxKB](https://github.com/1Panel-dev/MaxKB)** / **[WeKnora](https://github.com/Tencent/WeKnora)** | 21K/16K Stars，文档转知识库 |
+| **低代码 Agent 构建** | **[ToolJet](https://github.com/ToolJet/ToolJet)** / **[NocoBase](https://github.com/nocobase/nocobase)** | 38K/22K Stars，可视化构建 |
+| **AI 工程/可观测性** | **[MLflow](https://github.com/mlflow/mlflow)** / **Langfuse** | 26K/8K Stars，LLM 监控追踪 |
+| **AI 数字人** | **[Duix-Avatar](https://github.com/duixcom/Duix-Avatar)** | 13K Stars，离线运行 |
+| **AI 视频/影视** | **[WaoWao](https://github.com/waooAI/waoowaoo)** / **[KrillinAI](https://github.com/krillinai/KrillinAI)** | 12K/10K Stars，全流程生产 |
 | **官方插件市场** | **Cursor** / **Dify** / **Coze** | 官方生态，插件丰富 |
 
 > [!TIP]

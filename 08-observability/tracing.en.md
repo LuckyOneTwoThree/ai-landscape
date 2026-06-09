@@ -9,11 +9,11 @@
 
 | Your Situation | **Recommended Platform** | Reason |
 | --------- | **---------** | ------ |
-| **LangChain Ecosystem** | **LangSmith** | Official tracing + evaluation |
-| **Open Source / Private Deployment** | **Langfuse** | MIT open-source, 8K Stars |
-| **AI Gateway + Tracing** | **Portkey** | Full-link tracing |
-| **OpenTelemetry Native** | **OpenLIT / Langtrace** | Standardized tracing |
-| **Agent Observability** | **RagaAI Catalyst** | 16K Stars |
+| **LangChain Ecosystem** | **[LangSmith](https://smith.langchain.com)** | Official tracing + evaluation |
+| **Open Source / Private Deployment** | **[Langfuse](https://langfuse.com)** | MIT open-source, 8K Stars |
+| **AI Gateway + Tracing** | **[Portkey](https://portkey.ai)** | Full-link tracing |
+| **OpenTelemetry Native** | **[OpenLIT](https://openlit.io) / [Langtrace](https://langtrace.ai)** | Standardized tracing |
+| **Agent Observability** | **[RagaAI Catalyst](https://raga.ai)** | 16K Stars |
 
 > [!TIP]
 > **Langfuse is the best choice for open-source scenarios**

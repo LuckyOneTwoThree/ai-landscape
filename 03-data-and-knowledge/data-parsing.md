@@ -11,12 +11,12 @@
 
 | 文档类型 | 难度 | 常见坑 | 推荐方案 |
 |---------|------|--------|---------|
-| **纯文本 PDF** | ⭐ | 几乎没有 | PyMuPDF 直接提取 |
-| **扫描件 PDF** | ⭐⭐⭐ | OCR 识别错误、排版混乱 | Marker / Docling |
-| **含表格的 PDF** | ⭐⭐⭐⭐ | 表格结构丢失、列错位 | MinerU / Docling |
-| **多栏排版 PDF** | ⭐⭐⭐ | 阅读顺序错乱 | Nougat / Marker |
+| **纯文本 PDF** | ⭐ | 几乎没有 | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) 直接提取 |
+| **扫描件 PDF** | ⭐⭐⭐ | OCR 识别错误、排版混乱 | [Marker](https://github.com/datalab-to/marker) / [Docling](https://github.com/DS4SD/docling) |
+| **含表格的 PDF** | ⭐⭐⭐⭐ | 表格结构丢失、列错位 | [MinerU](https://github.com/opendatalab/MinerU) / [Docling](https://github.com/DS4SD/docling) |
+| **多栏排版 PDF** | ⭐⭐⭐ | 阅读顺序错乱 | [Nougat](https://github.com/facebookresearch/nougat) / [Marker](https://github.com/datalab-to/marker) |
 | **含图片的 PDF** | ⭐⭐⭐⭐ | 图片说明文字丢失 | 多模态模型直接理解 |
-| **网页 / HTML** | ⭐⭐ | 噪声多（广告、导航） | Crawl4AI / Jina Reader |
+| **网页 / HTML** | ⭐⭐ | 噪声多（广告、导航） | [Crawl4AI](https://github.com/unclecode/crawl4ai) / [Jina Reader](https://jina.ai/reader) |
 
 > [!TIP]
 > **90% 的 PDF 解析问题可以用 MinerU 解决**

@@ -9,15 +9,15 @@
 
 | 你的情况 | 推荐 IDE | 理由 |
 |---------|---------|------|
-| 🎯 **VS Code 用户，想要最强 AI** | **Cursor** | Composer 多文件修改 + Tab 补全，最强 AI 原生 IDE |
-| 🧠 **JetBrains 用户** | **JetBrains AI** / **Continue** | 原生集成 / 开源 MCP 支持 |
-| 🔒 **隐私优先，不想代码上传** | **Tabnine** | 气隙隔离部署，零代码保留 |
-| ☁️ **AWS 生态开发者** | **Amazon Kiro** / **Q Developer** | Spec 驱动 + AWS 深度集成 |
-| 🔍 **Google 生态开发者** | **Gemini Code Assist** | 百万 Token 上下文，Android Studio 原生 |
-| 🆓 **想要开源免费方案** | **Cline** / **Continue** | 完全开源，MCP 支持 |
-| 🇨🇳 **中文场景，国内模型** | **通义灵码** / **Trae** | Qwen3 / 豆包驱动，中文优化 |
-| 🏢 **企业级，跨仓库理解** | **Sourcegraph Cody** / **Augment Code** | 跨仓库搜索 + 深度上下文 |
-| 🌐 **浏览器端开发** | **Replit** | 全自动构建部署，内置数据库 |
+| 🎯 **VS Code 用户，想要最强 AI** | **[Cursor](https://cursor.com)** | Composer 多文件修改 + Tab 补全，最强 AI 原生 IDE |
+| 🧠 **JetBrains 用户** | **[JetBrains AI](https://www.jetbrains.com/ai/)** / **[Continue](https://continue.dev)** | 原生集成 / 开源 MCP 支持 |
+| 🔒 **隐私优先，不想代码上传** | **[Tabnine](https://www.tabnine.com)** | 气隙隔离部署，零代码保留 |
+| ☁️ **AWS 生态开发者** | **[Amazon Kiro](https://kiro.dev)** / **Q Developer** | Spec 驱动 + AWS 深度集成 |
+| 🔍 **Google 生态开发者** | **[Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist)** | 百万 Token 上下文，Android Studio 原生 |
+| 🆓 **想要开源免费方案** | **[Cline](https://github.com/cline/cline)** / **[Continue](https://continue.dev)** | 完全开源，MCP 支持 |
+| 🇨🇳 **中文场景，国内模型** | **[通义灵码](https://tongyi.aliyun.com/lingma)** / **[Trae](https://trae.ai)** | Qwen3 / 豆包驱动，中文优化 |
+| 🏢 **企业级，跨仓库理解** | **[Sourcegraph Cody](https://sourcegraph.com/cody)** / **[Augment Code](https://augmentcode.com)** | 跨仓库搜索 + 深度上下文 |
+| 🌐 **浏览器端开发** | **[Replit](https://replit.com)** | 全自动构建部署，内置数据库 |
 
 > [!TIP]
 > **Cursor 是 2026 年 AI 编程 IDE 的标杆**

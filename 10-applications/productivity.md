@@ -9,15 +9,15 @@
 
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
-| 💬 **通用 AI 对话，最强模型** | **ChatGPT** / **Claude** | GPT-5.5 / Claude Opus 4 驱动，能力最强 |
-| 🔍 **Google 生态用户** | **Gemini** | Google 搜索/地图/邮件/文档全集成 |
-| 📊 **微软 365 办公套件** | **Microsoft Copilot** | Word/Excel/PPT/Outlook 原生集成 |
-| 📝 **Notion 用户** | **Notion AI** | 文档智能编辑 + 知识库问答 |
-| 🎨 **做 PPT 演示文稿** | **Gamma** / **v0** | AI 一键生成精美演示文稿 |
-| 🚀 **全栈应用快速原型** | **Bolt.new** / **Lovable** | 浏览器内全栈开发，30 秒预览 |
-| 🎵 **AI 音乐创作** | **Suno** | 文字生成完整歌曲，多种风格 |
-| 🇨🇳 **国内办公场景** | **WPS AI** / **飞书** / **钉钉** | 国内办公生态原生集成 |
-| 🗣️ **中文 AI 助手** | **智谱清言** / **豆包** / **DeepSeek** | 国内模型，中文优化 |
+| 💬 **通用 AI 对话，最强模型** | **[ChatGPT](https://chatgpt.com)** / **[Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [[Claude](https://claude.ai) Opus 4](https://anthropic.com) 驱动，能力最强 |
+| 🔍 **Google 生态用户** | **[Gemini](https://gemini.google.com)** | Google 搜索/地图/邮件/文档全集成 |
+| 📊 **微软 365 办公套件** | **[Microsoft Copilot](https://copilot.microsoft.com)** | Word/Excel/PPT/Outlook 原生集成 |
+| 📝 **Notion 用户** | **[Notion AI](https://notion.so)** | 文档智能编辑 + 知识库问答 |
+| 🎨 **做 PPT 演示文稿** | **[Gamma](https://gamma.app)** / **v0** | AI 一键生成精美演示文稿 |
+| 🚀 **全栈应用快速原型** | **[Bolt.new](https://bolt.new)** / **[Lovable](https://lovable.dev)** | 浏览器内全栈开发，30 秒预览 |
+| 🎵 **AI 音乐创作** | **[Suno](https://suno.com)** | 文字生成完整歌曲，多种风格 |
+| 🇨🇳 **国内办公场景** | **[WPS AI](https://ai.wps.cn)** / **飞书** / **钉钉** | 国内办公生态原生集成 |
+| 🗣️ **中文 AI 助手** | **[智谱清言](https://chatglm.cn)** / **豆包** / **[DeepSeek](https://chat.deepseek.com)** | 国内模型，中文优化 |
 
 > [!TIP]
 > **ChatGPT 和 Claude 是通用 AI 助手的两大标杆**

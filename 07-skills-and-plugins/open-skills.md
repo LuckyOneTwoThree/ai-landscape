@@ -11,15 +11,15 @@
 
 | 领域 | 热门技能 | Stars | 说明 |
 |------|---------|-------|------|
-| **💻 编码** | deer-flow | 70.8K | 字节跳动 SuperAgent |
-| **💻 编码** | Caveman | 70K | Token 优化 |
-| **🎨 设计** | ui-ux-pro-max-skill | 89K | 多平台 UI/UX |
-| **🎨 设计** | Open Design | 61.5K | Claude Design 替代 |
-| **📚 研究** | last30days-skill | 34.6K | 研究最近 30 天热门 |
-| **📢 营销** | Marketing Skills | 32.5K | CRO/文案/社交媒体 |
-| **🔒 安全** | Cybersecurity Skills | 14.9K | 754 个安全技能 |
-| **📦 综合** | awesome-claude-code | 46K | Claude Code 精选 |
-| **📦 综合** | Superpowers | 34K | 14 个子技能全家桶 |
+| **💻 编码** | [deer-flow](https://github.com/bytedance/deer-flow) | 70.8K | 字节跳动 SuperAgent |
+| **💻 编码** | [Caveman](https://github.com/JuliusBrussee/caveman) | 70K | Token 优化 |
+| **🎨 设计** | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 89K | 多平台 UI/UX |
+| **🎨 设计** | [Open Design](https://github.com/nexu-io/open-design) | 61.5K | Claude Design 替代 |
+| **📚 研究** | [last30days-skill](https://github.com/mvanhorn/last30days-skill) | 34.6K | 研究最近 30 天热门 |
+| **📢 营销** | [Marketing [Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills)](https://github.com/coreyhaines31/marketingskills) | 32.5K | CRO/文案/社交媒体 |
+| **🔒 安全** | Cybersecurity [Skills](https://github.com/[antfu](https://github.com/antfu/skills)/skills) | 14.9K | 754 个安全技能 |
+| **📦 综合** | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 46K | Claude Code 精选 |
+| **📦 综合** | [Superpowers](https://github.com/NexTechFusion/superpowers) | 34K | 14 个子技能全家桶 |
 
 > [!TIP]
 > **技能生态正在从"通用工具集成"向"专业领域深化"演进**

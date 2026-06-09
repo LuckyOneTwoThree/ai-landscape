@@ -11,12 +11,12 @@
 
 | 显卡 | 显存 | 能跑的模型 (4-bit 量化) | 推荐引擎 |
 |------|------|------------------------|---------|
-| **RTX 4090** | 24GB | Qwen3-32B, Llama-3-70B (勉强) | vLLM / Ollama |
-| **RTX 3090** | 24GB | Qwen3-14B, DeepSeek-V4-16B | Ollama / llama.cpp |
-| **RTX 4070** | 12GB | Qwen3-8B, Phi-4-14B | Ollama |
-| **Mac M4 Pro** | 24GB 统一 | Qwen3-32B, Llama-3-70B (量化) | Ollama / MLX |
-| **Mac M4** | 16GB 统一 | Qwen3-14B, Phi-4-14B | Ollama / MLX |
-| **CPU only** | — | Qwen3-8B (慢), Phi-4-mini | llama.cpp |
+| **RTX 4090** | 24GB | Qwen3-32B, Llama-3-70B (勉强) | [vLLM](https://github.com/vllm-project/vllm) / [Ollama](https://ollama.com) |
+| **RTX 3090** | 24GB | Qwen3-14B, DeepSeek-V4-16B | [Ollama](https://ollama.com) / [llama.cpp](https://github.com/ggerganov/llama.cpp) |
+| **RTX 4070** | 12GB | [Qwen3-8B](https://qwen.ai), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) |
+| **Mac M4 Pro** | 24GB 统一 | Qwen3-32B, Llama-3-70B (量化) | [Ollama](https://ollama.com) / MLX |
+| **Mac M4** | 16GB 统一 | Qwen3-14B, [Phi-4](https://azure.microsoft.com/en-us/products/phi)-14B | [Ollama](https://ollama.com) / MLX |
+| **CPU only** | — | [Qwen3-8B](https://qwen.ai) (慢), [Phi-4](https://azure.microsoft.com/en-us/products/phi)-mini | [llama.cpp](https://github.com/ggerganov/llama.cpp) |
 
 > [!TIP]
 > **Mac 的统一内存是隐藏优势**

@@ -9,9 +9,9 @@
 
 | 你的情况 | 推荐方案 | 理由 |
 |---------|---------|------|
-| **可编程规则** | NeMo Guardrails | NVIDIA 出品，6.4K Stars |
-| **输出验证** | Guardrails AI | 自动纠正，5K Stars |
-| **Prompt 注入防护** | Superagent / Rebuff AI | 防注入/数据泄露 |
+| **可编程规则** | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | NVIDIA 出品，6.4K Stars |
+| **输出验证** | [Guardrails AI](https://github.com/guardrails-ai/guardrails) | 自动纠正，5K Stars |
+| **Prompt 注入防护** | Superagent / [Rebuff AI](https://github.com/protectai/rebuff) | 防注入/数据泄露 |
 | **内容安全分类** | Llama Guard | Meta 出品 |
 
 > [!TIP]

@@ -11,14 +11,14 @@ MCP (Model Context Protocol) 是 Anthropic 提出的**AI 工具集成标准**，
 
 | 你的情况 | 推荐方案 | 理由 |
 |---------|---------|------|
-| **开发 MCP 服务器** | FastMCP | 25.5K Stars，Pythonic 方式 |
-| **找现成 MCP** | awesome-mcp-servers / Smithery | 88.7K Stars / 最大 MCP 市场 |
-| **文件系统** | MCP Filesystem Server | 官方参考实现 |
-| **代码管理** | GitHub MCP Server | 30.5K Stars，官方出品 |
-| **浏览器自动化** | Playwright MCP | 33.6K Stars，微软出品 |
-| **文档拉取** | Context7 MCP | 57K Stars，实时文档 |
-| **SaaS 集成** | Notion/Slack/Linear/Sentry MCP | 各 SaaS 官方出品 |
-| **MCP 客户端** | CodePilot / 5ire | 桌面 AI 助手 |
+| **开发 [MCP](https://modelcontextprotocol.io) 服务器** | [FastMCP](https://github.com/PrefectHQ/fastmcp) | 25.5K Stars，Pythonic 方式 |
+| **找现成 [MCP](https://modelcontextprotocol.io)** | [awesome-[mcp](https://modelcontextprotocol.io)-servers](https://github.com/wong2/awesome-[mcp](https://modelcontextprotocol.io)-servers) / [Smithery](https://smithery.ai) | 88.7K Stars / 最大 [MCP](https://modelcontextprotocol.io) 市场 |
+| **文件系统** | [[MCP](https://modelcontextprotocol.io) Filesystem Server](https://github.com/modelcontextprotocol/servers) | 官方参考实现 |
+| **代码管理** | [GitHub [MCP](https://modelcontextprotocol.io) Server](https://github.com/github/github-[mcp](https://modelcontextprotocol.io)-server) | 30.5K Stars，官方出品 |
+| **浏览器自动化** | Playwright [MCP](https://modelcontextprotocol.io) | 33.6K Stars，微软出品 |
+| **文档拉取** | [Context7 [MCP](https://modelcontextprotocol.io)](https://github.com/upstash/context7-[mcp](https://modelcontextprotocol.io)) | 57K Stars，实时文档 |
+| **SaaS 集成** | Notion/Slack/Linear/[Sentry [MCP](https://modelcontextprotocol.io)](https://github.com/getsentry/sentry-[mcp](https://modelcontextprotocol.io)) | 各 SaaS 官方出品 |
+| **[MCP](https://modelcontextprotocol.io) 客户端** | [CodePilot](https://github.com/op7418/CodePilot) / [5ire](https://github.com/nanbingxyz/5ire) | 桌面 AI 助手 |
 
 > [!TIP]
 > **MCP 已成为 2026 年的事实标准**

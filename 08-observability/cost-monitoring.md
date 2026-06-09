@@ -9,8 +9,8 @@
 
 | 你的情况 | 推荐方案 | 理由 |
 |---------|---------|------|
-| **多模型路由** | LiteLLM Budget Manager | 内置预算管理 |
-| **OpenRouter 用户** | OpenRouter Usage | 内置 Token 消耗监控 |
+| **多模型路由** | [LiteLLM Budget Manager](https://github.com/BerriAI/litellm) | 内置预算管理 |
+| **OpenRouter 用户** | [OpenRouter Usage](https://openrouter.ai) | 内置 Token 消耗监控 |
 | **企业级** | Portkey | 全链路成本追踪 |
 
 > [!TIP]

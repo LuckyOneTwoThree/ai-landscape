@@ -11,8 +11,8 @@
 
 | 评估维度 | 评估内容 | 推荐工具 |
 |---------|---------|---------|
-| **政府级合规** | 100+ 预构建评估项，Anthropic/DeepMind 采用 | **Inspect** |
-| **学术研究** | 510 种有害行为，18 种对抗攻击方法 | **HarmBench** |
+| **政府级合规** | 100+ 预构建评估项，Anthropic/DeepMind 采用 | **[Inspect](https://inspect.aisi.org.uk)** |
+| **学术研究** | 510 种有害行为，18 种对抗攻击方法 | **[HarmBench](https://harmbench.org)** |
 | **红队测试** | 漏洞扫描与攻击模拟 | **Promptfoo** / **Garak** |
 | **内容审核** | 有害内容检测 | **Llama Guard** / **OpenAI Moderation** |
 

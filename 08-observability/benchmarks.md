@@ -9,11 +9,11 @@
 
 | 你的情况 | 推荐平台 | 理由 |
 |---------|---------|------|
-| **众包评测 / ELO 排名** | LMSYS Chatbot Arena | 最权威，社区驱动 |
-| **开源 LLM 排行榜** | Open LLM Leaderboard | HuggingFace 官方 |
-| **多维度评测** | HELM | 斯坦福学术权威 |
-| **LLM 评估框架** | OpenAI Evals / DeepEval | 自定义评估任务 |
-| **国内评测** | OpenCompass | 国内最权威 |
+| **众包评测 / ELO 排名** | [LMSYS Chatbot Arena](https://lmarena.ai) | 最权威，社区驱动 |
+| **开源 LLM 排行榜** | [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | HuggingFace 官方 |
+| **多维度评测** | [HELM](https://github.com/stanford-crfm/helm) | 斯坦福学术权威 |
+| **LLM 评估框架** | [OpenAI Evals](https://github.com/openai/evals) / [DeepEval](https://github.com/confident-ai/deepeval) | 自定义评估任务 |
+| **国内评测** | [OpenCompass](https://github.com/open-compass/opencompass) | 国内最权威 |
 
 > [!TIP]
 > **LMSYS Chatbot Arena 是最权威的 LLM 评测**

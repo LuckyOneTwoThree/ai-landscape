@@ -9,14 +9,14 @@
 
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
-| 🔎 **通用搜索，替代 Google** | **Perplexity** / **ChatGPT Search** | AI 搜索标杆，引用精准 |
-| 📚 **学术论文搜索** | **Consensus** / **秘塔 AI** | 学术论文专项，基于证据 |
-| 📊 **深度研究报告** | **Perplexity Deep Research** / **Gemini Deep Research** | 多步推理，长篇报告 |
-| 💻 **开发者搜索** | **Phind** | 代码块丰富，Stack Overflow 替代 |
-| 🔌 **Agent 搜索 API** | **Tavily** / **Exa** | LangChain/LlamaIndex 默认集成 |
-| 🔒 **隐私优先** | **Kagi** | 付费无广告，隐私保护 |
-| 🇨🇳 **国内免费搜索** | **秘塔 AI** / **纳米搜索** / **天工 AI** | 中文优化，免费可用 |
-| 🌐 **Google 生态** | **Google AI Overviews** / **Gemini Deep Research** | Google 索引新鲜度无与伦比 |
+| 🔎 **通用搜索，替代 Google** | **[Perplexity](https://perplexity.ai)** / **[ChatGPT Search](https://chatgpt.com)** | AI 搜索标杆，引用精准 |
+| 📚 **学术论文搜索** | **[Consensus](https://consensus.app)** / **秘塔 AI** | 学术论文专项，基于证据 |
+| 📊 **深度研究报告** | **[Perplexity](https://perplexity.ai) Deep Research** / **[Gemini Deep Research](https://gemini.google.com)** | 多步推理，长篇报告 |
+| 💻 **开发者搜索** | **[Phind](https://www.phind.com)** | 代码块丰富，Stack Overflow 替代 |
+| 🔌 **Agent 搜索 API** | **[Tavily](https://tavily.com)** / **[Exa](https://exa.ai)** | LangChain/LlamaIndex 默认集成 |
+| 🔒 **隐私优先** | **[Kagi](https://kagi.com)** | 付费无广告，隐私保护 |
+| 🇨🇳 **国内免费搜索** | **秘塔 AI** / **[纳米搜索](https://nami.ai)** / **天工 AI** | 中文优化，免费可用 |
+| 🌐 **Google 生态** | **[Google AI Overviews](https://www.google.com)** / **[Gemini Deep Research](https://gemini.google.com)** | Google 索引新鲜度无与伦比 |
 
 > [!TIP]
 > **Perplexity 是 2026 年 AI 搜索的标杆**

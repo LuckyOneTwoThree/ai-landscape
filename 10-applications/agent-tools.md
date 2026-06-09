@@ -12,7 +12,7 @@
 | 🖥️ 交互方式 | IDE 内嵌，人机协作 | 终端/云端，Agent 自主执行 |
 | 📦 是否需要 IDE | ✅ 是 | ❌ 否 |
 | ⚡ 执行模式 | 补全 + Agent 辅助 | 全自主闭环 |
-| 🎯 代表 | Cursor, Windsurf, Cline | Claude Code, Codex, Devin |
+| 🎯 代表 | Cursor, Windsurf, Cline | [Claude Code](https://www.anthropic.com/product/claude-code), [Codex](https://openai.com), [Devin](https://www.cognition.ai/devin) |
 
 ---
 
@@ -20,14 +20,14 @@
 
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
-| 🖥️ **终端开发者** | **Claude Code** / **Aider** | CLI 原生，全局工程理解 |
-| ☁️ **云端异步编码** | **OpenAI Codex** / **Devin** | 云端沙盒，不污染本地 |
-| 👔 **全办公场景** | **WorkBuddy** | 不限于编程，覆盖全办公 |
-| 🆓 **开源免费** | **Aider** / **Hermes Agent** | 完全开源，多模型可选 |
-| 🚀 **全自主交付** | **Devin 3.0** | 独立环境，SOLO 模式 |
-| 🌐 **浏览器自动化** | **browser-use** | 97K Stars，AI 浏览器操控 |
-| 🧠 **自我进化 Agent** | **Hermes Agent** | 188K Stars，自动创建技能 |
-| 🔬 **深度研究** | **DeerFlow** | 字节跳动，多 Agent 协同 |
+| 🖥️ **终端开发者** | **[Claude Code](https://www.anthropic.com/product/claude-code)** / **[Aider](https://aider.chat)** | CLI 原生，全局工程理解 |
+| ☁️ **云端异步编码** | **[OpenAI [Codex](https://openai.com)](https://chatgpt.com/[codex](https://openai.com))** / **[Devin](https://www.cognition.ai/devin)** | 云端沙盒，不污染本地 |
+| 👔 **全办公场景** | **[WorkBuddy](https://www.codebuddy.cn/work/)** | 不限于编程，覆盖全办公 |
+| 🆓 **开源免费** | **[Aider](https://aider.chat)** / **[Hermes Agent](https://hermes-agent.nousresearch.com)** | 完全开源，多模型可选 |
+| 🚀 **全自主交付** | **[Devin](https://www.cognition.ai/devin) 3.0** | 独立环境，SOLO 模式 |
+| 🌐 **浏览器自动化** | **[browser-use](https://github.com/browser-use/browser-use)** | 97K Stars，AI 浏览器操控 |
+| 🧠 **自我进化 Agent** | **[Hermes Agent](https://hermes-agent.nousresearch.com)** | 188K Stars，自动创建技能 |
+| 🔬 **深度研究** | **[DeerFlow](https://github.com/bytedance/deer-flow)** | 字节跳动，多 Agent 协同 |
 
 > [!TIP]
 > **Hermes Agent 是 2026 年最火的开源 Agent**

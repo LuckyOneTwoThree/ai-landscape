@@ -9,11 +9,11 @@
 
 | Your Situation | **Recommended Platform** | Reason |
 | --------- | **---------** | ------ |
-| **Crowdsourced Benchmarking / ELO Ranking** | **LMSYS Chatbot Arena** | Most authoritative, community-driven |
-| **Open Source LLM Leaderboard** | **Open LLM Leaderboard** | Official HuggingFace |
-| **Multi-dimensional Benchmarking** | **HELM** | Stanford academic authority |
-| **LLM Evaluation Framework** | **OpenAI Evals / DeepEval** | Custom evaluation tasks |
-| **Domestic Benchmarking (China)** | **OpenCompass** | Most authoritative in China |
+| **Crowdsourced Benchmarking / ELO Ranking** | **[LMSYS Chatbot Arena](https://chat.lmsys.org)** | Most authoritative, community-driven |
+| **Open Source LLM Leaderboard** | **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** | Official HuggingFace |
+| **Multi-dimensional Benchmarking** | **[HELM](https://crfm.stanford.edu/helm/)** | Stanford academic authority |
+| **LLM Evaluation Framework** | **[OpenAI Evals](https://github.com/openai/evals) / [DeepEval](https://confident-ai.com)** | Custom evaluation tasks |
+| **Domestic Benchmarking (China)** | **[OpenCompass](https://opencompass.org.cn)** | Most authoritative in China |
 
 > [!TIP]
 > **LMSYS Chatbot Arena is the most authoritative LLM benchmark**

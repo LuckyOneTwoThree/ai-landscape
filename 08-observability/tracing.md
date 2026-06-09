@@ -9,11 +9,11 @@
 
 | 你的情况 | 推荐平台 | 理由 |
 |---------|---------|------|
-| **LangChain 生态** | LangSmith | 官方追踪+评估 |
-| **开源 / 私有部署** | Langfuse | MIT 开源，8K Stars |
+| **LangChain 生态** | [LangSmith](https://smith.langchain.com) | 官方追踪+评估 |
+| **开源 / 私有部署** | [Langfuse](https://github.com/langfuse/langfuse) | MIT 开源，8K Stars |
 | **AI 网关 + 追踪** | Portkey | 全链路追踪 |
-| **OpenTelemetry 原生** | OpenLIT / Langtrace | 标准化追踪 |
-| **Agent 可观测性** | RagaAI Catalyst | 16K Stars |
+| **OpenTelemetry 原生** | [OpenLIT](https://github.com/openlit/openlit) / [Langtrace](https://github.com/Scale3-Labs/langtrace) | 标准化追踪 |
+| **Agent 可观测性** | [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16K Stars |
 
 > [!TIP]
 > **Langfuse 是开源场景的最佳选择**

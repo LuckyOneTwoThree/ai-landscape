@@ -11,11 +11,11 @@
 
 | 业务场景 / 架构需求 | 闭源旗舰 (性能天花板) | 开源基座 (私有化) | 极速低成本选项 | 特殊维度与极客备选 |
 |---------------------|-----------------------|-------------------|----------------|--------------------|
-| **代码重构与系统设计** | **Claude Opus 4**<br>(全局重构最优) | **DeepSeek-V4-Pro**<br>**MiMo-V2.5-Pro** | Claude Sonnet 4<br>Qwen3-Coder | **Mistral Large 3**<br>(主打远程工作流集成) |
-| **高频 Agent 与 API 调用** | **GPT-5.5 Instant** | **MiMo-V2.5**<br>**Qwen3-235B** | **DeepSeek-V4-Flash**<br>(每百万Token低于$0.1) | Gemini 3.5 Flash |
-| **强逻辑推理与数学计算** | **o3** | **DeepSeek-V4-Pro** | Phi-4 | **DeepSeek-R1**<br>**MiMo-7B-RL** (端侧) |
-| **超大规模文档与财报解析** | **Gemini 3.5 Pro** | **Llama 4 Scout (10M)** | Kimi K2-6 (长程优化) | Claude Sonnet 4 (1M) |
-| **全模态交互与原生语音视觉** | **GPT-5.5 Pro** | **GLM-5.1**<br>**混元 HY3** | MiniMax M3 | - |
+| **代码重构与系统设计** | **[Claude Opus 4](https://anthropic.com)**<br>(全局重构最优) | **[DeepSeek-V4-Pro](https://deepseek.com)**<br>**[[MiMo-V2.5](https://mimo.xiaomi.com)-Pro](https://mimo.xiaomi.com)** | [Claude Sonnet 4](https://anthropic.com)<br>[Qwen3-Coder](https://qwen.ai) | **[Mistral Large 3](https://mistral.ai)**<br>(主打远程工作流集成) |
+| **高频 Agent 与 API 调用** | **[[GPT-5.5](https://openai.com) Instant](https://openai.com)** | **[MiMo-V2.5](https://mimo.xiaomi.com)**<br>**[Qwen3-235B](https://qwen.ai)** | **[DeepSeek-V4-Flash](https://deepseek.com)**<br>(每百万Token低于$0.1) | [Gemini 3.5 Flash](https://gemini.google.com) |
+| **强逻辑推理与数学计算** | **o3** | **[DeepSeek-V4-Pro](https://deepseek.com)** | [Phi-4](https://azure.microsoft.com/en-us/products/phi) | **[DeepSeek-R1](https://deepseek.com)**<br>**[MiMo-7B-RL](https://mimo.xiaomi.com)** (端侧) |
+| **超大规模文档与财报解析** | **[Gemini 3.5 Pro](https://gemini.google.com)** | **[[Llama 4 Scout](https://ai.meta.com/llama/) (10M)](https://ai.meta.com/llama/)** | [Kimi K2-6](https://platform.moonshot.cn) (长程优化) | [Claude Sonnet 4](https://anthropic.com) (1M) |
+| **全模态交互与原生语音视觉** | **[[GPT-5.5](https://openai.com) Pro](https://openai.com)** | **[GLM-5.1](https://open.bigmodel.cn)**<br>**[混元 HY3](https://cloud.tencent.com/product/hunyuan)** | [MiniMax M3](https://minimaxi.com) | - |
 
 > [!TIP]
 > **关于 1M+ 超长上下文的落地警示**

@@ -9,13 +9,13 @@
 
 | 你的情况 | 推荐工具 | 理由 |
 |---------|---------|------|
-| **复杂网页自动化（登录/填表/点击）** | **Browser Use** | 97K Stars，DOM 解析 + 视觉识别，功能最强 |
-| **跨浏览器测试/自动化** | **Playwright** | Microsoft 出品，Chromium/Firefox/WebKit 全支持 |
-| **命令行自动化脚本** | **Agent Browser** | Vercel 出品，CLI 形式，轻量易集成 |
-| **Chrome 扩展形式** | **Nanobrowser** | 浏览器插件，无需额外安装，多 Agent 协作 |
-| **绕过反爬/Cloudflare** | **Camofox Browser** | 隐身无头浏览器，专门绕过反爬检测 |
-| **视觉优先，截图+坐标** | **Browser Agent** | 截图 + 坐标点击，适合通用 Agent |
-| **系统级屏幕操控** | **Anthropic / OpenAI Computer Use** | 不限于浏览器，可操控任意桌面应用 |
+| **复杂网页自动化（登录/填表/点击）** | **[Browser Use](https://github.com/browser-use/browser-use)** | 97K Stars，DOM 解析 + 视觉识别，功能最强 |
+| **跨浏览器测试/自动化** | **[Playwright](https://playwright.dev)** | Microsoft 出品，Chromium/Firefox/WebKit 全支持 |
+| **命令行自动化脚本** | **[Agent Browser](https://github.com/[vercel](https://vercel.com)-labs/agent-browser)** | [Vercel](https://vercel.com) 出品，CLI 形式，轻量易集成 |
+| **Chrome 扩展形式** | **[Nanobrowser](https://github.com/nanobrowser/nanobrowser)** | 浏览器插件，无需额外安装，多 Agent 协作 |
+| **绕过反爬/Cloudflare** | **[Camofox Browser](https://github.com/jo-inc/camofox-browser)** | 隐身无头浏览器，专门绕过反爬检测 |
+| **视觉优先，截图+坐标** | **[Browser Agent](https://github.com/magnitudedev/browser-agent)** | 截图 + 坐标点击，适合通用 Agent |
+| **系统级屏幕操控** | **Anthropic / [OpenAI Computer Use](https://openai.com)** | 不限于浏览器，可操控任意桌面应用 |
 
 > [!TIP]
 > **Browser Use 是 2026 年浏览器控制的最佳选择**

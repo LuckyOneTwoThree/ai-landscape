@@ -11,12 +11,12 @@
 
 | 测试目标 | 测试方法 | 推荐工具 |
 |---------|---------|---------|
-| **Prompt 注入攻击** | 构造恶意 Prompt 绕过系统指令 | **Promptfoo** / **Garak** |
-| **越狱攻击** | 让模型生成有害内容 | **PyRIT** / **HarmBench** |
-| **幻觉检测** | 测试模型是否编造事实 | **Garak** |
-| **数据泄露** | 测试模型是否泄露训练数据 | **PyRIT** |
-| **多轮攻击** | 多步骤渐进式攻击 | **PyRIT** |
-| **CI/CD 集成** | 每次发布前自动扫描 | **Promptfoo** |
+| **Prompt 注入攻击** | 构造恶意 Prompt 绕过系统指令 | **[Promptfoo](https://promptfoo.dev)** / **[Garak](https://garak.ai)** |
+| **越狱攻击** | 让模型生成有害内容 | **[PyRIT](https://github.com/Azure/PyRIT)** / **HarmBench** |
+| **幻觉检测** | 测试模型是否编造事实 | **[Garak](https://garak.ai)** |
+| **数据泄露** | 测试模型是否泄露训练数据 | **[PyRIT](https://github.com/Azure/PyRIT)** |
+| **多轮攻击** | 多步骤渐进式攻击 | **[PyRIT](https://github.com/Azure/PyRIT)** |
+| **CI/CD 集成** | 每次发布前自动扫描 | **[Promptfoo](https://promptfoo.dev)** |
 
 > [!TIP]
 > **快速扫描用 Garak，多轮攻击用 PyRIT，CI/CD 集成用 Promptfoo**

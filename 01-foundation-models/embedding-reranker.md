@@ -11,10 +11,10 @@
 
 | 架构需求 | 推荐 Embedding | 推荐 Reranker | 组合优势 |
 |---------|---------------|--------------|---------|
-| **全能商业旗舰** | **Cohere Embed v4** | Cohere Rerank v3 | 支持文本+图表混排，Matryoshka 弹性维度 |
-| **开源首选** | **BGE-M3** | **BGE-Reranker-V2** | 稀疏+密集双检索，本地部署极高召回 |
-| **中文深层语义** | **GTE-Qwen2** | BGE-Reranker-V2 | 中文多义词、生僻字、专业领域优化 |
-| **超长上下文 (32K+)** | **Jina v5 Omni** | Jina Reranker | 32K 上下文嵌入，无需切割 PDF |
+| **全能商业旗舰** | **[Cohere Embed v4](https://cohere.com)** | [[Cohere Rerank](https://cohere.com) v3](https://cohere.com) | 支持文本+图表混排，Matryoshka 弹性维度 |
+| **开源首选** | **[[BGE-M3](https://github.com/FlagOpen/FlagEmbedding)](https://github.com/FlagOpen/FlagEmbedding)** | **[[BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding)](https://github.com/FlagOpen/FlagEmbedding)** | 稀疏+密集双检索，本地部署极高召回 |
+| **中文深层语义** | **[[GTE-Qwen2](https://huggingface.co/Alibaba-NLP/gte-Qwen2)](https://huggingface.co/Alibaba-NLP/[gte-Qwen2](https://huggingface.co/Alibaba-NLP/gte-Qwen2))** | [[BGE-Reranker-V2](https://github.com/FlagOpen/FlagEmbedding)](https://github.com/FlagOpen/FlagEmbedding) | 中文多义词、生僻字、专业领域优化 |
+| **超长上下文 (32K+)** | **[Jina v5 Omni](https://jina.ai)** | [Jina Reranker](https://jina.ai) | 32K 上下文嵌入，无需切割 PDF |
 | **代码片段检索** | **Codestral Embed** | — | 专精 AST 结构与函数级召回 |
 
 > [!TIP]
