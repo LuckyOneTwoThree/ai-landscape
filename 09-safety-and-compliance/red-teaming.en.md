@@ -10,7 +10,7 @@
 The core of red teaming: **Using automated methods to simulate attacks before deployment to discover security vulnerabilities in AI systems**.
 
 | Testing Goal | **Testing Method** | Recommended Tools |
-| --------- | **---------** | --------- |
+| --------- | --------- | --------- |
 | **Prompt Injection Attacks**) | **Crafting malicious prompts to bypass system instructions** | **[Promptfoo](https://promptfoo.dev)** / **[Garak](https://garak.ai)** |
 | **Jailbreak Attacks**) | **Forcing the model to generate harmful content** | **[PyRIT](https://github.com/Azure/PyRIT)** / **HarmBench** |
 | **Hallucination Detection**) | **Testing whether the model fabricates facts** | **[Garak](https://garak.ai)** |

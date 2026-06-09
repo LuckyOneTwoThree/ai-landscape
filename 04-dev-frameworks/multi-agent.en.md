@@ -10,7 +10,7 @@
 A Multi-Agent system is not just "putting multiple LLMs together," but rather **making multiple Agents collaborate to complete complex tasks**.
 
 | Your Situation | **Recommended Framework** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Rapid Prototype / Role-Playing** | **[CrewAI](https://crewai.com)** | Simplest, intuitive role definition |
 | **Complex Workflows / State Machines** | **[LangGraph](https://langchain-ai.github.io/langgraph/)** | State graph orchestration, flexible and powerful |
 | **OpenAI Ecosystem** | **[OpenAI Agents SDK](https://platform.openai.com/docs/assistants/overview)** | Official support, lightweight |

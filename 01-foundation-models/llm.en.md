@@ -10,7 +10,7 @@
 Faced with the explosive growth of the model matrix in 2026, simply comparing parameter counts has lost its meaning. We summarize the best practical selection recommendations for different application scenarios:
 
 | Business Scenario / Architectural Need | **Closed-Source Flagship Performance Ceiling** | Open-Source Base (On-Premise) | Fast & Low-Cost Option | Special Dimensions & Hacker Alternatives |
-| --------------------- | **-----------------------** | ------------------- | ---------------- | -------------------- |
+| --------------------- | ----------------------- | ------------------- | ---------------- | -------------------- |
 | **Code Refactoring & System Design** | **[Claude Opus 4](https://anthropic.com)<br>Best for global refactoring** | **[DeepSeek-V4-Pro](https://deepseek.com)**<br>**[MiMo-V2.5-Pro](https://mimo.xiaomi.com)** | [Claude Sonnet 4](https://anthropic.com)<br>[Qwen3-Coder](https://qwen.ai) | **[Mistral Large 3](https://mistral.ai)**<br>(Focus on remote workflow integration) |
 | **High-Frequency Agent & API Calls** | **[GPT-5.5 Instant](https://openai.com)** | **[MiMo-V2.5](https://mimo.xiaomi.com)**<br>**[Qwen3-235B](https://qwen.ai)** | **[DeepSeek-V4-Flash](https://deepseek.com)**<br>(<$0.1 per 1M Tokens) | [Gemini 3.5 Flash](https://gemini.google.com) |
 | **Strong Logical Reasoning & Math** | **o3** | **[DeepSeek-V4-Pro](https://deepseek.com)** | [Phi-4](https://azure.microsoft.com/en-us/products/phi) | **[DeepSeek-R1](https://deepseek.com)**<br>**[MiMo-7B-RL](https://mimo.xiaomi.com)** (Edge deployment) |

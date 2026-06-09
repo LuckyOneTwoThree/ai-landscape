@@ -10,7 +10,7 @@
 The core of safety evaluation: **Using standardized benchmarks to measure the safety and alignment of models**.
 
 | Evaluation Dimension | **Evaluation Content** | Recommended Tools |
-| --------- | **---------** | --------- |
+| --------- | --------- | --------- |
 | **Government-Grade Compliance** | **100+ pre-built evaluations, adopted by Anthropic/DeepMind** | **[Inspect](https://inspect.aisi.org.uk)** |
 | **Academic Research** | **510 harmful behaviors, 18 adversarial attack methods** | **[HarmBench](https://harmbench.org)** |
 | **Red Teaming** | **Vulnerability scanning and attack simulation** | **Promptfoo** / **Garak** |

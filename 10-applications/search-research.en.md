@@ -8,7 +8,7 @@
 ## 🧭 AI Search Tool Selection Compass
 
 | Your Situation | **Recommended Tool** | Rationale |
-| ---------------- | **------------------** | ----------- |
+| ---------------- | ------------------ | ----------- |
 | 🔎 **General search, replace Google**.com) | **[Perplexity](https://perplexity.ai) / [ChatGPT Search](https://chatgpt.com)** | AI search benchmark, precise citations |
 | 📚 **Academic paper search**.com) | **[Consensus](https://consensus.app) /Metaso AI** | Specialized for academic papers, evidence-based |
 | 📊 **Deep research reports**.com) | **[Perplexity](https://perplexity.ai) Deep Research / [Gemini Deep Research](https://gemini.google.com)** | Multi-step reasoning, long-form reports |

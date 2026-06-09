@@ -10,7 +10,7 @@
 The core question in choosing a framework is not "Which is the best?", but **"What does your project need?"**.
 
 | Your Situation | **Recommended Framework** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Rapid Prototype / MVP** | **[LangChain](https://langchain.com)** | Most complete ecosystem, most integrations, largest community |
 | **RAG / Knowledge Base** | **[LlamaIndex](https://llamaindex.ai)** | Specialized in data processing, PageIndex, Agentic RAG |
 | **Enterprise / Microsoft Ecosystem** | **[Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)** | Azure integration, MAF merged, enterprise-grade |

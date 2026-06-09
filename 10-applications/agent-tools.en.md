@@ -8,7 +8,7 @@
 ## 🔍 Agent Tools vs IDE Tools
 
 | Dimension | **IDE-Class Cursor/Cline** | Agent Tools (This Page) |
-| ----------- | **--------------------------** | ------------------------- |
+| ----------- | -------------------------- | ------------------------- |
 | 🖥️ Interaction Mode | **IDE-embedded, human-AI collaboration** | Terminal/Cloud, Agent autonomous execution |
 | 📦 Requires IDE | **✅ Yes** | ❌ No |
 | ⚡ Execution Mode | **Autocomplete + Agent assistance** | Fully autonomous closed loop |
@@ -19,7 +19,7 @@
 ## 🧭 Agent Tool Selection Compass
 
 | Your Situation | **Recommended Tool** | Rationale |
-| ---------------- | **------------------** | ----------- |
+| ---------------- | ------------------ | ----------- |
 | 🖥️ **Terminal Developer**.chat) | **[Claude Code](https://www.anthropic.com/product/claude-code) / [Aider](https://aider.chat)** | CLI native, global project understanding |
 | ☁️ **Cloud Asynchronous Coding**.chat) | **[OpenAI Codex](https://chatgpt.com/codex) / [Devin](https://www.cognition.ai/devin)** | Cloud sandbox, doesn't pollute local env |
 | 👔 **Full Office Scenarios**.chat) | **[WorkBuddy](https://www.codebuddy.cn/work/)** | Not limited to programming, covers all office tasks |

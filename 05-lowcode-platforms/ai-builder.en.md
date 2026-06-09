@@ -8,7 +8,7 @@
 ## 🏗️ Low-Code AI Building: What Do You Really Need?
 
 | Your Situation | **Recommended Platform** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Quick AI Bot Setup** | **[Dify](https://dify.ai) / [Coze](https://coze.com)** | Out-of-the-box, drag-and-drop building |
 | **Knowledge Base Q&A** | **[FastGPT](https://fastgpt.in) / [DocsGPT](https://github.com/arc53/DocsGPT)** | China-friendly, private deployment |
 | **Visual Workflow** | **[Flowise](https://flowiseai.com) / [Langflow](https://langflow.org)** | Drag-and-drop, 130+ nodes |

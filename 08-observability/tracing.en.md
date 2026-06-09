@@ -8,7 +8,7 @@
 ## 📊 LLM Tracing: Making AI Applications Observable
 
 | Your Situation | **Recommended Platform** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **LangChain Ecosystem** | **[LangSmith](https://smith.langchain.com)** | Official tracing + evaluation |
 | **Open Source / Private Deployment** | **[Langfuse](https://langfuse.com)** | MIT open-source, 8K Stars |
 | **AI Gateway + Tracing** | **[Portkey](https://portkey.ai)** | Full-link tracing |

@@ -8,7 +8,7 @@
 ## 🧭 Platform Plugin Selection Compass
 
 | Your Situation | **Recommended Platform** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **AI Coding Agent, VS Code Integration** | **[Cline](https://github.com/cline/cline) / [Continue](https://github.com/continuedev/continue)** | 42K/25K Stars, MCP support, open-source |
 | **Terminal AI Coding Assistant** | **[Aider](https://github.com/Aider-AI/aider)** | 32K Stars, Git integration, multi-model support |
 | **Open Source AI Chat Platform** | **[Onyx](https://github.com/onyx-dot-app/onyx) / LibreChat** | 30K/38K Stars, enterprise-grade features |

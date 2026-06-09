@@ -8,7 +8,7 @@
 ## 🔍 Content Moderation: Securing AI Outputs
 
 | Your Situation | **Recommended Solution** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **OpenAI User** | **[OpenAI Moderation](https://platform.openai.com/docs/guides/moderation)** | Built-in, free |
 | **Open Source** | **[Llama Guard](https://ai.meta.com/llama/)** | By Meta, 3K Stars |
 | **Enterprise** | **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** | Programmable rules |

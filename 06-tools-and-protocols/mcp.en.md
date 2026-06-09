@@ -10,7 +10,7 @@
 MCP (Model Context Protocol) is an **AI tool integration standard** proposed by Anthropic, which has become the de facto industry standard.
 
 | Your Situation | **Recommended Solution** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Developing an [MCP](https://modelcontextprotocol.io) Server** | **[FastMCP](https://github.com/PrefectHQ/fastmcp)** | 25.5K Stars, Pythonic approach |
 | **Finding Ready-to-Use MCPs** | **[awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) / [Smithery](https://smithery.ai)** | 88.7K Stars / Largest [MCP](https://modelcontextprotocol.io) marketplace |
 | **File System** | **[MCP Filesystem Server](https://github.com/modelcontextprotocol/servers)** | Official reference implementation |

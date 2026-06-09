@@ -8,7 +8,7 @@
 ## 💰 Cost Monitoring: Controlling AI Expenses
 
 | Your Situation | **Recommended Solution** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Multi-model Routing** | **[LiteLLM Budget Manager](https://github.com/BerriAI/litellm)** | Built-in budget management |
 | **OpenRouter Users** | **[OpenRouter Usage](https://openrouter.ai)** | Built-in token consumption monitoring |
 | **Enterprise-grade** | **Portkey** | Full-link cost tracking |

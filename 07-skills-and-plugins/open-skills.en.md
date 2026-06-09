@@ -10,7 +10,7 @@
 The AI Agent skills ecosystem in 2026 is exploding, covering various domains:
 
 | Domain | **Popular Skill** | Stars | Description |
-| ------ | **---------** | ------- | ------ |
+| ------ | --------- | ------- | ------ |
 | **💻 Coding** | **[deer-flow](https://github.com/bytedance/deer-flow)** | 70.8K | ByteDance SuperAgent |
 | **💻 Coding** | **[Caveman](https://github.com/JuliusBrussee/caveman)** | 70K | Token optimization |
 | **🎨 Design** | **[ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | 89K | Multi-platform UI/UX |

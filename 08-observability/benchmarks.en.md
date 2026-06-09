@@ -8,7 +8,7 @@
 ## 📈 LLM Benchmarking: How to Know if a Model is Good?
 
 | Your Situation | **Recommended Platform** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Crowdsourced Benchmarking / ELO Ranking** | **[LMSYS Chatbot Arena](https://chat.lmsys.org)** | Most authoritative, community-driven |
 | **Open Source LLM Leaderboard** | **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** | Official HuggingFace |
 | **Multi-dimensional Benchmarking** | **[HELM](https://crfm.stanford.edu/helm/)** | Stanford academic authority |

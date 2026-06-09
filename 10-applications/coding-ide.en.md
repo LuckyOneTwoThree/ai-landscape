@@ -8,7 +8,7 @@
 ## 🧭 AI Programming IDE Selection Compass
 
 | Your Situation | **Recommended IDE** | Rationale |
-| ---------------- | **-----------------** | ----------- |
+| ---------------- | ----------------- | ----------- |
 | 🎯 **VS Code user, wants the strongest AI**/[cline](https://github.com/cline/cline)) | **[Cursor](https://cursor.com)** | Composer multi-file editing + [Tab autocomplete](https://github.com/[cline](https://github.com/cline/cline)](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline))](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)), strongest AI-native IDE |
 | 🧠 **JetBrains user**/[cline](https://github.com/cline/cline)) | **[JetBrains AI](https://www.jetbrains.com/ai/) / [Continue](https://continue.dev)** | Native integration / Open-source [MCP support](https://github.com/[cline](https://github.com/cline/cline)](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline))](https://github.com/[cline](https://github.com/cline/cline)/[cline](https://github.com/cline/cline)) |
 | 🔒 **Privacy-first, no code uploads**/[cline](https://github.com/cline/cline)) | **[Tabnine](https://www.tabnine.com)** | Air-gapped deployment, zero code retention |

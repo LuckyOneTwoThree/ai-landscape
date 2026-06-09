@@ -8,7 +8,7 @@
 ## 🧭 AI Office Assistant Selection Compass
 
 | Your Situation | **Recommended Tool** | Rationale |
-| ---------------- | **------------------** | ----------- |
+| ---------------- | ------------------ | ----------- |
 | 💬 **General AI chat, strongest [model](https://[bolt.new](https://bolt.new)**) | **[ChatGPT](https://chatgpt.com) / [Claude](https://claude.ai)** | [GPT-5.5](https://openai.com) / [Claude Opus 4](https://anthropic.com) driven, strongest capabilities |
 | 🔍 **Google ecosystem user**) | **[Gemini](https://gemini.google.com)** | Full integration with Google Search/Maps/Mail/Docs |
 | 📊 **Microsoft 365 office suite**) | **[Microsoft Copilot](https://copilot.microsoft.com)** | Native integration with Word/Excel/PPT/Outlook |

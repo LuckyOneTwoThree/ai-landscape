@@ -8,7 +8,7 @@
 ## 🧭 Browser Control Selection Compass
 
 | Your Situation | **Recommended Tool** | Reason |
-| --------- | **---------** | ------ |
+| --------- | --------- | ------ |
 | **Complex Web Automation (Login/Forms/Clicks)** | **[Browser Use](https://github.com/browser-use/browser-use)** | 97K Stars, DOM parsing + visual recognition, most powerful |
 | **Cross-Browser Testing/Automation** | **[Playwright](https://playwright.dev)** | By Microsoft, full support for Chromium/Firefox/WebKit |
 | **Command Line Automation Scripts** | **[Agent Browser](https://github.com/vercel-labs/agent-browser)-labs/agent-browser)** | By [Vercel](https://vercel.com), CLI format, lightweight and easy to integrate |
