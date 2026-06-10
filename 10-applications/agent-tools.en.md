@@ -20,14 +20,14 @@
 
 | Your Situation | **Recommended Tool** | Rationale |
 | ---------------- | ------------------ | ----------- |
-| 🖥️ **Terminal Developer**.chat) | **[Claude Code](https://www.anthropic.com/product/claude-code) / [Aider](https://aider.chat)** | CLI native, global project understanding |
-| ☁️ **Cloud Asynchronous Coding**.chat) | **[OpenAI Codex](https://chatgpt.com/codex) / [Devin](https://www.cognition.ai/devin)** | Cloud sandbox, doesn't pollute local env |
-| 👔 **Full Office Scenarios**.chat) | **[WorkBuddy](https://www.codebuddy.cn/work/)** | Not limited to programming, covers all office tasks |
-| 🆓 **[Open Source](https://[aider](https://aider.chat) & Free**.chat) | **[Aider](https://aider.chat) / [Hermes Agent](https://hermes-agent.nousresearch.com)** | Fully [open source](https://[aider](https://aider.chat)](https://[aider](https://aider.chat).chat), multiple models available |
-| 🚀 **Fully Autonomous Delivery**.chat) | **[Devin](https://www.cognition.ai/devin) 3.0** | Isolated environment, SOLO mode |
-| 🌐 **[Browser](https://[aider](https://aider.chat) Automation**.chat) | **[browser-use](https://github.com/browser-use/browser-use)](https://github.com/[browser](https://[aider](https://aider.chat)](https://[aider](https://aider.chat).chat)-use/[browser](https://[aider](https://aider.chat)](https://[aider](https://aider.chat).chat)-use)** | 97K [Stars](https://[aider](https://aider.chat), AI [browser](https://[aider](https://aider.chat)](https://[aider](https://aider.chat).chat) control |
-| 🧠 **[Self-Evolving](https://[aider](https://aider.chat) Agent**.chat) | **[Hermes Agent](https://hermes-agent.nousresearch.com)** | 188K [Stars](https://[aider](https://aider.chat), automatically creates skills |
-| 🔬 **Deep Research**.chat) | **[DeerFlow](https://github.com/bytedance/deer-flow)** | ByteDance, multi-agent collaboration |
+| 🖥️ **Terminal Developer** | **[Claude Code](https://www.anthropic.com/product/claude-code)** / **[Aider](https://aider.chat)** | CLI native, global project understanding |
+| ☁️ **Cloud Asynchronous Coding** | **[OpenAI Codex](https://chatgpt.com/codex)** / **[Devin](https://www.cognition.ai/devin)** | Cloud sandbox, doesn't pollute local env |
+| 👔 **Full Office Scenarios** | **[WorkBuddy](https://www.codebuddy.cn/work/)** | Not limited to programming, covers all office tasks |
+| 🆓 **Open Source & Free** | **[Aider](https://aider.chat)** / **[Hermes Agent](https://hermes-agent.nousresearch.com)** | Fully open source, multiple models available |
+| 🚀 **Fully Autonomous Delivery** | **[Devin](https://www.cognition.ai/devin) 3.0** | Isolated environment, SOLO mode |
+| 🌐 **Browser Automation** | **[browser-use](https://github.com/browser-use/browser-use)** | 97K Stars, AI browser control |
+| 🧠 **Self-Evolving Agent** | **[Hermes Agent](https://hermes-agent.nousresearch.com)** | 188K Stars, automatically creates skills |
+| 🔬 **Deep Research** | **[DeerFlow](https://github.com/bytedance/deer-flow)** | ByteDance, multi-agent collaboration |
 
 > [!TIP]
 > **Hermes Agent is the most popular open-source Agent of 2026**
