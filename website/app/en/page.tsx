@@ -1,7 +1,18 @@
 import styles from '../page.module.css'
 import Link from 'next/link'
+import { getModules, getDocumentsInModule } from '@/lib/markdown'
 
 export default function EnglishHome() {
+  const modules = getModules('en');
+  let firstDocLink = '/en/docs';
+  if (modules.length > 0) {
+    const firstModule = modules[0];
+    const docs = getDocumentsInModule(firstModule.id, 'en');
+    if (docs.length > 0) {
+      firstDocLink = `/en/docs/${firstModule.id}/${docs[0].slug}`;
+    }
+  }
+
   return (
     <main className={styles.main}>
       <div className={styles.container}>
@@ -16,7 +27,7 @@ export default function EnglishHome() {
           </p>
           
           <div className={styles.actionContainer}>
-            <Link href="/en/docs/00-guides-and-trends/ecosystem-map" className={styles.primaryBtn}>
+            <Link href={firstDocLink} className={styles.primaryBtn}>
               Read the Documentation
             </Link>
             <a href="https://github.com/LuckyOneTwoThree/ai-landscape" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
