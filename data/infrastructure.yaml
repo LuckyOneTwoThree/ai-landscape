@@ -1,6 +1,7 @@
 - name: vLLM
   url: https://github.com/vllm-project/vllm
   description: 高性能 LLM 推理引擎，PagedAttention 连续批处理
+  description_en: High-performance LLM inference engine, PagedAttention continuous batch processing
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -31,6 +32,7 @@
 - name: SGLang
   url: https://github.com/sgl-project/sglang
   description: 高吞吐结构化生成推理引擎
+  description_en: High-throughput structured generative inference engine
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -59,6 +61,7 @@
 - name: TensorRT-LLM
   url: https://github.com/NVIDIA/TensorRT-LLM
   description: NVIDIA 官方 GPU 优化推理引擎
+  description_en: NVIDIA official GPU optimized inference engine
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -87,6 +90,7 @@
 - name: TGI (Text Generation Inference)
   url: https://github.com/huggingface/text-generation-inference
   description: HuggingFace 出品的推理服务
+  description_en: Inference service produced by HuggingFace
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -114,6 +118,7 @@
 - name: LMDeploy
   url: https://github.com/InternLM/lmdeploy
   description: 面壁智能 TurboMind 推理引擎，W4A16 量化
+  description_en: Wall-facing intelligence TurboMind inference engine, W4A16 quantification
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -142,6 +147,7 @@
 - name: xinference
   url: https://github.com/xorbitsai/inference
   description: 统一推理平台，多后端聚合管理
+  description_en: Unified reasoning platform, multi-backend aggregation management
   type: open
   category: infrastructure/inference
   sub_category: cloud
@@ -169,6 +175,7 @@
 - name: Ollama
   url: https://ollama.com
   description: 最简单的本地模型部署工具
+  description_en: The simplest local model deployment tool
   type: open
   category: infrastructure/inference
   sub_category: local
@@ -198,6 +205,7 @@
   category: infrastructure/inference
   sub_category: local
   description: Apple Silicon 优化的 LLM 推理框架
+  description_en: Apple Silicon-optimized LLM inference framework
   tags:
   - fast-inference
   - on-device
@@ -213,6 +221,7 @@
 - name: LM Studio
   url: https://lmstudio.ai
   description: GUI 桌面本地模型运行工具
+  description_en: GUI desktop local model running tool
   type: closed
   category: infrastructure/inference
   sub_category: local
@@ -238,6 +247,7 @@
 - name: GPT4All
   url: https://gpt4all.io
   description: Nomic 出品的离线本地模型
+  description_en: Offline local models by Nomic
   type: open
   category: infrastructure/inference
   sub_category: local
@@ -265,6 +275,7 @@
 - name: Jan
   url: https://jan.ai
   description: 开源桌面本地模型应用
+  description_en: Open source desktop native model application
   type: open
   category: infrastructure/inference
   sub_category: local
@@ -292,6 +303,7 @@
 - name: ExLlamaV2
   url: https://github.com/turboderp/exllamav2
   description: 消费级 GPU 量化推理引擎，EXL2 混合精度格式
+  description_en: Consumer-grade GPU quantified inference engine, EXL2 mixed-precision format
   type: open
   category: infrastructure/inference
   sub_category: local
@@ -321,6 +333,7 @@
 - name: LocalAI
   url: https://github.com/mudler/LocalAI
   description: 支持 LLM/语音/图像/视频的本地 AI 引擎，Ollama 竞品
+  description_en: Local AI engine supporting LLM/voice/image/video, Ollama competitor
   type: open
   category: infrastructure/inference
   sub_category: local
@@ -350,6 +363,7 @@
 - name: llama.cpp
   url: https://github.com/ggerganov/llama.cpp
   description: C++ 实现的全平台 LLM 推理
+  description_en: Full-platform LLM inference implemented in C++
   type: open
   category: infrastructure/inference
   sub_category: gateway
@@ -378,6 +392,7 @@
 - name: Portkey
   url: https://portkey.ai
   description: AI 网关平台，可观测性与可靠性
+  description_en: AI Gateway Platform, Observability and Reliability
   type: open
   category: infrastructure/api-gateway
   sub_category: gateway
@@ -404,6 +419,7 @@
 - name: Kong
   url: https://github.com/Kong/kong
   description: 企业级 API 网关，AI 插件支持
+  description_en: Enterprise-level API gateway, AI plug-in support
   type: open
   category: infrastructure/api-gateway
   sub_category: gateway
@@ -434,6 +450,7 @@
 - name: Higress
   url: https://github.com/higress-group/higress
   description: 阿里云 AI 原生 API 网关
+  description_en: Alibaba Cloud AI native API gateway
   type: open
   category: infrastructure/api-gateway
   sub_category: gateway
@@ -461,6 +478,7 @@
 - name: MLC-LLM
   url: https://github.com/mlc-ai/mlc-llm
   description: 通用 GPU 编译部署框架
+  description_en: Universal GPU compilation and deployment framework
   type: open
   category: infrastructure/inference
   sub_category: edge
@@ -488,6 +506,7 @@
 - name: Core ML
   url: https://developer.apple.com/core-ml/
   description: Apple 设备原生推理框架
+  description_en: Apple device native inference framework
   type: closed
   category: infrastructure/inference
   sub_category: edge
@@ -514,6 +533,7 @@
 - name: ONNX Runtime
   url: https://onnxruntime.ai
   description: 微软跨平台推理引擎
+  description_en: Microsoft cross-platform inference engine
   type: open
   category: infrastructure/inference
   sub_category: edge
@@ -541,6 +561,7 @@
 - name: Cloudflare AI Gateway
   url: https://developers.cloudflare.com/ai-gateway/
   description: 边缘计算 AI 网关，全球分布式
+  description_en: Edge computing AI gateway, globally distributed
   type: closed
   category: infrastructure/api-gateway
   sub_category: edge
@@ -565,6 +586,7 @@
 - name: WebLLM
   url: https://github.com/mlc-ai/web-llm
   description: 浏览器端高性能 LLM 推理引擎 (WebGPU)
+  description_en: Browser-side high-performance LLM inference engine (WebGPU)
   type: open
   category: infrastructure/inference
   sub_category: edge
@@ -592,6 +614,7 @@
 - name: MNN
   url: https://github.com/alibaba/MNN
   description: 阿里巴巴移动端/边缘推理引擎
+  description_en: Alibaba mobile/edge inference engine
   type: open
   category: infrastructure/inference
   sub_category: edge
@@ -623,6 +646,7 @@
   category: infrastructure/vector-db
   sub_category: distributed
   description: 高性能向量数据库，实时数据驱动
+  description_en: High-performance vector database, real-time data driven
   tags:
   - vector-db
   - real-time
@@ -640,6 +664,7 @@
   category: infrastructure/vector-db
   sub_category: distributed
   description: 为 Agent 工作负载设计的分布式数据库
+  description_en: Distributed database designed for Agent workloads
   tags:
   - vector-db
   - distributed
@@ -657,6 +682,7 @@
   category: infrastructure/vector-db
   sub_category: distributed
   description: 火山引擎出品的开源上下文数据库，专为 AI Agent 设计
+  description_en: An open source context database produced by Volcano Engine, specially designed for AI Agents
   tags:
   - vector-db
   - agent
@@ -673,6 +699,7 @@
 - name: Qdrant
   url: https://qdrant.tech
   description: Rust 高性能向量数据库，Payload 过滤
+  description_en: Rust high-performance vector database, payload filtering
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -697,6 +724,7 @@
 - name: Typesense
   url: https://github.com/typesense/typesense
   description: 快速容错搜索引擎，原生向量搜索支持
+  description_en: Fast fault-tolerant search engine, native vector search support
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -722,6 +750,7 @@
   category: infrastructure/vector-db
   sub_category: distributed
   description: 开源 AI 记忆平台，为 Agent 提供持久化记忆
+  description_en: Open source AI memory platform, providing persistent memory for Agents
   tags:
   - agent
   - rag
@@ -737,6 +766,7 @@
 - name: Milvus
   url: https://milvus.io
   description: 分布式向量数据库，GPU 加速，百亿级规模
+  description_en: Distributed vector database, GPU acceleration, tens of billions of scale
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -762,6 +792,7 @@
 - name: Weaviate
   url: https://weaviate.io
   description: 多模态向量搜索引擎，GraphQL API
+  description_en: Multimodal vector search engine, GraphQL API
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -786,6 +817,7 @@
 - name: Vespa
   url: https://vespa.ai
   description: Yahoo 出品全文+向量混合搜索引擎
+  description_en: Full text + vector hybrid search engine produced by Yahoo
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -810,6 +842,7 @@
 - name: Elasticsearch 8.x
   url: https://www.elastic.co/elasticsearch
   description: 主流向量搜索引擎，HNSW 大幅改进
+  description_en: Mainstream vector search engine, HNSW greatly improved
   type: open
   category: infrastructure/vector-db
   sub_category: distributed
@@ -834,6 +867,7 @@
 - name: Chroma
   url: https://www.trychroma.com
   description: 极简嵌入式向量数据库，适合原型
+  description_en: Minimalist embedded vector database, suitable for prototyping
   type: open
   category: infrastructure/vector-db
   sub_category: embedded
@@ -858,6 +892,7 @@
 - name: LanceDB
   url: https://lancedb.com
   description: 嵌入式多模态向量数据库，零配置
+  description_en: Embedded multi-modal vector database, zero configuration
   type: open
   category: infrastructure/vector-db
   sub_category: embedded
@@ -882,6 +917,7 @@
 - name: Pinecone
   url: https://www.pinecone.io
   description: 全托管 Serverless 向量数据库
+  description_en: Fully managed serverless vector database
   type: closed
   category: infrastructure/vector-db
   sub_category: cloud-native
@@ -905,6 +941,7 @@
 - name: pgvector
   url: https://github.com/pgvector/pgvector
   description: PostgreSQL 向量扩展，无需额外基础设施
+  description_en: PostgreSQL vector extensions, no additional infrastructure required
   type: open
   category: infrastructure/vector-db
   sub_category: extension
@@ -929,6 +966,7 @@
 - name: FAISS
   url: https://github.com/facebookresearch/faiss
   description: Meta 开源高性能向量检索库
+  description_en: Meta open source high-performance vector retrieval library
   type: open
   category: infrastructure/vector-db
   sub_category: library
@@ -955,6 +993,7 @@
 - name: txtai
   url: https://github.com/neuml/txtai
   description: AI 搜索引擎 + Embeddings 数据库，支持 RAG
+  description_en: AI search engine + Embeddings database, supports RAG
   type: open
   category: infrastructure/vector-db
   sub_category: library
@@ -979,6 +1018,7 @@
 - name: LiteLLM
   url: https://github.com/BerriAI/litellm
   description: 统一 API 格式调用 100+ LLM Provider
+  description_en: Unified API format calling 100+ LLM Provider
   type: open
   category: infrastructure/api-gateway
   sub_category: proxy
@@ -1004,6 +1044,7 @@
 - name: OneAPI
   url: https://github.com/songquanpeng/one-api
   description: 多渠道 Token 管理平台，国内常用
+  description_en: Multi-channel Token management platform, commonly used in China
   type: open
   category: infrastructure/api-gateway
   sub_category: management
@@ -1028,6 +1069,7 @@
 - name: CC Switch
   url: https://github.com/farion1231/cc-switch
   description: 跨平台桌面 AI 工具统一管理器
+  description_en: Cross-platform unified manager of desktop AI tools
   type: open
   category: infrastructure/api-gateway
   sub_category: management
@@ -1059,6 +1101,7 @@
   category: infrastructure/api-gateway
   sub_category: aggregator
   description: 国产多模型统一代理，计费系统
+  description_en: Domestic multi-model unified agency and billing system
   tags:
   - api-gateway
   - chinese
@@ -1074,6 +1117,7 @@
 - name: OpenRouter
   url: https://openrouter.ai
   description: 多模型路由聚合平台，统一 API
+  description_en: Multi-model routing aggregation platform, unified API
   type: closed
   category: infrastructure/api-gateway
   sub_category: aggregator
@@ -1094,6 +1138,7 @@
 - name: new-api
   url: https://github.com/QuantumNous/new-api
   description: 国内最火 AI 模型聚合分发平台
+  description_en: The most popular AI model aggregation and distribution platform in China
   type: open
   category: infrastructure/api-gateway
   sub_category: aggregator
@@ -1118,6 +1163,7 @@
 - name: Together AI
   url: https://together.ai
   description: 最流行的开源模型托管平台，Serverless 推理 + Fine-tuning
+  description_en: The most popular open source model hosting platform, Serverless inference + Fine-tuning
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: serverless
@@ -1134,6 +1180,7 @@
 - name: Fireworks AI
   url: https://fireworks.ai
   description: 高速推理平台，专注开源模型极致延迟优化
+  description_en: High-speed inference platform, focusing on extreme latency optimization of open source models
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: serverless
@@ -1150,6 +1197,7 @@
 - name: Replicate
   url: https://replicate.com
   description: 最简单的模型部署平台，一行代码跑模型
+  description_en: The simplest model deployment platform, one line of code to run the model
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: serverless
@@ -1166,6 +1214,7 @@
 - name: Modal
   url: https://modal.com
   description: 开发者导向的 Serverless GPU 平台，Python 原生
+  description_en: Developer-oriented Serverless GPU platform, native to Python
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: serverless
@@ -1183,6 +1232,7 @@
 - name: Silicon Flow (硅基流动)
   url: https://siliconflow.cn
   description: 国内最流行的开源模型推理平台，极致性价比
+  description_en: The most popular open source model inference platform in China, extremely cost-effective
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: serverless
@@ -1200,6 +1250,7 @@
 - name: RunPod
   url: https://runpod.io
   description: GPU 租赁市场，按小时租用 A100/H100
+  description_en: GPU rental market, rent A100/H100 by the hour
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: rental
@@ -1215,6 +1266,7 @@
 - name: Lambda Labs
   url: https://lambdalabs.com
   description: GPU 云服务商，H100 集群性价比高
+  description_en: GPU cloud service provider, H100 cluster is cost-effective
   type: closed
   category: infrastructure/gpu-cloud
   sub_category: rental

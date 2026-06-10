@@ -6,6 +6,12 @@
 
 从基础大模型到终端应用，一站式掌握 AI 领域技术选型与全景格局。
 
+✨ **全新特性：现已提供交互式 Next.js 站点，支持中英双语 (i18n) 以及动态全局搜索与多维度分类筛选。**
+
+<h3>
+  🌟 <a href="https://luckyonetwothree.github.io/ai-landscape/">点击这里访问：交互式 AI 工具探索库 (Interactive Website)</a> 🌟
+</h3>
+
 *Works with Claude Code, Cursor, Copilot, Gemini CLI, Hermes Agent, and more.*
 
 <p>
@@ -171,20 +177,37 @@ graph TD
 
 ## 🚀 快速开始
 
+本项目包含底层的 YAML 数据源和上层的交互式 Next.js 站点。
+
+### 运行交互式网站 (推荐)
+
 ```bash
 # 克隆仓库
 git clone https://github.com/LuckyOneTwoThree/ai-landscape.git
-cd ai-landscape
+cd ai-landscape/website
 
 # 安装依赖
-pip install pyyaml
+npm install
 
-# 验证数据
+# 启动本地开发服务器
+npm run dev
+# 浏览器访问 http://localhost:3000
+```
+
+### 数据源管理
+
+```bash
+cd ai-landscape
+pip install -r requirements.txt # 可选，仅数据校验
+
+# 验证数据结构
 python scripts/validate.py
 
-# 构建文档
+# 构建静态文档
 python scripts/build_docs.py
 ```
+
+**多语言提示：** 所有工具词条现在通过 `description` (中文) 和 `description_en` (英文) 提供原生双语支持。前端会在中英文路由中自动回退渲染！
 
 **贡献新工具：**
 

@@ -27,8 +27,11 @@ export default function EnglishHome() {
           </p>
           
           <div className={styles.actionContainer}>
-            <Link href={firstDocLink} className={styles.primaryBtn}>
-              Read the Documentation
+            <Link href="/en/explore" className={styles.primaryBtn}>
+              Explore AI Tools
+            </Link>
+            <Link href={firstDocLink} className={styles.secondaryBtn}>
+              Read Docs
             </Link>
             <a href="https://github.com/LuckyOneTwoThree/ai-landscape" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
               GitHub

@@ -1,5 +1,6 @@
 - name: Cline
   description: 在 VS Code 内部运行的开源全能自主编码 Agent
+  description_en: An open source, all-in-one independent coding agent running inside VS Code
   url: https://github.com/cline/cline
   repo: https://github.com/cline/cline
   category: applications/coding-ide
@@ -22,6 +23,7 @@
   category: applications/coding-ide
   sub_category: coding
   description: 自托管 AI 编码助手
+  description_en: Self-hosted AI coding assistant
   tags:
   - coding
   - self-hosted
@@ -37,6 +39,7 @@
   type: open
 - name: Continue
   description: 开源 IDE AI 助手，支持本地模型
+  description_en: Open source IDE AI assistant, supports local models
   url: https://continue.dev
   repo: https://github.com/continuedev/continue
   category: applications/coding-ide
@@ -57,6 +60,7 @@
   stars: 20000
 - name: CodeGeeX
   description: 智谱 AI 开源编程助手，GLM-5.1 驱动
+  description_en: Zhipu AI open source programming assistant, GLM-5.1 driver
   url: https://codegeex.cn
   repo: https://github.com/THUDM/CodeGeeX
   category: applications/coding-ide
@@ -76,8 +80,9 @@
   stars: 10000
 - name: Cursor
   description: 当下最领先的 AI 原生代码编辑器，深度重塑编程体验
+  description_en: The most leading AI native code editor at the moment, deeply reshaping the programming experience
   url: https://cursor.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -94,8 +99,9 @@
   sub_category: coding
 - name: GitHub Copilot
   description: GitHub 推出的 AI 编程助手，Cloud Agent + 多模型
+  description_en: AI programming assistant launched by GitHub, Cloud Agent + multi-model
   url: https://github.com/features/copilot
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -113,8 +119,9 @@
   sub_category: coding
 - name: Windsurf
   description: Codeium 团队 AI 原生 IDE，Cascade 核心，后被 Cognition 收购
+  description_en: Codeium team AI native IDE, Cascade core, later acquired by Cognition
   url: https://codeium.com/windsurf
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -132,8 +139,9 @@
   sub_category: coding
 - name: Augment Code
   description: 企业级 AI 编程助手，深度理解代码库上下文
+  description_en: Enterprise-level AI programming assistant with deep understanding of code base context
   url: https://augmentcode.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -149,8 +157,9 @@
   sub_category: coding
 - name: Trae
   description: 字节跳动推出的 AI 原生 IDE
+  description_en: AI native IDE launched by ByteDance
   url: https://trae.ai
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -167,8 +176,9 @@
   sub_category: coding
 - name: 通义灵码
   description: 阿里巴巴 AI 编程助手，Qwen3 驱动
+  description_en: Alibaba AI programming assistant, Qwen3 driver
   url: https://tongyi.aliyun.com/lingma
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -184,8 +194,9 @@
   sub_category: coding
 - name: MarsCode
   description: 字节跳动 AI 编程助手，豆包模型驱动
+  description_en: Bytedance AI programming assistant, beanbao model driver
   url: https://marscode.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -200,6 +211,7 @@
   sub_category: coding
 - name: Amazon Kiro
   description: Amazon Agentic IDE，Spec 驱动开发+Agent Hooks+AWS 深度集成
+  description_en: Amazon Agentic IDE, Spec driver development + Agent Hooks + AWS deep integration
   url: https://kiro.dev
   repo: https://github.com/kirodotdev/Kiro
   category: applications/coding-ide
@@ -218,8 +230,9 @@
   sub_category: coding
 - name: Amazon Q Developer
   description: AWS 生态 AI 编程助手，前身为 CodeWhisperer，深耕云开发
+  description_en: AWS ecological AI programming assistant, formerly known as CodeWhisperer, deeply involved in cloud development
   url: https://aws.amazon.com/q/developer
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -236,8 +249,9 @@
   sub_category: coding
 - name: Gemini Code Assist
   description: Google AI 编程助手，Gemini 驱动，长上下文代码理解
+  description_en: Google AI programming assistant, Gemini driver, long context code understanding
   url: https://cloud.google.com/gemini/docs/codeassist
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -254,8 +268,9 @@
   sub_category: coding
 - name: JetBrains AI
   description: JetBrains 全家桶内置 AI 助手，深度 IDE 集成
+  description_en: JetBrains has built-in AI assistant and deep IDE integration
   url: https://www.jetbrains.com/ai/
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -271,8 +286,9 @@
   sub_category: coding
 - name: Replit
   description: 浏览器端 AI 开发平台，Replit Agent 可自动规划/构建/调试/部署
+  description_en: Browser-side AI development platform, Replit Agent can automatically plan/build/debug/deploy
   url: https://replit.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -289,8 +305,9 @@
   sub_category: coding
 - name: Sourcegraph Cody
   description: 企业级代码智能平台，跨仓库搜索+AI 编码助手
+  description_en: Enterprise-level code intelligence platform, cross-warehouse search + AI coding assistant
   url: https://sourcegraph.com/cody
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -307,8 +324,9 @@
   sub_category: coding
 - name: Supermaven
   description: 极速 AI 代码补全工具，百万 Token 上下文窗口
+  description_en: Extremely fast AI code completion tool, million Token context window
   url: https://supermaven.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -323,8 +341,9 @@
   sub_category: coding
 - name: Qodo (CodiumAI)
   description: AI 代码质量与测试平台，深度单元测试生成+代码审查
+  description_en: AI code quality and testing platform, in-depth unit test generation + code review
   url: https://www.qodo.ai
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -340,8 +359,9 @@
   sub_category: coding
 - name: Tabnine
   description: 隐私优先的 AI 编码助手，支持完全本地部署
+  description_en: Privacy-first AI coding assistant with full on-premises deployment
   url: https://www.tabnine.com
-  repo: null
+  repo:
   category: applications/coding-ide
   type: closed
   license: proprietary
@@ -358,8 +378,9 @@
   sub_category: coding
 - name: Kilo Code
   description: 开源 AI 编程助手，跨 IDE/终端/浏览器/Slack 使用
+  description_en: Open source AI programming assistant, used across IDE/terminal/browser/Slack
   url: https://kilo.ai
-  repo: null
+  repo:
   category: applications/coding-ide
   type: open
   license: Apache-2.0
@@ -377,8 +398,9 @@
   stars: 19946
 - name: Perplexity
   description: 颠覆性的 AI 搜索引擎与研究助手，提供深度研究功能
+  description_en: Disruptive AI search engine and research assistant, providing in-depth research capabilities
   url: https://perplexity.ai
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -393,8 +415,9 @@
   sub_category: search
 - name: ChatGPT Search
   description: OpenAI AI 搜索，GPT-5.5 驱动 Deep Research
+  description_en: OpenAI AI search, powered by GPT-5.5 Deep Research
   url: https://chatgpt.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -410,8 +433,9 @@
   sub_category: search
 - name: Google AI Overviews
   description: Google 搜索 AI 概览，Gemini 驱动
+  description_en: Google Search AI overview, powered by Gemini
   url: https://www.google.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -426,8 +450,9 @@
   sub_category: search
 - name: 秘塔 AI 搜索 (Metaso)
   description: 国内领先的无广告强力学术与通用 AI 搜索引擎
+  description_en: China's leading ad-free powerful academic and general AI search engine
   url: https://metaso.cn
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -444,8 +469,9 @@
   sub_category: search
 - name: Kimi
   description: 月之暗面 AI 研究助手，K2-6 驱动，长上下文深度研究
+  description_en: Dark Side of the Moon AI research assistant, K2-6 driver, long context in-depth research
   url: https://kimi.moonshot.cn
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -462,8 +488,9 @@
   sub_category: search
 - name: Consensus
   description: AI 学术论文搜索引擎，基于证据的回答
+  description_en: AI academic paper search engine, evidence-based answers
   url: https://consensus.app
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -481,6 +508,7 @@
   category: applications/search-research
   sub_category: search
   description: 国内 AI 搜索引擎，中文优化
+  description_en: Domestic AI search engine, Chinese optimization
   tags:
   - search
   - chinese
@@ -495,8 +523,9 @@
   type: closed
 - name: You.com
   description: AI 搜索引擎，自建网络索引，开发者 API 服务
+  description_en: AI search engine, self-built web index, developer API service
   url: https://you.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -512,8 +541,9 @@
   sub_category: search
 - name: Phind
   description: 面向开发者的 AI 搜索引擎，Stack Overflow 替代品
+  description_en: AI search engine for developers, a Stack Overflow alternative
   url: https://www.phind.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -530,8 +560,9 @@
   sub_category: search
 - name: Exa
   description: 面向开发者的语义搜索 API，嵌入驱动的 AI 搜索
+  description_en: Semantic search API for developers, embedded-driven AI search
   url: https://exa.ai
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -548,8 +579,9 @@
   sub_category: search
 - name: Tavily
   description: Agent 搜索 API，LangChain/LlamaIndex 默认搜索工具
+  description_en: Agent search API, LangChain/LlamaIndex default search tool
   url: https://tavily.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -566,8 +598,9 @@
   sub_category: search
 - name: Kagi
   description: 付费隐私优先搜索引擎，AI 助手+无广告
+  description_en: Paid privacy-first search engine, AI assistant + no ads
   url: https://kagi.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -583,8 +616,9 @@
   sub_category: search
 - name: Gemini Deep Research
   description: Google Gemini 深度研究模式，依托 Google 索引新鲜度
+  description_en: Google Gemini in-depth research mode, relying on Google index freshness
   url: https://gemini.google.com
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -601,8 +635,9 @@
   sub_category: search
 - name: 纳米搜索
   description: 360 推出的 AI 搜索引擎，国内免费可用
+  description_en: The AI ​​search engine launched by 360 is available in China for free
   url: https://nami.ai
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -619,8 +654,9 @@
   sub_category: search
 - name: 天工 AI 搜索
   description: 昆仑万维 AI 搜索引擎，深度研究+学术搜索
+  description_en: Kunlun Wanwei AI search engine, in-depth research + academic search
   url: https://search.tiangong.cn
-  repo: null
+  repo:
   category: applications/search-research
   type: closed
   license: proprietary
@@ -638,8 +674,9 @@
   sub_category: search
 - name: ChatGPT
   description: OpenAI 通用 AI 助手，GPT-5.5 驱动
+  description_en: OpenAI general AI assistant, GPT-5.5 driver
   url: https://chatgpt.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -656,8 +693,9 @@
   sub_category: productivity
 - name: Claude
   description: Anthropic 通用 AI 助手，编码/文档/分析
+  description_en: Anthropic universal AI assistant, coding/documentation/analysis
   url: https://claude.ai
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -674,8 +712,9 @@
   sub_category: productivity
 - name: Notion AI
   description: Notion 内置 AI 助手，文档/知识库/项目管理
+  description_en: Notion’s built-in AI assistant, document/knowledge base/project management
   url: https://notion.so
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -691,8 +730,9 @@
   sub_category: productivity
 - name: Microsoft Copilot
   description: 微软 365 全家桶 AI 助手
+  description_en: Microsoft 365 Family Bucket AI Assistant
   url: https://copilot.microsoft.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -708,8 +748,9 @@
   sub_category: productivity
 - name: Gamma
   description: AI 演示文稿生成，一键创建精美 PPT
+  description_en: AI presentation generation, create beautiful PPT with one click
   url: https://gamma.app
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -724,8 +765,9 @@
   sub_category: productivity
 - name: 智谱清言
   description: 智谱 AI 通用助手，GLM-5.1 驱动，全模态
+  description_en: Zhipu AI universal assistant, GLM-5.1 driver, full mode
   url: https://chatglm.cn
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -741,8 +783,9 @@
   sub_category: productivity
 - name: 豆包
   description: 字节跳动通用 AI 助手，抖音生态
+  description_en: ByteDance Universal AI Assistant, Douyin Ecosystem
   url: https://doubao.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -757,8 +800,9 @@
   sub_category: productivity
 - name: 海螺 AI
   description: MiniMax 通用助手，Speech 2/Music 2/Hailuo 2
+  description_en: MiniMax universal assistant, Speech 2/Music 2/Hailuo 2
   url: https://hailuoai.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -775,8 +819,9 @@
   sub_category: productivity
 - name: WPS AI
   description: 金山 WPS 内置 AI 助手
+  description_en: Kingsoft WPS built-in AI assistant
   url: https://ai.wps.cn
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -792,8 +837,9 @@
   sub_category: productivity
 - name: 飞书智能伙伴
   description: 字节跳动飞书 AI 助手，企业协作
+  description_en: ByteDance Feishu AI assistant, enterprise collaboration
   url: https://feishu.cn
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -809,8 +855,9 @@
   sub_category: productivity
 - name: 钉钉 AI
   description: 阿里巴巴钉钉 AI 助手，企业协作
+  description_en: Alibaba DingTalk AI assistant, enterprise collaboration
   url: https://dingtalk.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -828,6 +875,7 @@
   category: applications/productivity
   sub_category: productivity
   description: 飞书内置 AI 助手，企业协作增强
+  description_en: Feishu’s built-in AI assistant enhances enterprise collaboration
   tags:
   - collaboration
   - enterprise
@@ -841,8 +889,9 @@
   type: closed
 - name: Gemini
   description: Google 通用 AI 助手，Gemini 3.5 Pro 驱动，Google 生态深度集成
+  description_en: Google Universal AI Assistant, Gemini 3.5 Pro driver, deep integration with Google ecosystem
   url: https://gemini.google.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -859,8 +908,9 @@
   sub_category: productivity
 - name: Grok
   description: xAI 通用 AI 助手，实时 𝕏 平台数据，多智能体协作
+  description_en: xAI universal AI assistant, real-time 𝕏 platform data, multi-agent collaboration
   url: https://grok.x.ai
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -877,8 +927,9 @@
   sub_category: productivity
 - name: DeepSeek
   description: 深度求索通用 AI 助手，DeepSeek-V3 驱动，开源模型领先
+  description_en: Deep Seek general AI assistant, driven by DeepSeek-V3, leading open source model
   url: https://chat.deepseek.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -896,8 +947,9 @@
   sub_category: productivity
 - name: v0 by Vercel
   description: Vercel AI UI 生成器，自然语言生成 React 组件和页面
+  description_en: Vercel AI UI generator, natural language generation of React components and pages
   url: https://v0.dev
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -914,8 +966,9 @@
   sub_category: productivity
 - name: Bolt.new
   description: StackBlitz AI 全栈应用构建器，浏览器内即时预览
+  description_en: StackBlitz AI full-stack application builder, instant preview in the browser
   url: https://bolt.new
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -932,8 +985,9 @@
   sub_category: productivity
 - name: Lovable
   description: AI 全栈应用构建器，Claude/GPT 驱动，内置 Supabase 数据库
+  description_en: AI full-stack application builder, Claude/GPT driver, built-in Supabase database
   url: https://lovable.dev
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -950,8 +1004,9 @@
   sub_category: productivity
 - name: Suno
   description: AI 音乐创作平台，文字生成完整歌曲
+  description_en: AI music creation platform, text generates complete songs
   url: https://suno.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -967,8 +1022,9 @@
   sub_category: productivity
 - name: 百度文心一言
   description: 百度通用 AI 助手，文心 4.5 驱动，百度生态集成
+  description_en: Baidu Universal AI Assistant, Wenxin 4.5 driver, Baidu ecological integration
   url: https://yiyan.baidu.com
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -985,8 +1041,9 @@
   sub_category: productivity
 - name: 讯飞星火
   description: 科大讯飞通用 AI 助手，星火 5.0 驱动，语音能力领先
+  description_en: iFlytek universal AI assistant, driven by Spark 5.0, with leading voice capabilities
   url: https://xinghuo.xfyun.cn
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -1003,8 +1060,9 @@
   sub_category: productivity
 - name: 通义千问
   description: 阿里通用 AI 助手，Qwen3 驱动，阿里云生态集成
+  description_en: Alibaba general AI assistant, Qwen3 driver, Alibaba Cloud ecological integration
   url: https://tongyi.aliyun.com/qianwen
-  repo: null
+  repo:
   category: applications/productivity
   type: closed
   license: proprietary
@@ -1022,6 +1080,7 @@
   sub_category: productivity
 - name: Hermes Agent
   description: Nous Research 开源自进化 AI Agent，持久记忆+自动技能创建+多平台消息网关
+  description_en: Nous Research open source self-evolving AI Agent, persistent memory + automatic skill creation + multi-platform message gateway
   url: https://hermes-agent.nousresearch.com
   repo: https://github.com/NousResearch/hermes-agent
   category: applications/agent-tools
@@ -1045,6 +1104,7 @@
   stars: 188000
 - name: AutoGPT
   description: 开源自主 AI Agent 平台先驱，无需人工干预自主完成复杂任务
+  description_en: Pioneer of open source autonomous AI Agent platform, capable of completing complex tasks autonomously without manual intervention
   url: https://agpt.co
   repo: https://github.com/Significant-Gravitas/AutoGPT
   category: applications/agent-tools
@@ -1065,6 +1125,7 @@
   stars: 183000
 - name: Claw Code
   description: Rust 重写的开源 AI 编码 Agent，Claude Code 架构的净室实现，GitHub 历史增速第一
+  description_en: Open source AI coding agent rewritten in Rust, clean room implementation of Claude Code architecture, GitHub’s historical growth rate ranks first
   url: https://claw-code.codes
   repo: https://github.com/ultraworkers/claw-code
   category: applications/agent-tools
@@ -1087,6 +1148,7 @@
   stars: 167000
 - name: Gemini CLI
   description: Google 开源终端 AI Agent，免费使用 Gemini 2.5 Pro + 1M Token 上下文
+  description_en: Google open source terminal AI Agent, free to use Gemini 2.5 Pro + 1M Token context
   url: https://github.com/google-gemini/gemini-cli
   repo: https://github.com/google-gemini/gemini-cli
   category: applications/agent-tools
@@ -1109,6 +1171,7 @@
   stars: 100000
 - name: browser-use
   description: 最热门的 AI 浏览器自动化框架，让 Agent 直接操控浏览器完成复杂网页任务
+  description_en: The most popular AI browser automation framework allows Agents to directly control the browser to complete complex web page tasks
   url: https://github.com/browser-use/browser-use
   repo: https://github.com/browser-use/browser-use
   category: applications/agent-tools
@@ -1130,6 +1193,7 @@
   stars: 93000
 - name: DeerFlow
   description: 字节跳动开源深度研究多 Agent 框架，LangGraph 驱动，支持子代理协同
+  description_en: ByteDance’s open source in-depth research on multi-agent framework, LangGraph driver, supports sub-agent collaboration
   url: https://github.com/bytedance/deer-flow
   repo: https://github.com/bytedance/deer-flow
   category: applications/agent-tools
@@ -1153,6 +1217,7 @@
   category: applications/agent-tools
   sub_category: agent
   description: 开源超级 AI 助手，任务规划+执行，Agent Harness
+  description_en: Open source super AI assistant, task planning + execution, Agent Harness
   tags:
   - agent
   - automation
@@ -1167,6 +1232,7 @@
   type: open
 - name: Cherry Studio
   description: AI 生产力桌面系统，300+ 助手与自主 Agent，多模型统一接入
+  description_en: AI productivity desktop system, 300+ assistants and autonomous agents, unified access to multiple models
   url: https://cherry-ai.com
   repo: https://github.com/CherryHQ/cherry-studio
   category: applications/agent-tools
@@ -1189,6 +1255,7 @@
   stars: 43000
 - name: Open Interpreter
   description: 开源本地代码解释器，让 LLM 在本地运行代码完成任意任务
+  description_en: Open source local code interpreter, allowing LLM to run code locally to complete any task
   url: https://openinterpreter.com
   repo: https://github.com/OpenInterpreter/open-interpreter
   category: applications/agent-tools
@@ -1212,6 +1279,7 @@
   category: applications/agent-tools
   sub_category: agent
   description: 开源 AI Agent 助手，集成多平台，支持插件扩展
+  description_en: Open source AI Agent assistant, integrated with multiple platforms, supports plug-in expansion
   tags:
   - agent
   - cross-platform
@@ -1227,6 +1295,7 @@
   type: open
 - name: Aider
   description: 开源终端 AI 结对编程助手，Git 原生设计，多模型后端
+  description_en: Open source terminal AI pair programming assistant, Git native design, multi-model backend
   url: https://aider.chat
   repo: https://github.com/Aider-AI/aider
   category: applications/agent-tools
@@ -1248,6 +1317,7 @@
   stars: 30000
 - name: Goose
   description: Block 开源可扩展 AI Agent，自主完成复杂工程任务，桌面+CLI+API 三模式
+  description_en: Block is an open source and scalable AI Agent that can independently complete complex engineering tasks. It has three modes of desktop + CLI + API.
   url: https://goose-docs.ai
   repo: https://github.com/aaif-goose/goose
   category: applications/agent-tools
@@ -1271,6 +1341,7 @@
   category: applications/agent-tools
   sub_category: agent
   description: 开源 Manus 替代方案
+  description_en: Open Source Manus Alternative
   tags:
   - agent
   - open-source
@@ -1286,6 +1357,7 @@
   type: open
 - name: BabyAGI
   description: 最早的任务驱动自主 Agent，基于目标分解自动管理任务队列
+  description_en: The earliest task-driven autonomous Agent, automatically manages task queues based on goal decomposition
   url: https://github.com/yoheinakajima/babyagi
   repo: https://github.com/yoheinakajima/babyagi
   category: applications/agent-tools
@@ -1308,6 +1380,7 @@
   category: applications/agent-tools
   sub_category: agent
   description: AI Agent 和工作流的全托管部署平台
+  description_en: Fully managed deployment platform for AI agents and workflows
   tags:
   - automation
   - workflow
@@ -1323,6 +1396,7 @@
   type: open
 - name: Letta (MemGPT)
   description: 开源长期记忆 Agent 框架，让 LLM 拥有持久状态
+  description_en: Open source long-term memory Agent framework, allowing LLM to have persistent state
   url: https://letta.com
   repo: https://github.com/letta-ai/letta
   category: applications/agent-tools
@@ -1342,8 +1416,9 @@
   stars: 15000
 - name: Claude Code
   description: Anthropic 终端自主编程 Agent，基于 Claude Opus 4.7，全局工程理解与闭环执行
+  description_en: Anthropic terminal autonomous programming Agent, based on Claude Opus 4.7, global engineering understanding and closed-loop execution
   url: https://www.anthropic.com/product/claude-code
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1363,6 +1438,7 @@
   sub_category: agent
 - name: OpenAI Codex
   description: OpenAI 云端编程 Agent，CLI 开源 + Cloud 云端沙盒，自动提交 PR
+  description_en: OpenAI cloud programming agent, CLI open source + Cloud sandbox, automatic PR submission
   url: https://chatgpt.com/codex
   repo: https://github.com/openai/codex
   category: applications/agent-tools
@@ -1385,8 +1461,9 @@
   stars: 89744
 - name: Devin
   description: Cognition 自主 AI 软件工程师，拥有独立 Shell/IDE/浏览器，SOLO 模式全自主交付
+  description_en: Cognition's independent AI software engineer, with independent Shell/IDE/browser, fully independent delivery in SOLO mode
   url: https://www.cognition.ai/devin
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1405,8 +1482,9 @@
   sub_category: agent
 - name: WorkBuddy
   description: 腾讯云全场景桌面办公 Agent，可操控微信/浏览器/Office，集成 CodeBuddy 编程能力
+  description_en: Tencent Cloud full-scenario desktop office agent, can control WeChat/browser/Office, and integrates CodeBuddy programming capabilities
   url: https://www.codebuddy.cn/work/
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1428,6 +1506,7 @@
   category: applications/agent-tools
   sub_category: agent
   description: 通用 AI Agent，可执行复杂任务
+  description_en: General-purpose AI Agent that can perform complex tasks
   tags:
   - agent
   - multimodal
@@ -1442,8 +1521,9 @@
   type: closed
 - name: Google Antigravity
   description: Google Agent 开发平台，从 IDE 演进为完整 Agent 平台，Gemini 3.5 驱动
+  description_en: Google Agent development platform, evolved from IDE to complete Agent platform, Gemini 3.5 driver
   url: https://kiro.dev/blog/antigravity/
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1462,8 +1542,9 @@
   sub_category: agent
 - name: Google Jules
   description: Google 自主编码 Agent，Gemini 3 Pro 驱动，云端 VM 自主执行
+  description_en: Google self-coding Agent, Gemini 3 Pro driver, cloud VM self-execution
   url: https://jules.google.com
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1481,8 +1562,9 @@
   sub_category: agent
 - name: Conductor
   description: 模型中立的多 Agent 协调 UI，连接 Codex/Claude Code 等多个编码 Agent
+  description_en: Model-neutral multi-Agent coordination UI, connecting multiple coding agents such as Codex/Claude Code
   url: https://www.conductor.build
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1498,6 +1580,7 @@
   sub_category: agent
 - name: OpenClaw
   description: 开源个人 AI Agent 平台，技能/记忆/多通道消息/Dreaming
+  description_en: Open source personal AI Agent platform, skills/memory/multi-channel messaging/Dreaming
   url: https://docs.openclaw.ai
   repo: https://github.com/openclaw/openclaw
   category: applications/agent-tools
@@ -1517,8 +1600,9 @@
   stars: 377707
 - name: Qoder
   description: 阿里巴巴 AI Agent 编程平台，需求驱动开发+智能上下文引擎+自主桌面
+  description_en: Alibaba AI Agent programming platform, demand-driven development + intelligent context engine + autonomous desktop
   url: https://qoder.com
-  repo: null
+  repo:
   category: applications/agent-tools
   type: closed
   license: proprietary
@@ -1537,6 +1621,7 @@
   sub_category: agent
 - name: Ruflo
   description: Claude Code 多智能体编排平台，100+ 专用 Agent + Swarm 群智协调
+  description_en: Claude Code multi-agent orchestration platform, 100+ dedicated Agents + Swarm group intelligence coordination
   url: https://github.com/ruvnet/ruflo
   repo: https://github.com/ruvnet/ruflo
   category: applications/agent-tools
@@ -1557,6 +1642,7 @@
   stars: 58572
 - name: Sweep AI
   description: AI 自动将 GitHub Issue 转为 Pull Request，自主编码修复+完整测试
+  description_en: AI automatically converts GitHub Issues into Pull Requests, independent coding repairs + complete testing
   url: https://sweep.dev
   repo: https://github.com/sweepai/sweep
   category: applications/agent-tools

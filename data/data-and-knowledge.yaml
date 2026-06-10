@@ -2,6 +2,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 国内最活跃的开源文档解析工具，中文 PDF 支持极好
+  description_en: The most active open source document parsing tool in China, with excellent Chinese PDF support
   tags:
   - document
   - data-analysis
@@ -19,6 +20,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 最流行的文档解析库，支持 PDF/Word/HTML 等 20+ 格式，RAG 标配
+  description_en: The most popular document parsing library, supporting 20+ formats such as PDF/Word/HTML, standard with RAG
   tags:
   - document
   - data-analysis
@@ -36,6 +38,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 为 LLM 设计的网页爬取 API，输出干净 Markdown/结构化数据
+  description_en: Web scraping API designed for LLM, outputting clean Markdown/structured data
   tags:
   - search
   - document
@@ -53,6 +56,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 为 LLM 设计的网页抓取工具，输出 Markdown
+  description_en: Web scraping tool designed for LLM, output Markdown
   tags:
   - search
   - document
@@ -74,6 +78,7 @@
   - 内置 MCP Server，生态绝佳
   type: open
   description: IBM 出品的文档解析工具，支持多种格式
+  description_en: Document parsing tool produced by IBM, supports multiple formats
   sub_category: parsing
   tags:
   - document
@@ -91,6 +96,7 @@
   - 支持可选的大模型增强 (LLM-boost)
   type: open
   description: AI 驱动的 PDF 解析工具，支持扫描件、表格、公式
+  description_en: AI-driven PDF parsing tool that supports scanned documents, tables, and formulas
   sub_category: parsing
   tags:
   - document
@@ -102,6 +108,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 阶跃星辰出品的通用 OCR 模型，支持复杂文档/乐谱/数学公式
+  description_en: Universal OCR model produced by Step Star, supporting complex documents/music scores/mathematical formulas
   tags:
   - data-analysis
   - chinese
@@ -118,6 +125,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: Meta 出品的学术文档解析模型，擅长公式识别
+  description_en: Academic document parsing model produced by Meta, good at formula recognition
   tags:
   - document
   - data-analysis
@@ -135,6 +143,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 高性能 PDF 处理库，纯文本提取首选
+  description_en: High-performance PDF processing library, the first choice for plain text extraction
   tags:
   - document
   - open-source
@@ -157,6 +166,7 @@
   - 原生无缝集成 LlamaIndex 生态
   type: open
   description: LlamaIndex 出品的文档解析 API，专为 RAG 优化
+  description_en: Document parsing API produced by LlamaIndex, optimized for RAG
   sub_category: parsing
   tags:
   - document
@@ -169,6 +179,7 @@
   category: data-and-knowledge/data-parsing
   sub_category: parsing
   description: 网页转 Markdown API，最简单的网页解析方案
+  description_en: Webpage to Markdown API, the simplest webpage parsing solution
   tags:
   - search
   - api-gateway
@@ -185,6 +196,7 @@
   category: data-and-knowledge/knowledge-graph
   sub_category: knowledge-graph
   description: 微软出品的图增强 RAG 框架
+  description_en: Graph-enhanced RAG framework produced by Microsoft
   tags:
   - rag
   - microsoft
@@ -206,6 +218,7 @@
   - 无缝集成主流 RAG 框架
   type: open
   description: 最流行的图数据库，生态成熟
+  description_en: The most popular graph database with a mature ecosystem
   sub_category: knowledge-graph
   tags:
   - rag
@@ -217,6 +230,7 @@
   category: data-and-knowledge/knowledge-graph
   sub_category: knowledge-graph
   description: 分布式图数据库，支持大规模图数据
+  description_en: Distributed graph database, supporting large-scale graph data
   tags:
   - rag
   - distributed
@@ -238,6 +252,7 @@
   - 原生支持图谱的无缝增量更新
   type: open
   description: LLM 驱动的轻量级知识图谱 RAG 框架
+  description_en: LLM-driven lightweight knowledge graph RAG framework
   sub_category: knowledge-graph
   tags:
   - rag
@@ -249,6 +264,7 @@
   category: data-and-knowledge/knowledge-graph
   sub_category: knowledge-graph
   description: 超快图数据库，GraphBLAS 底层，适合知识图谱 RAG
+  description_en: Ultra-fast graph database, GraphBLAS bottom layer, suitable for knowledge graph RAG
   tags:
   - rag
   - fast-inference
@@ -265,6 +281,7 @@
   category: data-and-knowledge/knowledge-graph
   sub_category: knowledge-graph
   description: 受海马体启发的 RAG 框架，NeurIPS 2024 论文，知识图谱+检索融合
+  description_en: RAG framework inspired by hippocampus, NeurIPS 2024 paper, knowledge graph + retrieval fusion
   tags:
   - rag
   - academic
@@ -281,6 +298,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: 数据质量工具，自动检测标注错误/异常值，提升训练数据质量
+  description_en: Data quality tool, automatically detects labeling errors/outliers and improves training data quality
   tags:
   - data-analysis
   status: active
@@ -301,6 +319,7 @@
   - 直接导出兼容 SFT/DPO 的极简格式
   type: open
   description: Argilla 出品的合成数据生成框架
+  description_en: Synthetic data generation framework by Argilla
   sub_category: synthetic-data
   tags:
   - data-analysis
@@ -318,6 +337,7 @@
   - 小团队精细化数据清洗的必备案头工具
   type: open
   description: 数据标注与合成数据平台，支持人机协作
+  description_en: Data annotation and synthetic data platform to support human-machine collaboration
   sub_category: synthetic-data
   tags:
   - data-analysis
@@ -329,6 +349,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: 国内最活跃的合成数据生成框架，支持多种生成策略
+  description_en: The most active synthetic data generation framework in China, supporting multiple generation strategies
   tags:
   - data-analysis
   - chinese
@@ -346,6 +367,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: 合成数据策展框架，支持后训练与结构化数据生成
+  description_en: Synthetic data curation framework to support post-training and structured data generation
   tags:
   - data-analysis
   - academic
@@ -362,6 +384,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: Meta 出品的合成数据生成工具，支持 PDF/HTML/URL 转 QA 对
+  description_en: Synthetic data generation tool produced by Meta, supports PDF/HTML/URL conversion to QA
   tags:
   - data-analysis
   - open-source
@@ -378,6 +401,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: 合成数据生成流水线框架
+  description_en: Synthetic data generation pipeline framework
   tags:
   - data-analysis
   - pipeline
@@ -395,6 +419,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: ICLR 2025 论文，从零开始用 LLM 生成对齐数据，无需种子数据
+  description_en: ICLR 2025 paper, using LLM to generate alignment data from scratch, no seed data required
   tags:
   - data-analysis
   - compliance
@@ -412,6 +437,7 @@
   category: data-and-knowledge/synthetic-data
   sub_category: synthetic-data
   description: 最便宜的高质量合成数据生成 API
+  description_en: The cheapest API for high-quality synthetic data generation
   tags:
   - data-analysis
   - api-gateway
@@ -428,6 +454,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: 100% 私有 RAG 系统，无需联网，支持本地 LLM + 本地向量库
+  description_en: 100% private RAG system, no networking required, supports local LLM + local vector library
   tags:
   - rag
   - self-hosted
@@ -444,6 +471,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: 开源 RAG 引擎，深度文档理解 + 检索增强
+  description_en: Open source RAG engine, in-depth document understanding + retrieval enhancement
   tags:
   - rag
   - pipeline
@@ -461,6 +489,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: 个人 AI 助手，支持多种文件格式的 RAG 知识库
+  description_en: Personal AI assistant, RAG knowledge base supporting multiple file formats
   tags:
   - rag
   - self-hosted
@@ -478,6 +507,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: 开箱即用的 RAG 桌面应用，支持多种 LLM
+  description_en: Out-of-the-box RAG desktop application supports multiple LLMs
   tags:
   - rag
   - desktop
@@ -495,6 +525,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: 开源 AI 个人助理，支持 Obsidian/Notion/本地文件的 RAG
+  description_en: Open source AI personal assistant, supports Obsidian/Notion/RAG of local files
   tags:
   - rag
   - document
@@ -512,6 +543,7 @@
   category: data-and-knowledge/rag
   sub_category: rag
   description: Weaviate 出品的开箱即用 RAG 应用，GoldRAG 检索策略
+  description_en: Out-of-the-box RAG application by Weaviate, GoldRAG search strategy
   tags:
   - rag
   - easy-to-use

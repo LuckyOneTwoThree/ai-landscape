@@ -1,5 +1,6 @@
 - name: GPT-5.5 Pro / Thinking
   description: OpenAI 2026旗舰，原生支持 Thinking 与极强复杂推理
+  description_en: OpenAI 2026 flagship, natively supports Thinking and extremely complex reasoning
   url: https://openai.com
   type: closed
   category: foundation-models/llm
@@ -27,6 +28,7 @@
   license: Proprietary
 - name: GPT-5.4
   description: OpenAI 高性价比模型，编码与通用能力均衡
+  description_en: OpenAI cost-effective model, balanced coding and general capabilities
   url: https://openai.com
   type: closed
   category: foundation-models/llm
@@ -50,6 +52,7 @@
   license: Proprietary
 - name: GPT-5.5 Instant
   description: OpenAI 极速高效模型，低延迟最佳选择
+  description_en: OpenAI extremely fast and efficient model, the best choice for low latency
   url: https://openai.com
   type: closed
   category: foundation-models/llm
@@ -74,6 +77,7 @@
   license: Proprietary
 - name: GPT-5.4-nano
   description: OpenAI 超低延迟低成本模型
+  description_en: OpenAI ultra-low latency low-cost model
   url: https://openai.com
   type: closed
   category: foundation-models/llm
@@ -97,6 +101,7 @@
   license: Proprietary
 - name: Claude Opus 4.8
   description: Anthropic 2026 最新旗舰，1M 上下文，扩展推理，编码标杆
+  description_en: Anthropic 2026 latest flagship, 1M context, extended reasoning, coding benchmark
   url: https://anthropic.com
   type: closed
   category: foundation-models/llm
@@ -125,6 +130,7 @@
   license: Proprietary
 - name: Claude Sonnet 4.6
   description: Anthropic 次旗舰，1M 上下文，速度与性能最佳平衡
+  description_en: Anthropic sub-flagship, 1M context, the best balance of speed and performance
   url: https://anthropic.com
   type: closed
   category: foundation-models/llm
@@ -149,6 +155,7 @@
   api_model_name: claude-4-6-sonnet-20260215
 - name: Claude Haiku 4.5
   description: Anthropic 最快模型，200K 上下文，极速响应
+  description_en: Anthropic’s fastest model, 200K context, extremely fast response
   url: https://anthropic.com
   type: closed
   category: foundation-models/llm
@@ -173,6 +180,7 @@
   api_model_name: claude-4-5-haiku-20251022
 - name: Gemini 3.5 Pro
   description: Google 2026旗舰，2M 上下文，包含 Deep Think 模式
+  description_en: Google 2026 flagship, 2M context, including Deep Think mode
   url: https://gemini.google.com
   type: closed
   category: foundation-models/llm
@@ -198,6 +206,7 @@
   license: Proprietary
 - name: Gemini 3.5 Flash
   description: Google 极速闪电模型，优化了长程Agent流
+  description_en: Google's extremely fast lightning model optimizes long-distance Agent flow
   url: https://gemini.google.com
   type: closed
   category: foundation-models/llm
@@ -222,6 +231,7 @@
   license: Proprietary
 - name: Grok 4
   description: xAI 旗舰，集成实时全网搜索与图像生成
+  description_en: xAI flagship, integrated real-time network search and image generation
   url: https://x.ai
   type: closed
   category: foundation-models/llm
@@ -245,6 +255,7 @@
     multimodal: true
 - name: GLM-5.1
   description: 智谱 AI 最新旗舰，全模态矩阵，端到端语音与视频
+  description_en: Zhipu AI’s latest flagship, full-modal matrix, end-to-end voice and video
   url: https://open.bigmodel.cn
   type: closed
   category: foundation-models/llm
@@ -270,6 +281,7 @@
   license: Proprietary
 - name: Kimi K2-6
   description: 月之暗面最新旗舰，长程代码，Agent 自主执行
+  description_en: The latest flagship of Dark Side of the Moon, long-range code, autonomous execution by Agent
   url: https://platform.moonshot.cn
   type: closed
   category: foundation-models/llm
@@ -295,6 +307,7 @@
   license: Proprietary
 - name: DeepSeek-V4-Pro
   description: DeepSeek 商业旗舰，1M 上下文，thinking 推理，极致性价比
+  description_en: DeepSeek commercial flagship, 1M context, thinking reasoning, ultimate cost-effectiveness
   url: https://deepseek.com
   type: open
   category: foundation-models/llm
@@ -323,6 +336,7 @@
   license: Proprietary
 - name: DeepSeek-V4-Flash
   description: DeepSeek 轻量快速版，1M 上下文，极低成本
+  description_en: DeepSeek lightweight and fast version, 1M context, extremely low cost
   url: https://deepseek.com
   type: open
   category: foundation-models/llm
@@ -349,6 +363,7 @@
   license: Proprietary
 - name: MiniMax M3
   description: MiniMax 最新旗舰，MSA 架构，1M 上下文，Coding/Agentic 前沿
+  description_en: MiniMax latest flagship, MSA architecture, 1M context, Coding/Agentic cutting-edge
   url: https://minimaxi.com
   type: closed
   category: foundation-models/llm
@@ -375,6 +390,7 @@
   license: Proprietary
 - name: 腾讯混元 HY3
   description: 腾讯最新旗舰，基于 MoE，全模态能力
+  description_en: Tencent’s latest flagship, based on MoE, with full-mode capabilities
   url: https://cloud.tencent.com/product/hunyuan
   type: closed
   category: foundation-models/llm
@@ -398,6 +414,7 @@
 - name: Qwen3.7-Plus
   api_model_name: qwen3.7-plus
   description: 阿里 2026.06 最新多模态 Agent 模型，专攻 GUI 与代码
+  description_en: Alibaba 2026.06 latest multi-modal Agent model, specializing in GUI and code
   url: https://bailian.aliyun.com/
   type: closed
   category: foundation-models/llm
@@ -418,6 +435,7 @@
 - name: Qwen3.7-Max
   api_model_name: qwen3.7-max
   description: 阿里 2026 文本旗舰模型，通义千问最强推理底座
+  description_en: Alibaba 2026 text flagship model, Tongyi Qianwen’s strongest reasoning base
   url: https://bailian.aliyun.com/
   type: closed
   category: foundation-models/llm
@@ -435,6 +453,7 @@
   price: 商业调用定价
 - name: Qwen3-Coder-480B
   description: 阿里通义千问旗舰代码模型，480B MoE，开源标杆
+  description_en: Alibaba Tongyi Qianwen flagship code model, 480B MoE, open source benchmark
   url: https://qwen.ai
   repo: https://github.com/QwenLM/Qwen3
   type: open
@@ -460,6 +479,7 @@
     multimodal: false
 - name: ERNIE (文心一言)
   description: 百度旗舰大模型，千帆 Agent 平台，MCP 支持
+  description_en: Baidu flagship model, Qianfan Agent platform, MCP support
   url: https://yiyan.baidu.com
   type: closed
   category: foundation-models/llm
@@ -483,6 +503,7 @@
     multimodal: true
 - name: 百川 M3 Plus
   description: 百川智能最新旗舰，免费使用
+  description_en: Baichuan Intelligence’s latest flagship, free to use
   url: https://www.baichuan-ai.com
   type: closed
   category: foundation-models/llm
@@ -504,6 +525,7 @@
     multimodal: false
 - name: 讯飞星火 4.0
   description: 科大讯飞旗舰，教育场景深度优化
+  description_en: iFlytek flagship, in-depth optimization of educational scenes
   url: https://xinghuo.xfyun.cn
   type: closed
   category: foundation-models/llm
@@ -525,6 +547,7 @@
     multimodal: true
 - name: Step 3
   description: 阶跃星辰最新旗舰，Step Router 智能路由
+  description_en: Step Star’s latest flagship, Step Router intelligent routing
   url: https://platform.stepfun.com
   type: closed
   category: foundation-models/llm
@@ -546,6 +569,7 @@
     multimodal: false
 - name: Llama 4 Maverick
   description: Meta 开源旗舰，400B MoE，1M 上下文，匹敌闭源顶尖
+  description_en: Meta open source flagship, 400B MoE, 1M context, rivaling the top closed source
   url: https://ai.meta.com/llama/
   repo: https://github.com/meta-llama/llama-models
   type: open
@@ -575,6 +599,7 @@
     params: 400B
 - name: Llama 4 Scout
   description: Meta 开源长上下文模型，109B MoE，10M 上下文
+  description_en: Meta open source long context model, 109B MoE, 10M context
   url: https://ai.meta.com/llama/
   repo: https://github.com/meta-llama/llama-models
   type: open
@@ -601,6 +626,7 @@
     params: 109B
 - name: DeepSeek-R1
   description: DeepSeek 开源推理标杆，671B MoE，MIT 许可
+  description_en: DeepSeek open source inference benchmark, 671B MoE, MIT license
   url: https://deepseek.com
   repo: https://github.com/deepseek-ai/DeepSeek-R1
   type: open
@@ -629,6 +655,7 @@
     params: 671B
 - name: Gemma 3
   description: Google 新一代端侧开源模型，1B-27B，128K 上下文
+  description_en: Google's new generation of end-side open source model, 1B-27B, 128K context
   url: https://blog.google/technology/ai/
   repo: https://github.com/google/gemma_pytorch
   type: open
@@ -657,8 +684,9 @@
     params: 1B-27B
 - name: Phi-4
   description: Microsoft 端侧推理模型，14B，数学推理极强
+  description_en: Microsoft client-side reasoning model, 14B, extremely strong in mathematical reasoning
   url: https://azure.microsoft.com/en-us/products/phi
-  repo: null
+  repo:
   type: open
   category: foundation-models/llm
   license: MIT
@@ -686,6 +714,7 @@
 - name: MiMo-V2.5-Pro
   api_model_name: mimo-v2.5-pro
   description: 小米 MiMo V2.5 旗舰，1T MoE，Agent 与 Coding 霸榜开源
+  description_en: Xiaomi MiMo V2.5 flagship, 1T MoE, Agent and Coding dominate the open source list
   url: https://mimo.xiaomi.com
   repo: https://github.com/XiaomiMiMo/MiMo
   type: open
@@ -710,6 +739,7 @@
   price: 开源自部署 / API调用
 - name: MiMo-V2.5 (基础版)
   description: 小米 MiMo V2 旗舰，Agent 能力前沿，Apache 2.0 开源
+  description_en: Xiaomi MiMo V2 flagship, cutting-edge Agent capabilities, Apache 2.0 open source
   url: https://mimo.xiaomi.com
   repo: https://github.com/XiaomiMiMo/MiMo
   type: open
@@ -737,6 +767,7 @@
     params: 7B-72B
 - name: MiMo-7B-RL
   description: 小米 7B 推理模型，AIME 2024 超 DeepSeek R1，小模型推理标杆
+  description_en: Xiaomi 7B inference model, AIME 2024 Super DeepSeek R1, the benchmark for small model inference
   url: https://mimo.xiaomi.com
   repo: https://github.com/XiaomiMiMo/MiMo
   type: open
@@ -764,6 +795,7 @@
     params: 7B
 - name: MiniCPM4-8B
   description: 面壁智能端侧模型，8B，Apache 2.0 开源
+  description_en: Wall-facing intelligent end-side model, 8B, Apache 2.0 open source
   url: https://github.com/OpenBMB/MiniCPM
   repo: https://github.com/OpenBMB/MiniCPM
   type: open
@@ -792,6 +824,7 @@
   stars: 9411
 - name: Cohere Command R3
   description: 专为企业级 RAG 与工具调用设计的指令模型
+  description_en: Command model designed for enterprise-level RAG and tool invocation
   url: https://cohere.com
   type: closed
   category: foundation-models/llm
@@ -815,6 +848,7 @@
     multimodal: false
 - name: Sora 2.0
   description: OpenAI 物理世界模拟器，已与 GPT-5.5 深度联动
+  description_en: OpenAI physical world simulator has been deeply linked with GPT-5.5
   url: https://openai.com/sora
   type: closed
   category: foundation-models/multimodal
@@ -833,6 +867,7 @@
     fps: 24
 - name: Midjourney V8.1
   description: 2026年4月发布的最新旗舰，极速生成与原生 2K HD 支持
+  description_en: The latest flagship released in April 2026, with extremely fast generation and native 2K HD support
   url: https://midjourney.com
   type: closed
   category: foundation-models/multimodal
@@ -854,6 +889,7 @@
     - 动漫
 - name: DALL-E 4
   description: OpenAI 图像生成模型，与 GPT-5.5 深度集成
+  description_en: OpenAI image generation model, deeply integrated with GPT-5.5
   url: https://openai.com/dall-e
   type: closed
   category: foundation-models/multimodal
@@ -874,6 +910,7 @@
     - 艺术
 - name: 可灵 (Kling) 3.5
   description: 快手 2026 最新视频大模型，支持无提示词物理轨迹与 4K 60fps
+  description_en: Kuaishou 2026 latest video model supports wordless physical trajectory and 4K 60fps
   url: https://kling.kuaishou.com
   type: closed
   category: foundation-models/multimodal
@@ -892,6 +929,7 @@
     fps: 24
 - name: Hailuo 2 (海螺视频)
   description: MiniMax 视频生成模型，高质量 AI 视频
+  description_en: MiniMax video generation model, high-quality AI video
   url: https://hailuoai.video
   type: closed
   category: foundation-models/multimodal
@@ -910,6 +948,7 @@
     fps: 24
 - name: CogVideoX-3
   description: 智谱 AI 开源视频生成模型
+  description_en: Zhipu AI open source video generation model
   url: https://github.com/THUDM/CogVideo
   repo: https://github.com/THUDM/CogVideo
   type: open
@@ -932,6 +971,7 @@
   stars: 12771
 - name: 即梦 (Jimeng)
   description: 字节跳动 AI 图像/视频创作平台
+  description_en: Bytedance AI image/video creation platform
   url: https://jimeng.jianying.com
   type: closed
   category: foundation-models/multimodal
@@ -955,6 +995,7 @@
     - 国风
 - name: Suno v5.5
   description: 2026年行业霸主，支持 Voices 自定义音色训练
+  description_en: Industry leader in 2026, supporting Voices custom timbre training
   url: https://suno.com
   type: closed
   category: foundation-models/multimodal
@@ -976,6 +1017,7 @@
     realtime: false
 - name: Udio 2.0
   description: 高质量 AI 音乐生成，与 Suno v5.5 并驾齐驱
+  description_en: High-quality AI music generation, on par with Suno v5.5
   url: https://udio.com
   type: closed
   category: foundation-models/multimodal
@@ -997,6 +1039,7 @@
     realtime: false
 - name: MiniMax Music 2
   description: MiniMax AI 音乐生成模型
+  description_en: MiniMax AI music generation model
   url: https://minimaxi.com
   type: closed
   category: foundation-models/multimodal
@@ -1017,6 +1060,7 @@
     realtime: false
 - name: GLM-TTS / CosyVoice 2
   description: 前沿语音合成模型，自然度极高
+  description_en: Cutting-edge speech synthesis model, extremely natural
   url: https://open.bigmodel.cn
   type: closed
   category: foundation-models/multimodal
@@ -1038,6 +1082,7 @@
     realtime: true
 - name: Whisper V3
   description: OpenAI 开源语音识别模型，多语言支持
+  description_en: OpenAI open source speech recognition model, multi-language support
   url: https://github.com/openai/whisper
   repo: https://github.com/openai/whisper
   type: open
@@ -1062,6 +1107,7 @@
   stars: 102234
 - name: BGE-M3
   description: 智源人工智能研究院开源的多语言混合检索基座
+  description_en: Zhiyuan Artificial Intelligence Research Institute’s open source multi-language hybrid retrieval base
   url: https://github.com/FlagOpen/FlagEmbedding
   repo: https://github.com/FlagOpen/FlagEmbedding
   type: open
@@ -1086,6 +1132,7 @@
   stars: 11795
 - name: text-embedding-3-large/small
   description: OpenAI 最新嵌入模型，性能与成本分层
+  description_en: OpenAI’s latest embedding model, performance and cost tiering
   url: https://openai.com
   type: closed
   category: foundation-models/embedding-reranker
@@ -1104,6 +1151,7 @@
     mteb_score: 64.6
 - name: voyage-4-large
   description: Voyage 2026 旗舰，MoE 架构顶尖召回率
+  description_en: Voyage 2026 flagship, MoE architecture top recall rate
   url: https://voyageai.com
   type: closed
   category: foundation-models/embedding-reranker
@@ -1123,6 +1171,7 @@
     mteb_score: 领先
 - name: GTE-Qwen2
   description: 阿里开源中文优化嵌入模型
+  description_en: Alibaba open source Chinese optimized embedding model
   url: https://huggingface.co/Alibaba-NLP/gte-Qwen2
   type: open
   category: foundation-models/embedding-reranker
@@ -1143,6 +1192,7 @@
     mteb_score: 63.5
 - name: jina-embeddings-v5-omni
   description: Jina AI 最新 v5 全模态向量模型，支持文本与几何
+  description_en: Jina AI's latest v5 full-modal vector model supports text and geometry
   url: https://jina.ai
   type: open
   category: foundation-models/embedding-reranker
@@ -1165,6 +1215,7 @@
   full_name: BGE-Reranker-V2-M3
   url: https://github.com/FlagOpen/FlagEmbedding
   description: 智源开源重排序模型，配合 BGE-M3 使用效果极佳
+  description_en: Zhiyuan open source reordering model, used with BGE-M3, has excellent results
   is_open_source: true
   license: MIT
   sub_category: reranker
@@ -1186,6 +1237,7 @@
 - name: Mistral Large 3
   api_model_name: mistral-large-3
   description: Mistral 欧洲最强开源旗舰，675B 参数，多语种霸榜
+  description_en: Mistral Europe's most powerful open source flagship, 675B parameters, multi-language dominance
   url: https://mistral.ai
   type: open
   category: foundation-models/llm
@@ -1207,6 +1259,7 @@
 - name: Mistral Vibe
   api_model_name: mistral-vibe
   description: Mistral 工作流与远程编码全能 Agent
+  description_en: Mistral Workflow and Remote Coding All-Purpose Agent
   url: https://mistral.ai
   type: closed
   category: foundation-models/llm
@@ -1224,6 +1277,7 @@
   price: 商业调用定价
 - name: FLUX.2 (Max/Pro)
   description: BFL 2026 最强开源图像底座，彻底颠覆照片级生成
+  description_en: BFL 2026 The most powerful open source image base, completely subverting photo-level generation
   url: https://bfl.ai
   type: open
   category: foundation-models/multimodal
@@ -1242,6 +1296,7 @@
     api_available: true
 - name: Runway Gen-4
   description: 好莱坞级别视频生成与工业管线标配
+  description_en: Hollywood-level video generation and industrial pipeline standard configuration
   url: https://runwayml.com
   type: closed
   category: foundation-models/multimodal
@@ -1259,6 +1314,7 @@
     max_resolution: 4K
 - name: Luma Ray3
   description: 物理真实感与 3D 空间理解最强视频模型
+  description_en: The strongest video model with physical realism and 3D spatial understanding
   url: https://lumalabs.ai
   type: closed
   category: foundation-models/multimodal
@@ -1276,6 +1332,7 @@
     max_resolution: 1080p
 - name: Pika 2.0
   description: 极速迭代与炫酷风格化的短视频利器
+  description_en: Extremely fast iteration and cool stylized short video tool
   url: https://pika.art
   type: closed
   category: foundation-models/multimodal
@@ -1293,6 +1350,7 @@
 - name: cohere-embed-v4
   api_model_name: cohere-embed-v4
   description: Cohere 2026 原生多模态向量检索模型
+  description_en: Cohere 2026 native multi-modal vector retrieval model
   url: https://cohere.com
   type: closed
   category: foundation-models/embedding-reranker

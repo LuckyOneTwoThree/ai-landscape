@@ -2,6 +2,7 @@
   category: safety-and-compliance/guardrails
   sub_category: guardrails
   description: NVIDIA 出品的 LLM 护栏工具包，可编程规则
+  description_en: LLM guardrail toolkit by NVIDIA, programmable rules
   tags:
   - security
   - gpu-acceleration
@@ -20,6 +21,7 @@
   category: safety-and-compliance/guardrails
   sub_category: guardrails
   description: 开源 LLM 输出验证与纠正框架
+  description_en: Open source LLM output verification and correction framework
   tags:
   - security
   - compliance
@@ -38,6 +40,7 @@
   category: safety-and-compliance/guardrails
   sub_category: guardrails
   description: Prompt 注入检测的自愈式防护框架
+  description_en: Self-healing protection framework for prompt injection detection
   tags:
   - security
   - automation
@@ -55,6 +58,7 @@
   category: safety-and-compliance/guardrails
   sub_category: guardrails
   description: Prompt 注入检测与防护工具
+  description_en: Prompt injection detection and protection tools
   tags:
   - security
   status: active
@@ -69,6 +73,7 @@
   category: safety-and-compliance/guardrails
   sub_category: guardrails
   description: 实时 Prompt 注入防护 API，50ms 以下延迟
+  description_en: Real-time prompt injection protection API, delay below 50ms
   tags:
   - security
   - real-time
@@ -85,6 +90,7 @@
   category: safety-and-compliance/content-moderation
   sub_category: moderation
   description: Meta 出品的内容安全分类模型
+  description_en: Content security classification model produced by Meta
   tags:
   - security
   - open-source
@@ -103,6 +109,7 @@
   category: safety-and-compliance/content-moderation
   sub_category: moderation
   description: OpenAI 内置的内容审核 API
+  description_en: OpenAI’s built-in content moderation API
   tags:
   - security
   - openai-compatible
@@ -119,6 +126,7 @@
   category: safety-and-compliance/red-teaming
   sub_category: red-teaming
   description: 最流行的 LLM 红队测试框架，支持 50+ 漏洞类型扫描
+  description_en: The most popular LLM red team testing framework, supporting 50+ vulnerability type scanning
   tags:
   - security
   - open-source
@@ -138,6 +146,7 @@
   category: safety-and-compliance/red-teaming
   sub_category: red-teaming
   description: NVIDIA 出品的 LLM 漏洞扫描器，内置 37+ 探测模块
+  description_en: LLM vulnerability scanner produced by NVIDIA, with 37+ built-in detection modules
   tags:
   - security
   - gpu-acceleration
@@ -156,6 +165,7 @@
   category: safety-and-compliance/red-teaming
   sub_category: red-teaming
   description: 微软推出的生成式 AI 风险识别框架，多轮次攻击编排
+  description_en: Generative AI risk identification framework launched by Microsoft, multi-round attack orchestration
   tags:
   - security
   - microsoft
@@ -174,6 +184,7 @@
   category: safety-and-compliance/evaluation
   sub_category: evaluation
   description: 英国 AI 安全研究所评估框架，100+ 预构建评估项
+  description_en: British AI Safety Institute assessment framework, 100+ pre-built assessment items
   tags:
   - security
   - data-analysis
@@ -192,6 +203,7 @@
   category: safety-and-compliance/evaluation
   sub_category: evaluation
   description: AI 安全中心发布的标准化红队基准，510 种有害行为
+  description_en: Standardized Red Team Benchmarks, 510 harmful behaviors published by the AI ​​Security Center
   tags:
   - security
   - data-analysis

@@ -1,5 +1,6 @@
 - name: Dify
   description: 开源 LLM 应用开发与编排平台，支持 Agentic Workflow，开源领导者
+  description_en: Open source LLM application development and orchestration platform, supporting Agentic Workflow, open source leader
   url: https://dify.ai
   repo: https://github.com/langgenius/dify
   category: lowcode-platforms/ai-builder
@@ -21,6 +22,7 @@
   type: open
 - name: Langflow
   description: 适用于 RAG 和多智能体 AI 应用的低代码构建器
+  description_en: Low-code builder for RAG and multi-agent AI applications
   url: https://langflow.org
   repo: https://github.com/langflow-ai/langflow
   category: lowcode-platforms/ai-builder
@@ -41,6 +43,7 @@
   type: open
 - name: Flowise
   description: 拖拽式 LLM 应用可视化构建平台，130+ 内置节点
+  description_en: Drag-and-drop LLM application visual construction platform, 130+ built-in nodes
   url: https://flowiseai.com
   repo: https://github.com/FlowiseAI/Flowise
   category: lowcode-platforms/ai-builder
@@ -59,6 +62,7 @@
   type: open
 - name: FastGPT
   description: 开源知识库 AI 应用构建平台，国内用户友好
+  description_en: Open source knowledge base AI application construction platform, domestic user-friendly
   url: https://fastgpt.in
   repo: https://github.com/labring/FastGPT
   category: lowcode-platforms/ai-builder
@@ -80,6 +84,7 @@
   category: lowcode-platforms/ai-builder
   sub_category: ai-builder
   description: 本地开源 AI 应用构建器，v0/Lovable 的开源替代
+  description_en: Native open source AI application builder, an open source alternative to v0/Lovable
   tags:
   - self-hosted
   - open-source
@@ -97,6 +102,7 @@
   category: lowcode-platforms/ai-builder
   sub_category: ai-builder
   description: 私有 AI 平台，支持 Agent、助手和企业搜索
+  description_en: Private AI platform supporting agents, assistants and enterprise search
   tags:
   - self-hosted
   - enterprise
@@ -112,6 +118,7 @@
   type: open
 - name: Botpress
   description: 对话机器人专精平台，多渠道部署
+  description_en: Conversation robot specialized platform, multi-channel deployment
   url: https://botpress.com
   repo: https://github.com/botpress/botpress
   category: lowcode-platforms/ai-builder
@@ -133,6 +140,7 @@
   category: lowcode-platforms/ai-builder
   sub_category: ai-builder
   description: Firecrawl 出品的可视化 AI Agent 工作流构建器
+  description_en: Visual AI Agent workflow builder by Firecrawl
   tags:
   - content-creation
   - workflow
@@ -148,8 +156,9 @@
   type: open
 - name: Coze (扣子)
   description: 字节跳动低代码 AI Bot 开发平台，强调插件生态和快速发布
+  description_en: ByteDance’s low-code AI Bot development platform emphasizes plug-in ecology and rapid release
   url: https://www.coze.com
-  repo: null
+  repo:
   category: lowcode-platforms/ai-builder
   language: 闭源
   license: proprietary
@@ -168,8 +177,9 @@
   type: closed
 - name: Bolt.new
   description: StackBlitz 浏览器端全栈 AI 应用构建器，WebContainer 驱动
+  description_en: StackBlitz browser-side full-stack AI application builder, WebContainer driver
   url: https://bolt.new
-  repo: null
+  repo:
   category: lowcode-platforms/ai-builder
   language: 闭源
   license: proprietary
@@ -186,8 +196,9 @@
   type: closed
 - name: Lovable
   description: 2026 年最火 AI 无代码应用构建平台，ARR 突破 4 亿美元
+  description_en: The most popular AI codeless application building platform in 2026, ARR exceeds US$400 million
   url: https://lovable.dev
-  repo: null
+  repo:
   category: lowcode-platforms/ai-builder
   language: 闭源
   license: proprietary
@@ -203,8 +214,9 @@
   type: closed
 - name: v0 by Vercel
   description: Vercel 前端 AI 生成工具，专注产出干净的 Next.js 应用
+  description_en: Vercel front-end AI generation tool focuses on producing clean Next.js applications
   url: https://v0.dev
-  repo: null
+  repo:
   category: lowcode-platforms/ai-builder
   language: 闭源
   license: proprietary
@@ -222,6 +234,7 @@
   type: closed
 - name: n8n
   description: 开源工作流自动化平台，深度整合 AI 原生节点，400+ 集成
+  description_en: Open source workflow automation platform, deeply integrated with AI native nodes, 400+ integrations
   url: https://n8n.io
   repo: https://github.com/n8n-io/n8n
   category: lowcode-platforms/workflow-automation
@@ -245,6 +258,7 @@
   category: lowcode-platforms/workflow-automation
   sub_category: workflow
   description: 开源 AI Agent & MCP & 工作流自动化平台，400+ MCP 服务器
+  description_en: Open source AI Agent & MCP & workflow automation platform, 400+ MCP servers
   tags:
   - workflow
   - mcp
@@ -261,6 +275,7 @@
   type: open
 - name: Windmill
   description: 开发者导向的自动化平台，支持多语言脚本
+  description_en: Developer-oriented automation platform that supports multi-language scripts
   url: https://windmill.dev
   repo: https://github.com/windmill-labs/windmill
   category: lowcode-platforms/workflow-automation
@@ -281,8 +296,9 @@
   type: open
 - name: Make (前 Integromat)
   description: 可视化工作流自动化平台，1500+ 应用集成
+  description_en: Visual workflow automation platform, 1500+ application integrations
   url: https://www.make.com
-  repo: null
+  repo:
   category: lowcode-platforms/workflow-automation
   language: 闭源
   license: proprietary
@@ -300,8 +316,9 @@
   type: closed
 - name: Zapier
   description: 最大用户基数自动化平台，7000+ 应用，自然语言创建 Zaps
+  description_en: Automation platform with the largest user base, 7000+ applications, natural language creation Zaps
   url: https://zapier.com
-  repo: null
+  repo:
   category: lowcode-platforms/workflow-automation
   language: 闭源
   license: proprietary

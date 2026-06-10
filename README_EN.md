@@ -24,6 +24,12 @@
 
 A comprehensive, structured AI tech stack directory covering the complete ecosystem from foundation models to end-user applications.
 
+✨ **New Features: Now features an interactive Next.js website with bilingual (i18n) support, global search, and dynamic filtering.**
+
+<h3>
+  🌟 <a href="https://luckyonetwothree.github.io/ai-landscape/en">Click Here to Visit: Interactive AI Tools Explorer</a> 🌟
+</h3>
+
 Helping developers, product managers, and decision-makers quickly navigate AI technology choices and the full landscape.
 
 </div>
@@ -160,20 +166,37 @@ graph TD
 
 ## 🚀 Quick Start
 
+This project includes the underlying YAML data sources and a frontend interactive Next.js website.
+
+### Run the Interactive Website (Recommended)
+
 ```bash
 # Clone repository
 git clone https://github.com/LuckyOneTwoThree/ai-landscape.git
-cd ai-landscape
+cd ai-landscape/website
 
 # Install dependencies
-pip install pyyaml
+npm install
 
-# Validate data
+# Start local dev server
+npm run dev
+# Visit http://localhost:3000 in your browser
+```
+
+### Data Source Management
+
+```bash
+cd ai-landscape
+pip install -r requirements.txt # Optional, for data validation only
+
+# Validate data structures
 python scripts/validate.py
 
-# Build documentation
+# Build static documentation
 python scripts/build_docs.py
 ```
+
+**Bilingual Notice:** All tool entries now feature native bilingual support through `description` (Chinese) and `description_en` (English). The frontend automatically handles language fallbacks based on routing!
 
 **Contribute a new tool:**
 
