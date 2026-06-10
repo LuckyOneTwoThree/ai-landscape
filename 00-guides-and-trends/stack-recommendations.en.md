@@ -8,7 +8,7 @@
 ## 1. Personal Developer AI Full-Stack Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Reasoning Model | **DeepSeek-V4-Pro Cloud** | [Qwen3-235B](https://qwen.ai) (Local) |
 | General Model | **GPT-5.5 Cloud** | [Claude Opus 4](https://anthropic.com).8 |
 | Local Deployment | **Ollama + Qwen3-8B** | [LM Studio](https://lmstudio.ai) |
@@ -24,7 +24,7 @@
 ## 2. Enterprise RAG Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Inference Engine | **vLLM Self-hosted / Azure OpenAI** | [Claude Opus 4](https://anthropic.com).8 API |
 | Application Platform | **Dify Self-hosted** | Coze |
 | Data Parsing | **Unstructured + LlamaParse** | [Docling](https://github.com/DS4SD/docling) |
@@ -39,7 +39,7 @@
 ## 3. Multi-Agent Automation Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Orchestration Framework | **LangGraph** | CrewAI |
 | Tool Integration | **Composio 250+ Connectors** | MCP Servers |
 | Workflow | **n8n** | [Make](https://make.com) |
@@ -53,7 +53,7 @@
 ## 4. Low-Code Rapid Prototyping Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Builder Platform | **Dify** | Coze |
 | RAG | **Built-in to Platform** | FastGPT |
 | Plugins | **Platform Plugin Market** | MCP Servers |
@@ -66,7 +66,7 @@
 ## 5. AI Programming Efficiency Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | IDE | **Cursor** | Windsurf |
 | CLI Assistant | **Claude Code** | [Codex CLI](https://openai.com) |
 | Model | **GPT-5.5 / Claude Opus 4.8** | [DeepSeek-V4-Pro](https://deepseek.com) |
@@ -79,7 +79,7 @@
 ## 6. Agent Development Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Framework | **OpenAI Agents SDK** | LangGraph |
 | Tool Protocol | **MCP Model Context Protocol** | A2A (Agent-to-Agent) |
 | Computer Use | **GPT-5.5 OSWorld 78.7%** | [Claude Opus 4](https://anthropic.com).8 (Online-Mind2Web 84%) |
@@ -94,7 +94,7 @@
 ## 7. Multimodal Content Creation Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Text Generation | **GPT-5.5 / Claude Opus 4.8** | [Gemini 3.5 Flash](https://gemini.google.com) |
 | Image Generation | **Midjourney / DALL-E 3** | [Stable Diffusion](https://stability.ai) |
 | Video Generation | **Sora / Runway Gen-3** | [Pika](https://pika.art) |
@@ -108,7 +108,7 @@
 ## 8. Data Analysis Solution
 
 | Component | **Recommended Solution** | Alternative Solution |
-| ----------- | **----------------------** | ---------------------- |
+| ----------- | ---------------------- | ---------------------- |
 | Data Processing | **Pandas / Polars** | [Dask](https://dask.org) |
 | Visualization | **Plotly / Streamlit** | [Matplotlib](https://matplotlib.org) |
 | Machine Learning | **Scikit-learn / XGBoost** | [LightGBM](https://lightgbm.readthedocs.io) |
@@ -122,7 +122,7 @@
 ## Cost Comparison Table
 
 | Solution | **Monthly Cost Range** | Suitable Scenarios |
-| ---------- | **--------------------** | -------------------- |
+| ---------- | -------------------- | -------------------- |
 | Personal Developer Full-Stack | **$20-50** | Indie hacking, learning, experimentation |
 | Enterprise RAG | **$500-2000** | Enterprise knowledge bases, customer service systems |
 | Multi-Agent Automation | **$50-200** | Workflow automation, task orchestration |

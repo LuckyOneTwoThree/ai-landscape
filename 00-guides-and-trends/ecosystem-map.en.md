@@ -143,7 +143,7 @@ flowchart TB
 ### Model Layer
 
 | Tier | **Model** | Vendor | Positioning |
-| ------ | **-------** | -------- | ------------- |
+| ------ | ------- | -------- | ------------- |
 | **T0 Flagship** | **GPT-5.5 Pro** | OpenAI | Strongest Intelligence, Agent/Coding/Knowledge Work |
 | **T0 Flagship** | **Claude Opus 4.8** | Anthropic | Strongest Agent Reliability, Coding Consistency |
 | **T0 Flagship** | **Gemini 3.5 Flash** | Google | Agent Workflows, Multi-Agent Coordination |
@@ -157,7 +157,7 @@ flowchart TB
 ### Tool Layer
 
 | Category | **Representative Tools** | Core Capabilities |
-| ---------- | **----------------------** | ------------------- |
+| ---------- | ---------------------- | ------------------- |
 | **AI IDE** | **Cursor, Windsurf** | AI-Native Coding, Agent Mode |
 | **Coding Agents** | **Codex, Claude Code** | Autonomous Coding in Terminal, PR Generation |
 | **AI App Builders** | **Bolt.new, Lovable, v0** | Generating Complete Apps with One Prompt |

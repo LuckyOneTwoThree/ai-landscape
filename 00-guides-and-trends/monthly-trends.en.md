@@ -21,7 +21,7 @@
 ## Major Model Versions (Latest as of June 2026)
 
 | Vendor | **Latest Flagship** | Release Date | Key Features |
-| -------- | **-----------------** | -------------- | -------------- |
+| -------- | ----------------- | -------------- | -------------- |
 | OpenAI | **GPT-5.5 / GPT-5.5 Pro** | 2026-04-24 | Strongest intelligence, Agent coding SOTA, computer use 78.7%, knowledge work 84.9% |
 | Anthropic | **Claude Opus 4.8** | 2026-05-28 | Comprehensive enhancement in coding/Agent/professional work, dynamic workflows, fast mode 2.5x |
 | Google | **Gemini 3.5 Flash / 3.1 Pro** | 2026 Q2 | Frontier in Agent workflows, long context 128K+, multimodal |
@@ -39,7 +39,7 @@
 ## GPT-5.5 Detailed Capabilities
 
 | Benchmark | **GPT-5.5** | GPT-5.4 | [Claude Opus 4](https://anthropic.com).7 | [Gemini 3.1 Pro](https://gemini.google.com) |
-| ----------- | **---------** | --------- | ----------------- | ---------------- |
+| ----------- | --------- | --------- | ----------------- | ---------------- |
 | Terminal-Bench 2.0 | **82.7%** | 75.1% | 69.4% | 68.5% |
 | Expert-SWE (Internal) | **73.1%** | 68.5% | - | - |
 | GDPval (wins or ties) | **84.9%** | 83.0% | 80.3% | 67.3% |
@@ -68,7 +68,7 @@
 ## Gemini 3.5 Detailed Capabilities
 
 | Model | **Positioning** | Key Features |
-| ------- | **-------------** | -------------- |
+| ------- | ------------- | -------------- |
 | [Gemini 3.5 Flash](https://gemini.google.com) | **Agent Workflow Flagship** | Multi-Agent coordination, real-time generation, long context |
 | [Gemini 3.1 Pro](https://gemini.google.com) | **Professional Work** | Deep reasoning, multimodal, code generation |
 | Gemini 3.1 Deep Think | **Deep Reasoning** | Complex problem solving |
@@ -119,7 +119,7 @@
 ## Deprecation & Watchlist
 
 | Item | **Status** | Watchpoint |
-| ------ | **--------** | ------------ |
+| ------ | -------- | ------------ |
 | GPT-5.4 | **Phasing Out** | Replaced by [GPT-5.5](https://openai.com) |
 | [Claude Opus 4](https://anthropic.com).7 | **Phasing Out** | Replaced by Opus 4.8 |
 | [Gemini 3.1 Pro](https://gemini.google.com) | **Phasing Out** | Replaced by Gemini 3.5 |
