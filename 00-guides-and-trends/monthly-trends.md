@@ -1,6 +1,6 @@
 # 月度趋势
 
-> 最后更新：2026-06-08
+> 最后更新：2026-06-11
 
 ---
 
@@ -9,7 +9,7 @@
 | 事件 | 说明 |
 |------|------|
 | OpenAI GPT-5.5 发布 | 旗舰，智能最强，Agent 编码/计算机使用/知识工作前沿 |
-| Anthropic Claude Opus 4.8 发布 | Opus 级升级，编码/Agent/专业工作全面增强 |
+| Anthropic Claude Fable 5 & Mythos 5 发布 | 全新旗舰，1M 上下文，超强复杂推理与 Agentic 工作流 |
 | Google Gemini 3.5 发布 | 3.5 Flash + 3.1 Pro，Agent 工作流前沿 |
 | Apple WWDC 2026 | Siri AI 重磅升级，Apple Intelligence 全面进化 |
 | OpenAI ChatGPT "Superapp" 改版 | "Chat is dead"，全面转向编码/图像/应用生态 |
@@ -23,7 +23,7 @@
 | 厂商 | 最新旗舰 | 发布时间 | 关键特性 |
 |------|----------|----------|----------|
 | OpenAI | GPT-5.5 / GPT-5.5 Pro | 2026-04-24 | 智能最强，Agent 编码 SOTA，计算机使用 78.7%，知识工作 84.9% |
-| Anthropic | Claude Opus 4.8 | 2026-05-28 | 编码/Agent/专业工作全面增强，动态工作流，快速模式 2.5x |
+| Anthropic | Claude Fable 5 | 2026-06-09 | 1M 上下文，Project Glasswing (Mythos 5)，最强推理与长文本 Agent |
 | Google | Gemini 3.5 Flash / 3.1 Pro | 2026 Q2 | Agent 工作流前沿，长上下文 128K+，多模态 |
 | DeepSeek | V4-Pro / V4-Flash | 2026 Q1 | 1M 上下文，开源 MoE，高性价比 |
 | 智谱 | GLM-5.1 | 2026 Q1 | 全模态矩阵，中文优化 |
@@ -51,17 +51,17 @@
 
 ---
 
-## Claude Opus 4.8 详细能力
+## Claude Fable 5 详细能力
 
 | 特性 | 说明 |
 |------|------|
-| 动态工作流 | Claude Code 新功能，处理超大规模问题 |
-| 快速模式 | 2.5x 速度，成本降低 3 倍 |
-| Agent 可靠性 | 工具调用更高效，长任务一致性更强 |
-| 编码能力 | CursorBench 全面超越前代 |
-| 专业工作 | 法律/金融/教育等领域表现突出 |
+| 1M Token Context | 最高支持一百万 Token 上下文输入，128K 输出 |
+| 极致复杂推理 | 设计用于复杂软件工程、长程科研与 Agentic 闭环工作流 |
+| Project Glasswing | 针对受信任机构定向开放的无限制版本 (Claude Mythos 5) |
+| 安全护栏机制 | 内置强大分类器系统，智能路由高敏请求至安全隔离层 |
+| API 定价 | 极具竞争力的前沿定价：$10/1M In, $50/1M Out |
 
-**核心优势**：Agent 可靠性、编码一致性、专业工作质量
+**核心优势**：超长上下文推理、全栈代码工程、前沿安全架构
 
 ---
 
@@ -80,9 +80,9 @@
 
 ## 生态重大变化
 
-### 1. OpenAI ChatGPT "Superapp" 改版
-- **"Chat is dead"**：OpenAI 高管表示聊天模式已过时
-- 全面转向编码、图像生成、外部应用生态
+### 1. OpenAI ChatGPT "Superapp" 与模型选择器改版
+- **简化选择器**：用 Instant, Medium, High 等直观等级取代具体模型代号
+- **"Chat is dead"**：全面转向编码、图像生成、外部应用生态
 - 鼓励用户使用 Codex、图像生成、第三方应用
 
 ### 2. GitHub Copilot 按量计费

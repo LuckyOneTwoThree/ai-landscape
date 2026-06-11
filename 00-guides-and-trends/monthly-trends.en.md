@@ -1,6 +1,6 @@
 # Monthly Trends
 
-> Last Updated: 2026-06-08
+> Last Updated: 2026-06-11
 
 ---
 
@@ -9,7 +9,7 @@
 | Event | Description |
 | ------- | ------------- |
 | OpenAI [GPT-5.5](https://openai.com) Released | Flagship, strongest intelligence, frontier in Agent coding / computer use / knowledge work |
-| Anthropic [Claude Opus 4](https://anthropic.com).8 Released | Opus-level upgrade, comprehensive enhancement in coding / Agent / professional work |
+| Anthropic Claude Fable 5 & Mythos 5 Released | New flagship, 1M context, ultimate complex reasoning & Agentic workflows |
 | Google Gemini 3.5 Released | 3.5 Flash + 3.1 Pro, frontier in Agent workflows |
 | Apple WWDC 2026 | Major Siri AI upgrade, comprehensive evolution of Apple Intelligence |
 | OpenAI ChatGPT "Superapp" Revamp | "Chat is dead", fully pivoting to coding / images / application ecosystem |
@@ -23,7 +23,7 @@
 | Vendor | **Latest Flagship** | Release Date | Key Features |
 | -------- | ----------------- | -------------- | -------------- |
 | OpenAI | **GPT-5.5 / GPT-5.5 Pro** | 2026-04-24 | Strongest intelligence, Agent coding SOTA, computer use 78.7%, knowledge work 84.9% |
-| Anthropic | **Claude Opus 4.8** | 2026-05-28 | Comprehensive enhancement in coding/Agent/professional work, dynamic workflows, fast mode 2.5x |
+| Anthropic | **Claude Fable 5** | 2026-06-09 | 1M context, Project Glasswing (Mythos 5), ultimate reasoning & long-context Agent |
 | Google | **Gemini 3.5 Flash / 3.1 Pro** | 2026 Q2 | Frontier in Agent workflows, long context 128K+, multimodal |
 | DeepSeek | **V4-Pro / V4-Flash** | 2026 Q1 | 1M context, open-source MoE, high cost-performance |
 | Zhipu AI | **GLM-5.1** | 2026 Q1 | Omnimodal matrix, Chinese optimization |
@@ -51,17 +51,17 @@
 
 ---
 
-## Claude Opus 4.8 Detailed Capabilities
+## Claude Fable 5 Detailed Capabilities
 
 | Feature | Description |
 | --------- | ------------- |
-| Dynamic Workflows | New Claude Code feature, handling ultra-large-scale problems |
-| Fast Mode | 2.5x speed, 3x lower cost |
-| Agent Reliability | More efficient tool calling, stronger consistency for long tasks |
-| Coding Capabilities | Comprehensively surpasses its predecessor on CursorBench |
-| Professional Work | Outstanding performance in legal / financial / education domains |
+| 1M Token Context | Supports up to 1 million input tokens and 128,000 output tokens |
+| Ultimate Complex Reasoning | Designed for complex software engineering, long-horizon research, and Agentic workflows |
+| Project Glasswing | Unrestricted version (Mythos 5) available exclusively for vetted partners |
+| Safety Guardrails | Built-in robust classifier system routing high-risk requests to safety isolation layers |
+| API Pricing | Highly competitive frontier pricing: $10/1M In, $50/1M Out |
 
-**Core Advantages**: Agent reliability, coding consistency, professional work quality
+**Core Advantages**: Ultra-long-context reasoning, full-stack code engineering, frontier safety architecture
 
 ---
 
@@ -80,7 +80,8 @@
 
 ## Major Ecosystem Changes
 
-### 1. OpenAI ChatGPT "Superapp" Revamp
+### 1. OpenAI ChatGPT "Superapp" & Model Picker Revamp
+- **Simplified Picker**: Replaced specific model codenames with intuitive tiers like Instant, Medium, High.
 - **"Chat is dead"**: OpenAI executives indicated that the chat paradigm is outdated.
 - Fully pivoting to coding, image generation, and external application ecosystems.
 - Encouraging users to utilize Codex, image generation, and third-party apps.
