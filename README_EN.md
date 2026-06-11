@@ -78,17 +78,58 @@ Helping developers, product managers, and decision-makers quickly navigate AI te
 <div align="center">
 
 ```mermaid
-graph TD
-    A[🧠 Foundation Models] --> B[🏗️ Infrastructure]
-    B --> C[📊 Data & Knowledge]
-    C --> D[⚙️ Dev Frameworks]
-    C --> E[🧩 Low-Code Platforms]
-    D --> F[🔌 Tools & Protocols]
-    E --> G[🧱 Skills & Plugins]
-    F --> H[🖥️ End-User Apps]
-    G --> H
-    A --> I[📈 Observability]
-    A --> J[🛡️ Safety & Compliance]
+flowchart LR
+    classDef default fill:#1e1e1e,stroke:#444,stroke-width:2px,color:#fff,rx:8px,ry:8px;
+    classDef model fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#fff;
+    classDef infra fill:#2563eb,stroke:#1e3a8a,stroke-width:2px,color:#fff;
+    classDef data fill:#0284c7,stroke:#0c4a6e,stroke-width:2px,color:#fff;
+    classDef dev fill:#0d9488,stroke:#134e4a,stroke-width:2px,color:#fff;
+    classDef tool fill:#10b981,stroke:#064e3b,stroke-width:2px,color:#fff;
+    classDef app fill:#ea580c,stroke:#7c2d12,stroke-width:2px,color:#fff;
+    classDef support fill:#65a30d,stroke:#3f6212,stroke-width:2px,color:#fff;
+    classDef subGraph fill:none,stroke:#555,stroke-width:2px,stroke-dasharray: 5 5,color:#ccc,rx:10px,ry:10px;
+
+    subgraph Core["🧠 Core & Infrastructure"]
+        direction TB
+        A["Foundation Models\n(基础大模型)"]:::model
+        B["Infrastructure\n(基础设施)"]:::infra
+        C["Data & Knowledge\n(数据与知识)"]:::data
+        
+        A -->|Compute & Serve| B
+        B -->|Store & Retrieve| C
+    end
+
+    subgraph Middleware["⚙️ Middleware & Orchestration"]
+        direction TB
+        D["Dev Frameworks\n(开发框架)"]:::dev
+        E["Low-Code Platforms\n(低代码)"]:::dev
+        F["Tools & Protocols\n(工具与协议)"]:::tool
+        G["Skills & Plugins\n(技能与插件)"]:::tool
+        
+        C -.-> D
+        C -.-> E
+        D --> F
+        E --> G
+    end
+
+    subgraph Apps["🚀 Application Layer"]
+        direction TB
+        H["Terminal Apps\n(终端应用)"]:::app
+    end
+
+    subgraph Operations["🛡️ Ops & Safety"]
+        direction TB
+        I["Observability\n(可观测性)"]:::support
+        J["Safety & Guardrails\n(安全合规)"]:::support
+    end
+
+    Core ==>|Empowers| Middleware
+    Middleware ==>|Builds| Apps
+    
+    A -.->|Monitored by| I
+    A -.->|Guarded by| J
+
+    class Core,Middleware,Apps,Operations subGraph;
 ```
 
 </div>

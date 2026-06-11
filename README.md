@@ -89,17 +89,58 @@
 <div align="center">
 
 ```mermaid
-graph TD
-    A[🧠 基础大模型] --> B[🏗️ 基础设施]
-    B --> C[📊 数据与知识]
-    C --> D[⚙️ 开发框架]
-    C --> E[🧩 低代码平台]
-    D --> F[🔌 工具与协议]
-    E --> G[🧱 技能与插件]
-    F --> H[🖥️ 终端应用]
-    G --> H
-    A --> I[📈 可观测性]
-    A --> J[🛡️ 安全合规]
+flowchart LR
+    classDef default fill:#1e1e1e,stroke:#444,stroke-width:2px,color:#fff,rx:8px,ry:8px;
+    classDef model fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#fff;
+    classDef infra fill:#2563eb,stroke:#1e3a8a,stroke-width:2px,color:#fff;
+    classDef data fill:#0284c7,stroke:#0c4a6e,stroke-width:2px,color:#fff;
+    classDef dev fill:#0d9488,stroke:#134e4a,stroke-width:2px,color:#fff;
+    classDef tool fill:#10b981,stroke:#064e3b,stroke-width:2px,color:#fff;
+    classDef app fill:#ea580c,stroke:#7c2d12,stroke-width:2px,color:#fff;
+    classDef support fill:#65a30d,stroke:#3f6212,stroke-width:2px,color:#fff;
+    classDef subGraph fill:none,stroke:#555,stroke-width:2px,stroke-dasharray: 5 5,color:#ccc,rx:10px,ry:10px;
+
+    subgraph Core["🧠 Core & Infrastructure"]
+        direction TB
+        A["基础大模型\n(Foundation Models)"]:::model
+        B["基础设施\n(Infrastructure)"]:::infra
+        C["数据与知识\n(Data & Knowledge)"]:::data
+        
+        A -->|Compute & Serve| B
+        B -->|Store & Retrieve| C
+    end
+
+    subgraph Middleware["⚙️ Middleware & Orchestration"]
+        direction TB
+        D["开发框架\n(Dev Frameworks)"]:::dev
+        E["低代码平台\n(Low-Code)"]:::dev
+        F["工具与协议\n(Tools & Protocols)"]:::tool
+        G["技能与插件\n(Skills & Plugins)"]:::tool
+        
+        C -.-> D
+        C -.-> E
+        D --> F
+        E --> G
+    end
+
+    subgraph Apps["🚀 Application Layer"]
+        direction TB
+        H["终端应用\n(Applications)"]:::app
+    end
+
+    subgraph Operations["🛡️ Ops & Safety"]
+        direction TB
+        I["可观测性\n(Observability)"]:::support
+        J["安全合规\n(Safety & Guardrails)"]:::support
+    end
+
+    Core ==>|Empowers| Middleware
+    Middleware ==>|Builds| Apps
+    
+    A -.->|Monitored by| I
+    A -.->|Guarded by| J
+
+    class Core,Middleware,Apps,Operations subGraph;
 ```
 
 </div>
