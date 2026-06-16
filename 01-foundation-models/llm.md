@@ -54,7 +54,7 @@
 
 | 模型与版本 | 核心参数 (上下文/输出) | 价格 (入/出) | 核心亮点 | 部署方式 |
 |------------|------------------------|--------------|----------|----------|
-| 🏯 [GLM-5.1](https://open.bigmodel.cn) | **In**: 128K<br>**Out**: 16K | 未公布 | 智谱最新旗舰<br>全模态 (文本/视觉/图像/视频/语音)<br>GLM-5 系列最新 | ☁️ 商业 API / 闭源 |
+| 🏯 [GLM-5.1](https://open.bigmodel.cn) | **In**: 200000<br>**Out**: 128000 | 未公布 | 最新旗舰<br>Coding 能力对齐 Claude Opus 4.6<br>长程任务显著提升，可自主工作长达 8 小时 | ☁️ 商业 API / 闭源 |
 | 🏯 [Kimi K2-6](https://platform.moonshot.cn) | **In**: 128K<br>**Out**: 16K | 未公布 | 超强长上下文<br>强化的代码推理<br>Agent 自主执行 | ☁️ 商业 API / 闭源 |
 | 🏯 [DeepSeek-V4-Pro<br>*(API: `deepseek-v4-pro`)*](https://deepseek.com) | **In**: 1M<br>**Out**: 384K | $0.435/$0.87 | 1.6T MoE (49B 激活)<br>1M 上下文, thinking 模式<br>384K 输出 | ✅ 开源可部署<br>`Proprietary` |
 | 🏯 [DeepSeek-V4-Flash<br>*(API: `deepseek-v4-flash`)*](https://deepseek.com) | **In**: 1M<br>**Out**: 64K | $0.07/$0.28 | 284B MoE (13B 激活)<br>1M 上下文<br>极低成本 $0.004 cache hit | ✅ 开源可部署<br>`Proprietary` |
