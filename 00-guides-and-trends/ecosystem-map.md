@@ -1,6 +1,6 @@
 # AI 技术栈生态全景图
 
-> 最后更新：2026-06-08
+> 最后更新：2026-06-16
 
 ---
 
@@ -15,7 +15,7 @@ graph TD
     end
 
     subgraph 01["🧠 01 基础大模型层"]
-        M1[语言模型<br>GPT-5.5 / Claude Opus 4.8 / Gemini 3.5]
+        M1[语言模型<br>GPT-5.5 / Claude Fable 5 / Gemini 3.5]
         M2[多模态模型<br>图像 / 视频 / 音频]
         M3[嵌入模型<br>BGE-M3 / Cohere]
     end
@@ -145,11 +145,12 @@ flowchart TB
 | 梯队 | 模型 | 厂商 | 定位 |
 |------|------|------|------|
 | **T0 旗舰** | GPT-5.5 Pro | OpenAI | 智能最强，Agent/编码/知识工作 |
-| **T0 旗舰** | Claude Opus 4.8 | Anthropic | Agent 可靠性最强，编码一致性 |
+| **T0 旗舰** | Claude Fable 5 | Anthropic | Mythos-class 1，最强推理，1M 上下文 |
 | **T0 旗舰** | Gemini 3.5 Flash | Google | Agent 工作流，多 Agent 协调 |
 | **T1 高性价比** | DeepSeek-V4-Pro | DeepSeek | 开源 MoE，1M 上下文 |
 | **T1 高性价比** | Qwen3-Coder-480B | 阿里 | Agent 级编程，开源 |
-| **T1 高性价比** | GLM-5.1 | 智谱 | 全模态矩阵，中文优化 |
+| **T1 高性价比** | Kimi K2.7 Code | 月之暗面 | 1T 参数 MoE，256K 上下文，代码智能体 |
+| **T1 高性价比** | MiniMax M3 | MiniMax | 428B 参数，1M 上下文，原生多模态 |
 | **T2 轻量级** | GPT-5.5-mini | OpenAI | 高性价比，快速响应 |
 | **T2 轻量级** | Claude Haiku 4 | Anthropic | 轻量级，低成本 |
 | **T2 轻量级** | DeepSeek-V4-Flash | DeepSeek | 超高性价比 |
