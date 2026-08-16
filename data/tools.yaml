@@ -191,6 +191,28 @@
   sub_category: browser
   stars: 97000
   type: open
+- name: Agent QA
+  description: 面向软件团队的自改进 QA Agent，用自然语言执行 Web 与移动端测试
+  description_en: Self-improving QA agent for natural-language web and mobile testing
+  url: https://github.com/vostride/agent-qa
+  repo: https://github.com/vostride/agent-qa
+  category: tools-and-protocols/browser-control
+  sub_category: browser
+  language: TypeScript
+  license: FSL-1.1-ALv2
+  type: closed
+  status: active
+  stars: 812
+  tags:
+  - agent
+  - automation
+  - browser
+  - mcp
+  - code-quality
+  highlights:
+  - 自然语言 Web 与移动端测试
+  - 持久化测试记忆与选择器自愈
+  - 提供 CLI、Dashboard 与 33 个 MCP 工具
 - name: Playwright
   description: Microsoft 出品跨浏览器自动化框架，MCP Server 支持
   url: https://playwright.dev
